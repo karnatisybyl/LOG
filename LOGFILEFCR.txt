@@ -1,0 +1,1372 @@
+[2025-01-15 15:57:00,675]  INFO {org.wso2.config.mapper.ConfigParser} - Overriding files in configuration directory /home/wso2carbon/wso2mi-4.2.0
+[2025-01-15 15:57:01,257]  INFO {org.wso2.config.mapper.ConfigParser} - Applying configurations with deployment configurations
+[2025-01-15 15:57:10,671]  WARN {FileBaseSecretRepository} - Decryption failed: The encrypted text for alias 'primary_keystore_password' is invalid and could not be decrypted.
+[2025-01-15 15:57:15,873]  INFO {RuntimeStatisticCollector} - Statistics Entry Expiration time set to 136000 milliseconds
+[2025-01-15 15:57:17,053]  INFO {EndpointDeployer} - Endpoint named 'activateCard_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/activateCard_EP_1.0.0/activateCard_EP-1.0.0.xml
+[2025-01-15 15:57:17,056]  INFO {EndpointDeployer} - Endpoint named 'getCardLimit_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/getCardLimit_EP_1.0.0/getCardLimit_EP-1.0.0.xml
+[2025-01-15 15:57:17,058]  INFO {EndpointDeployer} - Endpoint named 'patchCardLimit' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/patchCardLimit_1.0.0/patchCardLimit-1.0.0.xml
+[2025-01-15 15:57:17,059]  INFO {EndpointDeployer} - Endpoint named 'putCardStatus_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/putCardStatus_EP_1.0.0/putCardStatus_EP-1.0.0.xml
+[2025-01-15 15:57:17,060]  INFO {EndpointDeployer} - Endpoint named 'resetCardPin_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/resetCardPin_EP_1.0.0/resetCardPin_EP-1.0.0.xml
+[2025-01-15 15:57:17,061]  INFO {EndpointDeployer} - Endpoint named 'retrieveCardStatus_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/retrieveCardStatus_EP_1.0.0/retrieveCardStatus_EP-1.0.0.xml
+[2025-01-15 15:57:17,063]  INFO {EndpointDeployer} - Endpoint named 'retrieveCardsByActNo_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/retrieveCardsByActNo_EP_1.0.0/retrieveCardsByActNo_EP-1.0.0.xml
+[2025-01-15 15:57:17,064]  INFO {EndpointDeployer} - Endpoint named 'statusOfApiByCountry_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/statusOfApiByCountry_EP_1.0.0/statusOfApiByCountry_EP-1.0.0.xml
+[2025-01-15 15:57:17,079]  INFO {SequenceDeployer} - Sequence named 'CardManagenetFaultSeq' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/CardManagenetFaultSeq_1.0.0/CardManagenetFaultSeq-1.0.0.xml
+[2025-01-15 15:57:17,174]  INFO {API} - {api:Activatecard} Initializing API: Activatecard
+[2025-01-15 15:57:17,174]  INFO {Axis2SynapseEnvironment} - Continuation call is set to true
+[2025-01-15 15:57:17,178]  INFO {APIDeployer} - API named 'Activatecard' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/Activatecard_1.0.0/Activatecard-1.0.0.xml
+[2025-01-15 15:57:17,276]  INFO {API} - {api:getCardLimit} Initializing API: getCardLimit
+[2025-01-15 15:57:17,277]  INFO {APIDeployer} - API named 'getCardLimit' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/getCardLimit_1.0.0/getCardLimit-1.0.0.xml
+[2025-01-15 15:57:17,283]  INFO {API} - {api:healthCheckApi} Initializing API: healthCheckApi
+[2025-01-15 15:57:17,283]  INFO {APIDeployer} - API named 'healthCheckApi' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/healthCheckApi_1.0.0/healthCheckApi-1.0.0.xml
+[2025-01-15 15:57:17,359]  INFO {API} - {api:resetCardPin} Initializing API: resetCardPin
+[2025-01-15 15:57:17,360]  INFO {APIDeployer} - API named 'resetCardPin' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/resetCardPin_1.0.0/resetCardPin-1.0.0.xml
+[2025-01-15 15:57:17,374]  INFO {API} - {api:retrieveCardStatus} Initializing API: retrieveCardStatus
+[2025-01-15 15:57:17,375]  INFO {APIDeployer} - API named 'retrieveCardStatus' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/retrieveCardStatus_1.0.0/retrieveCardStatus-1.0.0.xml
+[2025-01-15 15:57:17,379]  INFO {API} - {api:retrieveCardsbyAccountNo} Initializing API: retrieveCardsbyAccountNo
+[2025-01-15 15:57:17,379]  INFO {APIDeployer} - API named 'retrieveCardsbyAccountNo' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/retrieveCardsbyAccountNo_1.0.0/retrieveCardsbyAccountNo-1.0.0.xml
+[2025-01-15 15:57:17,448]  INFO {API} - {api:statusOfApiByCountry} Initializing API: statusOfApiByCountry
+[2025-01-15 15:57:17,450]  INFO {APIDeployer} - API named 'statusOfApiByCountry' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945836894CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/statusOfApiByCountry_1.0.0/statusOfApiByCountry-1.0.0.xml
+[2025-01-15 15:57:17,450]  INFO {CappDeployer} - Successfully Deployed Carbon Application : CardManagementCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-01-15 15:57:17,452]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : CardManagementCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-01-15 15:57:17,468]  INFO {EndpointDeployer} - Endpoint named 'CreateLoanAccountForIslamic_Ep' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945837452CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT.car/CreateLoanAccountForIslamic_Ep_1.0.0/CreateLoanAccountForIslamic_Ep-1.0.0.xml
+[2025-01-15 15:57:17,472]  INFO {SequenceDeployer} - Sequence named 'CreateLoanAccountForIslamicInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945837452CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT.car/CreateLoanAccountForIslamicInSequence_1.0.0/CreateLoanAccountForIslamicInSequence-1.0.0.xml
+[2025-01-15 15:57:17,547]  INFO {SequenceDeployer} - Sequence named 'CreateLoanAccountForIslamicFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945837452CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT.car/CreateLoanAccountForIslamicFaultSequence_1.0.0/CreateLoanAccountForIslamicFaultSequence-1.0.0.xml
+[2025-01-15 15:57:17,558]  INFO {SequenceDeployer} - Sequence named 'CreateLoanAccountForIslamicOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945837452CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT.car/CreateLoanAccountForIslamicOutSequence_1.0.0/CreateLoanAccountForIslamicOutSequence-1.0.0.xml
+[2025-01-15 15:57:17,560]  INFO {API} - {api:LoansCreateLoanAccountForIslamic} Initializing API: LoansCreateLoanAccountForIslamic
+[2025-01-15 15:57:17,560]  INFO {APIDeployer} - API named 'LoansCreateLoanAccountForIslamic' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945837452CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT.car/LoansCreateLoanAccountForIslamic_1.0.0/LoansCreateLoanAccountForIslamic-1.0.0.xml
+[2025-01-15 15:57:17,560]  INFO {CappDeployer} - Successfully Deployed Carbon Application : CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-01-15 15:57:17,561]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-01-15 15:57:17,574]  INFO {EndpointDeployer} - Endpoint named 'CustomerPersonalDataManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945837561CustomerPersonalDataManagerCompositeExporter_1.0.0-SNAPSHOT.car/CustomerPersonalDataManager_EP_1.0.0/CustomerPersonalDataManager_EP-1.0.0.xml
+[2025-01-15 15:57:17,764]  INFO {API} - {api:CustomerPersonalDataManager} Initializing API: CustomerPersonalDataManager
+[2025-01-15 15:57:17,765]  INFO {APIDeployer} - API named 'CustomerPersonalDataManager' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945837561CustomerPersonalDataManagerCompositeExporter_1.0.0-SNAPSHOT.car/CustomerPersonalDataManager_1.0.0/CustomerPersonalDataManager-1.0.0.xml
+[2025-01-15 15:57:17,765]  INFO {CappDeployer} - Successfully Deployed Carbon Application : CustomerPersonalDataManagerCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-01-15 15:57:17,779]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : CustomerPersonalDataManagerCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-01-15 15:57:17,781]  INFO {EndpointDeployer} - Endpoint named 'LoansCollateralManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945837768LoanCollateralManagerSpiCompositeExporter_1.0.0.car/LoansCollateralManager_EP_1.0.0/LoansCollateralManager_EP-1.0.0.xml
+[2025-01-15 15:57:17,987]  INFO {API} - {api:LoanCollateralManagerAPI:v1.0.0} Initializing API: LoanCollateralManagerAPI:v1.0.0
+[2025-01-15 15:57:18,145]  INFO {APIDeployer} - API named 'LoanCollateralManagerAPI:v1.0.0' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945837768LoanCollateralManagerSpiCompositeExporter_1.0.0.car/LoanCollateralManagerAPI_1.0.0_1.0.0/LoanCollateralManagerAPI_1.0.0-1.0.0.xml
+[2025-01-15 15:57:18,145]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoanCollateralManagerSpiCompositeExporter_1.0.0{super-tenant}
+[2025-01-15 15:57:18,146]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoanCollateralManagerSpiCompositeExporter_1.0.0.car
+[2025-01-15 15:57:18,162]  INFO {EndpointDeployer} - Endpoint named 'LoanScheduleManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945838146LoanScheduleManagerCompositeExporter_1.0.0.car/LoanScheduleManager_EP_1.0.0/LoanScheduleManager_EP-1.0.0.xml
+[2025-01-15 15:57:18,258]  INFO {API} - {api:LoanScheduleManagerApi} Initializing API: LoanScheduleManagerApi
+[2025-01-15 15:57:18,276]  INFO {APIDeployer} - API named 'LoanScheduleManagerApi' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945838146LoanScheduleManagerCompositeExporter_1.0.0.car/LoanScheduleManagerApi_1.0.0/LoanScheduleManagerApi-1.0.0.xml
+[2025-01-15 15:57:18,276]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoanScheduleManagerCompositeExporter_1.0.0{super-tenant}
+[2025-01-15 15:57:18,277]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoanScheduleManagerCompositeExporter_1.0.0.car
+[2025-01-15 15:57:18,348]  INFO {LocalEntryDeployer} - LocalEntry named 'loanscustomerImagelocalentry' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945838276LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/loanscustomerImagelocalentry_1.0.0/loanscustomerImagelocalentry-1.0.0.xml
+[2025-01-15 15:57:18,351]  INFO {EndpointDeployer} - Endpoint named 'LoansCustomerImageManager_Ep' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945838276LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/LoansCustomerImageManager_Ep_1.0.0/LoansCustomerImageManager_Ep-1.0.0.xml
+[2025-01-15 15:57:18,361]  INFO {SequenceDeployer} - Sequence named 'LoansCustomerImageManagerOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945838276LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/LoansCustomerImageManagerOutSequence_1.0.0/LoansCustomerImageManagerOutSequence-1.0.0.xml
+[2025-01-15 15:57:18,366]  INFO {SequenceDeployer} - Sequence named 'LoaansCustomerImageManagerFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945838276LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/LoaansCustomerImageManagerFaultSequence_1.0.0/LoaansCustomerImageManagerFaultSequence-1.0.0.xml
+[2025-01-15 15:57:18,773]  INFO {SequenceDeployer} - Sequence named 'InquireCustomerImageManagerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945838276LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/InquireCustomerImageManagerInSequence_1.0.0/InquireCustomerImageManagerInSequence-1.0.0.xml
+[2025-01-15 15:57:18,956]  INFO {API} - {api:LoansCustomerImageManagerAPI} Initializing API: LoansCustomerImageManagerAPI
+[2025-01-15 15:57:18,972]  INFO {APIDeployer} - API named 'LoansCustomerImageManagerAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945838276LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/InquireCustomerImage_1.0.0/InquireCustomerImage-1.0.0.xml
+[2025-01-15 15:57:18,973]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-01-15 15:57:18,973]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-01-15 15:57:19,048] ERROR {FileRegistryResourceDeployer} - Specified file to be written as a resource is not found at : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945838973LoansCustomerManagerCompositeExporter_1.0.0.car/InquireResponseMapper_xsltStyleSheet_1.0.0/resources/InquireResponseMapper_xsltStyleSheet.xml
+[2025-01-15 15:57:19,048] ERROR {FileRegistryResourceDeployer} - Specified file to be written as a resource is not found at : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945838973LoansCustomerManagerCompositeExporter_1.0.0.car/InquireResponseMapper_inputSchema_1.0.0/resources/InquireResponseMapper_inputSchema.json
+[2025-01-15 15:57:19,059]  INFO {EndpointDeployer} - Endpoint named 'LoansCustomerManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945838973LoansCustomerManagerCompositeExporter_1.0.0.car/LoansCustomerManager_EP_1.0.0/LoansCustomerManager_EP-1.0.0.xml
+[2025-01-15 15:57:19,354]  INFO {API} - {api:LoansCustomerManager:v1.0.0} Initializing API: LoansCustomerManager:v1.0.0
+[2025-01-15 15:57:19,464]  INFO {APIDeployer} - API named 'LoansCustomerManager:v1.0.0' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945838973LoansCustomerManagerCompositeExporter_1.0.0.car/LoansCustomerManager_1.0.0_1.0.0/LoansCustomerManager_1.0.0-1.0.0.xml
+[2025-01-15 15:57:19,464]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansCustomerManagerCompositeExporter_1.0.0{super-tenant}
+[2025-01-15 15:57:19,464]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansCustomerManagerCompositeExporter_1.0.0.car
+[2025-01-15 15:57:19,544]  INFO {EndpointDeployer} - Endpoint named 'LoansManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945839464LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_EP_1.0.0/LoansManager_EP-1.0.0.xml
+[2025-01-15 15:57:19,767]  INFO {API} - {api:LoansManager:v1.0.0} Initializing API: LoansManager:v1.0.0
+[2025-01-15 15:57:19,878]  INFO {APIDeployer} - API named 'LoansManager:v1.0.0' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945839464LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_1.0.0_1.0.0/LoansManager_1.0.0-1.0.0.xml
+[2025-01-15 15:57:19,878]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansManager-V1CompositeExporter_1.0.0{super-tenant}
+[2025-01-15 15:57:19,878]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansManager-V1CompositeExporter_1.0.0.car
+[2025-01-15 15:57:19,882]  INFO {EndpointDeployer} - Endpoint named 'LoanPayInstalmentInAdvance' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945839878LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT.car/LoanPayInstalmentInAdvance_1.0.0/LoanPayInstalmentInAdvance-1.0.0.xml
+[2025-01-15 15:57:19,957]  INFO {API} - {api:PayInstalmentInAdvance} Initializing API: PayInstalmentInAdvance
+[2025-01-15 15:57:19,973]  INFO {APIDeployer} - API named 'PayInstalmentInAdvance' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945839878LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentInAdvance_1.0.0/PayInstalmentInAdvance-1.0.0.xml
+[2025-01-15 15:57:19,973]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-01-15 15:57:19,974]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-01-15 15:57:19,978] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:57:20,075]  INFO {EndpointDeployer} - Endpoint named 'LoansPaymentManagerEndpoint' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945839974LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentManagerEndpoint_1.0.0/LoansPaymentManagerEndpoint-1.0.0.xml
+[2025-01-15 15:57:20,082]  INFO {SequenceDeployer} - Sequence named 'LoansPaymentOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945839974LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentOutSequence_1.0.0/LoansPaymentOutSequence-1.0.0.xml
+[2025-01-15 15:57:20,151]  INFO {SequenceDeployer} - Sequence named 'LoansPaymentFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945839974LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentFaultSequence_1.0.0/LoansPaymentFaultSequence-1.0.0.xml
+[2025-01-15 15:57:20,266]  INFO {SequenceDeployer} - Sequence named 'DoDisbursementProcessingForIslamic' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945839974LoansPaymentManagerCompositeExporter_1.0.0.car/DoDisbursementProcessingForIslamic_1.0.0/DoDisbursementProcessingForIslamic-1.0.0.xml
+[2025-01-15 15:57:20,453]  INFO {SequenceDeployer} - Sequence named 'DoDisbursementProcessingForIBOCInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945839974LoansPaymentManagerCompositeExporter_1.0.0.car/DoDisbursementProcessingForIBOCInSequence_1.0.0/DoDisbursementProcessingForIBOCInSequence-1.0.0.xml
+[2025-01-15 15:57:20,454]  INFO {SequenceDeployer} - Sequence named 'InquireDeductionDetailsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945839974LoansPaymentManagerCompositeExporter_1.0.0.car/InquireDeductionDetailsInSequence_1.0.0/InquireDeductionDetailsInSequence-1.0.0.xml
+[2025-01-15 15:57:20,455]  INFO {API} - {api:LoansPaymentManagerAPI} Initializing API: LoansPaymentManagerAPI
+[2025-01-15 15:57:20,455]  INFO {APIDeployer} - API named 'LoansPaymentManagerAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945839974LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentManagerAPI_1.0.0/LoansPaymentManagerAPI-1.0.0.xml
+[2025-01-15 15:57:20,455]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansPaymentManagerCompositeExporter_1.0.0{super-tenant}
+[2025-01-15 15:57:20,456]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansPaymentManagerCompositeExporter_1.0.0.car
+[2025-01-15 15:57:20,470]  INFO {EndpointDeployer} - Endpoint named 'LoansPaymentManagerDoChargeDeduction' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840456LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT.car/LoansPaymentManagerDoChargeDeduction_1.0.0/LoansPaymentManagerDoChargeDeduction-1.0.0.xml
+[2025-01-15 15:57:20,475]  INFO {SequenceDeployer} - Sequence named 'LoansdoChargeDeductionOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840456LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT.car/LoansdoChargeDeductionOutSequence_1.0.0/LoansdoChargeDeductionOutSequence-1.0.0.xml
+[2025-01-15 15:57:20,476]  INFO {SequenceDeployer} - Sequence named 'DochargedeductionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840456LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT.car/DochargedeductionInSequence_1.0.0/DochargedeductionInSequence-1.0.0.xml
+[2025-01-15 15:57:20,480]  INFO {SequenceDeployer} - Sequence named 'LoansdoChargeDeductionFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840456LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT.car/LoansdoChargeDeductionFaultSequence_1.0.0/LoansdoChargeDeductionFaultSequence-1.0.0.xml
+[2025-01-15 15:57:20,543]  INFO {API} - {api:LoansPaymentdoChargeDeduction} Initializing API: LoansPaymentdoChargeDeduction
+[2025-01-15 15:57:20,544]  INFO {APIDeployer} - API named 'LoansPaymentdoChargeDeduction' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840456LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT.car/LoansPaymentdoChargeDeduction_1.0.0/LoansPaymentdoChargeDeduction-1.0.0.xml
+[2025-01-15 15:57:20,544]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-01-15 15:57:20,544]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-01-15 15:57:20,557]  INFO {EndpointDeployer} - Endpoint named 'LoanPayOff_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840544PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/LoanPayOff_EP_1.0.0/LoanPayOff_EP-1.0.0.xml
+[2025-01-15 15:57:20,558]  INFO {EndpointDeployer} - Endpoint named 'PayInstalment' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840544PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalment_1.0.0/PayInstalment-1.0.0.xml
+[2025-01-15 15:57:20,559]  INFO {SequenceDeployer} - Sequence named 'PayInstalmentInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840544PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentInSequence_1.0.0/PayInstalmentInSequence-1.0.0.xml
+[2025-01-15 15:57:20,567]  INFO {SequenceDeployer} - Sequence named 'PayInstalmentOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840544PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentOutSequence_1.0.0/PayInstalmentOutSequence-1.0.0.xml
+[2025-01-15 15:57:20,573]  INFO {SequenceDeployer} - Sequence named 'PayInstalmentFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840544PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentFaultSequence_1.0.0/PayInstalmentFaultSequence-1.0.0.xml
+[2025-01-15 15:57:20,648]  INFO {SequenceDeployer} - Sequence named 'custom_fault_sequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840544PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/custom_fault_sequence_1.0.0/custom_fault_sequence-1.0.0.xml
+[2025-01-15 15:57:20,669]  INFO {API} - {api:PayInstalmentAPI} Initializing API: PayInstalmentAPI
+[2025-01-15 15:57:20,669]  INFO {APIDeployer} - API named 'PayInstalmentAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840544PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentAPI_1.0.0/PayInstalmentAPI-1.0.0.xml
+[2025-01-15 15:57:20,669]  INFO {CappDeployer} - Successfully Deployed Carbon Application : PayInstallmentCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-01-15 15:57:20,674]  INFO {EndpointDeployer} - Endpoint named 'IBM_MQ_CONNECTOR_REQUEST_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840669WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/IBM_MQ_CONNECTOR_REQUEST_EP_1.0.0/IBM_MQ_CONNECTOR_REQUEST_EP-1.0.0.xml
+[2025-01-15 15:57:20,675]  INFO {EndpointDeployer} - Endpoint named 'IBM_MQ_CONNECTOR_RESPONSE_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840669WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/IBM_MQ_CONNECTOR_RESPONSE_EP_1.0.0/IBM_MQ_CONNECTOR_RESPONSE_EP-1.0.0.xml
+[2025-01-15 15:57:20,680]  INFO {SequenceDeployer} - Sequence named 'FCCFT_FAULT_SEQUENCE' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840669WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFT_FAULT_SEQUENCE_1.0.0/FCCFT_FAULT_SEQUENCE-1.0.0.xml
+[2025-01-15 15:57:20,872]  INFO {SequenceDeployer} - Sequence named 'FCCFT_REQUEST_IN_SEQUENCE' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840669WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFT_REQUEST_IN_SEQUENCE_1.0.0/FCCFT_REQUEST_IN_SEQUENCE-1.0.0.xml
+[2025-01-15 15:57:20,885]  INFO {SequenceDeployer} - Sequence named 'FCCFT_RESPONSE_SEQUENCE' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840669WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFT_RESPONSE_SEQUENCE_1.0.0/FCCFT_RESPONSE_SEQUENCE-1.0.0.xml
+[2025-01-15 15:57:20,886]  INFO {API} - {api:FCCFTAPI} Initializing API: FCCFTAPI
+[2025-01-15 15:57:20,886]  INFO {APIDeployer} - API named 'FCCFTAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840669WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFTAPI_1.0.0/FCCFTAPI-1.0.0.xml
+[2025-01-15 15:57:20,886]  INFO {CappDeployer} - Successfully Deployed Carbon Application : WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-01-15 15:57:20,914] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:57:20,914]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-01-15 15:57:21,169]  INFO {EndpointDeployer} - Endpoint named 'BillPaymentManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/BillPaymentManagerSpiSoapEP_1.0.0/BillPaymentManagerSpiSoapEP-1.0.0.xml
+[2025-01-15 15:57:21,170]  INFO {EndpointDeployer} - Endpoint named 'CurrencyRateManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/CurrencyRateManagerSpiEP_1.0.0/CurrencyRateManagerSpiEP-1.0.0.xml
+[2025-01-15 15:57:21,170]  INFO {EndpointDeployer} - Endpoint named 'CustomerManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/CustomerManagerSpiSoapEP_1.0.0/CustomerManagerSpiSoapEP-1.0.0.xml
+[2025-01-15 15:57:21,171]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositInstructionManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositInstructionManagerSpiSoapEP_1.0.0/DemandDepositInstructionManagerSpiSoapEP-1.0.0.xml
+[2025-01-15 15:57:21,171]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositMaintenanceSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositMaintenanceSpiEP_1.0.0/DemandDepositMaintenanceSpiEP-1.0.0.xml
+[2025-01-15 15:57:21,172]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositManagerSpiSoapEP_1.0.0/DemandDepositManagerSpiSoapEP-1.0.0.xml
+[2025-01-15 15:57:21,172]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositStatementManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositStatementManagerSpiEP_1.0.0/DemandDepositStatementManagerSpiEP-1.0.0.xml
+[2025-01-15 15:57:21,173]  INFO {SequenceDeployer} - Sequence named 'ActivateDeactivateAccountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ActivateDeactivateAccountInSequence_1.0.0/ActivateDeactivateAccountInSequence-1.0.0.xml
+[2025-01-15 15:57:21,174]  INFO {SequenceDeployer} - Sequence named 'AddCustomerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/AddCustomerInSequence_1.0.0/AddCustomerInSequence-1.0.0.xml
+[2025-01-15 15:57:21,175]  INFO {SequenceDeployer} - Sequence named 'AddStandingInstructionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/AddStandingInstructionInSequence_1.0.0/AddStandingInstructionInSequence-1.0.0.xml
+[2025-01-15 15:57:21,175]  INFO {SequenceDeployer} - Sequence named 'ConvertAmountWithFromToCurrencyInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ConvertAmountWithFromToCurrencyInSequence_1.0.0/ConvertAmountWithFromToCurrencyInSequence-1.0.0.xml
+[2025-01-15 15:57:21,176]  INFO {SequenceDeployer} - Sequence named 'CreateNewAccountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/CreateNewAccountInSequence_1.0.0/CreateNewAccountInSequence-1.0.0.xml
+[2025-01-15 15:57:21,176]  INFO {SequenceDeployer} - Sequence named 'DeleteStandingInstructionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DeleteStandingInstructionInSequence_1.0.0/DeleteStandingInstructionInSequence-1.0.0.xml
+[2025-01-15 15:57:21,177]  INFO {SequenceDeployer} - Sequence named 'DomesticTransferFundsWithDRCRAmountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DomesticTransferFundsWithDRCRAmountInSequence_1.0.0/DomesticTransferFundsWithDRCRAmountInSequence-1.0.0.xml
+[2025-01-15 15:57:21,177]  INFO {SequenceDeployer} - Sequence named 'InquireBillWalletRtgsTxnsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireBillWalletRtgsTxnsInSequence_1.0.0/InquireBillWalletRtgsTxnsInSequence-1.0.0.xml
+[2025-01-15 15:57:21,178]  INFO {SequenceDeployer} - Sequence named 'InquireForMaintenanceInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireForMaintenanceInSequence_1.0.0/InquireForMaintenanceInSequence-1.0.0.xml
+[2025-01-15 15:57:21,179]  INFO {SequenceDeployer} - Sequence named 'InquireInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireInSequence_1.0.0/InquireInSequence-1.0.0.xml
+[2025-01-15 15:57:21,179]  INFO {SequenceDeployer} - Sequence named 'InquireListOfTransactionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireListOfTransactionInSequence_1.0.0/InquireListOfTransactionInSequence-1.0.0.xml
+[2025-01-15 15:57:21,180]  INFO {SequenceDeployer} - Sequence named 'ListCASAAccountDetailsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ListCASAAccountDetailsInSequence_1.0.0/ListCASAAccountDetailsInSequence-1.0.0.xml
+[2025-01-15 15:57:21,181]  INFO {SequenceDeployer} - Sequence named 'MisCustDebitWithDRCRAmtDepDtlsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/MisCustDebitWithDRCRAmtDepDtlsInSequence_1.0.0/MisCustDebitWithDRCRAmtDepDtlsInSequence-1.0.0.xml
+[2025-01-15 15:57:21,181]  INFO {SequenceDeployer} - Sequence named 'ModifyStandingInstructionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ModifyStandingInstructionInSequence_1.0.0/ModifyStandingInstructionInSequence-1.0.0.xml
+[2025-01-15 15:57:21,182]  INFO {SequenceDeployer} - Sequence named 'PayUtilityBillByAccountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/PayUtilityBillByAccountInSequence_1.0.0/PayUtilityBillByAccountInSequence-1.0.0.xml
+[2025-01-15 15:57:21,182]  INFO {SequenceDeployer} - Sequence named 'PayUtilityBillByAccountTIPSInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/PayUtilityBillByAccountTIPSInSequence_1.0.0/PayUtilityBillByAccountTIPSInSequence-1.0.0.xml
+[2025-01-15 15:57:21,183]  INFO {SequenceDeployer} - Sequence named 'RequestChequeBookInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/RequestChequeBookInSequence_1.0.0/RequestChequeBookInSequence-1.0.0.xml
+[2025-01-15 15:57:21,183]  INFO {SequenceDeployer} - Sequence named 'TransferFundsWithDRCRAmountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/TransferFundsWithDRCRAmountInSequence_1.0.0/TransferFundsWithDRCRAmountInSequence-1.0.0.xml
+[2025-01-15 15:57:21,243]  INFO {SequenceDeployer} - Sequence named 'UpdateAccountStatusForCASAInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/UpdateAccountStatusForCASAInSequence_1.0.0/UpdateAccountStatusForCASAInSequence-1.0.0.xml
+[2025-01-15 15:57:21,255]  INFO {SequenceDeployer} - Sequence named 'WSO2MINBCFCRFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/WSO2MINBCFCRFaultSequence_1.0.0/WSO2MINBCFCRFaultSequence-1.0.0.xml
+[2025-01-15 15:57:21,256]  INFO {SequenceDeployer} - Sequence named 'WSO2MINBCOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/WSO2MINBCOutSequence_1.0.0/WSO2MINBCOutSequence-1.0.0.xml
+[2025-01-15 15:57:21,258]  INFO {API} - {api:FCRAPI} Initializing API: FCRAPI
+[2025-01-15 15:57:21,259]  INFO {APIDeployer} - API named 'FCRAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945840886WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/FCRAPI_1.0.0/FCRAPI-1.0.0.xml
+[2025-01-15 15:57:21,259]  INFO {CappDeployer} - Successfully Deployed Carbon Application : WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-01-15 15:57:21,285]  INFO {EndpointDeployer} - Endpoint named 'CustomerImageManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/CustomerImageManagerSpiEP_1.0.0/CustomerImageManagerSpiEP-1.0.0.xml
+[2025-01-15 15:57:21,286]  INFO {EndpointDeployer} - Endpoint named 'CustomerManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/CustomerManagerSpiEP_1.0.0/CustomerManagerSpiEP-1.0.0.xml
+[2025-01-15 15:57:21,287]  INFO {SequenceDeployer} - Sequence named 'AddCustomerImageInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/AddCustomerImageInSequence_1.0.0/AddCustomerImageInSequence-1.0.0.xml
+[2025-01-15 15:57:21,287]  INFO {SequenceDeployer} - Sequence named 'AddIndividualCorporateCustomerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/AddIndividualCorporateCustomerInSequence_1.0.0/AddIndividualCorporateCustomerInSequence-1.0.0.xml
+[2025-01-15 15:57:21,354]  INFO {SequenceDeployer} - Sequence named 'DoDedupCustomerSearchInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/DoDedupCustomerSearchInSequence_1.0.0/DoDedupCustomerSearchInSequence-1.0.0.xml
+[2025-01-15 15:57:21,356]  INFO {SequenceDeployer} - Sequence named 'DoDedupCustomerSearchOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/DoDedupCustomerSearchOutSequence_1.0.0/DoDedupCustomerSearchOutSequence-1.0.0.xml
+[2025-01-15 15:57:21,361]  INFO {SequenceDeployer} - Sequence named 'FaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/FaultSequence_1.0.0/FaultSequence-1.0.0.xml
+[2025-01-15 15:57:21,362]  INFO {SequenceDeployer} - Sequence named 'InquireCustomerImageInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/InquireCustomerImageInSequence_1.0.0/InquireCustomerImageInSequence-1.0.0.xml
+[2025-01-15 15:57:21,363]  INFO {SequenceDeployer} - Sequence named 'InquireIndivdualCorporateCustWithAddInfoInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/InquireIndivdualCorporateCustWithAddInfoInSequence_1.0.0/InquireIndivdualCorporateCustWithAddInfoInSequence-1.0.0.xml
+[2025-01-15 15:57:21,363]  INFO {SequenceDeployer} - Sequence named 'ModifyCustomerForICInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/ModifyCustomerForICInSequence_1.0.0/ModifyCustomerForICInSequence-1.0.0.xml
+[2025-01-15 15:57:21,364]  INFO {SequenceDeployer} - Sequence named 'ModifyCustomerImageInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/ModifyCustomerImageInSequence_1.0.0/ModifyCustomerImageInSequence-1.0.0.xml
+[2025-01-15 15:57:21,364]  INFO {SequenceDeployer} - Sequence named 'ModifyCustomerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/ModifyCustomerInSequence_1.0.0/ModifyCustomerInSequence-1.0.0.xml
+[2025-01-15 15:57:21,365]  INFO {SequenceDeployer} - Sequence named 'OutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/OutSequence_1.0.0/OutSequence-1.0.0.xml
+[2025-01-15 15:57:21,365]  INFO {API} - {api:AccountOpeningAPI} Initializing API: AccountOpeningAPI
+[2025-01-15 15:57:21,366]  INFO {APIDeployer} - API named 'AccountOpeningAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1736945841259WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/AccountOpeningAPI_1.0.0/AccountOpeningAPI-1.0.0.xml
+[2025-01-15 15:57:21,366]  INFO {CappDeployer} - Successfully Deployed Carbon Application : WSO2MIAccountOpeningFCRCompositeExporter_1.0.0{super-tenant}
+[2025-01-15 15:57:21,458]  INFO {PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8290
+[2025-01-15 15:57:21,460]  INFO {PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8253
+[2025-01-15 15:57:21,697]  INFO {PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTP_INBOUND_ENDPOINT Listener started on 0.0.0.0:9201
+[2025-01-15 15:57:21,776]  INFO {PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTPS_INBOUND_ENDPOINT Listener started on 0.0.0.0:9164
+[2025-01-15 15:57:21,777]  INFO {StartupFinalizer} - WSO2 Micro Integrator started in 21.11 seconds
+[2025-01-15 15:57:21,938] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:57:21,943]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-01-15 15:57:22,963] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:57:22,964]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-01-15 15:57:23,986] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:57:23,986]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car
+[2025-01-15 15:57:26,098] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:57:27,058] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:57:27,634] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:57:33,778] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:57:34,803] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:57:35,826] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:59:25,611] ERROR {RelayUtils} - Error while building Passthrough stream org.apache.axiom.om.OMException: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:296)
+	at org.apache.axiom.om.impl.llom.OMDocumentImpl.getOMDocumentElement(OMDocumentImpl.java:109)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.getDocumentElement(StAXOMBuilder.java:570)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.getDocumentElement(StAXOMBuilder.java:566)
+	at org.apache.synapse.transport.passthru.util.DeferredMessageBuilder.getDocument(DeferredMessageBuilder.java:165)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:178)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:131)
+	at org.apache.synapse.transport.util.PassThroughMessageHandler.buildMessage(PassThroughMessageHandler.java:103)
+	at org.apache.synapse.mediators.AbstractListMediator.buildMessage(AbstractListMediator.java:179)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:104)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.api.Resource.process(Resource.java:355)
+	at org.apache.synapse.api.API.process(API.java:477)
+	at org.apache.synapse.api.AbstractApiHandler.apiProcess(AbstractApiHandler.java:91)
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:72)
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:90)
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:76)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:352)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:101)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:399)
+	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:458)
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:206)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:639)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2052)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1134)
+	at org.apache.axiom.util.stax.wrapper.XMLStreamReaderWrapper.next(XMLStreamReaderWrapper.java:225)
+	at org.apache.axiom.util.stax.dialect.DisallowDoctypeDeclStreamReaderWrapper.next(DisallowDoctypeDeclStreamReaderWrapper.java:34)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.parserNext(StAXOMBuilder.java:681)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:214)
+	... 28 more
+
+[2025-01-15 15:59:25,613] ERROR {SequenceMediator} - {api:FCCFTAPI} Error while building message. Error while building Passthrough stream org.apache.axis2.AxisFault: Error while building Passthrough stream
+	at org.apache.synapse.transport.passthru.util.RelayUtils.handleException(RelayUtils.java:462)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:225)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:131)
+	at org.apache.synapse.transport.util.PassThroughMessageHandler.buildMessage(PassThroughMessageHandler.java:103)
+	at org.apache.synapse.mediators.AbstractListMediator.buildMessage(AbstractListMediator.java:179)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:104)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.api.Resource.process(Resource.java:355)
+	at org.apache.synapse.api.API.process(API.java:477)
+	at org.apache.synapse.api.AbstractApiHandler.apiProcess(AbstractApiHandler.java:91)
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:72)
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:90)
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:76)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:352)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:101)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:399)
+	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:458)
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:206)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.axiom.om.OMException: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:296)
+	at org.apache.axiom.om.impl.llom.OMDocumentImpl.getOMDocumentElement(OMDocumentImpl.java:109)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.getDocumentElement(StAXOMBuilder.java:570)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.getDocumentElement(StAXOMBuilder.java:566)
+	at org.apache.synapse.transport.passthru.util.DeferredMessageBuilder.getDocument(DeferredMessageBuilder.java:165)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:178)
+	... 23 more
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:639)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2052)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1134)
+	at org.apache.axiom.util.stax.wrapper.XMLStreamReaderWrapper.next(XMLStreamReaderWrapper.java:225)
+	at org.apache.axiom.util.stax.dialect.DisallowDoctypeDeclStreamReaderWrapper.next(DisallowDoctypeDeclStreamReaderWrapper.java:34)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.parserNext(StAXOMBuilder.java:681)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:214)
+	... 28 more
+
+[2025-01-15 15:59:25,656]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-request, MessageID: urn:uuid:9036e8c6-d082-4de2-83e3-9e4f800e5453, correlation_id: 9036e8c6-d082-4de2-83e3-9e4f800e5453, Direction: request, FAULT_START_LOG = Executing Fault Sequence
+[2025-01-15 15:59:25,681]  INFO {TimeoutHandler} - This engine will expire all callbacks after GLOBAL_TIMEOUT: 120 seconds, irrespective of the timeout action, after the specified or optional timeout
+[2025-01-15 15:59:25,683] ERROR {ClientUtils} - The system cannot infer the transport information from the /fcc/v1/fccft-request URL.
+[2025-01-15 15:59:25,683] ERROR {Axis2Sender} - {api:FCCFTAPI} Unexpected error during sending message out. The system cannot infer the transport information from the /fcc/v1/fccft-request URL. org.apache.axis2.AxisFault: The system cannot infer the transport information from the /fcc/v1/fccft-request URL.
+	at org.apache.axis2.description.ClientUtils.inferOutTransport(ClientUtils.java:86)
+	at org.apache.synapse.core.axis2.DynamicAxisOperation$DynamicOperationClient.executeImpl(DynamicAxisOperation.java:124)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149)
+	at org.apache.synapse.core.axis2.Axis2FlexibleMEPClient.send(Axis2FlexibleMEPClient.java:675)
+	at org.apache.synapse.core.axis2.Axis2Sender.sendOn(Axis2Sender.java:89)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.send(Axis2SynapseEnvironment.java:623)
+	at org.apache.synapse.mediators.builtin.SendMediator.mediate(SendMediator.java:123)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:110)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.MediatorFaultHandler.onFault(MediatorFaultHandler.java:96)
+	at org.apache.synapse.FaultHandler.handleFault(FaultHandler.java:110)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:107)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:399)
+	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:458)
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:206)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:59:25,764]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-request, MessageID: urn:uuid:9036e8c6-d082-4de2-83e3-9e4f800e5453, correlation_id: 9036e8c6-d082-4de2-83e3-9e4f800e5453, Direction: request, MESSAGE = Executing default 'fault' sequence, ERROR_CODE = 601000, ERROR_MESSAGE = Error while building message. Error while building Passthrough stream, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><FCCFT><ERROR_PMNT><XREF/><ERROR><ECODE>601000</ECODE><EDESC>Error while building message. Error while building Passthrough stream</EDESC></ERROR></ERROR_PMNT></FCCFT></soapenv:Body></soapenv:Envelope>
+[2025-01-15 15:59:25,906] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection timed out (Connection timed out)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:59:25,907] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection timed out (Connection timed out)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:59:30,003] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection timed out (Connection timed out)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 15:59:30,003] ERROR {ServiceCatalogUtils} - Error occurred while reading the response from service catalog java.net.ConnectException: Connection timed out (Connection timed out)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:373)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:207)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1201)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1095)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1628)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1556)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getAllServices(ServiceCatalogUtils.java:301)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 16:00:54,421] ERROR {RelayUtils} - Error while building Passthrough stream org.apache.axiom.om.OMException: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:296)
+	at org.apache.axiom.om.impl.llom.OMDocumentImpl.getOMDocumentElement(OMDocumentImpl.java:109)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.getDocumentElement(StAXOMBuilder.java:570)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.getDocumentElement(StAXOMBuilder.java:566)
+	at org.apache.synapse.transport.passthru.util.DeferredMessageBuilder.getDocument(DeferredMessageBuilder.java:165)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:178)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:131)
+	at org.apache.synapse.transport.util.PassThroughMessageHandler.buildMessage(PassThroughMessageHandler.java:103)
+	at org.apache.synapse.mediators.AbstractListMediator.buildMessage(AbstractListMediator.java:179)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:104)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.api.Resource.process(Resource.java:355)
+	at org.apache.synapse.api.API.process(API.java:477)
+	at org.apache.synapse.api.AbstractApiHandler.apiProcess(AbstractApiHandler.java:91)
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:72)
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:90)
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:76)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:352)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:101)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:399)
+	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:458)
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:206)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:639)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2052)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1134)
+	at org.apache.axiom.util.stax.wrapper.XMLStreamReaderWrapper.next(XMLStreamReaderWrapper.java:225)
+	at org.apache.axiom.util.stax.dialect.DisallowDoctypeDeclStreamReaderWrapper.next(DisallowDoctypeDeclStreamReaderWrapper.java:34)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.parserNext(StAXOMBuilder.java:681)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:214)
+	... 28 more
+
+[2025-01-15 16:00:54,421] ERROR {SequenceMediator} - {api:FCCFTAPI} Error while building message. Error while building Passthrough stream org.apache.axis2.AxisFault: Error while building Passthrough stream
+	at org.apache.synapse.transport.passthru.util.RelayUtils.handleException(RelayUtils.java:462)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:225)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:131)
+	at org.apache.synapse.transport.util.PassThroughMessageHandler.buildMessage(PassThroughMessageHandler.java:103)
+	at org.apache.synapse.mediators.AbstractListMediator.buildMessage(AbstractListMediator.java:179)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:104)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.api.Resource.process(Resource.java:355)
+	at org.apache.synapse.api.API.process(API.java:477)
+	at org.apache.synapse.api.AbstractApiHandler.apiProcess(AbstractApiHandler.java:91)
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:72)
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:90)
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:76)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:352)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:101)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:399)
+	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:458)
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:206)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.axiom.om.OMException: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:296)
+	at org.apache.axiom.om.impl.llom.OMDocumentImpl.getOMDocumentElement(OMDocumentImpl.java:109)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.getDocumentElement(StAXOMBuilder.java:570)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.getDocumentElement(StAXOMBuilder.java:566)
+	at org.apache.synapse.transport.passthru.util.DeferredMessageBuilder.getDocument(DeferredMessageBuilder.java:165)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:178)
+	... 23 more
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '{' (code 123) in prolog; expected '<'
+ at [row,col {unknown-source}]: [1,1]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:639)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2052)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1134)
+	at org.apache.axiom.util.stax.wrapper.XMLStreamReaderWrapper.next(XMLStreamReaderWrapper.java:225)
+	at org.apache.axiom.util.stax.dialect.DisallowDoctypeDeclStreamReaderWrapper.next(DisallowDoctypeDeclStreamReaderWrapper.java:34)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.parserNext(StAXOMBuilder.java:681)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:214)
+	... 28 more
+
+[2025-01-15 16:00:54,438]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-request, MessageID: urn:uuid:ef13954a-e8b8-40ad-8bd1-409b266f0719, correlation_id: ef13954a-e8b8-40ad-8bd1-409b266f0719, Direction: request, FAULT_START_LOG = Executing Fault Sequence
+[2025-01-15 16:00:54,439] ERROR {ClientUtils} - The system cannot infer the transport information from the /fcc/v1/fccft-request URL.
+[2025-01-15 16:00:54,439] ERROR {Axis2Sender} - {api:FCCFTAPI} Unexpected error during sending message out. The system cannot infer the transport information from the /fcc/v1/fccft-request URL. org.apache.axis2.AxisFault: The system cannot infer the transport information from the /fcc/v1/fccft-request URL.
+	at org.apache.axis2.description.ClientUtils.inferOutTransport(ClientUtils.java:86)
+	at org.apache.synapse.core.axis2.DynamicAxisOperation$DynamicOperationClient.executeImpl(DynamicAxisOperation.java:124)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149)
+	at org.apache.synapse.core.axis2.Axis2FlexibleMEPClient.send(Axis2FlexibleMEPClient.java:675)
+	at org.apache.synapse.core.axis2.Axis2Sender.sendOn(Axis2Sender.java:89)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.send(Axis2SynapseEnvironment.java:623)
+	at org.apache.synapse.mediators.builtin.SendMediator.mediate(SendMediator.java:123)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:110)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.MediatorFaultHandler.onFault(MediatorFaultHandler.java:96)
+	at org.apache.synapse.FaultHandler.handleFault(FaultHandler.java:110)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:107)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:399)
+	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:458)
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:206)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 16:00:54,446]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-request, MessageID: urn:uuid:ef13954a-e8b8-40ad-8bd1-409b266f0719, correlation_id: ef13954a-e8b8-40ad-8bd1-409b266f0719, Direction: request, MESSAGE = Executing default 'fault' sequence, ERROR_CODE = 601000, ERROR_MESSAGE = Error while building message. Error while building Passthrough stream, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><FCCFT><ERROR_PMNT><XREF/><ERROR><ECODE>601000</ECODE><EDESC>Error while building message. Error while building Passthrough stream</EDESC></ERROR></ERROR_PMNT></FCCFT></soapenv:Body></soapenv:Envelope>
+[2025-01-15 16:02:25,761]  INFO {SourceHandler} - Writer null when calling informWriterError
+[2025-01-15 16:02:25,761]  WARN {SourceHandler} - STATE_DESCRIPTION = Socket Timeout occurred after accepting the request headers and the request body, INTERNAL_STATE = REQUEST_DONE, DIRECTION = REQUEST, CAUSE_OF_ERROR = Connection between the client and the WSO2 server timeouts, HTTP_URL = /fcc/v1/fccft-request, HTTP_METHOD = POST, SOCKET_TIMEOUT = 180000, CLIENT_ADDRESS = /127.0.0.1:42040, CORRELATION_ID = 9036e8c6-d082-4de2-83e3-9e4f800e5453, CONNECTION = http-incoming-25
+[2025-01-15 16:03:54,772]  INFO {SourceHandler} - Writer null when calling informWriterError
+[2025-01-15 16:03:54,772]  WARN {SourceHandler} - STATE_DESCRIPTION = Socket Timeout occurred after accepting the request headers and the request body, INTERNAL_STATE = REQUEST_DONE, DIRECTION = REQUEST, CAUSE_OF_ERROR = Connection between the client and the WSO2 server timeouts, HTTP_URL = /fcc/v1/fccft-request, HTTP_METHOD = POST, SOCKET_TIMEOUT = 180000, CLIENT_ADDRESS = /127.0.0.1:46492, CORRELATION_ID = ef13954a-e8b8-40ad-8bd1-409b266f0719, CONNECTION = http-incoming-44
+[2025-01-15 16:05:58,454]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-request, MessageID: urn:uuid:4081b9b2-b6bf-4d04-9804-2b63f53e42df, correlation_id: 4081b9b2-b6bf-4d04-9804-2b63f53e42df, Direction: request, FCCFT_REQUEST_START_LOG = Executing FCCFT Request In Sequence
+[2025-01-15 16:05:58,463] ERROR {OMSourcedElementImpl} - Could not get parser from data source for element jsonObject javax.xml.stream.XMLStreamException: java.io.IOException: Illegal character: <F>
+	at org.apache.synapse.commons.staxon.core.base.AbstractXMLStreamReader.initialize(AbstractXMLStreamReader.java:245)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.<init>(JsonXMLStreamReader.java:88)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLInputFactory.createXMLStreamReader(JsonXMLInputFactory.java:170)
+	at org.apache.synapse.commons.json.JsonUtil.getReader(JsonUtil.java:466)
+	at org.apache.synapse.commons.json.JsonDataSource.getReader(JsonDataSource.java:154)
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.getDirectReader(OMSourcedElementImpl.java:224)
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.forceExpand(OMSourcedElementImpl.java:253)
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.getChildren(OMSourcedElementImpl.java:862)
+	at org.apache.axiom.om.xpath.DocumentNavigator.getChildAxisIterator(DocumentNavigator.java:316)
+	at org.jaxen.util.DescendantAxisIterator.next(DescendantAxisIterator.java:129)
+	at org.jaxen.expr.DefaultStep.evaluate(DefaultStep.java:154)
+	at org.jaxen.expr.DefaultLocationPath.evaluate(DefaultLocationPath.java:140)
+	at org.jaxen.expr.DefaultAbsoluteLocationPath.evaluate(DefaultAbsoluteLocationPath.java:113)
+	at org.jaxen.expr.DefaultXPathExpr.asList(DefaultXPathExpr.java:102)
+	at org.jaxen.BaseXPath.selectNodesForContext(BaseXPath.java:675)
+	at org.jaxen.BaseXPath.selectNodes(BaseXPath.java:215)
+	at org.jaxen.BaseXPath.evaluate(BaseXPath.java:175)
+	at org.apache.synapse.util.xpath.SynapseXPath.stringValueOf(SynapseXPath.java:412)
+	at org.apache.synapse.mediators.transform.pfutils.TemplateProcessor.getArgValues(TemplateProcessor.java:118)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.replace(RegexTemplateProcessor.java:62)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.processTemplate(RegexTemplateProcessor.java:44)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.processTemplate(PayloadFactoryMediator.java:196)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.transform(PayloadFactoryMediator.java:189)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:113)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:102)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:110)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.api.Resource.process(Resource.java:355)
+	at org.apache.synapse.api.API.process(API.java:477)
+	at org.apache.synapse.api.AbstractApiHandler.apiProcess(AbstractApiHandler.java:91)
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:72)
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:90)
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:76)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:352)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:101)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:399)
+	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:458)
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:206)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.IOException: Illegal character: <F>
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonScanner.yylex(JsonScanner.java:777)
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonScanner.nextSymbol(JsonScanner.java:310)
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonStreamSourceImpl.next(JsonStreamSourceImpl.java:136)
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonStreamSourceImpl.peek(JsonStreamSourceImpl.java:272)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:157)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:190)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:160)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:190)
+	at org.apache.synapse.commons.staxon.core.base.AbstractXMLStreamReader.initialize(AbstractXMLStreamReader.java:243)
+	... 44 more
+
+[2025-01-15 16:05:58,474] ERROR {SequenceMediator} - {api:FCCFTAPI} Error obtaining parser from data source:java.io.IOException: Illegal character: <F> java.lang.RuntimeException: Error obtaining parser from data source:java.io.IOException: Illegal character: <F>
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.getDirectReader(OMSourcedElementImpl.java:230)
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.forceExpand(OMSourcedElementImpl.java:253)
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.getChildren(OMSourcedElementImpl.java:862)
+	at org.apache.axiom.om.xpath.DocumentNavigator.getChildAxisIterator(DocumentNavigator.java:316)
+	at org.jaxen.util.DescendantAxisIterator.next(DescendantAxisIterator.java:129)
+	at org.jaxen.expr.DefaultStep.evaluate(DefaultStep.java:154)
+	at org.jaxen.expr.DefaultLocationPath.evaluate(DefaultLocationPath.java:140)
+	at org.jaxen.expr.DefaultAbsoluteLocationPath.evaluate(DefaultAbsoluteLocationPath.java:113)
+	at org.jaxen.expr.DefaultXPathExpr.asList(DefaultXPathExpr.java:102)
+	at org.jaxen.BaseXPath.selectNodesForContext(BaseXPath.java:675)
+	at org.jaxen.BaseXPath.selectNodes(BaseXPath.java:215)
+	at org.jaxen.BaseXPath.evaluate(BaseXPath.java:175)
+	at org.apache.synapse.util.xpath.SynapseXPath.stringValueOf(SynapseXPath.java:412)
+	at org.apache.synapse.mediators.transform.pfutils.TemplateProcessor.getArgValues(TemplateProcessor.java:118)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.replace(RegexTemplateProcessor.java:62)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.processTemplate(RegexTemplateProcessor.java:44)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.processTemplate(PayloadFactoryMediator.java:196)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.transform(PayloadFactoryMediator.java:189)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:113)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:102)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:110)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.api.Resource.process(Resource.java:355)
+	at org.apache.synapse.api.API.process(API.java:477)
+	at org.apache.synapse.api.AbstractApiHandler.apiProcess(AbstractApiHandler.java:91)
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:72)
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:90)
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:76)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:352)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:101)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:399)
+	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:458)
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:206)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: javax.xml.stream.XMLStreamException: java.io.IOException: Illegal character: <F>
+	at org.apache.synapse.commons.staxon.core.base.AbstractXMLStreamReader.initialize(AbstractXMLStreamReader.java:245)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.<init>(JsonXMLStreamReader.java:88)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLInputFactory.createXMLStreamReader(JsonXMLInputFactory.java:170)
+	at org.apache.synapse.commons.json.JsonUtil.getReader(JsonUtil.java:466)
+	at org.apache.synapse.commons.json.JsonDataSource.getReader(JsonDataSource.java:154)
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.getDirectReader(OMSourcedElementImpl.java:224)
+	... 39 more
+Caused by: java.io.IOException: Illegal character: <F>
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonScanner.yylex(JsonScanner.java:777)
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonScanner.nextSymbol(JsonScanner.java:310)
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonStreamSourceImpl.next(JsonStreamSourceImpl.java:136)
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonStreamSourceImpl.peek(JsonStreamSourceImpl.java:272)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:157)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:190)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:160)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:190)
+	at org.apache.synapse.commons.staxon.core.base.AbstractXMLStreamReader.initialize(AbstractXMLStreamReader.java:243)
+	... 44 more
+
+[2025-01-15 16:05:58,475]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-request, MessageID: urn:uuid:4081b9b2-b6bf-4d04-9804-2b63f53e42df, correlation_id: 4081b9b2-b6bf-4d04-9804-2b63f53e42df, Direction: request, FAULT_START_LOG = Executing Fault Sequence
+[2025-01-15 16:05:58,476] ERROR {ClientUtils} - The system cannot infer the transport information from the /fcc/v1/fccft-request URL.
+[2025-01-15 16:05:58,477] ERROR {Axis2Sender} - {api:FCCFTAPI} Unexpected error during sending message out. The system cannot infer the transport information from the /fcc/v1/fccft-request URL. org.apache.axis2.AxisFault: The system cannot infer the transport information from the /fcc/v1/fccft-request URL.
+	at org.apache.axis2.description.ClientUtils.inferOutTransport(ClientUtils.java:86)
+	at org.apache.synapse.core.axis2.DynamicAxisOperation$DynamicOperationClient.executeImpl(DynamicAxisOperation.java:124)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149)
+	at org.apache.synapse.core.axis2.Axis2FlexibleMEPClient.send(Axis2FlexibleMEPClient.java:675)
+	at org.apache.synapse.core.axis2.Axis2Sender.sendOn(Axis2Sender.java:89)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.send(Axis2SynapseEnvironment.java:623)
+	at org.apache.synapse.mediators.builtin.SendMediator.mediate(SendMediator.java:123)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:110)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.MediatorFaultHandler.onFault(MediatorFaultHandler.java:96)
+	at org.apache.synapse.FaultHandler.handleFault(FaultHandler.java:110)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:107)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:399)
+	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:458)
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:206)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 16:05:58,485]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-request, MessageID: urn:uuid:4081b9b2-b6bf-4d04-9804-2b63f53e42df, correlation_id: 4081b9b2-b6bf-4d04-9804-2b63f53e42df, Direction: request, MESSAGE = Executing default 'fault' sequence, ERROR_CODE = 0, ERROR_MESSAGE = Error obtaining parser from data source:java.io.IOException: Illegal character: <F>, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><FCCFT><ERROR_PMNT><XREF/><ERROR><ECODE>0</ECODE><EDESC>Error obtaining parser from data source:java.io.IOException: Illegal character: &lt;F></EDESC></ERROR></ERROR_PMNT></FCCFT></soapenv:Body></soapenv:Envelope>
+[2025-01-15 16:08:09,424]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-response, MessageID: urn:uuid:41760016-6be2-4f9e-a7db-8d4afefd38d4, correlation_id: 41760016-6be2-4f9e-a7db-8d4afefd38d4, Direction: request, FCCFT_RESPONSE_START_LOG = Executing FCCFT Response In Sequence
+[2025-01-15 16:08:09,424]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-response, MessageID: urn:uuid:41760016-6be2-4f9e-a7db-8d4afefd38d4, correlation_id: 41760016-6be2-4f9e-a7db-8d4afefd38d4, Direction: request, FCCRT_RESPONSE_REQUEST_LOG = FCCRT_RESPONSE_REQUEST_LOG, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+[2025-01-15 16:08:10,672]  INFO {NBCIBMMQMediator} - Get fcc response successfull: (
+
+<FCCFT>
+<HANDOFF_PMNT>
+    <FTPMNTDETAILS>
+        <FCCREF>001CBPL221530011</FCCREF>
+        <CONTSTAT>L</CONTSTAT>
+        <AUTHSTAT>A</AUTHSTAT>
+        <XREF>WSO2_STK_PRD_J1</XREF>
+        <UREF>WSO2_STK_PRD_J1</UREF>
+        <PRD>CBPL</PRD>
+        <DRBRN>030</DRBRN>
+        <DRCCY>TZS</DRCCY>
+        <DRAMT>284000</DRAMT>
+        <DRACC>030103002540</DRACC>
+        <DRVALDT>20240202</DRVALDT>
+        <CRBRN>001</CRBRN>
+        <CRCCY>TZS</CRCCY>
+        <CRAMT>284000</CRAMT>
+        <CRACC>001707439354</CRACC>
+        <CRVALDT>20240202</CRVALDT>
+        <XRATE>1</XRATE>
+        <MSG_COVER>N</MSG_COVER>
+        <MSG_AS_OF>B</MSG_AS_OF>
+        <SPRD_COD>9</SPRD_COD>
+        <CHG_WHOM>O</CHG_WHOM>
+        <TDESC>B2B|DT24020210006467|24110006859|BR|Edson Israel|Michael Justin-FSP Source Code : TIPS - CBPTIPS</TDESC>
+        <EVENT_CODE>INIT</EVENT_CODE>
+        <STATUS>P</STATUS>
+        <ACCTDT>20220602</ACCTDT>
+        <ACCTASOF>M</ACCTASOF>
+        <DRCUST>286315</DRCUST>
+        <CRCUST>743935</CRCUST>
+        <STTLMNT>
+            <BY_ORD_OF1>/030103002540</BY_ORD_OF1>
+            <BY_ORD_OF2>NAM_CUST_FULL_286315</BY_ORD_OF2>
+            <BY_ORD_OF3>TXT_PERMADR_ADD2_286315 TXT_PERMADR</BY_ORD_OF3>
+            <BY_ORD_OF4>NAM_PERMADR_CITY_286315</BY_ORD_OF4>
+            <ULT_BEN1>/24110006859</ULT_BEN1>
+            <ULT_BEN2>Edson Israel</ULT_BEN2>
+            <ULT_BEN3>NMIBTZT0 / 016</ULT_BEN3>
+            <ACC_WITH_INST1>NMIBTZT0</ACC_WITH_INST1>
+            <ACC_WITH_INST2>NMB Bank</ACC_WITH_INST2>
+            <ACC_WITH_INST3>24110006859</ACC_WITH_INST3>
+            <RECVR_CORRES5>CUSTOMERREF1706876103</RECVR_CORRES5>
+            <SNDR_RECVR_INFO1>CBP</SNDR_RECVR_INFO1>
+            <SNDR_RECVR_INFO6>REF: DT24020210006467</SNDR_RECVR_INFO6>
+            <PMNT_DET1>AMOUNT: 284000 - TZS</PMNT_DET1>
+            <PMNT_DET2>FROM: Michael Justin</PMNT_DET2>
+            <PMNT_DET3>TO: Edson Israel</PMNT_DET3>
+            <INT_REIM_INST5>743935</INT_REIM_INST5>
+            <ERIAMT>284000</ERIAMT>
+        </STTLMNT>
+    </FTPMNTDETAILS>
+    <MISDETAILS>
+        <RTFLAG>P</RTFLAG>
+        <POOLCD>DFLTPOOL</POOLCD>
+        <REFRTTYPE>1</REFRTTYPE>
+        <REFRTSPRD>002</REFRTSPRD>
+        <TXNMIS3>1012</TXNMIS3>
+        <TXNMIS4>20019</TXNMIS4>
+        <TXNMIS5>41012</TXNMIS5>
+        <TXNMIS6>99999</TXNMIS6>
+    </MISDETAILS>
+    <UDFDETAILS>
+        <FIELD_NAME>FSPAVAILABLE</FIELD_NAME>
+        <FIELD_VALUE>TRUE</FIELD_VALUE>
+    </UDFDETAILS>
+    <UDFDETAILS>
+        <FIELD_NAME>PURPOSE_OF_PAYMENT</FIELD_NAME>
+        <FIELD_VALUE>B2B|DT24020210006467|24110006859|BR|Edson Israel|Michael Justin</FIELD_VALUE>
+    </UDFDETAILS>
+    <UDFDETAILS>
+        <FIELD_NAME>TIPS_0</FIELD_NAME>
+        <FIELD_VALUE>BankSWIFTCode:NMIBTZT0</FIELD_VALUE>
+    </UDFDETAILS>
+    <ETC>
+        <SLNO>-1</SLNO>
+    </ETC>
+</HANDOFF_PMNT></FCCFT>)
+[2025-01-15 16:08:10,680]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-response, MessageID: urn:uuid:41760016-6be2-4f9e-a7db-8d4afefd38d4, correlation_id: 41760016-6be2-4f9e-a7db-8d4afefd38d4, Direction: request, FCCRT_RESPONSE_REQUEST_LOG = FCCRT_RESPONSE_REQUEST_LOG, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+[2025-01-15 16:08:59,754]  INFO {SourceHandler} - Writer null when calling informWriterError
+[2025-01-15 16:08:59,754]  WARN {SourceHandler} - STATE_DESCRIPTION = Socket Timeout occurred after accepting the request headers and the request body, INTERNAL_STATE = REQUEST_DONE, DIRECTION = REQUEST, CAUSE_OF_ERROR = Connection between the client and the WSO2 server timeouts, HTTP_URL = /fcc/v1/fccft-request, HTTP_METHOD = POST, SOCKET_TIMEOUT = 180000, CLIENT_ADDRESS = /127.0.0.1:60034, CORRELATION_ID = 4081b9b2-b6bf-4d04-9804-2b63f53e42df, CONNECTION = http-incoming-105
+[2025-01-15 16:09:06,102]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-response, MessageID: urn:uuid:dcfc244b-a61e-4001-b5d8-9c0802f8ff78, correlation_id: dcfc244b-a61e-4001-b5d8-9c0802f8ff78, Direction: request, FCCFT_RESPONSE_START_LOG = Executing FCCFT Response In Sequence
+[2025-01-15 16:09:06,103]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-response, MessageID: urn:uuid:dcfc244b-a61e-4001-b5d8-9c0802f8ff78, correlation_id: dcfc244b-a61e-4001-b5d8-9c0802f8ff78, Direction: request, FCCRT_RESPONSE_REQUEST_LOG = FCCRT_RESPONSE_REQUEST_LOG, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+[2025-01-15 16:09:06,163]  INFO {NBCIBMMQMediator} - Get fcc response successfull: (
+
+<FCCFT>
+<HANDOFF_PMNT>
+    <FTPMNTDETAILS>
+        <FCCREF>001CBPL221530012</FCCREF>
+        <CONTSTAT>L</CONTSTAT>
+        <AUTHSTAT>A</AUTHSTAT>
+        <XREF>WSO2_STK_PRD_J2</XREF>
+        <UREF>WSO2_STK_PRD_J2</UREF>
+        <PRD>CBPL</PRD>
+        <DRBRN>030</DRBRN>
+        <DRCCY>TZS</DRCCY>
+        <DRAMT>284000</DRAMT>
+        <DRACC>030103002540</DRACC>
+        <DRVALDT>20240202</DRVALDT>
+        <CRBRN>001</CRBRN>
+        <CRCCY>TZS</CRCCY>
+        <CRAMT>284000</CRAMT>
+        <CRACC>001707439354</CRACC>
+        <CRVALDT>20240202</CRVALDT>
+        <XRATE>1</XRATE>
+        <MSG_COVER>N</MSG_COVER>
+        <MSG_AS_OF>B</MSG_AS_OF>
+        <SPRD_COD>9</SPRD_COD>
+        <CHG_WHOM>O</CHG_WHOM>
+        <TDESC>B2B|DT24020210006467|24110006859|BR|Edson Israel|Michael Justin-FSP Source Code : TIPS - CBPTIPS</TDESC>
+        <EVENT_CODE>INIT</EVENT_CODE>
+        <STATUS>P</STATUS>
+        <ACCTDT>20220602</ACCTDT>
+        <ACCTASOF>M</ACCTASOF>
+        <DRCUST>286315</DRCUST>
+        <CRCUST>743935</CRCUST>
+        <STTLMNT>
+            <BY_ORD_OF1>/030103002540</BY_ORD_OF1>
+            <BY_ORD_OF2>NAM_CUST_FULL_286315</BY_ORD_OF2>
+            <BY_ORD_OF3>TXT_PERMADR_ADD2_286315 TXT_PERMADR</BY_ORD_OF3>
+            <BY_ORD_OF4>NAM_PERMADR_CITY_286315</BY_ORD_OF4>
+            <ULT_BEN1>/24110006859</ULT_BEN1>
+            <ULT_BEN2>Edson Israel</ULT_BEN2>
+            <ULT_BEN3>NMIBTZT0 / 016</ULT_BEN3>
+            <ACC_WITH_INST1>NMIBTZT0</ACC_WITH_INST1>
+            <ACC_WITH_INST2>NMB Bank</ACC_WITH_INST2>
+            <ACC_WITH_INST3>24110006859</ACC_WITH_INST3>
+            <RECVR_CORRES5>CUSTOMERREF1706876103</RECVR_CORRES5>
+            <SNDR_RECVR_INFO1>CBP</SNDR_RECVR_INFO1>
+            <SNDR_RECVR_INFO6>REF: DT24020210006467</SNDR_RECVR_INFO6>
+            <PMNT_DET1>AMOUNT: 284000 - TZS</PMNT_DET1>
+            <PMNT_DET2>FROM: Michael Justin</PMNT_DET2>
+            <PMNT_DET3>TO: Edson Israel</PMNT_DET3>
+            <INT_REIM_INST5>743935</INT_REIM_INST5>
+            <ERIAMT>284000</ERIAMT>
+        </STTLMNT>
+    </FTPMNTDETAILS>
+    <MISDETAILS>
+        <RTFLAG>P</RTFLAG>
+        <POOLCD>DFLTPOOL</POOLCD>
+        <REFRTTYPE>1</REFRTTYPE>
+        <REFRTSPRD>002</REFRTSPRD>
+        <TXNMIS3>1012</TXNMIS3>
+        <TXNMIS4>20019</TXNMIS4>
+        <TXNMIS5>41012</TXNMIS5>
+        <TXNMIS6>99999</TXNMIS6>
+    </MISDETAILS>
+    <UDFDETAILS>
+        <FIELD_NAME>FSPAVAILABLE</FIELD_NAME>
+        <FIELD_VALUE>TRUE</FIELD_VALUE>
+    </UDFDETAILS>
+    <UDFDETAILS>
+        <FIELD_NAME>PURPOSE_OF_PAYMENT</FIELD_NAME>
+        <FIELD_VALUE>B2B|DT24020210006467|24110006859|BR|Edson Israel|Michael Justin</FIELD_VALUE>
+    </UDFDETAILS>
+    <UDFDETAILS>
+        <FIELD_NAME>TIPS_0</FIELD_NAME>
+        <FIELD_VALUE>BankSWIFTCode:NMIBTZT0</FIELD_VALUE>
+    </UDFDETAILS>
+    <ETC>
+        <SLNO>-1</SLNO>
+    </ETC>
+</HANDOFF_PMNT></FCCFT>)
+[2025-01-15 16:09:06,169]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-response, MessageID: urn:uuid:dcfc244b-a61e-4001-b5d8-9c0802f8ff78, correlation_id: dcfc244b-a61e-4001-b5d8-9c0802f8ff78, Direction: request, FCCRT_RESPONSE_REQUEST_LOG = FCCRT_RESPONSE_REQUEST_LOG, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+[2025-01-15 16:14:18,506]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-request, MessageID: urn:uuid:9a8fff2a-b0fe-45eb-8da0-0670047a0119, correlation_id: 9a8fff2a-b0fe-45eb-8da0-0670047a0119, Direction: request, FCCFT_REQUEST_START_LOG = Executing FCCFT Request In Sequence
+[2025-01-15 16:14:18,506] ERROR {OMSourcedElementImpl} - Could not get parser from data source for element jsonObject javax.xml.stream.XMLStreamException: java.io.IOException: Illegal character: <F>
+	at org.apache.synapse.commons.staxon.core.base.AbstractXMLStreamReader.initialize(AbstractXMLStreamReader.java:245)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.<init>(JsonXMLStreamReader.java:88)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLInputFactory.createXMLStreamReader(JsonXMLInputFactory.java:170)
+	at org.apache.synapse.commons.json.JsonUtil.getReader(JsonUtil.java:466)
+	at org.apache.synapse.commons.json.JsonDataSource.getReader(JsonDataSource.java:154)
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.getDirectReader(OMSourcedElementImpl.java:224)
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.forceExpand(OMSourcedElementImpl.java:253)
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.getChildren(OMSourcedElementImpl.java:862)
+	at org.apache.axiom.om.xpath.DocumentNavigator.getChildAxisIterator(DocumentNavigator.java:316)
+	at org.jaxen.util.DescendantAxisIterator.next(DescendantAxisIterator.java:129)
+	at org.jaxen.expr.DefaultStep.evaluate(DefaultStep.java:154)
+	at org.jaxen.expr.DefaultLocationPath.evaluate(DefaultLocationPath.java:140)
+	at org.jaxen.expr.DefaultAbsoluteLocationPath.evaluate(DefaultAbsoluteLocationPath.java:113)
+	at org.jaxen.expr.DefaultXPathExpr.asList(DefaultXPathExpr.java:102)
+	at org.jaxen.BaseXPath.selectNodesForContext(BaseXPath.java:675)
+	at org.jaxen.BaseXPath.selectNodes(BaseXPath.java:215)
+	at org.jaxen.BaseXPath.evaluate(BaseXPath.java:175)
+	at org.apache.synapse.util.xpath.SynapseXPath.stringValueOf(SynapseXPath.java:412)
+	at org.apache.synapse.mediators.transform.pfutils.TemplateProcessor.getArgValues(TemplateProcessor.java:118)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.replace(RegexTemplateProcessor.java:62)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.processTemplate(RegexTemplateProcessor.java:44)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.processTemplate(PayloadFactoryMediator.java:196)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.transform(PayloadFactoryMediator.java:189)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:113)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:102)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:110)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.api.Resource.process(Resource.java:355)
+	at org.apache.synapse.api.API.process(API.java:477)
+	at org.apache.synapse.api.AbstractApiHandler.apiProcess(AbstractApiHandler.java:91)
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:72)
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:90)
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:76)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:352)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:101)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:399)
+	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:458)
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:206)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.IOException: Illegal character: <F>
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonScanner.yylex(JsonScanner.java:777)
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonScanner.nextSymbol(JsonScanner.java:310)
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonStreamSourceImpl.next(JsonStreamSourceImpl.java:136)
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonStreamSourceImpl.peek(JsonStreamSourceImpl.java:272)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:157)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:190)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:160)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:190)
+	at org.apache.synapse.commons.staxon.core.base.AbstractXMLStreamReader.initialize(AbstractXMLStreamReader.java:243)
+	... 44 more
+
+[2025-01-15 16:14:18,517] ERROR {SequenceMediator} - {api:FCCFTAPI} Error obtaining parser from data source:java.io.IOException: Illegal character: <F> java.lang.RuntimeException: Error obtaining parser from data source:java.io.IOException: Illegal character: <F>
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.getDirectReader(OMSourcedElementImpl.java:230)
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.forceExpand(OMSourcedElementImpl.java:253)
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.getChildren(OMSourcedElementImpl.java:862)
+	at org.apache.axiom.om.xpath.DocumentNavigator.getChildAxisIterator(DocumentNavigator.java:316)
+	at org.jaxen.util.DescendantAxisIterator.next(DescendantAxisIterator.java:129)
+	at org.jaxen.expr.DefaultStep.evaluate(DefaultStep.java:154)
+	at org.jaxen.expr.DefaultLocationPath.evaluate(DefaultLocationPath.java:140)
+	at org.jaxen.expr.DefaultAbsoluteLocationPath.evaluate(DefaultAbsoluteLocationPath.java:113)
+	at org.jaxen.expr.DefaultXPathExpr.asList(DefaultXPathExpr.java:102)
+	at org.jaxen.BaseXPath.selectNodesForContext(BaseXPath.java:675)
+	at org.jaxen.BaseXPath.selectNodes(BaseXPath.java:215)
+	at org.jaxen.BaseXPath.evaluate(BaseXPath.java:175)
+	at org.apache.synapse.util.xpath.SynapseXPath.stringValueOf(SynapseXPath.java:412)
+	at org.apache.synapse.mediators.transform.pfutils.TemplateProcessor.getArgValues(TemplateProcessor.java:118)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.replace(RegexTemplateProcessor.java:62)
+	at org.apache.synapse.mediators.transform.pfutils.RegexTemplateProcessor.processTemplate(RegexTemplateProcessor.java:44)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.processTemplate(PayloadFactoryMediator.java:196)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.transform(PayloadFactoryMediator.java:189)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:113)
+	at org.apache.synapse.mediators.transform.PayloadFactoryMediator.mediate(PayloadFactoryMediator.java:102)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:110)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.api.Resource.process(Resource.java:355)
+	at org.apache.synapse.api.API.process(API.java:477)
+	at org.apache.synapse.api.AbstractApiHandler.apiProcess(AbstractApiHandler.java:91)
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:72)
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:90)
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:76)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:352)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:101)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:399)
+	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:458)
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:206)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: javax.xml.stream.XMLStreamException: java.io.IOException: Illegal character: <F>
+	at org.apache.synapse.commons.staxon.core.base.AbstractXMLStreamReader.initialize(AbstractXMLStreamReader.java:245)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.<init>(JsonXMLStreamReader.java:88)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLInputFactory.createXMLStreamReader(JsonXMLInputFactory.java:170)
+	at org.apache.synapse.commons.json.JsonUtil.getReader(JsonUtil.java:466)
+	at org.apache.synapse.commons.json.JsonDataSource.getReader(JsonDataSource.java:154)
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.getDirectReader(OMSourcedElementImpl.java:224)
+	... 39 more
+Caused by: java.io.IOException: Illegal character: <F>
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonScanner.yylex(JsonScanner.java:777)
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonScanner.nextSymbol(JsonScanner.java:310)
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonStreamSourceImpl.next(JsonStreamSourceImpl.java:136)
+	at org.apache.synapse.commons.staxon.core.json.stream.impl.JsonStreamSourceImpl.peek(JsonStreamSourceImpl.java:272)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:157)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:190)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:160)
+	at org.apache.synapse.commons.staxon.core.json.JsonXMLStreamReader.consume(JsonXMLStreamReader.java:190)
+	at org.apache.synapse.commons.staxon.core.base.AbstractXMLStreamReader.initialize(AbstractXMLStreamReader.java:243)
+	... 44 more
+
+[2025-01-15 16:14:18,518]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-request, MessageID: urn:uuid:9a8fff2a-b0fe-45eb-8da0-0670047a0119, correlation_id: 9a8fff2a-b0fe-45eb-8da0-0670047a0119, Direction: request, FAULT_START_LOG = Executing Fault Sequence
+[2025-01-15 16:14:18,519] ERROR {ClientUtils} - The system cannot infer the transport information from the /fcc/v1/fccft-request URL.
+[2025-01-15 16:14:18,519] ERROR {Axis2Sender} - {api:FCCFTAPI} Unexpected error during sending message out. The system cannot infer the transport information from the /fcc/v1/fccft-request URL. org.apache.axis2.AxisFault: The system cannot infer the transport information from the /fcc/v1/fccft-request URL.
+	at org.apache.axis2.description.ClientUtils.inferOutTransport(ClientUtils.java:86)
+	at org.apache.synapse.core.axis2.DynamicAxisOperation$DynamicOperationClient.executeImpl(DynamicAxisOperation.java:124)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149)
+	at org.apache.synapse.core.axis2.Axis2FlexibleMEPClient.send(Axis2FlexibleMEPClient.java:675)
+	at org.apache.synapse.core.axis2.Axis2Sender.sendOn(Axis2Sender.java:89)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.send(Axis2SynapseEnvironment.java:623)
+	at org.apache.synapse.mediators.builtin.SendMediator.mediate(SendMediator.java:123)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:110)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.mediators.MediatorFaultHandler.onFault(MediatorFaultHandler.java:96)
+	at org.apache.synapse.FaultHandler.handleFault(FaultHandler.java:110)
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:107)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:399)
+	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:458)
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:206)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-01-15 16:14:18,526]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-request, MessageID: urn:uuid:9a8fff2a-b0fe-45eb-8da0-0670047a0119, correlation_id: 9a8fff2a-b0fe-45eb-8da0-0670047a0119, Direction: request, MESSAGE = Executing default 'fault' sequence, ERROR_CODE = 0, ERROR_MESSAGE = Error obtaining parser from data source:java.io.IOException: Illegal character: <F>, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><FCCFT><ERROR_PMNT><XREF/><ERROR><ECODE>0</ECODE><EDESC>Error obtaining parser from data source:java.io.IOException: Illegal character: &lt;F></EDESC></ERROR></ERROR_PMNT></FCCFT></soapenv:Body></soapenv:Envelope>
+[2025-01-15 16:16:47,318]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-request, MessageID: urn:uuid:d6984d83-e2e2-4708-bcc7-c67f30be058f, correlation_id: d6984d83-e2e2-4708-bcc7-c67f30be058f, Direction: request, FCCFT_REQUEST_START_LOG = Executing FCCFT Request In Sequence
+[2025-01-15 16:16:47,329]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-request, MessageID: urn:uuid:d6984d83-e2e2-4708-bcc7-c67f30be058f, correlation_id: d6984d83-e2e2-4708-bcc7-c67f30be058f, Direction: request, FCCRT_REQUEST_REQUEST_LOG = FCCRT_REQUEST_REQUEST_LOG, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><FCCFT><UPLOAD_PMNT><SCODE>NHM</SCODE><XREF>SUR10520323799</XREF><BRN>1</BRN><PRD>L</PRD><DRBRN>18</DRBRN><DRACC>18105000850</DRACC><DRCCY>USD</DRCCY><DRAMT>10</DRAMT><DRVALDT>20220204</DRVALDT><CRBRN/><CRACC/><CRCCY>USD</CRCCY><CRAMT>10</CRAMT><CRVALDT>20220204</CRVALDT><MSG_COVER/><MSG_AS_OF/><XRATE/><SPRD_COD/><MCKNO/><CHQNO/><CHG_WHOM>B</CHG_WHOM><UPLD_MSG_TYPE/><TDESC/><AUTHSTAT>U</AUTHSTAT><STTLMNT><BY_ORD_OF1/><BY_ORD_OF2/><BY_ORD_OF3/><BY_ORD_OF4/><ULT_BEN1>/12345678</ULT_BEN1><ULT_BEN2>AMIRCHAMP</ULT_BEN2><ULT_BEN3/><ULT_BEN4/><ACC_WITH_INST1>BARCGB210HV</ACC_WITH_INST1><ACC_WITH_INST2/><ACC_WITH_INST3/><ACC_WITH_INST4/><INTRMD1/><INTRMD2/><INTRMD3/><INTRMD4/><INTRMD5/><RECVR_CORRES1/><RECVR_CORRES2/><RECVR_CORRES3/><RECVR_CORRES4/><RECVR_CORRES5/><SNDR_RECVR_INFO1/><SNDR_RECVR_INFO2/><SNDR_RECVR_INFO3/><SNDR_RECVR_INFO4/><SNDR_RECVR_INFO5/><SNDR_RECVR_INFO6/><PMNT_DET1>TEST</PMNT_DET1><PMNT_DET2/><PMNT_DET3/><PMNT_DET4/><ORD_INST1/><ORD_INST2/><ORD_INST3/><ORD_INST4/><INT_REIM_INST1/><INT_REIM_INST2/><INT_REIM_INST3/><INT_REIM_INST4/><RECVR/><ERICCY/><ERIAMT/><LCY_EQV/><ULT_BEN5/><ACC_WITH_INST5/></STTLMNT></UPLOAD_PMNT></FCCFT></soapenv:Body></soapenv:Envelope>
+[2025-01-15 16:16:47,482]  INFO {NBCIBMMQMediator} - Send request success: Message successfully sent to the queue: LQ.BAR.FLEXWSO2REQUEST.01
+[2025-01-15 16:16:47,488]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-request, MessageID: urn:uuid:d6984d83-e2e2-4708-bcc7-c67f30be058f, correlation_id: d6984d83-e2e2-4708-bcc7-c67f30be058f, Direction: request, FCCRT_REQUEST_RESPONSE_LOG = FCCRT_REQUEST_RESPONSE_LOG, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><FCCFT xmlns="http://ws.apache.org/ns/synapse"><REPLY_PMNT><MESSAGE>Message successfully sent to the queue: LQ.BAR.FLEXWSO2REQUEST.01</MESSAGE></REPLY_PMNT></FCCFT></soapenv:Body></soapenv:Envelope>
+[2025-01-15 16:17:19,769]  INFO {SourceHandler} - Writer null when calling informWriterError
+[2025-01-15 16:17:19,769]  WARN {SourceHandler} - STATE_DESCRIPTION = Socket Timeout occurred after accepting the request headers and the request body, INTERNAL_STATE = REQUEST_DONE, DIRECTION = REQUEST, CAUSE_OF_ERROR = Connection between the client and the WSO2 server timeouts, HTTP_URL = /fcc/v1/fccft-request, HTTP_METHOD = POST, SOCKET_TIMEOUT = 180000, CLIENT_ADDRESS = /127.0.0.1:42070, CORRELATION_ID = 9a8fff2a-b0fe-45eb-8da0-0670047a0119, CONNECTION = http-incoming-208
+[2025-01-15 16:18:53,518]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-response, MessageID: urn:uuid:6d26c906-3d44-48c7-9f53-d011f260f590, correlation_id: 6d26c906-3d44-48c7-9f53-d011f260f590, Direction: request, FCCFT_RESPONSE_START_LOG = Executing FCCFT Response In Sequence
+[2025-01-15 16:18:53,518]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-response, MessageID: urn:uuid:6d26c906-3d44-48c7-9f53-d011f260f590, correlation_id: 6d26c906-3d44-48c7-9f53-d011f260f590, Direction: request, FCCRT_RESPONSE_REQUEST_LOG = FCCRT_RESPONSE_REQUEST_LOG, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+[2025-01-15 16:18:53,577]  INFO {NBCIBMMQMediator} - Get fcc response successfull: (
+
+<FCCFT>
+<HANDOFF_PMNT>
+    <FTPMNTDETAILS>
+        <FCCREF>001CBPL221530015</FCCREF>
+        <CONTSTAT>L</CONTSTAT>
+        <AUTHSTAT>A</AUTHSTAT>
+        <XREF>WSO2_STK_PRD_311</XREF>
+        <UREF>WSO2_STK_PRD_311</UREF>
+        <PRD>CBPL</PRD>
+        <DRBRN>030</DRBRN>
+        <DRCCY>TZS</DRCCY>
+        <DRAMT>284000</DRAMT>
+        <DRACC>030103002540</DRACC>
+        <DRVALDT>20240202</DRVALDT>
+        <CRBRN>001</CRBRN>
+        <CRCCY>TZS</CRCCY>
+        <CRAMT>284000</CRAMT>
+        <CRACC>001707439354</CRACC>
+        <CRVALDT>20240202</CRVALDT>
+        <XRATE>1</XRATE>
+        <MSG_COVER>N</MSG_COVER>
+        <MSG_AS_OF>B</MSG_AS_OF>
+        <SPRD_COD>9</SPRD_COD>
+        <CHG_WHOM>O</CHG_WHOM>
+        <TDESC>B2B|DT24020210006467|24110006859|BR|Edson Israel|Michael Justin-FSP Source Code : TIPS - CBPTIPS</TDESC>
+        <EVENT_CODE>INIT</EVENT_CODE>
+        <STATUS>P</STATUS>
+        <ACCTDT>20220602</ACCTDT>
+        <ACCTASOF>M</ACCTASOF>
+        <DRCUST>286315</DRCUST>
+        <CRCUST>743935</CRCUST>
+        <STTLMNT>
+            <BY_ORD_OF1>/030103002540</BY_ORD_OF1>
+            <BY_ORD_OF2>NAM_CUST_FULL_286315</BY_ORD_OF2>
+            <BY_ORD_OF3>TXT_PERMADR_ADD2_286315 TXT_PERMADR</BY_ORD_OF3>
+            <BY_ORD_OF4>NAM_PERMADR_CITY_286315</BY_ORD_OF4>
+            <ULT_BEN1>/24110006859</ULT_BEN1>
+            <ULT_BEN2>Edson Israel</ULT_BEN2>
+            <ULT_BEN3>NMIBTZT0 / 016</ULT_BEN3>
+            <ACC_WITH_INST1>NMIBTZT0</ACC_WITH_INST1>
+            <ACC_WITH_INST2>NMB Bank</ACC_WITH_INST2>
+            <ACC_WITH_INST3>24110006859</ACC_WITH_INST3>
+            <RECVR_CORRES5>CUSTOMERREF1706876103</RECVR_CORRES5>
+            <SNDR_RECVR_INFO1>CBP</SNDR_RECVR_INFO1>
+            <SNDR_RECVR_INFO6>REF: DT24020210006467</SNDR_RECVR_INFO6>
+            <PMNT_DET1>AMOUNT: 284000 - TZS</PMNT_DET1>
+            <PMNT_DET2>FROM: Michael Justin</PMNT_DET2>
+            <PMNT_DET3>TO: Edson Israel</PMNT_DET3>
+            <INT_REIM_INST5>743935</INT_REIM_INST5>
+            <ERIAMT>284000</ERIAMT>
+        </STTLMNT>
+    </FTPMNTDETAILS>
+    <MISDETAILS>
+        <RTFLAG>P</RTFLAG>
+        <POOLCD>DFLTPOOL</POOLCD>
+        <REFRTTYPE>1</REFRTTYPE>
+        <REFRTSPRD>002</REFRTSPRD>
+        <TXNMIS3>1012</TXNMIS3>
+        <TXNMIS4>20019</TXNMIS4>
+        <TXNMIS5>41012</TXNMIS5>
+        <TXNMIS6>99999</TXNMIS6>
+    </MISDETAILS>
+    <UDFDETAILS>
+        <FIELD_NAME>FSPAVAILABLE</FIELD_NAME>
+        <FIELD_VALUE>TRUE</FIELD_VALUE>
+    </UDFDETAILS>
+    <UDFDETAILS>
+        <FIELD_NAME>PURPOSE_OF_PAYMENT</FIELD_NAME>
+        <FIELD_VALUE>B2B|DT24020210006467|24110006859|BR|Edson Israel|Michael Justin</FIELD_VALUE>
+    </UDFDETAILS>
+    <UDFDETAILS>
+        <FIELD_NAME>TIPS_0</FIELD_NAME>
+        <FIELD_VALUE>BankSWIFTCode:NMIBTZT0</FIELD_VALUE>
+    </UDFDETAILS>
+    <ETC>
+        <SLNO>-1</SLNO>
+    </ETC>
+</HANDOFF_PMNT></FCCFT>)
+[2025-01-15 16:18:53,583]  INFO {LogMediator} - {api:FCCFTAPI} To: /fcc/v1/fccft-response, MessageID: urn:uuid:6d26c906-3d44-48c7-9f53-d011f260f590, correlation_id: 6d26c906-3d44-48c7-9f53-d011f260f590, Direction: request, FCCRT_RESPONSE_REQUEST_LOG = FCCRT_RESPONSE_REQUEST_LOG, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
