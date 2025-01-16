@@ -1,0 +1,400 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: '15'
+    meta.helm.sh/release-name: wso2amdev
+    meta.helm.sh/release-namespace: integration-patform-dev
+  resourceVersion: '2339979984'
+  name: wso2am-pattern-3-am-gateway-deployment
+  uid: 8eac76b0-04b8-495d-afe6-8a2a764a82ab
+  creationTimestamp: '2023-12-08T08:23:25Z'
+  generation: 18
+  managedFields:
+    - manager: kubectl-rollout
+      operation: Update
+      apiVersion: apps/v1
+      time: '2024-01-03T07:51:29Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:spec':
+          'f:template':
+            'f:metadata':
+              'f:annotations':
+                'f:kubectl.kubernetes.io/restartedAt': {}
+    - manager: kubectl-edit
+      operation: Update
+      apiVersion: apps/v1
+      time: '2024-09-09T17:26:23Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:spec':
+          'f:template':
+            'f:spec':
+              'f:containers':
+                'k:{"name":"wso2am-gateway"}':
+                  'f:securityContext':
+                    'f:allowPrivilegeEscalation': {}
+    - manager: helm
+      operation: Update
+      apiVersion: apps/v1
+      time: '2025-01-14T14:49:07Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:metadata':
+          'f:annotations':
+            .: {}
+            'f:meta.helm.sh/release-name': {}
+            'f:meta.helm.sh/release-namespace': {}
+          'f:labels':
+            .: {}
+            'f:app.kubernetes.io/managed-by': {}
+        'f:spec':
+          'f:progressDeadlineSeconds': {}
+          'f:revisionHistoryLimit': {}
+          'f:selector': {}
+          'f:strategy':
+            'f:rollingUpdate':
+              .: {}
+              'f:maxSurge': {}
+              'f:maxUnavailable': {}
+            'f:type': {}
+          'f:template':
+            'f:metadata':
+              'f:annotations':
+                .: {}
+                'f:checksum.am.gw.conf': {}
+              'f:labels':
+                .: {}
+                'f:deployment': {}
+                'f:product': {}
+            'f:spec':
+              'f:volumes':
+                .: {}
+                'k:{"name":"wso2am-gateway-conf"}':
+                  .: {}
+                  'f:configMap':
+                    .: {}
+                    'f:defaultMode': {}
+                    'f:name': {}
+                  'f:name': {}
+              'f:containers':
+                'k:{"name":"wso2am-gateway"}':
+                  'f:startupProbe':
+                    .: {}
+                    'f:exec':
+                      .: {}
+                      'f:command': {}
+                    'f:failureThreshold': {}
+                    'f:initialDelaySeconds': {}
+                    'f:periodSeconds': {}
+                    'f:successThreshold': {}
+                    'f:timeoutSeconds': {}
+                  'f:volumeMounts':
+                    .: {}
+                    'k:{"mountPath":"/home/wso2carbon/wso2-config-volume/repository/conf"}':
+                      .: {}
+                      'f:mountPath': {}
+                      'f:name': {}
+                  'f:terminationMessagePolicy': {}
+                  .: {}
+                  'f:resources':
+                    .: {}
+                    'f:limits':
+                      .: {}
+                      'f:cpu': {}
+                      'f:memory': {}
+                    'f:requests':
+                      .: {}
+                      'f:cpu': {}
+                      'f:memory': {}
+                  'f:lifecycle':
+                    .: {}
+                    'f:preStop':
+                      .: {}
+                      'f:exec':
+                        .: {}
+                        'f:command': {}
+                  'f:livenessProbe':
+                    .: {}
+                    'f:failureThreshold': {}
+                    'f:httpGet':
+                      .: {}
+                      'f:path': {}
+                      'f:port': {}
+                      'f:scheme': {}
+                    'f:periodSeconds': {}
+                    'f:successThreshold': {}
+                    'f:timeoutSeconds': {}
+                  'f:env':
+                    .: {}
+                    'k:{"name":"JVM_MEM_OPTS"}':
+                      .: {}
+                      'f:name': {}
+                      'f:value': {}
+                    'k:{"name":"NODE_IP"}':
+                      .: {}
+                      'f:name': {}
+                      'f:valueFrom':
+                        .: {}
+                        'f:fieldRef': {}
+                    'k:{"name":"PROFILE_NAME"}':
+                      .: {}
+                      'f:name': {}
+                      'f:value': {}
+                    'k:{"name":"TZ"}':
+                      .: {}
+                      'f:name': {}
+                      'f:value': {}
+                  'f:readinessProbe':
+                    .: {}
+                    'f:failureThreshold': {}
+                    'f:httpGet':
+                      .: {}
+                      'f:path': {}
+                      'f:port': {}
+                      'f:scheme': {}
+                    'f:initialDelaySeconds': {}
+                    'f:periodSeconds': {}
+                    'f:successThreshold': {}
+                    'f:timeoutSeconds': {}
+                  'f:securityContext':
+                    .: {}
+                    'f:runAsUser': {}
+                  'f:terminationMessagePath': {}
+                  'f:imagePullPolicy': {}
+                  'f:ports':
+                    .: {}
+                    'k:{"containerPort":8243,"protocol":"TCP"}':
+                      .: {}
+                      'f:containerPort': {}
+                      'f:protocol': {}
+                    'k:{"containerPort":8280,"protocol":"TCP"}':
+                      .: {}
+                      'f:containerPort': {}
+                      'f:protocol': {}
+                    'k:{"containerPort":9443,"protocol":"TCP"}':
+                      .: {}
+                      'f:containerPort': {}
+                      'f:protocol': {}
+                    'k:{"containerPort":9763,"protocol":"TCP"}':
+                      .: {}
+                      'f:containerPort': {}
+                      'f:protocol': {}
+                  'f:name': {}
+              'f:dnsPolicy': {}
+              'f:serviceAccount': {}
+              'f:restartPolicy': {}
+              'f:schedulerName': {}
+              'f:terminationGracePeriodSeconds': {}
+              'f:initContainers':
+                .: {}
+                'k:{"name":"init-cp"}':
+                  .: {}
+                  'f:command': {}
+                  'f:image': {}
+                  'f:imagePullPolicy': {}
+                  'f:name': {}
+                  'f:resources': {}
+                  'f:terminationMessagePath': {}
+                  'f:terminationMessagePolicy': {}
+              'f:serviceAccountName': {}
+              'f:securityContext': {}
+    - manager: Mozilla
+      operation: Update
+      apiVersion: apps/v1
+      time: '2025-01-16T09:10:52Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:spec':
+          'f:template':
+            'f:spec':
+              'f:containers':
+                'k:{"name":"wso2am-gateway"}':
+                  'f:image': {}
+    - manager: kube-controller-manager
+      operation: Update
+      apiVersion: apps/v1
+      time: '2025-01-16T09:10:53Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:metadata':
+          'f:annotations':
+            'f:deployment.kubernetes.io/revision': {}
+        'f:status':
+          'f:availableReplicas': {}
+          'f:conditions':
+            .: {}
+            'k:{"type":"Available"}':
+              .: {}
+              'f:lastTransitionTime': {}
+              'f:lastUpdateTime': {}
+              'f:message': {}
+              'f:reason': {}
+              'f:status': {}
+              'f:type': {}
+            'k:{"type":"Progressing"}':
+              .: {}
+              'f:lastTransitionTime': {}
+              'f:lastUpdateTime': {}
+              'f:message': {}
+              'f:reason': {}
+              'f:status': {}
+              'f:type': {}
+          'f:observedGeneration': {}
+          'f:readyReplicas': {}
+          'f:replicas': {}
+          'f:unavailableReplicas': {}
+          'f:updatedReplicas': {}
+      subresource: status
+  namespace: integration-patform-dev
+  labels:
+    app.kubernetes.io/managed-by: Helm
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      deployment: wso2am-pattern-3-am-gateway
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        deployment: wso2am-pattern-3-am-gateway
+        product: apim
+      annotations:
+        checksum.am.gw.conf: 106559d9014463ccb074de519a95fb2e17ccc824c1d914e9f38d8f0c2e8d740f
+        kubectl.kubernetes.io/restartedAt: '2024-02-06T14:55:39+03:00'
+    spec:
+      restartPolicy: Always
+      initContainers:
+        - name: init-cp
+          image: 'busybox:1.32'
+          command:
+            - sh
+            - '-c'
+            - >-
+              echo -e "Checking for the availability of Control Plane
+              deployment"; while ! nc -z wso2am-pattern-3-am-cp-service 9443; do
+              sleep 1; printf "-"; done; echo -e "  >> Control Plane has
+              started";
+          resources: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          imagePullPolicy: IfNotPresent
+      serviceAccountName: wso2am-pattern-3-svc-account
+      schedulerName: default-scheduler
+      terminationGracePeriodSeconds: 30
+      securityContext: {}
+      containers:
+        - resources:
+            limits:
+              cpu: '2'
+              memory: 2Gi
+            requests:
+              cpu: '1'
+              memory: 1Gi
+          readinessProbe:
+            httpGet:
+              path: /services/Version
+              port: 9763
+              scheme: HTTP
+            initialDelaySeconds: 50
+            timeoutSeconds: 1
+            periodSeconds: 10
+            successThreshold: 1
+            failureThreshold: 3
+          terminationMessagePath: /dev/termination-log
+          lifecycle:
+            preStop:
+              exec:
+                command:
+                  - sh
+                  - '-c'
+                  - '${WSO2_SERVER_HOME}/bin/api-manager.sh stop'
+          name: wso2am-gateway
+          livenessProbe:
+            httpGet:
+              path: /services/Version
+              port: 9763
+              scheme: HTTP
+            timeoutSeconds: 1
+            periodSeconds: 10
+            successThreshold: 1
+            failureThreshold: 3
+          env:
+            - name: TZ
+              value: Africa/Nairobi
+            - name: PROFILE_NAME
+              value: gateway-worker
+            - name: NODE_IP
+              valueFrom:
+                fieldRef:
+                  apiVersion: v1
+                  fieldPath: status.podIP
+            - name: JVM_MEM_OPTS
+              value: '-Xms512m -Xmx512m'
+          securityContext:
+            runAsUser: 802
+            allowPrivilegeEscalation: false
+          ports:
+            - containerPort: 8280
+              protocol: TCP
+            - containerPort: 8243
+              protocol: TCP
+            - containerPort: 9763
+              protocol: TCP
+            - containerPort: 9443
+              protocol: TCP
+          imagePullPolicy: Always
+          startupProbe:
+            exec:
+              command:
+                - /bin/sh
+                - '-c'
+                - nc -z localhost 8243
+            initialDelaySeconds: 45
+            timeoutSeconds: 1
+            periodSeconds: 5
+            successThreshold: 1
+            failureThreshold: 8
+          volumeMounts:
+            - name: wso2am-gateway-conf
+              mountPath: /home/wso2carbon/wso2-config-volume/repository/conf
+          terminationMessagePolicy: File
+          image: 'wamboza/wso2am:4.2.0.127'
+      serviceAccount: wso2am-pattern-3-svc-account
+      volumes:
+        - name: wso2am-gateway-conf
+          configMap:
+            name: wso2am-pattern-3-am-gateway-conf
+            defaultMode: 420
+      dnsPolicy: ClusterFirst
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 2
+  revisionHistoryLimit: 10
+  progressDeadlineSeconds: 600
+status:
+  observedGeneration: 18
+  replicas: 4
+  updatedReplicas: 2
+  readyReplicas: 1
+  availableReplicas: 1
+  unavailableReplicas: 3
+  conditions:
+    - type: Available
+      status: 'False'
+      lastUpdateTime: '2025-01-14T15:11:20Z'
+      lastTransitionTime: '2025-01-14T15:11:20Z'
+      reason: MinimumReplicasUnavailable
+      message: Deployment does not have minimum availability.
+    - type: Progressing
+      status: 'False'
+      lastUpdateTime: '2025-01-16T09:20:54Z'
+      lastTransitionTime: '2025-01-16T09:20:54Z'
+      reason: ProgressDeadlineExceeded
+      message: >-
+        ReplicaSet "wso2am-pattern-3-am-gateway-deployment-56468ff565" has timed
+        out progressing.
