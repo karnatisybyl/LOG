@@ -290,21 +290,6 @@ spec:
         kubectl.kubernetes.io/restartedAt: '2024-02-06T14:56:28+03:00'
     spec:
       restartPolicy: Always
-      initContainers:
-        - name: init-db
-          image: 'busybox:1.32'
-          command:
-            - sh
-            - '-c'
-            - >-
-              echo -e "Checking for the availability of DB Server deployment";
-              while ! nc -z "22.32.245.181" 5432; do sleep 1; printf "-"; done;
-              echo -e "  >> DB Server has started";
-          resources: {}
-          terminationMessagePath: /dev/termination-log
-          terminationMessagePolicy: File
-          imagePullPolicy: IfNotPresent
-        - name: init-db-connector-download
           image: 'busybox:1.32'
           command:
             - /bin/sh
@@ -391,17 +376,6 @@ spec:
             - containerPort: 5672
               protocol: TCP
           imagePullPolicy: Always
-          startupProbe:
-            exec:
-              command:
-                - /bin/sh
-                - '-c'
-                - nc -z localhost 9443
-            initialDelaySeconds: 60
-            timeoutSeconds: 1
-            periodSeconds: 5
-            successThreshold: 1
-            failureThreshold: 8
           volumeMounts:
             - name: wso2am-conf
               mountPath: /home/wso2carbon/wso2-config-volume/repository/conf
