@@ -1,231 +1,57 @@
-<resource methods="POST" url-mapping="/createLoanAccountForIBOC">
-        <inSequence>
-            <property action="remove" name="REST_URL_POSTFIX" scope="axis2"/>
-            <log level="custom">
-                <property name="createLoanAccountForIBOCRequest" value="Start createLoanAccountForIBOC --------------------"/>
-            </log>
-            <log level="full"/>
-            <!--  <datamapper config="gov:datamapper/CreateLoanAccount.dmc" description="Create Loan Account Mapper" inputSchema="gov:datamapper/CreateLoanAccount_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/CreateLoanAccount_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/CreateLoanAccount_xsltStyleSheet.xml"/>
-            <log level="full"/>-->
-                  <payloadFactory media-type="xml">
-                <format>
-                    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
-                                    xmlns:spi="http://spi.loans.app.fcr.iflex.com"
-                                    xmlns:con="http://context.app.fcr.iflex.com"
-                                    xmlns:dto="http://dto.spi.loans.app.fcr.iflex.com"
-                                    xmlns:dto1="http://dto.global.app.fcr.iflex.com">
-                        <soapenv:Header/>
-                        <soapenv:Body>
-                            <spi:createLoanAccountForIBOC>
-                              
-                                <spi:sessionContext>
-                                    <con:bankCode>$1</con:bankCode>
-                                    <con:channel>$2</con:channel>
-                                    <con:externalBatchNumber>$3</con:externalBatchNumber>
-                                    <con:externalReferenceNo>$4</con:externalReferenceNo>
-                                    <con:externalSystemAuditTrailNumber>$5</con:externalSystemAuditTrailNumber>
-                                    <con:localDateTimeText>$6</con:localDateTimeText>
-                                    <con:originalReferenceNo>$7</con:originalReferenceNo>
-                                    <con:overridenWarnings>$8</con:overridenWarnings>
-                                    <con:postingDateText>$9</con:postingDateText>
-                                    <con:reason>
-                                        <con:comment>$10</con:comment>
-                                        <con:reasonCode>$11</con:reasonCode>
-                                    </con:reason>
-                                    <con:serviceCode>$12</con:serviceCode>
-                                    <con:sessionTicket>$13</con:sessionTicket>
-                                    <con:supervisorContext>
-                                        <con:primaryPassword>$14</con:primaryPassword>
-                                        <con:userId>$15</con:userId>
-                                    </con:supervisorContext>
-                                    <con:transactionBranch>$16</con:transactionBranch>
-                                    <con:userId>$17</con:userId>
-                                    <con:userReferenceNumber>$18</con:userReferenceNumber>
-                                    <con:valueDateText>$19</con:valueDateText>
-                                </spi:sessionContext>
-                                
-                                <spi:loanDirectAccountDetails>
-                                    <dto:assetValue>$20</dto:assetValue>
-                                    <dto:branchCode>$21</dto:branchCode>
-                                    <dto:contribution>$22</dto:contribution>
-                                    <dto:customerId>$23</dto:customerId>
-                                    <dto:customerRelation>$24</dto:customerRelation>
-                                    <dto:interestRate>$25</dto:interestRate>
-                                    <dto:loanAmount>$26</dto:loanAmount>
-                                    <dto:loanPurpose>$27</dto:loanPurpose>
-                                    <dto:loanTerm>$28</dto:loanTerm>
-                                    <dto:productCode>$29</dto:productCode>
-                                    <dto:repaymentMode>$30</dto:repaymentMode>
-                                    <dto:scheduleCode>$31</dto:scheduleCode>
-                                </spi:loanDirectAccountDetails>
-                                
-                                <spi:customerAndRelation>
-                                    <dto1:customerId>$32</dto1:customerId>
-                                    <dto1:customerName>$33</dto1:customerName>
-                                    <dto1:relation>$34</dto1:relation>
-                                </spi:customerAndRelation>
-                                
-                                <spi:flgRepaymentInstruction>$35</spi:flgRepaymentInstruction>
-                                
-                                <spi:loanPaymentInstructions>
-                                    <dto:arrearType>$36</dto:arrearType>
-                                    <dto:drawDownOnSalaryCredit>$37</dto:drawDownOnSalaryCredit>
-                                    <dto:percentageSalaryToBeDrawnDown>$38</dto:percentageSalaryToBeDrawnDown>
-                                    <dto:savingsAccountId>$39</dto:savingsAccountId>
-                                    <dto:transferFromSavings>$40</dto:transferFromSavings>
-                                </spi:loanPaymentInstructions>
-                                
-                                <spi:employerCode>$41</spi:employerCode>
-                            </spi:createLoanAccountForIBOC>
-                        </soapenv:Body>
-                    </soapenv:Envelope>
-                </format>
-                <args>
-                    
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.bankCode"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.channel"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.externalBatchNumber"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.externalReferenceNo"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.externalSystemAuditTrailNumber"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.localDateTimeText"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.originalReferenceNo"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.overridenWarnings"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.postingDateText"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.reason.comment"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.reason.reasonCode"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.serviceCode"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.sessionTicket"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.supervisorContext.primaryPassword"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.supervisorContext.userId"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.transactionBranch"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.userId"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.userReferenceNumber"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.sessionContext.valueDateText"/>
-                  
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanDirectAccountDetails.assetValue"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanDirectAccountDetails.branchCode"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanDirectAccountDetails.contribution"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanDirectAccountDetails.customerId"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanDirectAccountDetails.customerRelation"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanDirectAccountDetails.interestRate"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanDirectAccountDetails.loanAmount"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanDirectAccountDetails.loanPurpose"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanDirectAccountDetails.loanTerm"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanDirectAccountDetails.productCode"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanDirectAccountDetails.repaymentMode"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanDirectAccountDetails.scheduleCode"/>
-                    
-                   
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.customerAndRelation.customerId"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.customerAndRelation.customerName"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.customerAndRelation.relation"/>
-                    
-                    
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.flgRepaymentInstruction"/>
-                    
-                    
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanPaymentInstructions.arrearType"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanPaymentInstructions.drawDownOnSalaryCredit"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanPaymentInstructions.percentageSalaryToBeDrawnDown"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanPaymentInstructions.savingsAccountId"/>
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.loanPaymentInstructions.transferFromSavings"/>
-                   
-                    <arg evaluator="json" expression="$.createLoanAccountForIBOC.employerCode"/>
-                </args>
-            </payloadFactory>
-            <property name="messageType" scope="axis2" type="STRING" value="text/xml"/>
-            <property name="Content-Type" scope="axis2" type="STRING" value="text/xml"/>
-            <header description="SOAPAction" name="SOAPAction" scope="transport" value="createLoanAccountForIBOC"/>
-            <property name="SoapAction" scope="transport" type="STRING" value="createLoanAccountForIBOC"/>
-            <call blocking="true">
-                <endpoint key="LoansManager_EP"/>
-            </call>
-            <log level="custom">
-                <property name="createLoanAccountForIBOCResponse" value="createLoanAccountForIBOCResponse --------------------"/>
-            </log>
-            <log level="full"/>
-            <filter regex="200" source="get-property('axis2', 'HTTP_SC')">
-                <then>
-                    <payloadFactory media-type="json">
-                        <format>
 {
-  "createLoanAccountForIBOCResponse": {
-    "createLoanAccountForIBOCReturn": {
-      "status": {
-        "errorCode": $1,
-        "extendedReply": {
-          "messages": ""
-        },
-        "externalReferenceNo": "$2",
-        "inputOverridenWarnings": "",
-        "isOverriden": "$3",
-        "isServiceChargeApplied": $4,
-        "memo": "",
-        "replyCode": $5,
-        "replyText": "$6",
-        "spReturnValue": $7,
-        "transactionDateTimeText": $8,
-        "userReferenceNumber": "$9",
-        "validationErrors": ""
+  "createLoanAccountForIBOC": {
+    "sessionContext": {
+      "bankCode": 15,
+      "channel": "LOS",
+      "externalBatchNumber": 0,
+      "externalReferenceNo": "",
+      "externalSystemAuditTrailNumber": 0,
+      "localDateTimeText": "",
+      "originalReferenceNo": "",
+      "overridenWarnings": "",
+      "postingDateText": "",
+      "reason": {
+        "comment": "",
+        "reasonCode": 0
       },
-      "accountId": "$10"
-    }
+      "serviceCode": "",
+      "sessionTicket": "",
+      "supervisorContext": {
+        "primaryPassword": "",
+        "userId": ""
+      },
+      "transactionBranch": 999,
+      "userId": "RLOS",
+      "userReferenceNumber": "",
+      "valueDateText": 20200501
+    },
+    "loanDirectAccountDetails": {
+      "assetValue": 900000,
+      "branchCode": 1,
+      "contribution": 0,
+      "customerId": 724870,
+      "customerRelation": "SOW",
+      "interestRate": 13,
+      "loanAmount": 900000,
+      "loanPurpose": "Require2SC11",
+      "loanTerm": 60,
+      "productCode": 450,
+      "repaymentMode": 2,
+      "scheduleCode": 105
+    },
+    "customerAndRelation": {
+      "customerId": 724870,
+      "customerName": "",
+      "relation": ""
+    },
+    "flgRepaymentInstruction": "Y",
+    "loanPaymentInstructions": {
+      "arrearType": 0,
+      "drawDownOnSalaryCredit": true,
+      "percentageSalaryToBeDrawnDown": 100,
+      "savingsAccountId": "012206000123",
+      "transferFromSavings": "Y"
+    },
+    "employerCode": ""
   }
 }
-                        </format>
-                        <args>
-                            <arg evaluator="xml" expression="//*[local-name()='errorCode']"/>
-                            <arg evaluator="xml" expression="//*[local-name()='externalReferenceNo']"/>
-                            <arg evaluator="xml" expression="//*[local-name()='isOverriden']"/>
-                            <arg evaluator="xml" expression="//*[local-name()='isServiceChargeApplied']"/>
-                            <arg evaluator="xml" expression="//*[local-name()='replyCode']"/>
-                            <arg evaluator="xml" expression="$body//createLoanAccountForIBOCResponse//createLoanAccountForIBOCReturn//status//replyText"/>
-                            <arg evaluator="xml" expression="//*[local-name()='spReturnValue']"/>
-                            <arg evaluator="xml" expression="//*[local-name()='transactionDateTimeText']"/>
-                            <arg evaluator="xml" expression="$body//createLoanAccountForIBOCResponse//createLoanAccountForIBOCReturn//status//userReferenceNumber"/>
-                            <arg evaluator="xml" expression="//*[local-name()='accountId']"/>
-                        </args>
-                    </payloadFactory>
-                    <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
-                    <property name="ContentType" scope="transport" type="STRING" value="application/json"/>
-                    <respond/>
-                </then>
-                <else>
-                    <payloadFactory media-type="json">
-                        <format>
-                            {
-                                "errorCode": "$1",
-                                "errorDesc": "$2",
-                                "errorMsg": "$3"
-                            }
-                        </format>
-                        <args>
-                            <arg evaluator="xml" expression="//*[local-name()='errorCode']"/>
-                            <arg evaluator="xml" expression="//*[local-name()='message']"/>
-                            <arg evaluator="xml" expression="//*[local-name()='faultstring']"/>
-                        </args>
-                    </payloadFactory>
-                    <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
-                    <property name="ContentType" scope="axis2" type="STRING" value="application/json"/>
-                    <respond/>
-                </else>
-            </filter>
-        </inSequence>
-        <outSequence/>
-        <faultSequence>
-            <payloadFactory media-type="json">
-                <format>
-                    {
-                        "errorCode": "500",
-                        "errorDesc": "Internal Server Error",
-                        "errorMsg": "Error In MiddleWare"
-                    }
-                </format>
-                <args/>
-            </payloadFactory>
-            <property name="HTTP_SC" scope="axis2" type="STRING" value="500"/>
-            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
-            <property name="ContentType" scope="axis2" type="STRING" value="application/json"/>
-            <respond/>
-        </faultSequence>
-    </resource>
