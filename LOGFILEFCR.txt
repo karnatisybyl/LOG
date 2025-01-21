@@ -1,5 +1,8 @@
-2025-01-21 13:18:47,358]  WARN {EndpointContext} - Suspending endpoint : LoansManager_EP with address https://fcrapi.uiauat.tz.af.absa.local/services/services/LoansManagerSpi - current suspend duration is : 30000ms - Next retry after : Tue Jan 21 13:19:17 EAT 2025
-[2025-01-21 13:20:09,296]  INFO {LogMediator} - {api:LoansManager:v1.0.0} To: /loans/createLoanAccountForIBOC, MessageID: urn:uuid:623731c0-9702-48c1-8d22-3a9741d2283b, correlation_id: e378bb7b-d092-45b7-ab15-a552f1681739, Direction: request, createLoanAccountForIBOCRequest = Start createLoanAccountForIBOC --------------------, Payload: {
+curl --location 'https://internal-gateway-dev.apps.ocp4-kawe.tz.af.absa.local/loans/1.0.0/createLoanAccountForIBOC' \
+--header 'accept: */*' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJ4NXQiOiJNelpoWVRRMVpqTTNOV1UxWXpWak4yVXdaR00yTWpJd05tTmhZams0T1dVd09UWTBaakU1WkdJMFlUZGhaamN5TW1aaE16azNZMk16WWpka05USXhZZyIsImtpZCI6Ik16WmhZVFExWmpNM05XVTFZelZqTjJVd1pHTTJNakl3Tm1OaFlqazRPV1V3T1RZMFpqRTVaR0kwWVRkaFpqY3lNbVpoTXprM1kyTXpZamRrTlRJeFlnX1JTMjU2IiwidHlwIjoiYXQrand0IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI1ZjZiYjU0OC1jMWU3LTRhZTItYmNiNi05NTYwYTBhMmE2MjAiLCJhdXQiOiJBUFBMSUNBVElPTiIsImF1ZCI6IkdHNDJqMlFCNHRwSkZJeDVpVVR0d0luQWpWRWEiLCJuYmYiOjE3Mzc0NjI3OTEsImF6cCI6IkdHNDJqMlFCNHRwSkZJeDVpVVR0d0luQWpWRWEiLCJzY29wZSI6ImRlZmF1bHQiLCJpc3MiOiJodHRwczpcL1wvYW0tZGV2LmFwcHMub2NwNC1rYXdlLnR6LmFmLmFic2EubG9jYWw6NDQzXC9vYXV0aDJcL3Rva2VuIiwiZXhwIjoxNzM3NDY2MzkxLCJpYXQiOjE3Mzc0NjI3OTEsImp0aSI6IjdjY2NiZjNlLTJkNTEtNDRjZS05NDkzLTViYTdhMjYzY2E3YSIsImNsaWVudF9pZCI6IkdHNDJqMlFCNHRwSkZJeDVpVVR0d0luQWpWRWEifQ.QuPH2zeR8V2hu9afYnhiTZsw8iwoZw0D5J9L4vix-n0tOxxje4SUl8zV0kIBpjqksFhzOzfPcswX-CTgjMm28RNHLICz3Dz8OsUKn5GwZsSxXVTtwJi2GbanK4Gu5Jk1x_DZ1GSsG4l7k2QPpS3QfFXPX2_nFsf-l6NkYmiz4y3tFterkpTWzea1ORNR0CXCbsrtsHclJM-P7UNa7suL2kbM6OrWi1TDhPJNiaqBPwsCFGPzcuKNkrSGsxGhfouTuzgM1SkFBQC7tMaENlJ6DoBd1yPvSG1pBk16iC2j8x_qQB-NWWBfPyagtpHbK84kU69MZ5Aozff8x-li0uoQAw' \
+--data '{
   "createLoanAccountForIBOC": {
     "sessionContext": {
       "postingDateText": "",
@@ -28,7 +31,7 @@
     },
     "employerCode": "",
     "customerAndRelation": {
-      "customerId": "",
+      "customerId": "0000743446",
       "customerName": "",
       "relation": ""
     },
@@ -56,65 +59,4 @@
     "flgRepaymentInstruction": "Y"
   }
 }
-
-[2025-01-21 13:20:09,302]  INFO {LogMediator} - {api:LoansManager:v1.0.0} To: /loans/createLoanAccountForIBOC, MessageID: urn:uuid:623731c0-9702-48c1-8d22-3a9741d2283b, correlation_id: e378bb7b-d092-45b7-ab15-a552f1681739, Direction: request, beforeEP = beforeEP, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:dto1="http://dto.global.app.fcr.iflex.com" xmlns:spi="http://spi.loans.app.fcr.iflex.com" xmlns:dto="http://dto.spi.loans.app.fcr.iflex.com"><soapenv:Body><spi:createLoanAccountForIBOC><spi:sessionContext><con:postingDateText/><con:bankCode>15</con:bankCode><con:reason><con:comment/><con:reasonCode>0</con:reasonCode></con:reason><con:serviceCode/><con:externalBatchNumber>0</con:externalBatchNumber><con:supervisorContext><con:primaryPassword/><con:userId/></con:supervisorContext><con:channel>LOS</con:channel><con:localDateTimeText/><con:externalReferenceNo/><con:userId>RLOS</con:userId><con:originalReferenceNo/><con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber><con:overridenWarnings/><con:transactionBranch>999</con:transactionBranch><con:sessionTicket/><con:valueDateText>20200501</con:valueDateText><con:userReferenceNumber/></spi:sessionContext><spi:employerCode/><spi:customerAndRelation><dto1:customerId/><dto1:customerName/><dto1:relation/></spi:customerAndRelation><spi:loanPaymentInstructions><dto:arrearType>0</dto:arrearType><dto:transferFromSavings>Y</dto:transferFromSavings><dto:savingsAccountId>012206000123</dto:savingsAccountId><dto:percentageSalaryToBeDrawnDown>0</dto:percentageSalaryToBeDrawnDown><dto:drawDownOnSalaryCredit/></spi:loanPaymentInstructions><spi:loanDirectAccountDetails><dto:branchCode>1</dto:branchCode><dto:interestRate>14</dto:interestRate><dto:loanTerm>57</dto:loanTerm><dto:contribution>0</dto:contribution><dto:customerRelation>SOW</dto:customerRelation><dto:productCode>469</dto:productCode><dto:customerId>0000743446</dto:customerId><dto:loanPurpose>HITEM</dto:loanPurpose><dto:scheduleCode>469</dto:scheduleCode><dto:assetValue>800000</dto:assetValue><dto:repaymentMode>2</dto:repaymentMode><dto:loanAmount>800000</dto:loanAmount></spi:loanDirectAccountDetails><spi:flgRepaymentInstruction>Y</spi:flgRepaymentInstruction></spi:createLoanAccountForIBOC></soapenv:Body></soapenv:Envelope>
-[2025-01-21 13:20:09,318]  INFO {BuilderUtil} - OMException in getSOAPBuilder org.apache.axiom.om.OMException: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '"' (code 34) in DOCTYPE declaration; expected a space between public and system identifiers
- at [row,col {unknown-source}]: [1,50]
-	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:296)
-	at org.apache.axiom.soap.impl.builder.StAXSOAPModelBuilder.getSOAPEnvelope(StAXSOAPModelBuilder.java:204)
-	at org.apache.axiom.soap.impl.builder.StAXSOAPModelBuilder.<init>(StAXSOAPModelBuilder.java:154)
-	at org.apache.axiom.soap.impl.builder.StAXSOAPModelBuilder.<init>(StAXSOAPModelBuilder.java:140)
-	at org.apache.axis2.builder.BuilderUtil.getSOAPBuilder(BuilderUtil.java:703)
-	at org.apache.axis2.transport.TransportUtils.createDocumentElement(TransportUtils.java:206)
-	at org.apache.axis2.transport.TransportUtils.createSOAPMessage(TransportUtils.java:146)
-	at org.apache.axis2.transport.TransportUtils.createSOAPMessage(TransportUtils.java:109)
-	at org.apache.axis2.transport.TransportUtils.createSOAPMessage(TransportUtils.java:68)
-	at org.apache.axis2.description.OutInAxisOperationClient.handleResponse(OutInAxisOperation.java:359)
-	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:464)
-	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:235)
-	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149)
-	at org.apache.synapse.message.senders.blocking.BlockingMsgSender.sendReceive(BlockingMsgSender.java:521)
-	at org.apache.synapse.message.senders.blocking.BlockingMsgSender.send(BlockingMsgSender.java:393)
-	at org.apache.synapse.core.axis2.Axis2FlexibleMEPClient.send(Axis2FlexibleMEPClient.java:99)
-	at org.apache.synapse.core.axis2.Axis2Sender.sendOn(Axis2Sender.java:86)
-	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.send(Axis2SynapseEnvironment.java:591)
-	at org.apache.synapse.endpoints.AbstractEndpoint.send(AbstractEndpoint.java:423)
-	at org.apache.synapse.endpoints.AddressEndpoint.send(AddressEndpoint.java:79)
-	at org.apache.synapse.endpoints.IndirectEndpoint.send(IndirectEndpoint.java:56)
-	at org.apache.synapse.mediators.builtin.CallMediator.handleBlockingCall(CallMediator.java:244)
-	at org.apache.synapse.mediators.builtin.CallMediator.mediate(CallMediator.java:198)
-	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:102)
-	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:72)
-	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
-	at org.apache.synapse.api.Resource.process(Resource.java:342)
-	at org.apache.synapse.api.API.process(API.java:477)
-	at org.apache.synapse.api.AbstractApiHandler.apiProcessNonDefaultStrategy(AbstractApiHandler.java:105)
-	at org.apache.synapse.api.AbstractApiHandler.identifyAPI(AbstractApiHandler.java:128)
-	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:60)
-	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:90)
-	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:76)
-	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54)
-	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:346)
-	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:101)
-	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
-	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:379)
-	at org.apache.synapse.transport.passthru.ServerWorker.processEntityEnclosingRequest(ServerWorker.java:438)
-	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:186)
-	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '"' (code 34) in DOCTYPE declaration; expected a space between public and system identifiers
- at [row,col {unknown-source}]: [1,50]
-	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:639)
-	at com.ctc.wstx.sr.BasicStreamReader.startDTD(BasicStreamReader.java:2487)
-	at com.ctc.wstx.sr.BasicStreamReader.nextFromPrologBang(BasicStreamReader.java:2403)
-	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2063)
-	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1134)
-	at org.apache.axiom.om.impl.builder.StAXOMBuilder.parserNext(StAXOMBuilder.java:681)
-	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:214)
-	... 43 more
-
-[2025-01-21 13:20:09,318]  INFO {BuilderUtil} - Remaining input stream :[]
-[2025-01-21 13:20:09,318]  WARN {EndpointContext} - Endpoint : LoansManager_EP with address https://fcrapi.uiauat.tz.af.absa.local/services/services/LoansManagerSpi will be marked SUSPENDED as it failed
-[2025-01-21 13:20:09,318]  WARN {EndpointContext} - Suspending endpoint : LoansManager_EP with address https://fcrapi.uiauat.tz.af.absa.local/services/services/LoansManagerSpi - last suspend duration was : 30000ms and current suspend duration is : 30000ms - Next retry after : Tue Jan 21 13:20:39 EAT 2025
+'
