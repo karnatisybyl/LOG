@@ -1,0 +1,79 @@
+{
+  "doDisbursementProcessingForIBOC": {
+    "sessionContext": {
+      "bankCode": 15,
+      "channel": "LOS",
+      "externalBatchNumber": 0,
+      "externalReferenceNo": "",
+      "externalSystemAuditTrailNumber": 0,
+      "localDateTimeText": "",
+      "originalReferenceNo": "",
+      "overridenWarnings": "",
+      "postingDateText": "",
+      "reason": {
+        "comment": "",
+        "reasonCode": 0
+      },
+      "serviceCode": "",
+      "sessionTicket": "",
+      "supervisorContext": {
+        "primaryPassword": "",
+        "userId": "IFE"
+      },
+      "transactionBranch": "1",
+      "userId": "IFE",
+      "userReferenceNumber": "",
+      "valueDateText": ""
+    },
+    "loanAccountNo": "1461000051",
+    "flgScenario": "1",
+    "flgSchemeLn": "N",
+    "acctType": "CH",
+    "disbAmount": "1000000",
+    "codAcctNoDisb": "12103000218",
+    "ledgerCcyShrtName": "",
+    "ledgerBranchCode": "",
+    "ioiTerm": 0,
+    "firstRepayDate": "",
+    "iBOCPayoutDetailsDTO": {
+      "amtInWords": "Ten thousand",
+      "amtPayoutTcy": "10000",
+      "bankName": "My bank",
+      "benefbankCustAcct": "",
+      "benefbankGlAcct": "",
+      "chequeCollectionBranch": "",
+      "codAcctBenef": "1101000344",
+      "codPayoutTcy": 0,
+      "codRepayMode": "X",
+      "ctrSrlNo": 1,
+      "flgResidual": "N",
+      "issuer": "",
+      "ledgerPayoutBranch": "",
+      "namBenef": "",
+      "narrative": "Payout CASA",
+      "transferType": "N",
+      "txtBenefAddr1": "",
+      "txtBenefAddr2": "",
+      "txtBenefAddr3": "",
+      "bankCode": ""
+    }
+  }
+}
+#############################Response
+{
+  "Fault": {
+    "faultcode": "soapenv:Server.userException",
+    "faultstring": "com.iflex.fcr.infra.exception.FatalException: Disbursement Loan Account is invalid.",
+    "detail": {
+      "fault": {
+        "errorCode": 9779,
+        "responseCode": 99,
+        "reason": {
+          "code": 29,
+          "message": " Internal OLTP Error. "
+        }
+      },
+      "hostname": "tzukawrapstfcr03.tz.af.absa.local"
+    }
+  }
+}
