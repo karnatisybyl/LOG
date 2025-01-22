@@ -1,57 +1,57 @@
 {
   "createLoanAccountForIBOC": {
     "sessionContext": {
-      "bankCode": 15,
-      "channel": "LOS",
-      "externalBatchNumber": 0,
-      "externalReferenceNo": "",
-      "externalSystemAuditTrailNumber": 0,
-      "localDateTimeText": "",
-      "originalReferenceNo": "",
-      "overridenWarnings": "",
       "postingDateText": "",
+      "bankCode": "15",
       "reason": {
         "comment": "",
-        "reasonCode": 0
+        "reasonCode": "0"
       },
       "serviceCode": "",
-      "sessionTicket": "",
+      "externalBatchNumber": "0",
       "supervisorContext": {
         "primaryPassword": "",
         "userId": ""
       },
-      "transactionBranch": 999,
+      "channel": "LOS",
+      "localDateTimeText": "",
+      "externalReferenceNo": "",
       "userId": "RLOS",
-      "userReferenceNumber": "",
-      "valueDateText": 20200501
+      "originalReferenceNo": "",
+      "externalSystemAuditTrailNumber": "0",
+      "overridenWarnings": "",
+      "transactionBranch": "999",
+      "sessionTicket": "",
+      "valueDateText": "20200501",
+      "userReferenceNumber": ""
     },
-    "loanDirectAccountDetails": {
-      "assetValue": 900000,
-      "branchCode": 1,
-      "contribution": 0,
-      "customerId": 724870,
-      "customerRelation": "SOW",
-      "interestRate": 13,
-      "loanAmount": 900000,
-      "loanPurpose": "Require2SC11",
-      "loanTerm": 60,
-      "productCode": 450,
-      "repaymentMode": 2,
-      "scheduleCode": 105
-    },
+    "employerCode": "",
     "customerAndRelation": {
-      "customerId": 724870,
+      "customerId": "724870",
       "customerName": "",
       "relation": ""
     },
-    "flgRepaymentInstruction": "Y",
     "loanPaymentInstructions": {
-      "arrearType": 0,
-      "drawDownOnSalaryCredit": true,
-      "percentageSalaryToBeDrawnDown": 100,
+      "arrearType": "0",
+      "transferFromSavings": "Y",
       "savingsAccountId": "012206000123",
-      "transferFromSavings": "Y"
+      "percentageSalaryToBeDrawnDown": "100",
+      "drawDownOnSalaryCredit": "true"
     },
-    "employerCode": ""
+    "loanDirectAccountDetails": {
+      "branchCode": "1",
+      "interestRate": "13",
+      "loanTerm": "60",
+      "contribution": "0",
+      "customerRelation": "SOW",
+      "productCode": "450",
+      "customerId": "724870",
+      "loanPurpose": "Require2SC11",
+      "scheduleCode": "105",
+      "assetValue": "900000",
+      "repaymentMode": "2",
+      "loanAmount": "900000"
+    },
+    "flgRepaymentInstruction": "Y"
   }
 }
