@@ -1,79 +1,78 @@
 {
-  "doDisbursementProcessingForIBOC": {
-    "sessionContext": {
-      "bankCode": 15,
-      "channel": "LOS",
-      "externalBatchNumber": 0,
-      "externalReferenceNo": "",
-      "externalSystemAuditTrailNumber": 0,
-      "localDateTimeText": "",
-      "originalReferenceNo": "",
-      "overridenWarnings": "",
-      "postingDateText": "",
-      "reason": {
-        "comment": "",
-        "reasonCode": 0
-      },
-      "serviceCode": "",
-      "sessionTicket": "",
-      "supervisorContext": {
-        "primaryPassword": "",
-        "userId": "IFE"
-      },
-      "transactionBranch": "1",
-      "userId": "IFE",
-      "userReferenceNumber": "",
-      "valueDateText": ""
-    },
-    "loanAccountNo": "1461000051",
-    "flgScenario": "1",
-    "flgSchemeLn": "N",
-    "acctType": "CH",
-    "disbAmount": "1000000",
-    "codAcctNoDisb": "12103000218",
-    "ledgerCcyShrtName": "",
-    "ledgerBranchCode": "",
-    "ioiTerm": 0,
-    "firstRepayDate": "",
-    "iBOCPayoutDetailsDTO": {
-      "amtInWords": "Ten thousand",
-      "amtPayoutTcy": "10000",
-      "bankName": "My bank",
-      "benefbankCustAcct": "",
-      "benefbankGlAcct": "",
-      "chequeCollectionBranch": "",
-      "codAcctBenef": "1101000344",
-      "codPayoutTcy": 0,
-      "codRepayMode": "X",
-      "ctrSrlNo": 1,
-      "flgResidual": "N",
-      "issuer": "",
-      "ledgerPayoutBranch": "",
-      "namBenef": "",
-      "narrative": "Payout CASA",
-      "transferType": "N",
-      "txtBenefAddr1": "",
-      "txtBenefAddr2": "",
-      "txtBenefAddr3": "",
-      "bankCode": ""
-    }
-  }
-}
-#############################Response
+        "doDisbursementProcessingForIBOC": {
+            "sessionContext": {
+                "bankCode": "15",
+                "channel": "LOS",
+                "externalBatchNumber": "0",
+                "externalReferenceNo": "",
+                "externalSystemAuditTrailNumber": "1",
+                "localDateTimeText": "",
+                "originalReferenceNo": "",
+                "overridenWarnings": "",
+                "postingDateText": "",
+                "reason": {
+                    "comment": "",
+                    "reasonCode": "0"
+                },
+                "serviceCode": "",
+                "sessionTicket": "",
+                "supervisorContext": {
+                    "primaryPassword": "",
+                    "userId": ""
+                },
+                "transactionBranch": "1",
+                "userId": "RLOS",
+                "userReferenceNumber": "DC202501211547272",
+                "valueDateText": ""
+            },
+            "loanAccountNo": "001489000854",
+            "flgScenario": "1",
+            "flgSchemeLn": "N",
+            "iBOCdeductionDetailsDTO": [
+                {
+                    "ctrSrlDednNo": 3,
+                    "deductionAmountInAccountCurrency": 1200,
+                    "deductionCode": 569,
+                    "isWaived": "N"
+                },
+                {
+                    "ctrSrlDednNo": 2,
+                    "deductionAmountInAccountCurrency": 2000,
+                    "deductionCode": 569,
+                    "isWaived": "N"
+                },
+                {
+                    "ctrSrlDednNo": 1,
+                    "deductionAmountInAccountCurrency": 97.5,
+                    "deductionCode": 569,
+                    "isWaived": "N"
+                }
+            ],
+            "acctType": "CH",
+            "disbAmount": 19500,
+            "codAcctNoDisb": "001101062188",
+            "ledgerCcyShrtName": "",
+            "ledgerBranchCode": "",
+            "ioiTerm": "0",
+            "firstRepayDate": "20240202"
+        }
+
+########################REsponse
 {
   "Fault": {
     "faultcode": "soapenv:Server.userException",
-    "faultstring": "com.iflex.fcr.infra.exception.FatalException: Disbursement Loan Account is invalid.",
+    "faultstring": "com.iflex.fcr.infra.exception.FatalException: Couldn't find the Message for [7139]",
     "detail": {
       "fault": {
-        "errorCode": 9779,
+        "errorCode": 7139,
         "responseCode": 99,
         "reason": {
           "code": 29,
           "message": " Internal OLTP Error. "
         }
       },
-      "hostname": "tzukawrapstfcr03.tz.af.absa.local"
+      "hostname": "tzukawrapstfcr04.tz.af.absa.local"
     }
   }
 }
+    }
