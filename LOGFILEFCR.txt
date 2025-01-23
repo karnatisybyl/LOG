@@ -1,3 +1,113 @@
-[2025-01-22 14:29:51,789]  INFO {LogMediator} - {api:LoansManager:v1.0.0} To: /loans/createLoanAccountForIBOC, MessageID: urn:uuid:0310ea35-8ce6-4559-911c-e8733175b8d3, correlation_id: 24a4aff6-a4d4-40c7-9738-29ef0494f947, Direction: request, beforeEP = beforeEP, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:dto1="http://dto.global.app.fcr.iflex.com" xmlns:spi="http://spi.loans.app.fcr.iflex.com" xmlns:dto="http://dto.spi.loans.app.fcr.iflex.com"><soapenv:Body><spi:createLoanAccountForIBOC><spi:sessionContext><con:postingDateText/><con:bankCode>15</con:bankCode><con:reason><con:comment/><con:reasonCode>0</con:reasonCode></con:reason><con:serviceCode/><con:externalBatchNumber>0</con:externalBatchNumber><con:supervisorContext><con:primaryPassword/><con:userId/></con:supervisorContext><con:channel>LOS</con:channel><con:localDateTimeText/><con:externalReferenceNo/><con:userId>RLOS</con:userId><con:originalReferenceNo/><con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber><con:overridenWarnings/><con:transactionBranch>999</con:transactionBranch><con:sessionTicket/><con:valueDateText>20200501</con:valueDateText><con:userReferenceNumber/></spi:sessionContext><spi:employerCode/><spi:customerAndRelation><dto1:customerId/><dto1:customerName/><dto1:relation/></spi:customerAndRelation><spi:loanPaymentInstructions><dto:arrearType>0</dto:arrearType><dto:transferFromSavings>Y</dto:transferFromSavings><dto:savingsAccountId>012206000123</dto:savingsAccountId><dto:percentageSalaryToBeDrawnDown>0</dto:percentageSalaryToBeDrawnDown><dto:drawDownOnSalaryCredit/></spi:loanPaymentInstructions><spi:loanDirectAccountDetails><dto:branchCode>1</dto:branchCode><dto:interestRate>14</dto:interestRate><dto:loanTerm>57</dto:loanTerm><dto:contribution>0</dto:contribution><dto:customerRelation>SOW</dto:customerRelation><dto:productCode>469</dto:productCode><dto:customerId>0000743446</dto:customerId><dto:loanPurpose>HITEM</dto:loanPurpose><dto:scheduleCode>469</dto:scheduleCode><dto:assetValue>800000</dto:assetValue><dto:repaymentMode>2</dto:repaymentMode><dto:loanAmount>800000</dto:loanAmount></spi:loanDirectAccountDetails><spi:flgRepaymentInstruction>Y</spi:flgRepaymentInstruction></spi:createLoanAccountForIBOC></soapenv:Body></soapenv:Envelope>
-[2025-01-22 14:29:51,831]  INFO {LogMediator} - {api:LoansManager:v1.0.0} createLoanAccountForIBOCResponse = createLoanAccountForIBOCResponse --------------------
-[2025-01-22 14:29:51,832]  INFO {LogMediator} - {api:LoansManager:v1.0.0} To: /loans/createLoanAccountForIBOC, MessageID: urn:uuid:0310ea35-8ce6-4559-911c-e8733175b8d3, correlation_id: 24a4aff6-a4d4-40c7-9738-29ef0494f947, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>java.lang.NullPointerException</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">tzukawrapstfcr03.tz.af.absa.local</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+curl --location 'https://internal-gateway-preprod.apps.ocp4-kawe.tz.af.absa.local/loanspayment/1.0.0/inquireDeductionDetails' \
+--header 'accept: */*' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJ4NXQiOiJNekJpTmpObVpqRm1NbUkzTkdSbE1UTTVNVFl6TnpBd1pEZzNOamRoTm1Wak5HSmpZMlE0WVdNeU5XWTVNbVl6WmpCa1pESXpPVFF5TVRWbFl6SmlNZyIsImtpZCI6Ik16QmlOak5tWmpGbU1tSTNOR1JsTVRNNU1UWXpOekF3WkRnM05qZGhObVZqTkdKalkyUTRZV015TldZNU1tWXpaakJrWkRJek9UUXlNVFZsWXpKaU1nX1JTMjU2IiwidHlwIjoiYXQrand0IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIyZTkxZDkyYi1jZmRlLTQ4ZTMtOTAyNC1hM2Q1ZmRjYmUwYzUiLCJhdXQiOiJBUFBMSUNBVElPTiIsImF1ZCI6Ik5SQkszdWlQamRSMlEyRUE3ZERUSHJ6X2dOb2EiLCJuYmYiOjE3Mzc2MzUxNjQsImF6cCI6Ik5SQkszdWlQamRSMlEyRUE3ZERUSHJ6X2dOb2EiLCJzY29wZSI6ImRlZmF1bHQiLCJpc3MiOiJodHRwczpcL1wvYW0tcHJlcHJvZC5hcHBzLm9jcDQta2F3ZS50ei5hZi5hYnNhLmxvY2FsOjQ0M1wvb2F1dGgyXC90b2tlbiIsImV4cCI6MTczNzYzODc2NCwiaWF0IjoxNzM3NjM1MTY0LCJqdGkiOiIwMGZmNjcwZi03ZDA1LTQ0NjctYjU4Ny0yM2QxYjg5ZmFiNDUiLCJjbGllbnRfaWQiOiJOUkJLM3VpUGpkUjJRMkVBN2REVEhyel9nTm9hIn0.WJy6gcUmdeBu3lyx1vWApVn1j7iQ96GqBvNNNapf7UHmew1NG3v7IpHGlnAm1uyo7laCegRo5bHOZ2YhY5m5qFmTbsEbktI_X3c9PFuAFpZDNY3YMoypKX8AsNXJiGtKpYLeg1qO5eG1IC8uuR_6_cfrbGCjVac_0dVBR73EiZvCJUganTeM7Fe8DK_QjUj_yz21sxbp-9anVscmc7MdV_GsNGt9nghF5NwkTLXL8XSxk3UtJtWK0aVgXS_6crwdqJwFt4kXJEaGNYoGA7KVsVCN-PrtvK5PeU_D5dpR4oI-NW7Y-YCJdllGm-iH6sHufuLirOwulWfP_QX7y9M2kQ' \
+--data '{
+  "inquireDeductionDetails": {
+    "sessionContext": {
+      "bankCode": 15,
+      "channel": "",
+      "externalBatchNumber": 0,
+      "externalReferenceNo": "",
+      "externalSystemAuditTrailNumber": 0,
+      "localDateTimeText": "",
+      "originalReferenceNo": "",
+      "overridenWarnings": "",
+      "postingDateText": "",
+      "reason": {
+        "comment": "",
+        "reasonCode": 0
+      },
+      "serviceCode": "",
+      "sessionTicket": "",
+      "supervisorContext": {
+        "primaryPassword": "",
+        "userId": "IFE"
+      },
+      "transactionBranch": 999,
+      "userId": "IFE",
+      "userReferenceNumber": "",
+      "valueDateText": ""
+    },
+    "product": 475,
+    "branch": 1,
+    "loanAmt": 1000000,
+    "termInMonths": 15
+  }
+}
+
+
+curl --location 'https://internal-gateway-preprod.apps.ocp4-kawe.tz.af.absa.local/loanspayment/1.0.0/doDisbursementProcessingForIBOC' \
+--header 'accept: */*' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJ4NXQiOiJNekJpTmpObVpqRm1NbUkzTkdSbE1UTTVNVFl6TnpBd1pEZzNOamRoTm1Wak5HSmpZMlE0WVdNeU5XWTVNbVl6WmpCa1pESXpPVFF5TVRWbFl6SmlNZyIsImtpZCI6Ik16QmlOak5tWmpGbU1tSTNOR1JsTVRNNU1UWXpOekF3WkRnM05qZGhObVZqTkdKalkyUTRZV015TldZNU1tWXpaakJrWkRJek9UUXlNVFZsWXpKaU1nX1JTMjU2IiwidHlwIjoiYXQrand0IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIyZTkxZDkyYi1jZmRlLTQ4ZTMtOTAyNC1hM2Q1ZmRjYmUwYzUiLCJhdXQiOiJBUFBMSUNBVElPTiIsImF1ZCI6Ik5SQkszdWlQamRSMlEyRUE3ZERUSHJ6X2dOb2EiLCJuYmYiOjE3Mzc2MzUxNjQsImF6cCI6Ik5SQkszdWlQamRSMlEyRUE3ZERUSHJ6X2dOb2EiLCJzY29wZSI6ImRlZmF1bHQiLCJpc3MiOiJodHRwczpcL1wvYW0tcHJlcHJvZC5hcHBzLm9jcDQta2F3ZS50ei5hZi5hYnNhLmxvY2FsOjQ0M1wvb2F1dGgyXC90b2tlbiIsImV4cCI6MTczNzYzODc2NCwiaWF0IjoxNzM3NjM1MTY0LCJqdGkiOiIwMGZmNjcwZi03ZDA1LTQ0NjctYjU4Ny0yM2QxYjg5ZmFiNDUiLCJjbGllbnRfaWQiOiJOUkJLM3VpUGpkUjJRMkVBN2REVEhyel9nTm9hIn0.WJy6gcUmdeBu3lyx1vWApVn1j7iQ96GqBvNNNapf7UHmew1NG3v7IpHGlnAm1uyo7laCegRo5bHOZ2YhY5m5qFmTbsEbktI_X3c9PFuAFpZDNY3YMoypKX8AsNXJiGtKpYLeg1qO5eG1IC8uuR_6_cfrbGCjVac_0dVBR73EiZvCJUganTeM7Fe8DK_QjUj_yz21sxbp-9anVscmc7MdV_GsNGt9nghF5NwkTLXL8XSxk3UtJtWK0aVgXS_6crwdqJwFt4kXJEaGNYoGA7KVsVCN-PrtvK5PeU_D5dpR4oI-NW7Y-YCJdllGm-iH6sHufuLirOwulWfP_QX7y9M2kQ' \
+--data '{
+  "doDisbursementProcessingForIBOC": {
+    "sessionContext": {
+      "bankCode": 15,
+      "channel": "LOS",
+      "externalBatchNumber": 0,
+      "externalReferenceNo": "",
+      "externalSystemAuditTrailNumber": 0,
+      "localDateTimeText": "",
+      "originalReferenceNo": "",
+      "overridenWarnings": "",
+      "postingDateText": "",
+      "reason": {
+        "comment": "",
+        "reasonCode": 0
+      },
+      "serviceCode": "",
+      "sessionTicket": "",
+      "supervisorContext": {
+        "primaryPassword": "",
+        "userId": "IFE"
+      },
+      "transactionBranch": "1",
+      "userId": "IFE",
+      "userReferenceNumber": "",
+      "valueDateText": ""
+    },
+    "loanAccountNo": "001489000854",
+    "flgScenario": "1",
+    "flgSchemeLn": "N",
+    "acctType": "CH",
+    "disbAmount": "1000000",
+    "codAcctNoDisb": "12103000218",
+    "ledgerCcyShrtName": "",
+    "ledgerBranchCode": "",
+    "ioiTerm": 0,
+    "firstRepayDate": "",
+    "iBOCPayoutDetailsDTO": {
+      "amtInWords": "Ten thousand",
+      "amtPayoutTcy": "10000",
+      "bankName": "My bank",
+      "benefbankCustAcct": "",
+      "benefbankGlAcct": "",
+      "chequeCollectionBranch": "",
+      "codAcctBenef": "1101000344",
+      "codPayoutTcy": 0,
+      "codRepayMode": "X",
+      "ctrSrlNo": 1,
+      "flgResidual": "N",
+      "issuer": "",
+      "ledgerPayoutBranch": "",
+      "namBenef": "",
+      "narrative": "Payout CASA",
+      "transferType": "N",
+      "txtBenefAddr1": "",
+      "txtBenefAddr2": "",
+      "txtBenefAddr3": "",
+      "bankCode": ""
+    }
+  }
+}
+'
+
+
+
+
+
+
+
+'
