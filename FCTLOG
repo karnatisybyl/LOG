@@ -1,78 +1,60 @@
-{
-    "FCCFT": {
-        "UPLOAD_PMNT": {
-            "SCODE": "NHM",
-            "XREF": "SUR10520323799",
-            "BRN": 1,
-            "PRD": "L", 
-            "DRBRN": 18,
-            "DRACC": 18105000850,
-            "DRCCY": "USD",
-            "DRAMT": 10,
-            "DRVALDT": 20220204,
-            "CRBRN": "",
-            "CRACC": "",
-            "CRCCY": "USD",
-            "CRAMT": 10,
-            "CRVALDT": 20220204,
-            "MSG_COVER": "",
-            "MSG_AS_OF": "",
-            "XRATE": "",
-            "SPRD_COD": "",
-            "MCKNO": "",
-            "CHQNO": "",
-            "CHG_WHOM": "B",
-            "UPLD_MSG_TYPE": "",
-            "TDESC": "",
-            "AUTHSTAT": "U",
-            "STTLMNT": {
-                "BY_ORD_OF1": "",
-                "BY_ORD_OF2": "",
-                "BY_ORD_OF3": "",
-                "BY_ORD_OF4": "",
-                "ULT_BEN1": "/12345678",
-                "ULT_BEN2": "AMIRCHAMP",
-                "ULT_BEN3": "",
-                "ULT_BEN4": "",
-                "ACC_WITH_INST1": "BARCGB210HV",
-                "ACC_WITH_INST2": "",
-                "ACC_WITH_INST3": "",
-                "ACC_WITH_INST4": "",
-                "INTRMD1": "",
-                "INTRMD2": "",
-                "INTRMD3": "",
-                "INTRMD4": "",
-                "INTRMD5": "",
-                "RECVR_CORRES1": "",
-                "RECVR_CORRES2": "",
-                "RECVR_CORRES3": "",
-                "RECVR_CORRES4": "",
-                "RECVR_CORRES5": "",
-                "SNDR_RECVR_INFO1": "",
-                "SNDR_RECVR_INFO2": "",
-                "SNDR_RECVR_INFO3": "",
-                "SNDR_RECVR_INFO4": "",
-                "SNDR_RECVR_INFO5": "",
-                "SNDR_RECVR_INFO6": "",
-                "PMNT_DET1": "TEST",
-                "PMNT_DET2": "",
-                "PMNT_DET3": "",
-                "PMNT_DET4": "",
-                "ORD_INST1": "",
-                "ORD_INST2": "",
-                "ORD_INST3": "",
-                "ORD_INST4": "",
-                "INT_REIM_INST1": "",
-                "INT_REIM_INST2": "",
-                "INT_REIM_INST3": "",
-                "INT_REIM_INST4": "",
-                "RECVR": "",
-                "ERICCY": "",
-                "ERIAMT": "",
-                "LCY_EQV": "",
-                "ULT_BEN5": "",
-                "ACC_WITH_INST5": ""
-            }
-        }
-    }
-}
+<?xml version='1.0' encoding='utf-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:dto1="http://dto.global.app.fcr.iflex.com" xmlns:spi="http://spi.loans.app.fcr.iflex.com" xmlns:dto="http://dto.spi.loans.app.fcr.iflex.com">
+    <soapenv:Body>
+        <spi:createLoanAccountForIBOC>
+            <spi:sessionContext>
+                <con:postingDateText/>
+                <con:bankCode>15</con:bankCode>
+                <con:reason>
+                    <con:comment/>
+                    <con:reasonCode>0</con:reasonCode>
+                </con:reason>
+                <con:serviceCode/>
+                <con:externalBatchNumber>0</con:externalBatchNumber>
+                <con:supervisorContext>
+                    <con:primaryPassword/>
+                    <con:userId/>
+                </con:supervisorContext>
+                <con:channel>LOS</con:channel>
+                <con:localDateTimeText/>
+                <con:externalReferenceNo/>
+                <con:userId>IFE</con:userId>
+                <con:originalReferenceNo/>
+                <con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber>
+                <con:overridenWarnings/>
+                <con:transactionBranch>999</con:transactionBranch>
+                <con:sessionTicket/>
+                <con:valueDateText/>
+                <con:userReferenceNumber/>
+            </spi:sessionContext>
+            <spi:employerCode/>
+            <spi:customerAndRelation>
+               
+            </spi:customerAndRelation>
+            <spi:loanPaymentInstructions>
+                <dto:arrearType>0</dto:arrearType>
+                <dto:transferFromSavings>Y</dto:transferFromSavings>
+                <dto:savingsAccountId>012205034040</dto:savingsAccountId>
+                <dto:percentageSalaryToBeDrawnDown>0</dto:percentageSalaryToBeDrawnDown>
+                <dto:drawDownOnSalaryCredit/>
+            </spi:loanPaymentInstructions>
+            <spi:loanDirectAccountDetails>
+                <dto:branchCode>12</dto:branchCode>
+                <dto:interestRate>18</dto:interestRate>
+                <dto:loanTerm>84</dto:loanTerm>
+                <dto:contribution>0</dto:contribution>
+                <dto:customerRelation>SOW</dto:customerRelation>
+                <dto:productCode>450</dto:productCode>
+                <dto:customerId>11031</dto:customerId>
+                <dto:loanPurpose>LOAN TAKE OVER TEST</dto:loanPurpose>
+                <dto:scheduleCode>105</dto:scheduleCode>
+                <dto:assetValue>3092611.14</dto:assetValue>
+                <dto:repaymentMode>2</dto:repaymentMode>
+                <dto:loanAmount>3092611.14</dto:loanAmount>
+            </spi:loanDirectAccountDetails>
+            <spi:flgRepaymentInstruction>Y</spi:flgRepaymentInstruction>
+        </spi:createLoanAccountForIBOC>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+<?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:dto1="http://dto.global.app.fcr.iflex.com" xmlns:spi="http://spi.loans.app.fcr.iflex.com" xmlns:dto="http://dto.spi.loans.app.fcr.iflex.com"><soapenv:Body><spi:createLoanAccountForIBOC><spi:sessionContext><con:postingDateText/><con:bankCode>15</con:bankCode><con:reason><con:comment/><con:reasonCode>0</con:reasonCode></con:reason><con:serviceCode/><con:externalBatchNumber>0</con:externalBatchNumber><con:supervisorContext><con:primaryPassword/><con:userId/></con:supervisorContext><con:channel>LOS</con:channel><con:localDateTimeText/><con:externalReferenceNo/><con:userId>RLOS</con:userId><con:originalReferenceNo/><con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber><con:overridenWarnings/><con:transactionBranch>999</con:transactionBranch><con:sessionTicket/><con:valueDateText>20200501</con:valueDateText><con:userReferenceNumber/></spi:sessionContext><spi:employerCode/><spi:customerAndRelation/><spi:loanPaymentInstructions><dto:arrearType>0</dto:arrearType><dto:transferFromSavings>Y</dto:transferFromSavings><dto:savingsAccountId>012206000123</dto:savingsAccountId><dto:percentageSalaryToBeDrawnDown>0</dto:percentageSalaryToBeDrawnDown><dto:drawDownOnSalaryCredit/></spi:loanPaymentInstructions><spi:loanDirectAccountDetails><dto:branchCode>1</dto:branchCode><dto:interestRate>14</dto:interestRate><dto:loanTerm>57</dto:loanTerm><dto:contribution>0</dto:contribution><dto:customerRelation>SOM</dto:customerRelation><dto:productCode>469</dto:productCode><dto:customerId>0000743446</dto:customerId><dto:loanPurpose>HITEM</dto:loanPurpose><dto:scheduleCode>469</dto:scheduleCode><dto:assetValue>800000</dto:assetValue><dto:repaymentMode>2</dto:repaymentMode><dto:loanAmount>800000</dto:loanAmount></spi:loanDirectAccountDetails><spi:flgRepaymentInstruction>Y</spi:flgRepaymentInstruction></spi:createLoanAccountForIBOC></soapenv:Body></soapenv:Envelope>
