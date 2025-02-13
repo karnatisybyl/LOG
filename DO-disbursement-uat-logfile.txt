@@ -1,0 +1,9 @@
+[2025-02-13 09:43:04,923]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, 
+MessageID: urn:uuid:8b64b6ea-6a4d-4885-b6b4-4ee717803965, correlation_id: 27f7a8ea-37d2-4a7d-a466-cdea420c8c7d, Direction: 
+request, Envelope: <?xml version='1.0' encoding='utf-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:spi="http://spi.loans.app.fcr.iflex.com" xmlns:dto="http://dto.loans.app.fcr.iflex.com"><soapenv:Body><spi:doDisbursementProcessingForIBOC><spi:sessionContext><con:bankCode>15</con:bankCode><con:channel>LOS</con:channel><con:externalBatchNumber>0</con:externalBatchNumber><con:externalReferenceNo/><con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber><con:localDateTimeText/><con:originalReferenceNo/><con:overridenWarnings/><con:postingDateText/><con:reason><con:comment/><con:reasonCode>0</con:reasonCode></con:reason><con:serviceCode/><con:sessionTicket/><con:su...
+[2025-02-13 09:43:05,005]  INFO {CommonScriptMessageContext} - --------------------------------------- Function ---------------------------------------
+[2025-02-13 09:43:05,006]  INFO {CommonScriptMessageContext} - --------------------------------------- Final payload ---------------------------------------
+[2025-02-13 09:43:05,006]  INFO {CommonScriptMessageContext} - 
+{"Fault":{"faultcode":"soapenv:Server.userException","faultstring":"com.iflex.fcr.infra.exception.FatalException: Deduction code does not match with product deduction code","detail":{"fault":{"errorCode":9748,"responseCode":99,"reason":{"code":29,"message":" Internal OLTP Error. "}},"hostname":"tzukawrapstfcr04.tz.af.absa.local"}}}
+[2025-02-13 09:43:05,009]  INFO {LogMediator}
