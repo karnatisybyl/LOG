@@ -1,0 +1,92 @@
+{api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, MessageID: urn:uuid:20aa18ae-a8fc-423d-8b46-338b7537c11a, correlation_id: 9e391c32-8e11-4814-8f7a-dc19f8aac91d, Direction: request, payload-default-switch = This payload has no array {"amtInWords":"","amtPayoutTcy":null,"bankName":null,"benefbankCustAcct":null,"benefbankGlAcct":null,"chequeCollectionBranch":null,"codAcctBenef":"012450000350","codPayoutTcy":0,"codRepayMode":"E","ctrSrlNo":1,"flgResidual":"N","issuer":null,"ledgerPayoutBranch":null,"namBenef":null,"narrative":"Top Up [ 020450000115 ]","transferType":"N","txtBenefAddr1":null,"txtBenefAddr2":null,"txtBenefAddr3":null,"bankCode":null}, Payload: {
+  "doDisbursementProcessingForIBOC": {
+    "sessionContext": {
+      "bankCode": 15,
+      "channel": "LOS",
+      "externalBatchNumber": 0,
+      "externalReferenceNo": "",
+      "externalSystemAuditTrailNumber": 0,
+      "localDateTimeText": "",
+      "originalReferenceNo": "",
+      "overridenWarnings": "",
+      "postingDateText": "",
+      "reason": {
+        "comment": "",
+        "reasonCode": 0
+      },
+      "serviceCode": "",
+      "sessionTicket": "",
+      "supervisorContext": {
+        "primaryPassword": "",
+        "userId": ""
+      },
+      "transactionBranch": "999",
+      "userId": "IFE",
+      "userReferenceNumber": "",
+      "valueDateText": ""
+    },
+    "loanAccountNo": "020450000174",
+    "flgScenario": 2,
+    "flgSchemeLn": "N",
+    "acctType": "CH",
+    "disbAmount": 40000000.0,
+    "codAcctNoDisb": "020201008081",
+    "ledgerCcyShrtName": "",
+    "ledgerBranchCode": "",
+    "firstRepayDate": "20230205",
+    "ioiTerm": 1,
+    "iBOCdeductionDetailsDTO": [
+      {
+        "ctrSrlDednNo": 2,
+        "deductionAmountInAccountCurrency": 17000,
+        "deductionCode": 568,
+        "isWaived": "N"
+      },
+      {
+        "ctrSrlDednNo": 3,
+        "deductionAmountInAccountCurrency": 0,
+        "deductionCode": 568,
+        "isWaived": "Y"
+      },
+      {
+        "ctrSrlDednNo": 1,
+        "deductionAmountInAccountCurrency": 0.0,
+        "deductionCode": 568,
+        "isWaived": "Y"
+      },
+      {
+        "ctrSrlDednNo": 4,
+        "deductionAmountInAccountCurrency": 0.0,
+        "deductionCode": 568,
+        "isWaived": "Y"
+      }
+    ],
+    "iBOCPayoutDetailsDTO": 
+      {
+        "amtInWords": "",
+        "amtPayoutTcy": null,
+        "bankName": null,
+        "benefbankCustAcct": null,
+        "benefbankGlAcct": null,
+        "chequeCollectionBranch": null,
+        "codAcctBenef": "012450000350",
+        "codPayoutTcy": 0,
+        "codRepayMode": "E",
+        "ctrSrlNo": 1,
+        "flgResidual": "N",
+        "issuer": null,
+        "ledgerPayoutBranch": null,
+        "namBenef": null,
+        "narrative": "Top Up [ 020450000115 ]",
+        "transferType": "N",
+        "txtBenefAddr1": null,
+        "txtBenefAddr2": null,
+        "txtBenefAddr3": null,
+        "bankCode": null
+      }
+    
+  }
+}
+[2025-02-20 11:06:49,389]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, MessageID: urn:uuid:20aa18ae-a8fc-423d-8b46-338b7537c11a, correlation_id: 9e391c32-8e11-4814-8f7a-dc19f8aac91d, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:spi="http://spi.loans.app.fcr.iflex.com" xmlns:dto="http://dto.loans.app.fcr.iflex.com"><soapenv:Body><spi:doDisbursementProcessingForIBOC><spi:sessionContext><con:bankCode>15</con:bankCode><con:channel>LOS</con:channel><con:externalBatchNumber>0</con:externalBatchNumber><con:externalReferenceNo/><con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber><con:localDateTimeText/><con:originalReferenceNo/><con:overridenWarnings/><con:postingDateText/><con:reason><con:comment/><con:reasonCode>0</con:reasonCode></con:reason><con:serviceCode/><con:sessionTicket/><con:supervisorContext><con:primaryPassword/><con:userId/></con:supervisorContext><con:transactionBranch>999</con:transactionBranch><con:userId>IFE</con:userId><con:userReferenceNumber/><con:valueDateText/></spi:sessionContext><spi:loanAccountNo>020450000174</spi:loanAccountNo><spi:flgScenario>2</spi:flgScenario><spi:flgSchemeLn>N</spi:flgSchemeLn><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>2</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>17000</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>N</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>3</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>0</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>1</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>0</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>4</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>0</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:acctType>CH</spi:acctType><spi:disbAmount>40000000</spi:disbAmount><spi:codAcctNoDisb>020201008081</spi:codAcctNoDisb><spi:ledgerCcyShrtName/><spi:ledgerBranchCode/><spi:ioiTerm>1</spi:ioiTerm><spi:firstRepayDate>20230205</spi:firstRepayDate></spi:doDisbursementProcessingForIBOC></soapenv:Body></soapenv:Envelope>
+[2025-02-20 11:06:49,389]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, MessageID: urn:uuid:20aa18ae-a8fc-423d-8b46-338b7537c11a, correlation_id: 9e391c32-8e11-4814-8f7a-dc19f8aac91d, Direction: request, payload-after-switch = Payload after switch is this following:\n , Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:spi="http://spi.loans.app.fcr.iflex.com" xmlns:dto="http://dto.loans.app.fcr.iflex.com"><soapenv:Body><spi:doDisbursementProcessingForIBOC><spi:sessionContext><con:bankCode>15</con:bankCode><con:channel>LOS</con:channel><con:externalBatchNumber>0</con:externalBatchNumber><con:externalReferenceNo/><con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber><con:localDateTimeText/><con:originalReferenceNo/><con:overridenWarnings/><con:postingDateText/><con:reason><con:comment/><con:reasonCode>0</con:reasonCode></con:reason><con:serviceCode/><con:sessionTicket/><con:supervisorContext><con:primaryPassword/><con:userId/></con:supervisorContext><con:transactionBranch>999</con:transactionBranch><con:userId>IFE</con:userId><con:userReferenceNumber/><con:valueDateText/></spi:sessionContext><spi:loanAccountNo>020450000174</spi:loanAccountNo><spi:flgScenario>2</spi:flgScenario><spi:flgSchemeLn>N</spi:flgSchemeLn><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>2</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>17000</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>N</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>3</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>0</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>1</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>0</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>4</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>0</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:acctType>CH</spi:acctType><spi:disbAmount>40000000</spi:disbAmount><spi:codAcctNoDisb>020201008081</spi:codAcctNoDisb><spi:ledgerCcyShrtName/><spi:ledgerBranchCode/><spi:ioiTerm>1</spi:ioiTerm><spi:firstRepayDate>20230205</spi:firstRepayDate></spi:doDisbursementProcessingForIBOC></soapenv:Body></soapenv:Envelope>
+[2025-02-20 11:06:49,390]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, MessageID: urn:uuid:20aa18ae-a8fc-423d-8b46-338b7537c11a, correlation_id: 9e391c32-8e11-4814-8f7a-dc19f8aac91d, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:spi="http://spi.loans.app.fcr.iflex.com" xmlns:dto="http://dto.loans.app.fcr.iflex.com"><soapenv:Body><spi:doDisbursementProcessingForIBOC><spi:sessionContext><con:bankCode>15</con:bankCode><con:channel>LOS</con:channel><con:externalBatchNumber>0</con:externalBatchNumber><con:externalReferenceNo/><con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber><con:localDateTimeText/><con:originalReferenceNo/><con:overridenWarnings/><con:postingDateText/><con:reason><con:comment/><con:reasonCode>0</con:reasonCode></con:reason><con:serviceCode/><con:sessionTicket/><con:supervisorContext><con:primaryPassword/><con:userId/></con:supervisorContext><con:transactionBranch>999</con:transactionBranch><con:userId>IFE</con:userId><con:userReferenceNumber/><con:valueDateText/></spi:sessionContext><spi:loanAccountNo>020450000174</spi:loanAccountNo><spi:flgScenario>2</spi:flgScenario><spi:flgSchemeLn>N</spi:flgSchemeLn><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>2</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>17000</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deduc
