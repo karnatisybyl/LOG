@@ -1,90 +1,3 @@
- {
-    "doDisbursementProcessingForIBOC": {
-        "sessionContext": {
-            "bankCode": 15,
-            "channel": "LOS",
-            "externalBatchNumber": 0,
-            "externalReferenceNo": "",
-            "externalSystemAuditTrailNumber": 0,
-            "localDateTimeText": "",
-            "originalReferenceNo": "",
-            "overridenWarnings": "",
-            "postingDateText": "",
-            "reason": {
-                "comment": "",
-                "reasonCode": 0
-            },
-            "serviceCode": "",
-            "sessionTicket": "",
-            "supervisorContext": {
-                "primaryPassword": "",
-                "userId": ""
-            },
-            "transactionBranch": "999",
-            "userId": "IFE",
-            "userReferenceNumber": "",
-            "valueDateText": ""
-        },
-        "loanAccountNo": "020450000204",
-        "flgScenario": 2,
-        "flgSchemeLn": "N",
-        "acctType": "CH",
-        "disbAmount": 40000000.0,
-        "codAcctNoDisb": "020201008081",
-        "ledgerCcyShrtName": "",
-        "ledgerBranchCode": "",
-        "firstRepayDate": "20230205",
-        "ioiTerm": 1,
-        "iBOCdeductionDetailsDTO": [
-            {
-                "ctrSrlDednNo": 2,
-                "deductionAmountInAccountCurrency": 17000,
-                "deductionCode": 568,
-                "isWaived": "N"
-            },
-            {
-                "ctrSrlDednNo": 3,
-                "deductionAmountInAccountCurrency": 0,
-                "deductionCode": 568,
-                "isWaived": "Y"
-            },
-            {
-                "ctrSrlDednNo": 1,
-                "deductionAmountInAccountCurrency": 0.0,
-                "deductionCode": 568,
-                "isWaived": "Y"
-            },
-            {
-                "ctrSrlDednNo": 4,
-                "deductionAmountInAccountCurrency": 0.0,
-                "deductionCode": 568,
-                "isWaived": "Y"
-            }
-        ],
-        "iBOCPayoutDetailsDTO": {
-            "amtInWords": "",
-            "amtPayoutTcy": null,
-            "bankName": null,
-            "benefbankCustAcct": null,
-            "benefbankGlAcct": null,
-            "chequeCollectionBranch": null,
-            "codAcctBenef": "012450000350",
-            "codPayoutTcy": 0,
-            "codRepayMode": "E",
-            "ctrSrlNo": 1,
-            "flgResidual": "N",
-            "issuer": null,
-            "ledgerPayoutBranch": null,
-            "namBenef": null,
-            "narrative": "Top Up [ 020450000115 ]",
-            "transferType": "N",
-            "txtBenefAddr1": null,
-            "txtBenefAddr2": null,
-            "txtBenefAddr3": null,
-            "bankCode": null
-        }
-    }
-}
 <?xml version='1.0' encoding='utf-8'?>
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:spi="http://spi.loans.app.fcr.iflex.com" xmlns:dto="http://dto.loans.app.fcr.iflex.com">
     <soapenv:Body>
@@ -93,7 +6,6 @@
                 <con:bankCode>15</con:bankCode>
                 <con:channel>LOS</con:channel>
                 <con:externalBatchNumber>0</con:externalBatchNumber>
-                <con:externalReferenceNo/>
                 <con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber>
                 <con:localDateTimeText/>
                 <con:originalReferenceNo/>
@@ -114,12 +26,12 @@
                 <con:userReferenceNumber/>
                 <con:valueDateText/>
             </spi:sessionContext>
-            <spi:loanAccountNo>020450000204</spi:loanAccountNo>
+            <spi:loanAccountNo>020450000166</spi:loanAccountNo>
             <spi:flgScenario>2</spi:flgScenario>
-            <spi:flgSchemeIn>N</spi:flgSchemeIn>
+            <spi:flgSchemeLn>N</spi:flgSchemeLn>
             <spi:acctType>CH</spi:acctType>
-            <spi:disDamount>40000000</spi:disDamount>
-            <spi:codAcctNonisb>020201008081</spi:codAcctNonisb>
+            <spi:disbAmount>40000000</spi:disbAmount>
+            <spi:codAcctNoDisb>012205033923</spi:codAcctNoDisb>
             <spi:ledgerCcyShrtName/>
             <spi:ledgerBranchCode/>
             <spi:firstRepayDate>20230205</spi:firstRepayDate>
@@ -143,6 +55,12 @@
                 <dto:isWaived>Y</dto:isWaived>
             </spi:iBOCdeductionDetailsDTO>
             <spi:iBOCdeductionDetailsDTO>
+                <dto:ctrSrlDednNo>5</dto:ctrSrlDednNo>
+                <dto:deductionAmountInAccountCurrency>0</dto:deductionAmountInAccountCurrency>
+                <dto:deductionCode>568</dto:deductionCode>
+                <dto:isWaived>Y</dto:isWaived>
+            </spi:iBOCdeductionDetailsDTO>
+            <spi:iBOCdeductionDetailsDTO>
                 <dto:ctrSrlDednNo>4</dto:ctrSrlDednNo>
                 <dto:deductionAmountInAccountCurrency>0</dto:deductionAmountInAccountCurrency>
                 <dto:deductionCode>568</dto:deductionCode>
@@ -150,13 +68,17 @@
             </spi:iBOCdeductionDetailsDTO>
             <spi:iBOCPayoutDetailsDTO>
                 <dto:amtInWords/>
-                <dto:codAcctBenef>012450000350</dto:codAcctBenef>
+                <dto:codAcctBenef>021450000503</dto:codAcctBenef>
                 <dto:codPayoutTcy>0</dto:codPayoutTcy>
                 <dto:codRepayMode>E</dto:codRepayMode>
                 <dto:ctrSrlNo>1</dto:ctrSrlNo>
                 <dto:flgResidual>N</dto:flgResidual>
-                <dto:narrative>Top Up [ 020450000115 ]</dto:narrative>
-                <dto:transferType>N</dto:transferType>
+                <dto:narrative>Top Up 020450000115 </dto:narrative>
+                <dto:transferType/>
+                <dto:txtBenefAddr1/>
+                <dto:txtBenefAddr2/>
+                <dto:txtBenefAddr3/>
+                <dto:bankCode/>
             </spi:iBOCPayoutDetailsDTO>
         </spi:doDisbursementProcessingForIBOC>
     </soapenv:Body>
