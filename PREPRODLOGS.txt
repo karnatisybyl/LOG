@@ -1,0 +1,92 @@
+curl --location 'https://internal-gateway-preprod.apps.ocp4-kawe.tz.af.absa.local/loanspayment/1.0.0/doDisbursementProcessingForIBOC' \
+--header 'accept: */*' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJ4NXQiOiJNekJpTmpObVpqRm1NbUkzTkdSbE1UTTVNVFl6TnpBd1pEZzNOamRoTm1Wak5HSmpZMlE0WVdNeU5XWTVNbVl6WmpCa1pESXpPVFF5TVRWbFl6SmlNZyIsImtpZCI6Ik16QmlOak5tWmpGbU1tSTNOR1JsTVRNNU1UWXpOekF3WkRnM05qZGhObVZqTkdKalkyUTRZV015TldZNU1tWXpaakJrWkRJek9UUXlNVFZsWXpKaU1nX1JTMjU2IiwidHlwIjoiYXQrand0IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIyZTkxZDkyYi1jZmRlLTQ4ZTMtOTAyNC1hM2Q1ZmRjYmUwYzUiLCJhdXQiOiJBUFBMSUNBVElPTiIsImF1ZCI6Ik5SQkszdWlQamRSMlEyRUE3ZERUSHJ6X2dOb2EiLCJuYmYiOjE3NDEzNTM5MzcsImF6cCI6Ik5SQkszdWlQamRSMlEyRUE3ZERUSHJ6X2dOb2EiLCJzY29wZSI6ImRlZmF1bHQiLCJpc3MiOiJodHRwczpcL1wvYW0tcHJlcHJvZC5hcHBzLm9jcDQta2F3ZS50ei5hZi5hYnNhLmxvY2FsOjQ0M1wvb2F1dGgyXC90b2tlbiIsImV4cCI6MTc0MTM1NzUzNywiaWF0IjoxNzQxMzUzOTM3LCJqdGkiOiJmMGU3NzZiNS1iN2Q4LTQ0MTktYTRlOC03MDU2YWQ3NGQyNTQiLCJjbGllbnRfaWQiOiJOUkJLM3VpUGpkUjJRMkVBN2REVEhyel9nTm9hIn0.WikC4i_f6_KjnaosizxUpRaC8_Hj6wh3jWQV1Cr0QwuIYLqTnbvlDVqYOYwSWa8AEAyGNv5rVyepuwUmGyhEqMysL6iFW_GkfuF84JtH3FP7y9zpClHOt2hLCQb9IDT261evPfVZFzWYwe_e3INR6S6Q5ehmVsV55QVefjPkna-rRQwQM_E2Mxh5pUNwmbZ0HYH5s2yJaFARCzzaiwZGsneyPZSarY9fD6WOleD1FsEEjej-tiKYgq9hjNz_T9rOwR4gaTHsnYr2yI3TXoDBNXgr___vpOFx6FKFCWNEKmUIrWB2PQqmSG08k2gwAfYc8DBNltKZEryGlCZIIf6RCg' \
+--data '{
+    "doDisbursementProcessingForIBOC": {
+        "sessionContext": {
+            "bankCode": 15,
+            "channel": "LOS",
+            "externalBatchNumber": 0,
+            "externalReferenceNo": "",
+            "externalSystemAuditTrailNumber": 0,
+            "localDateTimeText": "",
+            "originalReferenceNo": "",
+            "overridenWarnings": "",
+            "postingDateText": "",
+            "reason": {
+                "comment": "",
+                "reasonCode": 0
+            },
+            "serviceCode": "",
+            "sessionTicket": "",
+            "supervisorContext": {
+                "primaryPassword": "",
+                "userId": ""
+            },
+            "transactionBranch": 1,
+            "userId": "RLOS",
+            "userReferenceNumber": "",
+            "valueDateText": ""
+        },
+        "loanAccountNo": "001450003267",
+        "flgScenario": 2,
+        "flgSchemeLn": "N",
+        "iBOCdeductionDetailsDTO": [
+            {
+                "ctrSrlDednNo": 1,
+                "deductionAmountInAccountCurrency": 1000,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 2,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 5,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 4,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 3,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            }
+        ],
+        "acctType": "CH",
+        "disbAmount": 60000000,
+        "codAcctNoDisb": "021201365505",
+        "ledgerCcyShrtName": "",
+        "ledgerBranchCode": "",
+        "ioiTerm": 0,
+        "firstRepayDate": ""
+    }
+}'
+{
+    "Fault": {
+        "faultcode": "soapenv:Server.userException",
+        "faultstring": "com.iflex.fcr.infra.exception.FatalException: Disbursement amount above sanctioned amount",
+        "detail": {
+            "fault": {
+                "errorCode": 4814,
+                "responseCode": 99,
+                "reason": {
+                    "code": 29,
+                    "message": " Internal OLTP Error. "
+                }
+            },
+            "hostname": "TZ-UAT-APP-FCR1.tz.af.absa.local"
+        }
+    }
+}

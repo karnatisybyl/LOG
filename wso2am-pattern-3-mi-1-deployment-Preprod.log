@@ -1,0 +1,591 @@
+[2025-03-07 16:35:39,204]  INFO {org.wso2.config.mapper.ConfigParser} - Overriding files in configuration directory /home/wso2carbon/wso2mi-4.2.0
+[2025-03-07 16:35:39,433]  INFO {org.wso2.config.mapper.ConfigParser} - Applying configurations with deployment configurations
+[2025-03-07 16:35:44,872]  INFO {RuntimeStatisticCollector} - Statistics Entry Expiration time set to 136000 milliseconds
+[2025-03-07 16:35:45,235]  INFO {Axis2SynapseEnvironment} - Continuation call is set to true
+[2025-03-07 16:35:45,236]  INFO {SequenceDeployer} - Sequence named 'secondaryFlow' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545223ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/secondaryFlow_1.0.0/secondaryFlow-1.0.0.xml
+[2025-03-07 16:35:45,238]  INFO {SequenceDeployer} - Sequence named 'firstSubFlow' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545223ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/firstSubFlow_1.0.0/firstSubFlow-1.0.0.xml
+[2025-03-07 16:35:45,238]  INFO {Axis2SynapseEnvironment} - Continuation call is set to false
+[2025-03-07 16:35:45,238]  INFO {SequenceDeployer} - Sequence named 'secondSubFlow' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545223ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/secondSubFlow_1.0.0/secondSubFlow-1.0.0.xml
+[2025-03-07 16:35:45,239]  INFO {SequenceDeployer} - Sequence named 'ErrorHandling' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545223ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/ErrorHandling_1.0.0/ErrorHandling-1.0.0.xml
+[2025-03-07 16:35:45,258]  INFO {API} - {api:business-logic} Initializing API: business-logic
+[2025-03-07 16:35:45,262]  INFO {APIDeployer} - API named 'business-logic' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545223ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/business-logic_1.0.0/business-logic-1.0.0.xml
+[2025-03-07 16:35:45,262]  INFO {CappDeployer} - Successfully Deployed Carbon Application : ContentBasedRoutingApplicationCompositeExporter_1.0.0{super-tenant}
+[2025-03-07 16:35:45,263]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : ContentBasedRoutingApplicationCompositeExporter_1.0.0.car
+[2025-03-07 16:35:45,417]  INFO {EndpointDeployer} - Endpoint named 'CustomerApi_SOAP_ENDPOINT' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545263CustomerManagerCompositeExporter_1.0.0.car/CustomerApi_SOAP_ENDPOINT_1.0.0/CustomerApi_SOAP_ENDPOINT-1.0.0.xml
+[2025-03-07 16:35:45,446]  INFO {API} - {api:CustomerApi:v1.0.0} Initializing API: CustomerApi:v1.0.0
+[2025-03-07 16:35:45,447]  INFO {Axis2SynapseEnvironment} - Continuation call is set to true
+[2025-03-07 16:35:45,447]  INFO {APIDeployer} - API named 'CustomerApi:v1.0.0' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545263CustomerManagerCompositeExporter_1.0.0.car/CustomerApi_1.0.0/CustomerApi-1.0.0.xml
+[2025-03-07 16:35:45,447]  INFO {CappDeployer} - Successfully Deployed Carbon Application : CustomerManagerCompositeExporter_1.0.0{super-tenant}
+[2025-03-07 16:35:45,449]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : CustomerManagerCompositeExporter_1.0.0.car
+[2025-03-07 16:35:45,453]  INFO {EndpointDeployer} - Endpoint named 'CustomerPersonalDataManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545447CustomerPersonalDataManagerCompositeExporter_1.0.0-SNAPSHOT.car/CustomerPersonalDataManager_EP_1.0.0/CustomerPersonalDataManager_EP-1.0.0.xml
+[2025-03-07 16:35:45,566] ERROR {ServiceCatalogUtils} - Could not create temporary files
+[2025-03-07 16:35:45,576] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545568LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2025-03-07 16:35:45,577]  INFO {API} - {api:CustomerPersonalDataManager} Initializing API: CustomerPersonalDataManager
+[2025-03-07 16:35:45,578]  INFO {APIDeployer} - API named 'CustomerPersonalDataManager' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545447CustomerPersonalDataManagerCompositeExporter_1.0.0-SNAPSHOT.car/CustomerPersonalDataManager_1.0.0/CustomerPersonalDataManager-1.0.0.xml
+[2025-03-07 16:35:45,578]  INFO {CappDeployer} - Successfully Deployed Carbon Application : CustomerPersonalDataManagerCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-03-07 16:35:45,578]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : CustomerPersonalDataManagerCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-03-07 16:35:45,590]  INFO {EndpointDeployer} - Endpoint named 'LoansCollateralManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545578LoanCollateralManagerSpiCompositeExporter_1.0.0.car/LoansCollateralManager_EP_1.0.0/LoansCollateralManager_EP-1.0.0.xml
+[2025-03-07 16:35:45,645] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545637LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2025-03-07 16:35:45,700]  INFO {API} - {api:LoanCollateralManagerAPI:v1.0.0} Initializing API: LoanCollateralManagerAPI:v1.0.0
+[2025-03-07 16:35:45,742]  INFO {APIDeployer} - API named 'LoanCollateralManagerAPI:v1.0.0' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545578LoanCollateralManagerSpiCompositeExporter_1.0.0.car/LoanCollateralManagerAPI_1.0.0_1.0.0/LoanCollateralManagerAPI_1.0.0-1.0.0.xml
+[2025-03-07 16:35:45,743]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoanCollateralManagerSpiCompositeExporter_1.0.0{super-tenant}
+[2025-03-07 16:35:45,761]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoanCollateralManagerSpiCompositeExporter_1.0.0.car
+[2025-03-07 16:35:45,770]  INFO {EndpointDeployer} - Endpoint named 'LoanScheduleManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545750LoanScheduleManagerCompositeExporter_1.0.0.car/LoanScheduleManager_EP_1.0.0/LoanScheduleManager_EP-1.0.0.xml
+[2025-03-07 16:35:45,811]  INFO {API} - {api:LoanScheduleManagerApi} Initializing API: LoanScheduleManagerApi
+[2025-03-07 16:35:45,833]  INFO {APIDeployer} - API named 'LoanScheduleManagerApi' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545750LoanScheduleManagerCompositeExporter_1.0.0.car/LoanScheduleManagerApi_1.0.0/LoanScheduleManagerApi-1.0.0.xml
+[2025-03-07 16:35:45,833]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoanScheduleManagerCompositeExporter_1.0.0{super-tenant}
+[2025-03-07 16:35:45,840]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoanScheduleManagerCompositeExporter_1.0.0.car
+[2025-03-07 16:35:45,850] ERROR {FileRegistryResourceDeployer} - Specified file to be written as a resource is not found at : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545833LoansCustomerManagerCompositeExporter_1.0.0.car/InquireResponseMapper_xsltStyleSheet_1.0.0/resources/InquireResponseMapper_xsltStyleSheet.xml
+[2025-03-07 16:35:45,850] ERROR {FileRegistryResourceDeployer} - Specified file to be written as a resource is not found at : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545833LoansCustomerManagerCompositeExporter_1.0.0.car/InquireResponseMapper_inputSchema_1.0.0/resources/InquireResponseMapper_inputSchema.json
+[2025-03-07 16:35:45,860] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545854LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2025-03-07 16:35:45,870]  INFO {EndpointDeployer} - Endpoint named 'LoansCustomerManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545833LoansCustomerManagerCompositeExporter_1.0.0.car/LoansCustomerManager_EP_1.0.0/LoansCustomerManager_EP-1.0.0.xml
+[2025-03-07 16:35:45,908] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545901LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2025-03-07 16:35:45,960]  INFO {API} - {api:LoansCustomerManager:v1.0.0} Initializing API: LoansCustomerManager:v1.0.0
+[2025-03-07 16:35:45,992]  INFO {APIDeployer} - API named 'LoansCustomerManager:v1.0.0' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545833LoansCustomerManagerCompositeExporter_1.0.0.car/LoansCustomerManager_1.0.0_1.0.0/LoansCustomerManager_1.0.0-1.0.0.xml
+[2025-03-07 16:35:45,992]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansCustomerManagerCompositeExporter_1.0.0{super-tenant}
+[2025-03-07 16:35:45,994]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansCustomerManagerCompositeExporter_1.0.0.car
+[2025-03-07 16:35:46,022]  INFO {EndpointDeployer} - Endpoint named 'LoansManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545996LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_EP_1.0.0/LoansManager_EP-1.0.0.xml
+[2025-03-07 16:35:46,108] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546100LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2025-03-07 16:35:46,131]  INFO {API} - {api:LoansManager:v1.0.0} Initializing API: LoansManager:v1.0.0
+[2025-03-07 16:35:46,181]  INFO {APIDeployer} - API named 'LoansManager:v1.0.0' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354545996LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_1.0.0_1.0.0/LoansManager_1.0.0-1.0.0.xml
+[2025-03-07 16:35:46,181]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansManager-V1CompositeExporter_1.0.0{super-tenant}
+[2025-03-07 16:35:46,182]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansManager-V1CompositeExporter_1.0.0.car
+[2025-03-07 16:35:46,185]  INFO {EndpointDeployer} - Endpoint named 'LoanPayInstalmentInAdvance' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546181LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT.car/LoanPayInstalmentInAdvance_1.0.0/LoanPayInstalmentInAdvance-1.0.0.xml
+[2025-03-07 16:35:46,199]  INFO {API} - {api:PayInstalmentInAdvance} Initializing API: PayInstalmentInAdvance
+[2025-03-07 16:35:46,212]  INFO {APIDeployer} - API named 'PayInstalmentInAdvance' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546181LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentInAdvance_1.0.0/PayInstalmentInAdvance-1.0.0.xml
+[2025-03-07 16:35:46,212]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-03-07 16:35:46,216]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-03-07 16:35:46,232] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546226LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2025-03-07 16:35:46,250]  INFO {EndpointDeployer} - Endpoint named 'LoansPaymentManagerEndpoint' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546216LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentManagerEndpoint_1.0.0/LoansPaymentManagerEndpoint-1.0.0.xml
+[2025-03-07 16:35:46,257]  INFO {SequenceDeployer} - Sequence named 'LoansPaymentOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546216LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentOutSequence_1.0.0/LoansPaymentOutSequence-1.0.0.xml
+[2025-03-07 16:35:46,261]  INFO {SequenceDeployer} - Sequence named 'LoansPaymentFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546216LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentFaultSequence_1.0.0/LoansPaymentFaultSequence-1.0.0.xml
+[2025-03-07 16:35:46,265] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546260LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2025-03-07 16:35:46,407]  INFO {SequenceDeployer} - Sequence named 'DoDisbursementProcessingForIslamic' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546216LoansPaymentManagerCompositeExporter_1.0.0.car/DoDisbursementProcessingForIslamic_1.0.0/DoDisbursementProcessingForIslamic-1.0.0.xml
+[2025-03-07 16:35:46,476]  INFO {SequenceDeployer} - Sequence named 'DoDisbursementProcessingForIBOCInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546216LoansPaymentManagerCompositeExporter_1.0.0.car/DoDisbursementProcessingForIBOCInSequence_1.0.0/DoDisbursementProcessingForIBOCInSequence-1.0.0.xml
+[2025-03-07 16:35:46,478]  INFO {SequenceDeployer} - Sequence named 'InquireDeductionDetailsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546216LoansPaymentManagerCompositeExporter_1.0.0.car/InquireDeductionDetailsInSequence_1.0.0/InquireDeductionDetailsInSequence-1.0.0.xml
+[2025-03-07 16:35:46,479]  INFO {API} - {api:LoansPaymentManagerAPI} Initializing API: LoansPaymentManagerAPI
+[2025-03-07 16:35:46,479]  INFO {APIDeployer} - API named 'LoansPaymentManagerAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546216LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentManagerAPI_1.0.0/LoansPaymentManagerAPI-1.0.0.xml
+[2025-03-07 16:35:46,479]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansPaymentManagerCompositeExporter_1.0.0{super-tenant}
+[2025-03-07 16:35:46,480]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansPaymentManagerCompositeExporter_1.0.0.car
+[2025-03-07 16:35:46,487]  INFO {SequenceDeployer} - Sequence named 'FCCFT_FAULT_SEQUENCE' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546479WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFT_FAULT_SEQUENCE_1.0.0/FCCFT_FAULT_SEQUENCE-1.0.0.xml
+[2025-03-07 16:35:46,533] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546527LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2025-03-07 16:35:46,534]  INFO {SequenceDeployer} - Sequence named 'FCCFT_RESPONSE_SEQUENCE' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546479WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFT_RESPONSE_SEQUENCE_1.0.0/FCCFT_RESPONSE_SEQUENCE-1.0.0.xml
+[2025-03-07 16:35:46,549]  INFO {SequenceDeployer} - Sequence named 'FCCFT_REQUEST_IN_SEQUENCE' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546479WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFT_REQUEST_IN_SEQUENCE_1.0.0/FCCFT_REQUEST_IN_SEQUENCE-1.0.0.xml
+[2025-03-07 16:35:46,550]  INFO {API} - {api:FCCFTAPI} Initializing API: FCCFTAPI
+[2025-03-07 16:35:46,550]  INFO {APIDeployer} - API named 'FCCFTAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546479WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFTAPI_1.0.0/FCCFTAPI-1.0.0.xml
+[2025-03-07 16:35:46,551]  INFO {CappDeployer} - Successfully Deployed Carbon Application : WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-03-07 16:35:46,552]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-03-07 16:35:46,603] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546597LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2025-03-07 16:35:46,626]  INFO {EndpointDeployer} - Endpoint named 'BillPaymentManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/BillPaymentManagerSpiSoapEP_1.0.0/BillPaymentManagerSpiSoapEP-1.0.0.xml
+[2025-03-07 16:35:46,627]  INFO {EndpointDeployer} - Endpoint named 'CurrencyRateManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/CurrencyRateManagerSpiEP_1.0.0/CurrencyRateManagerSpiEP-1.0.0.xml
+[2025-03-07 16:35:46,628]  INFO {EndpointDeployer} - Endpoint named 'CustomerManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/CustomerManagerSpiSoapEP_1.0.0/CustomerManagerSpiSoapEP-1.0.0.xml
+[2025-03-07 16:35:46,628]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositInstructionManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositInstructionManagerSpiSoapEP_1.0.0/DemandDepositInstructionManagerSpiSoapEP-1.0.0.xml
+[2025-03-07 16:35:46,629]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositMaintenanceSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositMaintenanceSpiEP_1.0.0/DemandDepositMaintenanceSpiEP-1.0.0.xml
+[2025-03-07 16:35:46,630]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositManagerSpiSoapEP_1.0.0/DemandDepositManagerSpiSoapEP-1.0.0.xml
+[2025-03-07 16:35:46,632]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositStatementManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositStatementManagerSpiEP_1.0.0/DemandDepositStatementManagerSpiEP-1.0.0.xml
+[2025-03-07 16:35:46,632]  INFO {SequenceDeployer} - Sequence named 'ActivateDeactivateAccountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ActivateDeactivateAccountInSequence_1.0.0/ActivateDeactivateAccountInSequence-1.0.0.xml
+[2025-03-07 16:35:46,633]  INFO {SequenceDeployer} - Sequence named 'AddCustomerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/AddCustomerInSequence_1.0.0/AddCustomerInSequence-1.0.0.xml
+[2025-03-07 16:35:46,634]  INFO {SequenceDeployer} - Sequence named 'AddStandingInstructionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/AddStandingInstructionInSequence_1.0.0/AddStandingInstructionInSequence-1.0.0.xml
+[2025-03-07 16:35:46,634]  INFO {SequenceDeployer} - Sequence named 'ConvertAmountWithFromToCurrencyInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ConvertAmountWithFromToCurrencyInSequence_1.0.0/ConvertAmountWithFromToCurrencyInSequence-1.0.0.xml
+[2025-03-07 16:35:46,635]  INFO {SequenceDeployer} - Sequence named 'CreateNewAccountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/CreateNewAccountInSequence_1.0.0/CreateNewAccountInSequence-1.0.0.xml
+[2025-03-07 16:35:46,636]  INFO {SequenceDeployer} - Sequence named 'DeleteStandingInstructionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DeleteStandingInstructionInSequence_1.0.0/DeleteStandingInstructionInSequence-1.0.0.xml
+[2025-03-07 16:35:46,637]  INFO {SequenceDeployer} - Sequence named 'DomesticTransferFundsWithDRCRAmountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DomesticTransferFundsWithDRCRAmountInSequence_1.0.0/DomesticTransferFundsWithDRCRAmountInSequence-1.0.0.xml
+[2025-03-07 16:35:46,637]  INFO {SequenceDeployer} - Sequence named 'InquireBillWalletRtgsTxnsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireBillWalletRtgsTxnsInSequence_1.0.0/InquireBillWalletRtgsTxnsInSequence-1.0.0.xml
+[2025-03-07 16:35:46,638]  INFO {SequenceDeployer} - Sequence named 'InquireForMaintenanceInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireForMaintenanceInSequence_1.0.0/InquireForMaintenanceInSequence-1.0.0.xml
+[2025-03-07 16:35:46,639]  INFO {SequenceDeployer} - Sequence named 'InquireInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireInSequence_1.0.0/InquireInSequence-1.0.0.xml
+[2025-03-07 16:35:46,639]  INFO {SequenceDeployer} - Sequence named 'InquireListOfTransactionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireListOfTransactionInSequence_1.0.0/InquireListOfTransactionInSequence-1.0.0.xml
+[2025-03-07 16:35:46,640]  INFO {SequenceDeployer} - Sequence named 'ListCASAAccountDetailsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ListCASAAccountDetailsInSequence_1.0.0/ListCASAAccountDetailsInSequence-1.0.0.xml
+[2025-03-07 16:35:46,641]  INFO {SequenceDeployer} - Sequence named 'MisCustDebitWithDRCRAmtDepDtlsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/MisCustDebitWithDRCRAmtDepDtlsInSequence_1.0.0/MisCustDebitWithDRCRAmtDepDtlsInSequence-1.0.0.xml
+[2025-03-07 16:35:46,642]  INFO {SequenceDeployer} - Sequence named 'ModifyStandingInstructionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ModifyStandingInstructionInSequence_1.0.0/ModifyStandingInstructionInSequence-1.0.0.xml
+[2025-03-07 16:35:46,642]  INFO {SequenceDeployer} - Sequence named 'PayUtilityBillByAccountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/PayUtilityBillByAccountInSequence_1.0.0/PayUtilityBillByAccountInSequence-1.0.0.xml
+[2025-03-07 16:35:46,643]  INFO {SequenceDeployer} - Sequence named 'PayUtilityBillByAccountTIPSInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/PayUtilityBillByAccountTIPSInSequence_1.0.0/PayUtilityBillByAccountTIPSInSequence-1.0.0.xml
+[2025-03-07 16:35:46,644]  INFO {SequenceDeployer} - Sequence named 'RequestChequeBookInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/RequestChequeBookInSequence_1.0.0/RequestChequeBookInSequence-1.0.0.xml
+[2025-03-07 16:35:46,644]  INFO {SequenceDeployer} - Sequence named 'TransferFundsWithDRCRAmountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/TransferFundsWithDRCRAmountInSequence_1.0.0/TransferFundsWithDRCRAmountInSequence-1.0.0.xml
+[2025-03-07 16:35:46,645]  INFO {SequenceDeployer} - Sequence named 'UpdateAccountStatusForCASAInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/UpdateAccountStatusForCASAInSequence_1.0.0/UpdateAccountStatusForCASAInSequence-1.0.0.xml
+[2025-03-07 16:35:46,650]  INFO {SequenceDeployer} - Sequence named 'WSO2MINBCFCRFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/WSO2MINBCFCRFaultSequence_1.0.0/WSO2MINBCFCRFaultSequence-1.0.0.xml
+[2025-03-07 16:35:46,650]  INFO {SequenceDeployer} - Sequence named 'WSO2MINBCOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/WSO2MINBCOutSequence_1.0.0/WSO2MINBCOutSequence-1.0.0.xml
+[2025-03-07 16:35:46,651]  INFO {API} - {api:FCRAPI} Initializing API: FCRAPI
+[2025-03-07 16:35:46,651]  INFO {APIDeployer} - API named 'FCRAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546551WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/FCRAPI_1.0.0/FCRAPI-1.0.0.xml
+[2025-03-07 16:35:46,652]  INFO {CappDeployer} - Successfully Deployed Carbon Application : WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-03-07 16:35:46,659]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-03-07 16:35:46,681]  INFO {EndpointDeployer} - Endpoint named 'CustomerImageManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/CustomerImageManagerSpiEP_1.0.0/CustomerImageManagerSpiEP-1.0.0.xml
+[2025-03-07 16:35:46,682]  INFO {EndpointDeployer} - Endpoint named 'CustomerManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/CustomerManagerSpiEP_1.0.0/CustomerManagerSpiEP-1.0.0.xml
+[2025-03-07 16:35:46,683]  INFO {SequenceDeployer} - Sequence named 'AddCustomerImageInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/AddCustomerImageInSequence_1.0.0/AddCustomerImageInSequence-1.0.0.xml
+[2025-03-07 16:35:46,683]  INFO {SequenceDeployer} - Sequence named 'AddIndividualCorporateCustomerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/AddIndividualCorporateCustomerInSequence_1.0.0/AddIndividualCorporateCustomerInSequence-1.0.0.xml
+[2025-03-07 16:35:46,691]  INFO {SequenceDeployer} - Sequence named 'DoDedupCustomerSearchInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/DoDedupCustomerSearchInSequence_1.0.0/DoDedupCustomerSearchInSequence-1.0.0.xml
+[2025-03-07 16:35:46,693]  INFO {SequenceDeployer} - Sequence named 'DoDedupCustomerSearchOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/DoDedupCustomerSearchOutSequence_1.0.0/DoDedupCustomerSearchOutSequence-1.0.0.xml
+[2025-03-07 16:35:46,697]  INFO {SequenceDeployer} - Sequence named 'FaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/FaultSequence_1.0.0/FaultSequence-1.0.0.xml
+[2025-03-07 16:35:46,698]  INFO {SequenceDeployer} - Sequence named 'InquireCustomerImageInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/InquireCustomerImageInSequence_1.0.0/InquireCustomerImageInSequence-1.0.0.xml
+[2025-03-07 16:35:46,699]  INFO {SequenceDeployer} - Sequence named 'InquireIndivdualCorporateCustWithAddInfoInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/InquireIndivdualCorporateCustWithAddInfoInSequence_1.0.0/InquireIndivdualCorporateCustWithAddInfoInSequence-1.0.0.xml
+[2025-03-07 16:35:46,700]  INFO {SequenceDeployer} - Sequence named 'ModifyCustomerForICInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/ModifyCustomerForICInSequence_1.0.0/ModifyCustomerForICInSequence-1.0.0.xml
+[2025-03-07 16:35:46,700]  INFO {SequenceDeployer} - Sequence named 'ModifyCustomerImageInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/ModifyCustomerImageInSequence_1.0.0/ModifyCustomerImageInSequence-1.0.0.xml
+[2025-03-07 16:35:46,701]  INFO {SequenceDeployer} - Sequence named 'ModifyCustomerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/ModifyCustomerInSequence_1.0.0/ModifyCustomerInSequence-1.0.0.xml
+[2025-03-07 16:35:46,702]  INFO {SequenceDeployer} - Sequence named 'OutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/OutSequence_1.0.0/OutSequence-1.0.0.xml
+[2025-03-07 16:35:46,702]  INFO {API} - {api:AccountOpeningAPI} Initializing API: AccountOpeningAPI
+[2025-03-07 16:35:46,703]  INFO {APIDeployer} - API named 'AccountOpeningAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546652WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/AccountOpeningAPI_1.0.0/AccountOpeningAPI-1.0.0.xml
+[2025-03-07 16:35:46,703]  INFO {CappDeployer} - Successfully Deployed Carbon Application : WSO2MIAccountOpeningFCRCompositeExporter_1.0.0{super-tenant}
+[2025-03-07 16:35:46,703]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car
+[2025-03-07 16:35:46,714] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546708LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2025-03-07 16:35:46,721]  INFO {PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8290
+[2025-03-07 16:35:46,724]  INFO {PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8253
+[2025-03-07 16:35:46,725]  INFO {StartupFinalizer} - WSO2 Micro Integrator started in 7.53 seconds
+[2025-03-07 16:35:46,746] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1741354546739LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:788)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:472)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:430)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:723)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[2025-03-07 16:35:46,835]  INFO {PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTP_INBOUND_ENDPOINT Listener started on 0.0.0.0:9201
+[2025-03-07 16:35:46,873]  INFO {PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTPS_INBOUND_ENDPOINT Listener started on 0.0.0.0:9164
+[2025-03-07 16:38:00,867]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, MessageID: urn:uuid:c7a2897e-0565-4954-9b6a-8b2c5851d353, correlation_id: 80666c93-7478-466e-a101-33a6256bbd5b, Direction: request, BOOLEAN######### = false, Payload: {
+    "doDisbursementProcessingForIBOC": {
+        "sessionContext": {
+            "bankCode": 15,
+            "channel": "LOS",
+            "externalBatchNumber": 0,
+            "externalReferenceNo": "",
+            "externalSystemAuditTrailNumber": 0,
+            "localDateTimeText": "",
+            "originalReferenceNo": "",
+            "overridenWarnings": "",
+            "postingDateText": "",
+            "reason": {
+                "comment": "",
+                "reasonCode": 0
+            },
+            "serviceCode": "",
+            "sessionTicket": "",
+            "supervisorContext": {
+                "primaryPassword": "",
+                "userId": ""
+            },
+            "transactionBranch": 1,
+            "userId": "RLOS",
+            "userReferenceNumber": "",
+            "valueDateText": ""
+        },
+        "loanAccountNo": "001450003267",
+        "flgScenario": 2,
+        "flgSchemeLn": "N",
+        "iBOCdeductionDetailsDTO": [
+            {
+                "ctrSrlDednNo": 1,
+                "deductionAmountInAccountCurrency": 1000,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 2,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 5,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 4,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 3,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            }
+        ],
+        "acctType": "CH",
+        "disbAmount": 60000000,
+        "codAcctNoDisb": "021201365505",
+        "ledgerCcyShrtName": "",
+        "ledgerBranchCode": "",
+        "ioiTerm": 0,
+        "firstRepayDate": ""
+    }
+}
+[2025-03-07 16:38:00,868]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, MessageID: urn:uuid:c7a2897e-0565-4954-9b6a-8b2c5851d353, correlation_id: 80666c93-7478-466e-a101-33a6256bbd5b, Direction: request, message = iBOCPayoutDetailsDTO does not exist. Proceeding to else block., Payload: {
+    "doDisbursementProcessingForIBOC": {
+        "sessionContext": {
+            "bankCode": 15,
+            "channel": "LOS",
+            "externalBatchNumber": 0,
+            "externalReferenceNo": "",
+            "externalSystemAuditTrailNumber": 0,
+            "localDateTimeText": "",
+            "originalReferenceNo": "",
+            "overridenWarnings": "",
+            "postingDateText": "",
+            "reason": {
+                "comment": "",
+                "reasonCode": 0
+            },
+            "serviceCode": "",
+            "sessionTicket": "",
+            "supervisorContext": {
+                "primaryPassword": "",
+                "userId": ""
+            },
+            "transactionBranch": 1,
+            "userId": "RLOS",
+            "userReferenceNumber": "",
+            "valueDateText": ""
+        },
+        "loanAccountNo": "001450003267",
+        "flgScenario": 2,
+        "flgSchemeLn": "N",
+        "iBOCdeductionDetailsDTO": [
+            {
+                "ctrSrlDednNo": 1,
+                "deductionAmountInAccountCurrency": 1000,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 2,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 5,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 4,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 3,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            }
+        ],
+        "acctType": "CH",
+        "disbAmount": 60000000,
+        "codAcctNoDisb": "021201365505",
+        "ledgerCcyShrtName": "",
+        "ledgerBranchCode": "",
+        "ioiTerm": 0,
+        "firstRepayDate": ""
+    }
+}
+[2025-03-07 16:38:01,005]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,011]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,017]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,021]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,026]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,031]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,036]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,041]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,046]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,051]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,056]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,060]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,065]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,070]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,075]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,081]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,086]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,092]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,097]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,102]  WARN {ScriptExecutor} - Could not find Nashorn jar in the lib, switching to rhino js. This may cause performance issue 
+[2025-03-07 16:38:01,135]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, MessageID: urn:uuid:c7a2897e-0565-4954-9b6a-8b2c5851d353, correlation_id: 80666c93-7478-466e-a101-33a6256bbd5b, Direction: request, beforeEP = beforeEP, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:spi="http://spi.loans.app.fcr.iflex.com" xmlns:dto="http://dto.loans.app.fcr.iflex.com"><soapenv:Body><spi:doDisbursementProcessingForIBOC><spi:sessionContext><con:bankCode>15</con:bankCode><con:channel>LOS</con:channel><con:externalBatchNumber>0</con:externalBatchNumber><con:externalReferenceNo/><con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber><con:localDateTimeText/><con:originalReferenceNo/><con:overridenWarnings/><con:postingDateText/><con:reason><con:comment/><con:reasonCode>0</con:reasonCode></con:reason><con:serviceCode/><con:sessionTicket/><con:supervisorContext><con:primaryPassword/><con:userId/></con:supervisorContext><con:transactionBranch>1</con:transactionBranch><con:userId>RLOS</con:userId><con:userReferenceNumber/><con:valueDateText/></spi:sessionContext><spi:loanAccountNo>001450003267</spi:loanAccountNo><spi:flgScenario>2</spi:flgScenario><spi:flgSchemeLn>N</spi:flgSchemeLn><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>1</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1000</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>2</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1468</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>5</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1468</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>4</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1468</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>3</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1468</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:acctType>CH</spi:acctType><spi:disbAmount>60000000</spi:disbAmount><spi:codAcctNoDisb>021201365505</spi:codAcctNoDisb><spi:ledgerCcyShrtName/><spi:ledgerBranchCode/><spi:ioiTerm>0</spi:ioiTerm><spi:firstRepayDate/></spi:doDisbursementProcessingForIBOC></soapenv:Body></soapenv:Envelope>
+[2025-03-07 16:38:01,144]  INFO {TimeoutHandler} - This engine will expire all callbacks after GLOBAL_TIMEOUT: 120 seconds, irrespective of the timeout action, after the specified or optional timeout
+[2025-03-07 16:38:01,258]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:925c1011-5e7f-4759-817c-7beba8e17ab3, correlation_id: 80666c93-7478-466e-a101-33a6256bbd5b, Direction: request, afterEP = afterEP, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>com.iflex.fcr.infra.exception.FatalException: Disbursement amount above sanctioned amount</faultstring><detail><ns1:fault xmlns:ns1="http://spi.loans.app.fcr.iflex.com"><ns2:errorCode xmlns:ns2="http://exception.infra.fcr.iflex.com">4814</ns2:errorCode><ns3:responseCode xmlns:ns3="http://exception.infra.fcr.iflex.com">99</ns3:responseCode><ns4:reason xmlns:ns4="http://exception.infra.fcr.iflex.com"><ns4:code>29</ns4:code><ns4:message> Internal OLTP Error. </ns4:message></ns4:reason></ns1:fault><ns5:hostname xmlns:ns5="http://xml.apache.org/axis/">TZ-UAT-APP-FCR1.tz.af.absa.local</ns5:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+[2025-03-07 16:38:01,289]  INFO {CommonScriptMessageContext} - --------------------------------------- Function ---------------------------------------
+[2025-03-07 16:38:01,289]  INFO {CommonScriptMessageContext} - --------------------------------------- Final payload ---------------------------------------
+[2025-03-07 16:38:01,290]  INFO {CommonScriptMessageContext} - {"Fault":{"faultcode":"soapenv:Server.userException","faultstring":"com.iflex.fcr.infra.exception.FatalException: Disbursement amount above sanctioned amount","detail":{"fault":{"errorCode":4814,"responseCode":99,"reason":{"code":29,"message":" Internal OLTP Error. "}},"hostname":"TZ-UAT-APP-FCR1.tz.af.absa.local"}}}
+[2025-03-07 16:38:01,300]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} Enriched PAYLOAD = {"Fault":{"faultcode":"soapenv:Server.userException","faultstring":"com.iflex.fcr.infra.exception.FatalException: Disbursement amount above sanctioned amount","detail":{"fault":{"errorCode":4814,"responseCode":99,"reason":{"code":29,"message":" Internal OLTP Error. "}},"hostname":"TZ-UAT-APP-FCR1.tz.af.absa.local"}}}
+[2025-03-07 16:38:01,300]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:925c1011-5e7f-4759-817c-7beba8e17ab3, correlation_id: 80666c93-7478-466e-a101-33a6256bbd5b, Direction: request, Payload: {"Fault":{"faultcode":"soapenv:Server.userException", "faultstring":"com.iflex.fcr.infra.exception.FatalException: Disbursement amount above sanctioned amount", "detail":{"fault":{"errorCode":4814, "responseCode":99, "reason":{"code":29, "message":" Internal OLTP Error. "}}, "hostname":"TZ-UAT-APP-FCR1.tz.af.absa.local"}}}
+[2025-03-07 16:45:20,413]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, MessageID: urn:uuid:a658bb9b-ad34-486c-9da5-e73002fa86f5, correlation_id: c73beced-cea3-44a8-b995-6e7df3680dc6, Direction: request, BOOLEAN######### = false, Payload: {
+    "doDisbursementProcessingForIBOC": {
+        "sessionContext": {
+            "bankCode": 15,
+            "channel": "LOS",
+            "externalBatchNumber": 0,
+            "externalReferenceNo": "",
+            "externalSystemAuditTrailNumber": 0,
+            "localDateTimeText": "",
+            "originalReferenceNo": "",
+            "overridenWarnings": "",
+            "postingDateText": "",
+            "reason": {
+                "comment": "",
+                "reasonCode": 0
+            },
+            "serviceCode": "",
+            "sessionTicket": "",
+            "supervisorContext": {
+                "primaryPassword": "",
+                "userId": ""
+            },
+            "transactionBranch": 1,
+            "userId": "RLOS",
+            "userReferenceNumber": "",
+            "valueDateText": ""
+        },
+        "loanAccountNo": "020450000549",
+        "flgScenario": 1,
+        "flgSchemeLn": "N",
+        "iBOCdeductionDetailsDTO": [
+            {
+                "ctrSrlDednNo": 2,
+                "deductionAmountInAccountCurrency": 1000,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 3,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 1,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 5,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 4,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            }
+        ],
+        "acctType": "CH",
+        "disbAmount": 50000000,
+        "codAcctNoDisb": "021201050015",
+        "ledgerCcyShrtName": "",
+        "ledgerBranchCode": "",
+        "ioiTerm": 0,
+        "firstRepayDate": ""
+    }
+}
+[2025-03-07 16:45:20,414]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, MessageID: urn:uuid:a658bb9b-ad34-486c-9da5-e73002fa86f5, correlation_id: c73beced-cea3-44a8-b995-6e7df3680dc6, Direction: request, message = iBOCPayoutDetailsDTO does not exist. Proceeding to else block., Payload: {
+    "doDisbursementProcessingForIBOC": {
+        "sessionContext": {
+            "bankCode": 15,
+            "channel": "LOS",
+            "externalBatchNumber": 0,
+            "externalReferenceNo": "",
+            "externalSystemAuditTrailNumber": 0,
+            "localDateTimeText": "",
+            "originalReferenceNo": "",
+            "overridenWarnings": "",
+            "postingDateText": "",
+            "reason": {
+                "comment": "",
+                "reasonCode": 0
+            },
+            "serviceCode": "",
+            "sessionTicket": "",
+            "supervisorContext": {
+                "primaryPassword": "",
+                "userId": ""
+            },
+            "transactionBranch": 1,
+            "userId": "RLOS",
+            "userReferenceNumber": "",
+            "valueDateText": ""
+        },
+        "loanAccountNo": "020450000549",
+        "flgScenario": 1,
+        "flgSchemeLn": "N",
+        "iBOCdeductionDetailsDTO": [
+            {
+                "ctrSrlDednNo": 2,
+                "deductionAmountInAccountCurrency": 1000,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 3,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 1,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 5,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            },
+            {
+                "ctrSrlDednNo": 4,
+                "deductionAmountInAccountCurrency": 1468,
+                "deductionCode": 568,
+                "isWaived": "Y"
+            }
+        ],
+        "acctType": "CH",
+        "disbAmount": 50000000,
+        "codAcctNoDisb": "021201050015",
+        "ledgerCcyShrtName": "",
+        "ledgerBranchCode": "",
+        "ioiTerm": 0,
+        "firstRepayDate": ""
+    }
+}
+[2025-03-07 16:45:20,434]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, MessageID: urn:uuid:a658bb9b-ad34-486c-9da5-e73002fa86f5, correlation_id: c73beced-cea3-44a8-b995-6e7df3680dc6, Direction: request, beforeEP = beforeEP, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:spi="http://spi.loans.app.fcr.iflex.com" xmlns:dto="http://dto.loans.app.fcr.iflex.com"><soapenv:Body><spi:doDisbursementProcessingForIBOC><spi:sessionContext><con:bankCode>15</con:bankCode><con:channel>LOS</con:channel><con:externalBatchNumber>0</con:externalBatchNumber><con:externalReferenceNo/><con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber><con:localDateTimeText/><con:originalReferenceNo/><con:overridenWarnings/><con:postingDateText/><con:reason><con:comment/><con:reasonCode>0</con:reasonCode></con:reason><con:serviceCode/><con:sessionTicket/><con:supervisorContext><con:primaryPassword/><con:userId/></con:supervisorContext><con:transactionBranch>1</con:transactionBranch><con:userId>RLOS</con:userId><con:userReferenceNumber/><con:valueDateText/></spi:sessionContext><spi:loanAccountNo>020450000549</spi:loanAccountNo><spi:flgScenario>1</spi:flgScenario><spi:flgSchemeLn>N</spi:flgSchemeLn><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>2</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1000</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>3</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1468</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>1</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1468</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>5</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1468</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>4</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1468</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:acctType>CH</spi:acctType><spi:disbAmount>50000000</spi:disbAmount><spi:codAcctNoDisb>021201050015</spi:codAcctNoDisb><spi:ledgerCcyShrtName/><spi:ledgerBranchCode/><spi:ioiTerm>0</spi:ioiTerm><spi:firstRepayDate/></spi:doDisbursementProcessingForIBOC></soapenv:Body></soapenv:Envelope>
+[2025-03-07 16:45:21,241]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:25079e95-1db8-4044-817b-354a156753f3, correlation_id: c73beced-cea3-44a8-b995-6e7df3680dc6, Direction: request, afterEP = afterEP, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><doDisbursementProcessingForIBOCResponse xmlns="http://spi.loans.app.fcr.iflex.com"><doDisbursementProcessingForIBOCReturn><ns1:errorCode xmlns:ns1="http://transaction.entity.fcr.iflex.com">0</ns1:errorCode><ns2:extendedReply xmlns:ns2="http://transaction.entity.fcr.iflex.com"><ns3:messages xmlns:ns3="http://exception.infra.fcr.iflex.com" xsi:nil="true"/></ns2:extendedReply><ns4:externalReferenceNo xmlns:ns4="http://transaction.entity.fcr.iflex.com">914930102001300000217</ns4:externalReferenceNo><ns5:inputOverridenWarnings xmlns:ns5="http://transaction.entity.fcr.iflex.com"/><ns6:isOverriden xmlns:ns6="http://transaction.entity.fcr.iflex.com">false</ns6:isOverriden><ns7:isServiceChargeApplied xmlns:ns7="http://transaction.entity.fcr.iflex.com">false</ns7:isServiceChargeApplied><ns8:memo xmlns:ns8="http://transaction.entity.fcr.iflex.com" xsi:nil="true"/><ns9:replyCode xmlns:ns9="http://transaction.entity.fcr.iflex.com">0</ns9:replyCode><ns10:replyText xmlns:ns10="http://transaction.entity.fcr.iflex.com" xsi:nil="true"/><ns11:spReturnValue xmlns:ns11="http://transaction.entity.fcr.iflex.com">0</ns11:spReturnValue><ns12:transactionDateTimeText xmlns:ns12="http://transaction.entity.fcr.iflex.com">20250307164520</ns12:transactionDateTimeText><ns13:userReferenceNumber xmlns:ns13="http://transaction.entity.fcr.iflex.com" xsi:nil="true"/><ns14:validationErrors xmlns:ns14="http://transaction.entity.fcr.iflex.com" xsi:nil="true"/></doDisbursementProcessingForIBOCReturn></doDisbursementProcessingForIBOCResponse></soapenv:Body></soapenv:Envelope>
+[2025-03-07 16:45:21,250]  INFO {CommonScriptMessageContext} - --------------------------------------- Function ---------------------------------------
+[2025-03-07 16:45:21,250]  INFO {CommonScriptMessageContext} - Replaced null value or @nil:true for key messages with empty string
+[2025-03-07 16:45:21,250]  INFO {CommonScriptMessageContext} - Replaced null value or @nil:true for key inputOverridenWarnings with empty string
+[2025-03-07 16:45:21,250]  INFO {CommonScriptMessageContext} - Replaced null value or @nil:true for key memo with empty string
+[2025-03-07 16:45:21,250]  INFO {CommonScriptMessageContext} - Replaced null value or @nil:true for key replyText with empty string
+[2025-03-07 16:45:21,250]  INFO {CommonScriptMessageContext} - Replaced null value or @nil:true for key userReferenceNumber with empty string
+[2025-03-07 16:45:21,250]  INFO {CommonScriptMessageContext} - Replaced null value or @nil:true for key validationErrors with empty string
+[2025-03-07 16:45:21,250]  INFO {CommonScriptMessageContext} - --------------------------------------- Final payload ---------------------------------------
+[2025-03-07 16:45:21,250]  INFO {CommonScriptMessageContext} - {"doDisbursementProcessingForIBOCResponse":{"doDisbursementProcessingForIBOCReturn":{"errorCode":0,"extendedReply":{"messages":""},"externalReferenceNo":914930102001300000000,"inputOverridenWarnings":"","isOverriden":false,"isServiceChargeApplied":false,"memo":"","replyCode":0,"replyText":"","spReturnValue":0,"transactionDateTimeText":20250307164520,"userReferenceNumber":"","validationErrors":""}}}
+[2025-03-07 16:45:21,253]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} Enriched PAYLOAD = {"doDisbursementProcessingForIBOCResponse":{"doDisbursementProcessingForIBOCReturn":{"errorCode":0,"extendedReply":{"messages":""},"externalReferenceNo":9.149301020013E20,"inputOverridenWarnings":"","isOverriden":false,"isServiceChargeApplied":false,"memo":"","replyCode":0,"replyText":"","spReturnValue":0,"transactionDateTimeText":2.025030716452E13,"userReferenceNumber":"","validationErrors":""}}}
+[2025-03-07 16:45:21,254]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:25079e95-1db8-4044-817b-354a156753f3, correlation_id: c73beced-cea3-44a8-b995-6e7df3680dc6, Direction: request, Payload: {"doDisbursementProcessingForIBOCResponse":{"doDisbursementProcessingForIBOCReturn":{"errorCode":0, "extendedReply":{"messages":""}, "externalReferenceNo":9.149301020013E20, "inputOverridenWarnings":"", "isOverriden":false, "isServiceChargeApplied":false, "memo":"", "replyCode":0, "replyText":"", "spReturnValue":0, "transactionDateTimeText":2.025030716452E13, "userReferenceNumber":"", "validationErrors":""}}}
