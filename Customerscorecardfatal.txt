@@ -1,33 +1,34 @@
-<?xml version='1.0' encoding='utf-8'?>
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:spi="http://spi.customer.app.fcr.iflex.com">
-    <soapenv:Body>
-        <spi:inquireCustomerScoreCard>
-            <spi:sessionContext>
-                <con:bankCode>15</con:bankCode>
-                <con:channel>IFE</con:channel>
-                <con:externalBatchNumber>0</con:externalBatchNumber>
-                <con:externalReferenceNo/>
-                <con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber>
-                <con:localDateTimeText/>
-                <con:originalReferenceNo/>
-                <con:overridenWarnings>NaN</con:overridenWarnings>
-                <con:postingDateText>20210915</con:postingDateText>
-                <con:reason>
-                    <con:comment/>
-                    <con:reasonCode>0</con:reasonCode>
-                </con:reason>
-                <con:serviceCode/>
-                <con:sessionTicket/>
-                <con:supervisorContext>
-                    <con:primaryPassword/>
-                    <con:userId/>
-                </con:supervisorContext>
-                <con:transactionBranch>1</con:transactionBranch>
-                <con:userId>IFE</con:userId>
-                <con:userReferenceNumber>125</con:userReferenceNumber>
-                <con:valueDateText>20210915</con:valueDateText>
-            </spi:sessionContext>
-            <spi:customerId>10078</spi:customerId>
-        </spi:inquireCustomerScoreCard>
-    </soapenv:Body>
-</soapenv:Envelope>
+curl --location 'https://internal-gateway-dev.apps.ocp4-kawe.tz.af.absa.local/inquireCustomerScoreCard/1.2/inquireCustomerScoreCard' \
+--header 'accept: */*' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJ4NXQiOiJNelpoWVRRMVpqTTNOV1UxWXpWak4yVXdaR00yTWpJd05tTmhZams0T1dVd09UWTBaakU1WkdJMFlUZGhaamN5TW1aaE16azNZMk16WWpka05USXhZZyIsImtpZCI6Ik16WmhZVFExWmpNM05XVTFZelZqTjJVd1pHTTJNakl3Tm1OaFlqazRPV1V3T1RZMFpqRTVaR0kwWVRkaFpqY3lNbVpoTXprM1kyTXpZamRrTlRJeFlnX1JTMjU2IiwidHlwIjoiYXQrand0IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI1ZjZiYjU0OC1jMWU3LTRhZTItYmNiNi05NTYwYTBhMmE2MjAiLCJhdXQiOiJBUFBMSUNBVElPTiIsImF1ZCI6IkdHNDJqMlFCNHRwSkZJeDVpVVR0d0luQWpWRWEiLCJuYmYiOjE3NDMwNzc1OTksImF6cCI6IkdHNDJqMlFCNHRwSkZJeDVpVVR0d0luQWpWRWEiLCJzY29wZSI6ImRlZmF1bHQiLCJpc3MiOiJodHRwczpcL1wvYW0tZGV2LmFwcHMub2NwNC1rYXdlLnR6LmFmLmFic2EubG9jYWw6NDQzXC9vYXV0aDJcL3Rva2VuIiwiZXhwIjoxNzQzMDgxMTk5LCJpYXQiOjE3NDMwNzc1OTksImp0aSI6IjI5NjllNmQ0LTUxOWEtNGMzMy1iNDA5LTVhNDFmMzhjNjgxNyIsImNsaWVudF9pZCI6IkdHNDJqMlFCNHRwSkZJeDVpVVR0d0luQWpWRWEifQ.I33M5bDNh2MaVcv-tsIxzOJdKTnk3PeGJbzs1XzhR-XBVW7FDPO2dYFeXb3GB8Ik-y2wabYEdlOv94li3B3q9qtqUPeDTEXikqziUM3hzIV6bAMrCgbx_iFVCsMGsvUTV3L6I0fp0kQJ5VC8Iojm9It_12FXIxOOMG5sO-2VAzbRu-62uGShYALH-LOwKGa0qdrMqa2c3FCY8WJErvpAdXAm5Cs-p2a-NtEl_-t4usgfSsgWJ5PfS2pDd-IeIrUPTO4m5Sl-CxvKLsinw-75tp6yn7yfMvvjfce2GQa6MYHu-lPP6XlUQdhodd58fgLbpKjDXar8dhCBkdeAlBOi2Q' \
+--data '{
+    "inquireCustomerScoreCard": {
+        "sessionContext": {
+            "bankCode": 15,
+            "channel": "IFE",
+            "externalBatchNumber": 0,
+            "externalReferenceNo": "",
+            "externalSystemAuditTrailNumber": 0,
+            "localDateTimeText": "",
+            "originalReferenceNo": "",
+            "overridenWarnings": "87",
+            "postingDateText": 20210915,
+            "reason": {
+                "comment": "",
+                "reasonCode": 0
+            },
+            "serviceCode": "",
+            "sessionTicket": "",
+            "supervisorContext": {
+                "primaryPassword": "",
+                "userId": "IFE"
+            },
+            "transactionBranch": 1,
+            "userId": "IFE",
+            "userReferenceNumber": 125,
+            "valueDateText": 20210915
+        },
+        "customerId": 10078
+    }
+}'
