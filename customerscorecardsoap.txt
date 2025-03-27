@@ -1,0 +1,33 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spi="http://spi.customer.app.fcr.iflex.com" xmlns:con="http://context.app.fcr.iflex.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <spi:inquireCustomerScoreCard>
+         <spi:sessionContext>
+            <con:bankCode>?</con:bankCode>
+            <con:channel>?</con:channel>
+            <con:externalBatchNumber>?</con:externalBatchNumber>
+            <con:externalReferenceNo>?</con:externalReferenceNo>
+            <con:externalSystemAuditTrailNumber>?</con:externalSystemAuditTrailNumber>
+            <con:localDateTimeText>?</con:localDateTimeText>
+            <con:originalReferenceNo>?</con:originalReferenceNo>
+            <con:overridenWarnings>?</con:overridenWarnings>
+            <con:postingDateText>?</con:postingDateText>
+            <con:reason>
+               <con:comment>?</con:comment>
+               <con:reasonCode>?</con:reasonCode>
+            </con:reason>
+            <con:serviceCode>?</con:serviceCode>
+            <con:sessionTicket>?</con:sessionTicket>
+            <con:supervisorContext>
+               <con:primaryPassword>?</con:primaryPassword>
+               <con:userId>?</con:userId>
+            </con:supervisorContext>
+            <con:transactionBranch>?</con:transactionBranch>
+            <con:userId>?</con:userId>
+            <con:userReferenceNumber>?</con:userReferenceNumber>
+            <con:valueDateText>?</con:valueDateText>
+         </spi:sessionContext>
+         <spi:customerId>?</spi:customerId>
+      </spi:inquireCustomerScoreCard>
+   </soapenv:Body>
+</soapenv:Envelope>
