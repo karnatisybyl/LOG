@@ -1,0 +1,30 @@
+{
+  "inquireCustomerScoreCard": {
+      "sessionContext": {
+          "bankCode": 15,
+          "channel": "IFE",
+          "externalBatchNumber": 0,
+          "externalReferenceNo": "",
+          "externalSystemAuditTrailNumber": 0,
+          "localDateTimeText": "",
+          "originalReferenceNo": "",
+          "overridenWarnings": "87,",
+          "postingDateText": 20210915,
+          "reason": {
+              "comment": "",
+              "reasonCode": 0
+          },
+          "serviceCode": "",
+          "sessionTicket": "",
+          "supervisorContext": {
+              "primaryPassword": "",
+              "userId": ""
+          },
+          "transactionBranch": 1,
+          "userId": "IFE",
+          "userReferenceNumber": 125,
+          "valueDateText": 20210915
+      },
+      "customerId": 10078
+  }
+}

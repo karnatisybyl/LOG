@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:spi="http://spi.customer.app.fcr.iflex.com">
+    <soapenv:Body>
+        <spi:inquireCustomerScoreCard>
+            <spi:sessionContext>
+                <con:bankCode>15</con:bankCode>
+                <con:channel>IFE</con:channel>
+                <con:externalBatchNumber>0</con:externalBatchNumber>
+                <con:externalReferenceNo/>
+                <con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber>
+                <con:localDateTimeText/>
+                <con:originalReferenceNo/>
+                <con:overridenWarnings>NaN</con:overridenWarnings>
+                <con:postingDateText>20210915</con:postingDateText>
+                <con:reason>
+                    <con:comment/>
+                    <con:reasonCode>0</con:reasonCode>
+                </con:reason>
+                <con:serviceCode/>
+                <con:sessionTicket/>
+                <con:supervisorContext>
+                    <con:primaryPassword/>
+                    <con:userId/>
+                </con:supervisorContext>
+                <con:transactionBranch>1</con:transactionBranch>
+                <con:userId>IFE</con:userId>
+                <con:userReferenceNumber>125</con:userReferenceNumber>
+                <con:valueDateText>20210915</con:valueDateText>
+            </spi:sessionContext>
+            <spi:customerId>10078</spi:customerId>
+        </spi:inquireCustomerScoreCard>
+    </soapenv:Body>
+</soapenv:Envelope>
