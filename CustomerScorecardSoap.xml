@@ -1,33 +1,38 @@
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spi="http://spi.customer.app.fcr.iflex.com" xmlns:con="http://context.app.fcr.iflex.com">
-   <soapenv:Header/>
-   <soapenv:Body>
-      <spi:inquireCustomerScoreCard>
-         <spi:sessionContext>
-            <con:bankCode>15</con:bankCode>
-            <con:channel>IFE</con:channel>
-            <con:externalBatchNumber>0</con:externalBatchNumber>
-            <con:externalReferenceNo></con:externalReferenceNo>
-            <con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber>
-            <con:localDateTimeText></con:localDateTimeText>
-            <con:originalReferenceNo></con:originalReferenceNo>
-            <con:overridenWarnings>87</con:overridenWarnings>
-            <con:postingDateText>20210915</con:postingDateText>
-            <con:reason>
-               <con:comment></con:comment>
-               <con:reasonCode>0</con:reasonCode>
-            </con:reason>
-            <con:serviceCode>?</con:serviceCode>
-            <con:sessionTicket>?</con:sessionTicket>
-            <con:supervisorContext>
-               <con:primaryPassword>?</con:primaryPassword>
-               <con:userId>IFE</con:userId>
-            </con:supervisorContext>
-            <con:transactionBranch>1</con:transactionBranch>
-            <con:userId>IFE</con:userId>
-            <con:userReferenceNumber>125</con:userReferenceNumber>
-            <con:valueDateText>20210915</con:valueDateText>
-         </spi:sessionContext>
-         <spi:customerId>10078</spi:customerId>
-      </spi:inquireCustomerScoreCard>
-   </soapenv:Body>
-</soapenv:Envelope>
+{
+    "inquireCustomerScoreCardResponse": {
+        "inquireCustomerScoreCardReturn": {
+            "status": {
+                "errorCode": 0,
+                "extendedReply": {
+                    "messages": {
+                        "@nil": "true"
+                    }
+                },
+                "externalReferenceNo": 99520102000101046208,
+                "inputOverridenWarnings": "87,",
+                "isOverriden": false,
+                "isServiceChargeApplied": false,
+                "memo": {
+                    "@nil": "true"
+                },
+                "replyCode": 0,
+                "replyText": null,
+                "spReturnValue": 0,
+                "transactionDateTimeText": 20250408131555,
+                "userReferenceNumber": 125,
+                "validationErrors": {
+                    "@nil": "true"
+                }
+            },
+            "borrowerType": {
+                "@type": "xsd:string",
+                "$": "Regular Borrower With Delinquency Payments"
+            },
+            "customerId": 743446,
+            "rltnWithNBC": {
+                "@type": "xsd:string",
+                "$": "Active Accounts >3 Years"
+            }
+        }
+    }
+}
