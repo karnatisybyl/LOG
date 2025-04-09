@@ -1,0 +1,565 @@
+[2025-04-08 16:54:00,818]  INFO {org.wso2.config.mapper.ConfigParser} - Overriding files in configuration directory /home/wso2carbon/wso2mi-4.2.0
+[2025-04-08 16:54:01,410]  INFO {org.wso2.config.mapper.ConfigParser} - Applying configurations with deployment configurations
+[2025-04-08 16:54:15,917]  INFO {RuntimeStatisticCollector} - Statistics Entry Expiration time set to 136000 milliseconds
+[2025-04-08 16:54:17,107]  INFO {EndpointDeployer} - Endpoint named 'activateCard_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/activateCard_EP_1.0.0/activateCard_EP-1.0.0.xml
+[2025-04-08 16:54:17,110]  INFO {EndpointDeployer} - Endpoint named 'getCardLimit_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/getCardLimit_EP_1.0.0/getCardLimit_EP-1.0.0.xml
+[2025-04-08 16:54:17,111]  INFO {EndpointDeployer} - Endpoint named 'patchCardLimit' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/patchCardLimit_1.0.0/patchCardLimit-1.0.0.xml
+[2025-04-08 16:54:17,112]  INFO {EndpointDeployer} - Endpoint named 'putCardStatus_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/putCardStatus_EP_1.0.0/putCardStatus_EP-1.0.0.xml
+[2025-04-08 16:54:17,113]  INFO {EndpointDeployer} - Endpoint named 'resetCardPin_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/resetCardPin_EP_1.0.0/resetCardPin_EP-1.0.0.xml
+[2025-04-08 16:54:17,114]  INFO {EndpointDeployer} - Endpoint named 'retrieveCardStatus_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/retrieveCardStatus_EP_1.0.0/retrieveCardStatus_EP-1.0.0.xml
+[2025-04-08 16:54:17,115]  INFO {EndpointDeployer} - Endpoint named 'retrieveCardsByActNo_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/retrieveCardsByActNo_EP_1.0.0/retrieveCardsByActNo_EP-1.0.0.xml
+[2025-04-08 16:54:17,116]  INFO {EndpointDeployer} - Endpoint named 'statusOfApiByCountry_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/statusOfApiByCountry_EP_1.0.0/statusOfApiByCountry_EP-1.0.0.xml
+[2025-04-08 16:54:17,204]  INFO {SequenceDeployer} - Sequence named 'CardManagenetFaultSeq' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/CardManagenetFaultSeq_1.0.0/CardManagenetFaultSeq-1.0.0.xml
+[2025-04-08 16:54:17,231]  INFO {API} - {api:Activatecard} Initializing API: Activatecard
+[2025-04-08 16:54:17,231]  INFO {Axis2SynapseEnvironment} - Continuation call is set to true
+[2025-04-08 16:54:17,296]  INFO {APIDeployer} - API named 'Activatecard' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/Activatecard_1.0.0/Activatecard-1.0.0.xml
+[2025-04-08 16:54:17,398]  INFO {API} - {api:getCardLimit} Initializing API: getCardLimit
+[2025-04-08 16:54:17,399]  INFO {APIDeployer} - API named 'getCardLimit' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/getCardLimit_1.0.0/getCardLimit-1.0.0.xml
+[2025-04-08 16:54:17,406]  INFO {API} - {api:healthCheckApi} Initializing API: healthCheckApi
+[2025-04-08 16:54:17,406]  INFO {APIDeployer} - API named 'healthCheckApi' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/healthCheckApi_1.0.0/healthCheckApi-1.0.0.xml
+[2025-04-08 16:54:17,415]  INFO {API} - {api:resetCardPin} Initializing API: resetCardPin
+[2025-04-08 16:54:17,415]  INFO {APIDeployer} - API named 'resetCardPin' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/resetCardPin_1.0.0/resetCardPin-1.0.0.xml
+[2025-04-08 16:54:17,427]  INFO {API} - {api:retrieveCardStatus} Initializing API: retrieveCardStatus
+[2025-04-08 16:54:17,428]  INFO {APIDeployer} - API named 'retrieveCardStatus' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/retrieveCardStatus_1.0.0/retrieveCardStatus-1.0.0.xml
+[2025-04-08 16:54:17,496]  INFO {API} - {api:retrieveCardsbyAccountNo} Initializing API: retrieveCardsbyAccountNo
+[2025-04-08 16:54:17,497]  INFO {APIDeployer} - API named 'retrieveCardsbyAccountNo' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/retrieveCardsbyAccountNo_1.0.0/retrieveCardsbyAccountNo-1.0.0.xml
+[2025-04-08 16:54:17,501]  INFO {API} - {api:statusOfApiByCountry} Initializing API: statusOfApiByCountry
+[2025-04-08 16:54:17,502]  INFO {APIDeployer} - API named 'statusOfApiByCountry' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120456993CardManagementCompositeExporter_1.0.0-SNAPSHOT.car/statusOfApiByCountry_1.0.0/statusOfApiByCountry-1.0.0.xml
+[2025-04-08 16:54:17,502]  INFO {CappDeployer} - Successfully Deployed Carbon Application : CardManagementCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-04-08 16:54:17,504]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : CardManagementCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-04-08 16:54:17,510]  INFO {SequenceDeployer} - Sequence named 'secondaryFlow' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120457503ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/secondaryFlow_1.0.0/secondaryFlow-1.0.0.xml
+[2025-04-08 16:54:17,511]  INFO {SequenceDeployer} - Sequence named 'firstSubFlow' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120457503ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/firstSubFlow_1.0.0/firstSubFlow-1.0.0.xml
+[2025-04-08 16:54:17,511]  INFO {SequenceDeployer} - Sequence named 'secondSubFlow' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120457503ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/secondSubFlow_1.0.0/secondSubFlow-1.0.0.xml
+[2025-04-08 16:54:17,512]  INFO {SequenceDeployer} - Sequence named 'ErrorHandling' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120457503ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/ErrorHandling_1.0.0/ErrorHandling-1.0.0.xml
+[2025-04-08 16:54:17,592]  INFO {API} - {api:business-logic} Initializing API: business-logic
+[2025-04-08 16:54:17,592]  INFO {APIDeployer} - API named 'business-logic' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120457503ContentBasedRoutingApplicationCompositeExporter_1.0.0.car/business-logic_1.0.0/business-logic-1.0.0.xml
+[2025-04-08 16:54:17,593]  INFO {CappDeployer} - Successfully Deployed Carbon Application : ContentBasedRoutingApplicationCompositeExporter_1.0.0{super-tenant}
+[2025-04-08 16:54:17,594]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : ContentBasedRoutingApplicationCompositeExporter_1.0.0.car
+[2025-04-08 16:54:17,607]  INFO {EndpointDeployer} - Endpoint named 'CreateLoanAccountForIslamic_Ep' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120457594CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT.car/CreateLoanAccountForIslamic_Ep_1.0.0/CreateLoanAccountForIslamic_Ep-1.0.0.xml
+[2025-04-08 16:54:17,611]  INFO {SequenceDeployer} - Sequence named 'CreateLoanAccountForIslamicInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120457594CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT.car/CreateLoanAccountForIslamicInSequence_1.0.0/CreateLoanAccountForIslamicInSequence-1.0.0.xml
+[2025-04-08 16:54:17,616]  INFO {SequenceDeployer} - Sequence named 'CreateLoanAccountForIslamicFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120457594CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT.car/CreateLoanAccountForIslamicFaultSequence_1.0.0/CreateLoanAccountForIslamicFaultSequence-1.0.0.xml
+[2025-04-08 16:54:17,694]  INFO {SequenceDeployer} - Sequence named 'CreateLoanAccountForIslamicOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120457594CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT.car/CreateLoanAccountForIslamicOutSequence_1.0.0/CreateLoanAccountForIslamicOutSequence-1.0.0.xml
+[2025-04-08 16:54:17,697]  INFO {API} - {api:LoansCreateLoanAccountForIslamic} Initializing API: LoansCreateLoanAccountForIslamic
+[2025-04-08 16:54:17,697]  INFO {APIDeployer} - API named 'LoansCreateLoanAccountForIslamic' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120457594CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT.car/LoansCreateLoanAccountForIslamic_1.0.0/LoansCreateLoanAccountForIslamic-1.0.0.xml
+[2025-04-08 16:54:17,698]  INFO {CappDeployer} - Successfully Deployed Carbon Application : CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-04-08 16:54:17,699]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : CreateLoanAccountForIslamicCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-04-08 16:54:17,706]  INFO {EndpointDeployer} - Endpoint named 'CustomerPersonalDataManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120457698CustomerPersonalDataManagerCompositeExporter_1.0.0-SNAPSHOT.car/CustomerPersonalDataManager_EP_1.0.0/CustomerPersonalDataManager_EP-1.0.0.xml
+[2025-04-08 16:54:18,189]  INFO {API} - {api:CustomerPersonalDataManager} Initializing API: CustomerPersonalDataManager
+[2025-04-08 16:54:18,190]  INFO {APIDeployer} - API named 'CustomerPersonalDataManager' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120457698CustomerPersonalDataManagerCompositeExporter_1.0.0-SNAPSHOT.car/CustomerPersonalDataManager_1.0.0/CustomerPersonalDataManager-1.0.0.xml
+[2025-04-08 16:54:18,191]  INFO {CappDeployer} - Successfully Deployed Carbon Application : CustomerPersonalDataManagerCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-04-08 16:54:18,191]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : CustomerPersonalDataManagerCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-04-08 16:54:18,202]  INFO {EndpointDeployer} - Endpoint named 'LoansCollateralManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120458191LoanCollateralManagerSpiCompositeExporter_1.0.0.car/LoansCollateralManager_EP_1.0.0/LoansCollateralManager_EP-1.0.0.xml
+[2025-04-08 16:54:18,698] ERROR {ServiceCatalogUtils} - Could not create temporary directories required for service catalog
+[2025-04-08 16:54:18,698] ERROR {ServiceCatalogUtils} - Could not create temporary directories required for service catalog
+[2025-04-08 16:54:18,813]  INFO {API} - {api:LoanCollateralManagerAPI:v1.0.0} Initializing API: LoanCollateralManagerAPI:v1.0.0
+[2025-04-08 16:54:19,001] ERROR {ServiceCatalogUtils} - Could not create temporary files
+[2025-04-08 16:54:19,120]  INFO {APIDeployer} - API named 'LoanCollateralManagerAPI:v1.0.0' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120458191LoanCollateralManagerSpiCompositeExporter_1.0.0.car/LoanCollateralManagerAPI_1.0.0_1.0.0/LoanCollateralManagerAPI_1.0.0-1.0.0.xml
+[2025-04-08 16:54:19,121]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoanCollateralManagerSpiCompositeExporter_1.0.0{super-tenant}
+[2025-04-08 16:54:19,121]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoanCollateralManagerSpiCompositeExporter_1.0.0.car
+[2025-04-08 16:54:19,200] ERROR {ServiceCatalogUtils} - Could not create temporary directories required for service catalog
+[2025-04-08 16:54:19,211]  INFO {EndpointDeployer} - Endpoint named 'LoanScheduleManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120459121LoanScheduleManagerCompositeExporter_1.0.0.car/LoanScheduleManager_EP_1.0.0/LoanScheduleManager_EP-1.0.0.xml
+[2025-04-08 16:54:19,289] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120459206LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:795)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:479)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:437)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:730)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-04-08 16:54:19,395]  INFO {API} - {api:LoanScheduleManagerApi} Initializing API: LoanScheduleManagerApi
+[2025-04-08 16:54:19,413]  INFO {APIDeployer} - API named 'LoanScheduleManagerApi' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120459121LoanScheduleManagerCompositeExporter_1.0.0.car/LoanScheduleManagerApi_1.0.0/LoanScheduleManagerApi-1.0.0.xml
+[2025-04-08 16:54:19,414]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoanScheduleManagerCompositeExporter_1.0.0{super-tenant}
+[2025-04-08 16:54:19,414]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoanScheduleManagerCompositeExporter_1.0.0.car
+[2025-04-08 16:54:19,423]  INFO {LocalEntryDeployer} - LocalEntry named 'loanscustomerImagelocalentry' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120459414LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/loanscustomerImagelocalentry_1.0.0/loanscustomerImagelocalentry-1.0.0.xml
+[2025-04-08 16:54:19,424]  INFO {EndpointDeployer} - Endpoint named 'LoansCustomerImageManager_Ep' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120459414LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/LoansCustomerImageManager_Ep_1.0.0/LoansCustomerImageManager_Ep-1.0.0.xml
+[2025-04-08 16:54:19,498]  INFO {SequenceDeployer} - Sequence named 'LoansCustomerImageManagerOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120459414LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/LoansCustomerImageManagerOutSequence_1.0.0/LoansCustomerImageManagerOutSequence-1.0.0.xml
+[2025-04-08 16:54:19,505]  INFO {SequenceDeployer} - Sequence named 'LoaansCustomerImageManagerFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120459414LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/LoaansCustomerImageManagerFaultSequence_1.0.0/LoaansCustomerImageManagerFaultSequence-1.0.0.xml
+[2025-04-08 16:54:19,813] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120459789LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:795)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:479)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:437)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:730)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-04-08 16:54:20,105]  INFO {SequenceDeployer} - Sequence named 'InquireCustomerImageManagerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120459414LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/InquireCustomerImageManagerInSequence_1.0.0/InquireCustomerImageManagerInSequence-1.0.0.xml
+[2025-04-08 16:54:20,211]  INFO {API} - {api:LoansCustomerImageManagerAPI} Initializing API: LoansCustomerImageManagerAPI
+[2025-04-08 16:54:20,311]  INFO {APIDeployer} - API named 'LoansCustomerImageManagerAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120459414LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car/InquireCustomerImage_1.0.0/InquireCustomerImage-1.0.0.xml
+[2025-04-08 16:54:20,311]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-04-08 16:54:20,312]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansCustomerImageManagerCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-04-08 16:54:20,329] ERROR {FileRegistryResourceDeployer} - Specified file to be written as a resource is not found at : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120460312LoansCustomerManagerCompositeExporter_1.0.0.car/InquireResponseMapper_xsltStyleSheet_1.0.0/resources/InquireResponseMapper_xsltStyleSheet.xml
+[2025-04-08 16:54:20,330] ERROR {FileRegistryResourceDeployer} - Specified file to be written as a resource is not found at : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120460312LoansCustomerManagerCompositeExporter_1.0.0.car/InquireResponseMapper_inputSchema_1.0.0/resources/InquireResponseMapper_inputSchema.json
+[2025-04-08 16:54:20,406]  INFO {EndpointDeployer} - Endpoint named 'LoansCustomerManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120460312LoansCustomerManagerCompositeExporter_1.0.0.car/LoansCustomerManager_EP_1.0.0/LoansCustomerManager_EP-1.0.0.xml
+[2025-04-08 16:54:20,610] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120460604LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:795)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:479)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:437)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:730)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-04-08 16:54:20,805]  INFO {API} - {api:LoansCustomerManager:v1.0.0} Initializing API: LoansCustomerManager:v1.0.0
+[2025-04-08 16:54:20,909]  INFO {APIDeployer} - API named 'LoansCustomerManager:v1.0.0' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120460312LoansCustomerManagerCompositeExporter_1.0.0.car/LoansCustomerManager_1.0.0_1.0.0/LoansCustomerManager_1.0.0-1.0.0.xml
+[2025-04-08 16:54:20,909]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansCustomerManagerCompositeExporter_1.0.0{super-tenant}
+[2025-04-08 16:54:20,910]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansCustomerManagerCompositeExporter_1.0.0.car
+[2025-04-08 16:54:20,998]  INFO {EndpointDeployer} - Endpoint named 'LoansManager_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120460910LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_EP_1.0.0/LoansManager_EP-1.0.0.xml
+[2025-04-08 16:54:21,213] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120461204LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:795)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:479)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:437)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:730)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-04-08 16:54:21,330]  INFO {API} - {api:LoansManager:v1.0.0} Initializing API: LoansManager:v1.0.0
+[2025-04-08 16:54:21,514]  INFO {APIDeployer} - API named 'LoansManager:v1.0.0' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120460910LoansManager-V1CompositeExporter_1.0.0.car/LoansManager_1.0.0_1.0.0/LoansManager_1.0.0-1.0.0.xml
+[2025-04-08 16:54:21,514]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansManager-V1CompositeExporter_1.0.0{super-tenant}
+[2025-04-08 16:54:21,514]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansManager-V1CompositeExporter_1.0.0.car
+[2025-04-08 16:54:21,518]  INFO {EndpointDeployer} - Endpoint named 'LoanPayInstalmentInAdvance' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120461514LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT.car/LoanPayInstalmentInAdvance_1.0.0/LoanPayInstalmentInAdvance-1.0.0.xml
+[2025-04-08 16:54:21,529]  INFO {API} - {api:PayInstalmentInAdvance} Initializing API: PayInstalmentInAdvance
+[2025-04-08 16:54:21,603]  INFO {APIDeployer} - API named 'PayInstalmentInAdvance' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120461514LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentInAdvance_1.0.0/PayInstalmentInAdvance-1.0.0.xml
+[2025-04-08 16:54:21,603]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-04-08 16:54:21,604]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansPayInstalmentInAdvanceCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-04-08 16:54:21,691] ERROR {ServiceCatalogUtils} - Could not create temporary directories required for service catalog
+[2025-04-08 16:54:21,792]  INFO {EndpointDeployer} - Endpoint named 'LoansPaymentManagerEndpoint' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120461604LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentManagerEndpoint_1.0.0/LoansPaymentManagerEndpoint-1.0.0.xml
+[2025-04-08 16:54:21,797]  INFO {SequenceDeployer} - Sequence named 'LoansPaymentOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120461604LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentOutSequence_1.0.0/LoansPaymentOutSequence-1.0.0.xml
+[2025-04-08 16:54:21,801]  INFO {SequenceDeployer} - Sequence named 'LoansPaymentFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120461604LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentFaultSequence_1.0.0/LoansPaymentFaultSequence-1.0.0.xml
+[2025-04-08 16:54:21,805] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120461798LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:795)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:479)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:437)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:730)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-04-08 16:54:21,918]  INFO {SequenceDeployer} - Sequence named 'DoDisbursementProcessingForIslamic' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120461604LoansPaymentManagerCompositeExporter_1.0.0.car/DoDisbursementProcessingForIslamic_1.0.0/DoDisbursementProcessingForIslamic-1.0.0.xml
+[2025-04-08 16:54:22,021]  INFO {SequenceDeployer} - Sequence named 'DoDisbursementProcessingForIBOCInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120461604LoansPaymentManagerCompositeExporter_1.0.0.car/DoDisbursementProcessingForIBOCInSequence_1.0.0/DoDisbursementProcessingForIBOCInSequence-1.0.0.xml
+[2025-04-08 16:54:22,021]  INFO {SequenceDeployer} - Sequence named 'InquireDeductionDetailsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120461604LoansPaymentManagerCompositeExporter_1.0.0.car/InquireDeductionDetailsInSequence_1.0.0/InquireDeductionDetailsInSequence-1.0.0.xml
+[2025-04-08 16:54:22,022]  INFO {API} - {api:LoansPaymentManagerAPI} Initializing API: LoansPaymentManagerAPI
+[2025-04-08 16:54:22,022]  INFO {APIDeployer} - API named 'LoansPaymentManagerAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120461604LoansPaymentManagerCompositeExporter_1.0.0.car/LoansPaymentManagerAPI_1.0.0/LoansPaymentManagerAPI-1.0.0.xml
+[2025-04-08 16:54:22,022]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansPaymentManagerCompositeExporter_1.0.0{super-tenant}
+[2025-04-08 16:54:22,023]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansPaymentManagerCompositeExporter_1.0.0.car
+[2025-04-08 16:54:22,107]  INFO {EndpointDeployer} - Endpoint named 'LoansPaymentManagerDoChargeDeduction' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462022LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT.car/LoansPaymentManagerDoChargeDeduction_1.0.0/LoansPaymentManagerDoChargeDeduction-1.0.0.xml
+[2025-04-08 16:54:22,191]  INFO {SequenceDeployer} - Sequence named 'LoansdoChargeDeductionOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462022LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT.car/LoansdoChargeDeductionOutSequence_1.0.0/LoansdoChargeDeductionOutSequence-1.0.0.xml
+[2025-04-08 16:54:22,193]  INFO {SequenceDeployer} - Sequence named 'DochargedeductionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462022LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT.car/DochargedeductionInSequence_1.0.0/DochargedeductionInSequence-1.0.0.xml
+[2025-04-08 16:54:22,201]  INFO {SequenceDeployer} - Sequence named 'LoansdoChargeDeductionFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462022LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT.car/LoansdoChargeDeductionFaultSequence_1.0.0/LoansdoChargeDeductionFaultSequence-1.0.0.xml
+[2025-04-08 16:54:22,202]  INFO {API} - {api:LoansPaymentdoChargeDeduction} Initializing API: LoansPaymentdoChargeDeduction
+[2025-04-08 16:54:22,202]  INFO {APIDeployer} - API named 'LoansPaymentdoChargeDeduction' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462022LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT.car/LoansPaymentdoChargeDeduction_1.0.0/LoansPaymentdoChargeDeduction-1.0.0.xml
+[2025-04-08 16:54:22,202]  INFO {CappDeployer} - Successfully Deployed Carbon Application : LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-04-08 16:54:22,203]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : LoansdoChargeDeductionCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-04-08 16:54:22,212]  INFO {EndpointDeployer} - Endpoint named 'LoanPayOff_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462202PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/LoanPayOff_EP_1.0.0/LoanPayOff_EP-1.0.0.xml
+[2025-04-08 16:54:22,213]  INFO {EndpointDeployer} - Endpoint named 'PayInstalment' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462202PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalment_1.0.0/PayInstalment-1.0.0.xml
+[2025-04-08 16:54:22,214]  INFO {SequenceDeployer} - Sequence named 'PayInstalmentInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462202PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentInSequence_1.0.0/PayInstalmentInSequence-1.0.0.xml
+[2025-04-08 16:54:22,289] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462210LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:795)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:479)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:437)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:730)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-04-08 16:54:22,298]  INFO {SequenceDeployer} - Sequence named 'PayInstalmentOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462202PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentOutSequence_1.0.0/PayInstalmentOutSequence-1.0.0.xml
+[2025-04-08 16:54:22,303]  INFO {SequenceDeployer} - Sequence named 'PayInstalmentFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462202PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentFaultSequence_1.0.0/PayInstalmentFaultSequence-1.0.0.xml
+[2025-04-08 16:54:22,308]  INFO {SequenceDeployer} - Sequence named 'custom_fault_sequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462202PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/custom_fault_sequence_1.0.0/custom_fault_sequence-1.0.0.xml
+[2025-04-08 16:54:22,397]  INFO {API} - {api:PayInstalmentAPI} Initializing API: PayInstalmentAPI
+[2025-04-08 16:54:22,398]  INFO {APIDeployer} - API named 'PayInstalmentAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462202PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car/PayInstalmentAPI_1.0.0/PayInstalmentAPI-1.0.0.xml
+[2025-04-08 16:54:22,398]  INFO {CappDeployer} - Successfully Deployed Carbon Application : PayInstallmentCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-04-08 16:54:22,398]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : PayInstallmentCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-04-08 16:54:22,407]  INFO {SequenceDeployer} - Sequence named 'FCCFT_FAULT_SEQUENCE' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462398WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFT_FAULT_SEQUENCE_1.0.0/FCCFT_FAULT_SEQUENCE-1.0.0.xml
+[2025-04-08 16:54:22,498] ERROR {ServiceCatalogUtils} - Could not create temporary directories required for service catalog
+[2025-04-08 16:54:22,511] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462505LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:795)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:479)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:437)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:730)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-04-08 16:54:22,624]  INFO {SequenceDeployer} - Sequence named 'FCCFT_RESPONSE_SEQUENCE' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462398WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFT_RESPONSE_SEQUENCE_1.0.0/FCCFT_RESPONSE_SEQUENCE-1.0.0.xml
+[2025-04-08 16:54:22,634]  INFO {SequenceDeployer} - Sequence named 'FCCFT_REQUEST_IN_SEQUENCE' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462398WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFT_REQUEST_IN_SEQUENCE_1.0.0/FCCFT_REQUEST_IN_SEQUENCE-1.0.0.xml
+[2025-04-08 16:54:22,634]  INFO {API} - {api:FCCFTAPI} Initializing API: FCCFTAPI
+[2025-04-08 16:54:22,634]  INFO {APIDeployer} - API named 'FCCFTAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462398WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car/FCCFTAPI_1.0.0/FCCFTAPI-1.0.0.xml
+[2025-04-08 16:54:22,634]  INFO {CappDeployer} - Successfully Deployed Carbon Application : WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-04-08 16:54:22,635]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : WSO2MI-NBC-FCCFTCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-04-08 16:54:22,900] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462808LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:795)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:479)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:437)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:730)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-04-08 16:54:23,009]  INFO {EndpointDeployer} - Endpoint named 'BillPaymentManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/BillPaymentManagerSpiSoapEP_1.0.0/BillPaymentManagerSpiSoapEP-1.0.0.xml
+[2025-04-08 16:54:23,010]  INFO {EndpointDeployer} - Endpoint named 'CurrencyRateManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/CurrencyRateManagerSpiEP_1.0.0/CurrencyRateManagerSpiEP-1.0.0.xml
+[2025-04-08 16:54:23,010]  INFO {EndpointDeployer} - Endpoint named 'CustomerManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/CustomerManagerSpiSoapEP_1.0.0/CustomerManagerSpiSoapEP-1.0.0.xml
+[2025-04-08 16:54:23,011]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositInstructionManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositInstructionManagerSpiSoapEP_1.0.0/DemandDepositInstructionManagerSpiSoapEP-1.0.0.xml
+[2025-04-08 16:54:23,011]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositMaintenanceSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositMaintenanceSpiEP_1.0.0/DemandDepositMaintenanceSpiEP-1.0.0.xml
+[2025-04-08 16:54:23,012]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositManagerSpiSoapEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositManagerSpiSoapEP_1.0.0/DemandDepositManagerSpiSoapEP-1.0.0.xml
+[2025-04-08 16:54:23,012]  INFO {EndpointDeployer} - Endpoint named 'DemandDepositStatementManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DemandDepositStatementManagerSpiEP_1.0.0/DemandDepositStatementManagerSpiEP-1.0.0.xml
+[2025-04-08 16:54:23,013]  INFO {SequenceDeployer} - Sequence named 'ActivateDeactivateAccountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ActivateDeactivateAccountInSequence_1.0.0/ActivateDeactivateAccountInSequence-1.0.0.xml
+[2025-04-08 16:54:23,014]  INFO {SequenceDeployer} - Sequence named 'AddCustomerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/AddCustomerInSequence_1.0.0/AddCustomerInSequence-1.0.0.xml
+[2025-04-08 16:54:23,014]  INFO {SequenceDeployer} - Sequence named 'AddStandingInstructionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/AddStandingInstructionInSequence_1.0.0/AddStandingInstructionInSequence-1.0.0.xml
+[2025-04-08 16:54:23,015]  INFO {SequenceDeployer} - Sequence named 'ConvertAmountWithFromToCurrencyInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ConvertAmountWithFromToCurrencyInSequence_1.0.0/ConvertAmountWithFromToCurrencyInSequence-1.0.0.xml
+[2025-04-08 16:54:23,016]  INFO {SequenceDeployer} - Sequence named 'CreateNewAccountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/CreateNewAccountInSequence_1.0.0/CreateNewAccountInSequence-1.0.0.xml
+[2025-04-08 16:54:23,016]  INFO {SequenceDeployer} - Sequence named 'DeleteStandingInstructionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DeleteStandingInstructionInSequence_1.0.0/DeleteStandingInstructionInSequence-1.0.0.xml
+[2025-04-08 16:54:23,017]  INFO {SequenceDeployer} - Sequence named 'DomesticTransferFundsWithDRCRAmountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/DomesticTransferFundsWithDRCRAmountInSequence_1.0.0/DomesticTransferFundsWithDRCRAmountInSequence-1.0.0.xml
+[2025-04-08 16:54:23,017]  INFO {SequenceDeployer} - Sequence named 'InquireBillWalletRtgsTxnsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireBillWalletRtgsTxnsInSequence_1.0.0/InquireBillWalletRtgsTxnsInSequence-1.0.0.xml
+[2025-04-08 16:54:23,018]  INFO {SequenceDeployer} - Sequence named 'InquireForMaintenanceInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireForMaintenanceInSequence_1.0.0/InquireForMaintenanceInSequence-1.0.0.xml
+[2025-04-08 16:54:23,018]  INFO {SequenceDeployer} - Sequence named 'InquireInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireInSequence_1.0.0/InquireInSequence-1.0.0.xml
+[2025-04-08 16:54:23,019]  INFO {SequenceDeployer} - Sequence named 'InquireListOfTransactionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/InquireListOfTransactionInSequence_1.0.0/InquireListOfTransactionInSequence-1.0.0.xml
+[2025-04-08 16:54:23,019]  INFO {SequenceDeployer} - Sequence named 'ListCASAAccountDetailsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ListCASAAccountDetailsInSequence_1.0.0/ListCASAAccountDetailsInSequence-1.0.0.xml
+[2025-04-08 16:54:23,020]  INFO {SequenceDeployer} - Sequence named 'MisCustDebitWithDRCRAmtDepDtlsInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/MisCustDebitWithDRCRAmtDepDtlsInSequence_1.0.0/MisCustDebitWithDRCRAmtDepDtlsInSequence-1.0.0.xml
+[2025-04-08 16:54:23,020]  INFO {SequenceDeployer} - Sequence named 'ModifyStandingInstructionInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/ModifyStandingInstructionInSequence_1.0.0/ModifyStandingInstructionInSequence-1.0.0.xml
+[2025-04-08 16:54:23,021]  INFO {SequenceDeployer} - Sequence named 'PayUtilityBillByAccountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/PayUtilityBillByAccountInSequence_1.0.0/PayUtilityBillByAccountInSequence-1.0.0.xml
+[2025-04-08 16:54:23,021]  INFO {SequenceDeployer} - Sequence named 'PayUtilityBillByAccountTIPSInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/PayUtilityBillByAccountTIPSInSequence_1.0.0/PayUtilityBillByAccountTIPSInSequence-1.0.0.xml
+[2025-04-08 16:54:23,022]  INFO {SequenceDeployer} - Sequence named 'RequestChequeBookInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/RequestChequeBookInSequence_1.0.0/RequestChequeBookInSequence-1.0.0.xml
+[2025-04-08 16:54:23,090]  INFO {SequenceDeployer} - Sequence named 'TransferFundsWithDRCRAmountInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/TransferFundsWithDRCRAmountInSequence_1.0.0/TransferFundsWithDRCRAmountInSequence-1.0.0.xml
+[2025-04-08 16:54:23,093]  INFO {SequenceDeployer} - Sequence named 'UpdateAccountStatusForCASAInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/UpdateAccountStatusForCASAInSequence_1.0.0/UpdateAccountStatusForCASAInSequence-1.0.0.xml
+[2025-04-08 16:54:23,103]  INFO {SequenceDeployer} - Sequence named 'WSO2MINBCFCRFaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/WSO2MINBCFCRFaultSequence_1.0.0/WSO2MINBCFCRFaultSequence-1.0.0.xml
+[2025-04-08 16:54:23,105]  INFO {SequenceDeployer} - Sequence named 'WSO2MINBCOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/WSO2MINBCOutSequence_1.0.0/WSO2MINBCOutSequence-1.0.0.xml
+[2025-04-08 16:54:23,106]  INFO {API} - {api:FCRAPI} Initializing API: FCRAPI
+[2025-04-08 16:54:23,106]  INFO {APIDeployer} - API named 'FCRAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120462634WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car/FCRAPI_1.0.0/FCRAPI-1.0.0.xml
+[2025-04-08 16:54:23,106]  INFO {CappDeployer} - Successfully Deployed Carbon Application : WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-04-08 16:54:23,106]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : WSO2MI-NBC-FCRCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-04-08 16:54:23,189]  INFO {EndpointDeployer} - Endpoint named 'CustomerImageManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/CustomerImageManagerSpiEP_1.0.0/CustomerImageManagerSpiEP-1.0.0.xml
+[2025-04-08 16:54:23,190]  INFO {EndpointDeployer} - Endpoint named 'CustomerManagerSpiEP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/CustomerManagerSpiEP_1.0.0/CustomerManagerSpiEP-1.0.0.xml
+[2025-04-08 16:54:23,192]  INFO {SequenceDeployer} - Sequence named 'AddCustomerImageInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/AddCustomerImageInSequence_1.0.0/AddCustomerImageInSequence-1.0.0.xml
+[2025-04-08 16:54:23,193]  INFO {SequenceDeployer} - Sequence named 'AddIndividualCorporateCustomerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/AddIndividualCorporateCustomerInSequence_1.0.0/AddIndividualCorporateCustomerInSequence-1.0.0.xml
+[2025-04-08 16:54:23,203]  INFO {SequenceDeployer} - Sequence named 'DoDedupCustomerSearchInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/DoDedupCustomerSearchInSequence_1.0.0/DoDedupCustomerSearchInSequence-1.0.0.xml
+[2025-04-08 16:54:23,204]  INFO {SequenceDeployer} - Sequence named 'DoDedupCustomerSearchOutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/DoDedupCustomerSearchOutSequence_1.0.0/DoDedupCustomerSearchOutSequence-1.0.0.xml
+[2025-04-08 16:54:23,209]  INFO {SequenceDeployer} - Sequence named 'FaultSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/FaultSequence_1.0.0/FaultSequence-1.0.0.xml
+[2025-04-08 16:54:23,210]  INFO {SequenceDeployer} - Sequence named 'InquireCustomerImageInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/InquireCustomerImageInSequence_1.0.0/InquireCustomerImageInSequence-1.0.0.xml
+[2025-04-08 16:54:23,211]  INFO {SequenceDeployer} - Sequence named 'InquireIndivdualCorporateCustWithAddInfoInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/InquireIndivdualCorporateCustWithAddInfoInSequence_1.0.0/InquireIndivdualCorporateCustWithAddInfoInSequence-1.0.0.xml
+[2025-04-08 16:54:23,211]  INFO {SequenceDeployer} - Sequence named 'ModifyCustomerForICInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/ModifyCustomerForICInSequence_1.0.0/ModifyCustomerForICInSequence-1.0.0.xml
+[2025-04-08 16:54:23,212]  INFO {SequenceDeployer} - Sequence named 'ModifyCustomerImageInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/ModifyCustomerImageInSequence_1.0.0/ModifyCustomerImageInSequence-1.0.0.xml
+[2025-04-08 16:54:23,212]  INFO {SequenceDeployer} - Sequence named 'ModifyCustomerInSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/ModifyCustomerInSequence_1.0.0/ModifyCustomerInSequence-1.0.0.xml
+[2025-04-08 16:54:23,213]  INFO {SequenceDeployer} - Sequence named 'OutSequence' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/OutSequence_1.0.0/OutSequence-1.0.0.xml
+[2025-04-08 16:54:23,213]  INFO {API} - {api:AccountOpeningAPI} Initializing API: AccountOpeningAPI
+[2025-04-08 16:54:23,214]  INFO {APIDeployer} - API named 'AccountOpeningAPI' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463106WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car/AccountOpeningAPI_1.0.0/AccountOpeningAPI-1.0.0.xml
+[2025-04-08 16:54:23,214]  INFO {CappDeployer} - Successfully Deployed Carbon Application : WSO2MIAccountOpeningFCRCompositeExporter_1.0.0{super-tenant}
+[2025-04-08 16:54:23,214]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : WSO2MIAccountOpeningFCRCompositeExporter_1.0.0.car
+[2025-04-08 16:54:23,297]  INFO {EndpointDeployer} - Endpoint named 'inquireCustomerScoreCard_EP' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463214inquireCustomerScoreCardCompositeExporter_1.0.0-SNAPSHOT.car/inquireCustomerScoreCard_EP_1.0.0/inquireCustomerScoreCard_EP-1.0.0.xml
+[2025-04-08 16:54:23,305]  INFO {SequenceDeployer} - Sequence named 'inquireCustomerScoreCard_SEQ' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463214inquireCustomerScoreCardCompositeExporter_1.0.0-SNAPSHOT.car/inquireCustomerScoreCard_SEQ_1.0.0/inquireCustomerScoreCard_SEQ-1.0.0.xml
+[2025-04-08 16:54:23,314]  INFO {API} - {api:inquireCustomerScoreCard} Initializing API: inquireCustomerScoreCard
+[2025-04-08 16:54:23,315]  INFO {APIDeployer} - API named 'inquireCustomerScoreCard' has been deployed from file : /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463214inquireCustomerScoreCardCompositeExporter_1.0.0-SNAPSHOT.car/inquireCustomerScoreCard_1.0.0/inquireCustomerScoreCard-1.0.0.xml
+[2025-04-08 16:54:23,315]  INFO {CappDeployer} - Successfully Deployed Carbon Application : inquireCustomerScoreCardCompositeExporter_1.0.0-SNAPSHOT{super-tenant}
+[2025-04-08 16:54:23,316] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463311LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:795)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:479)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:437)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:730)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-04-08 16:54:23,316]  INFO {ServiceCatalogDeployer} - Executing Service Catalog deployer for CApp : inquireCustomerScoreCardCompositeExporter_1.0.0-SNAPSHOT.car
+[2025-04-08 16:54:23,493]  INFO {PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8290
+[2025-04-08 16:54:23,495]  INFO {PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8253
+[2025-04-08 16:54:23,497]  INFO {StartupFinalizer} - WSO2 Micro Integrator started in 22.68 seconds
+[2025-04-08 16:54:23,589] ERROR {ServiceCatalogUtils} - Could not create temporary files
+[2025-04-08 16:54:23,596] ERROR {ServiceCatalogUtils} - Error occurred while processing the metadata files java.io.FileNotFoundException: /home/wso2carbon/wso2mi-4.2.0/tmp/carbonapps/-1234/1744120463512LoanScheduleManagerCompositeExporter_1.0.0.car/metadata/LoanScheduleManagerApi_swagger_1.0.0/LoanScheduleManagerApi_swagger-1.0.0.yaml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.getFileChecksum(ServiceCatalogUtils.java:795)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processAPIMetadata(ServiceCatalogUtils.java:479)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.processMetadata(ServiceCatalogUtils.java:437)
+	at org.wso2.micro.integrator.initializer.utils.ServiceCatalogUtils.extractMetadataFromCAPPs(ServiceCatalogUtils.java:730)
+	at org.wso2.micro.integrator.initializer.serviceCatalog.ServiceCatalogDeployer.run(ServiceCatalogDeployer.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[2025-04-08 16:54:23,823]  INFO {PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTP_INBOUND_ENDPOINT Listener started on 0.0.0.0:9201
+[2025-04-08 16:54:24,009]  INFO {PassThroughListeningIOReactorManager} - Pass-through EI_INTERNAL_HTTPS_INBOUND_ENDPOINT Listener started on 0.0.0.0:9164
+[2025-04-09 08:52:22,135]  INFO {LogMediator} - {api:FCRAPI} PAY_UTILITY_BILL_BY_ACCOUNT_TIPS_START_LOG = Executing PayUtilityBillByAccountTIPSInSequence
+[2025-04-09 08:52:22,146]  INFO {LogMediator} - {api:FCRAPI} To: /fcr/v1/payUtilityBillByAccountTIPS, WSAction: , SOAPAction: , MessageID: urn:uuid:db43f3f7-ea54-4d01-ab83-2dc40c4c352d, correlation_id: 773524e1-2f36-4fdc-aefd-624b90fa3f4c, Direction: request, Payload: {"Envelope":{"Header":"","Body":{"payUtilityBillByAccountTIPS":{"sessionContext":{"bankCode":"015","channel":"NMM","externalBatchNumber":"0","externalReferenceNo":"","externalSystemAuditTrailNumber":"0","localDateTimeText":"","originalReferenceNo":"","overridenWarnings":"","postingDateText":"","reason":{"comment":"","reasonCode":"0"},"serviceCode":"","sessionTicket":"","supervisorContext":{"primaryPassword":"","userId":""},"transactionBranch":"1","userId":"IFE","userReferenceNumber":"DT25040910009356","valueDateText":""},"utilityCompanyId":"176","billNo":"DT25040910009356","accountId":"018101002797","consumerNo":"DT25040910009356","paymentDueDate":"20250409","billAmount":{"currencyCode":"TZS","currencyRate":"1","monetaryValue":"531000"},"accountCurrencyRate":"1","primaryReferenceNo":"DT25040910009356","secondaryReferenceNo":"LOOKUPREF1744177941","userReferenceNo":"778717154DC2024072513174X","chargeRequest":{"isServiceChargeApplicable":null},"narrative":"DT25040910009356|QRO|503|MB|50099993|VODACOMTZ TESTLAB|Testing Tips","transactionType":"0","serviceChargeCode":"0","flgTips":"0","flgWallet":"0"}}}}
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+[2025-04-09 08:52:24,714]  INFO {LogMediator} - {api:FCRAPI} To: /fcr/v1/payUtilityBillByAccountTIPS, WSAction: , SOAPAction: , MessageID: urn:uuid:db43f3f7-ea54-4d01-ab83-2dc40c4c352d, correlation_id: 773524e1-2f36-4fdc-aefd-624b90fa3f4c, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:char="http://charge.app.fcr.iflex.com" xmlns:rule="http://rule.entity.fcr.iflex.com" xmlns:spi="http://spi.bill.app.fcr.iflex.com" xmlns:dto1="http://dto.charge.entity.fcr.iflex.com" xmlns:dto="http://dto.global.entity.fcr.iflex.com"><soapenv:Body><spi:payUtilityBillByAccountTIPS><spi:sessionContext><con:bankCode>015</con:bankCode><con:channel>NMM</con:channel><con:externalBatchNumber>0</con:externalBatchNumber><con:externalReferenceNo/><con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber><con:localDateTimeText/><con:originalReferenceNo/><con:overridenWarnings/><con:postingDateText/><con:reason><con:comment/><con:reasonCode>0</con:reasonCode></con:reason><con:serviceCode/><con:sessionTicket/><con:supervisorContext><con:primaryPassword/><con:userId/></con:supervisorContext><con:transactionBranch>1</con:transactionBranch><con:userId>IFE</con:userId><con:userReferenceNumber>DT25040910009356</con:userReferenceNumber><con:valueDateText/></spi:sessionContext><spi:utilityCompanyId>176</spi:utilityCompanyId><spi:billNo>DT25040910009356</spi:billNo><spi:accountId>018101002797</spi:accountId><spi:consumerNo>DT25040910009356</spi:consumerNo><spi:paymentDueDate>20250409</spi:paymentDueDate><spi:billAmount><dto:currencyCode>TZS</dto:currencyCode><dto:currencyRate>1</dto:currencyRate><dto:monetaryValue>531000</dto:monetaryValue></spi:billAmount><spi:accountCurrencyRate>1</spi:accountCurrencyRate><spi:primaryReferenceNo>DT25040910009356</spi:primaryReferenceNo><spi:secondaryReferenceNo>LOOKUPREF1744177941</spi:secondaryReferenceNo><spi:userReferenceNo>778717154DC2024072513174X</spi:userReferenceNo><spi:chargeRequest/><spi:narrative>DT25040910009356|QRO|503|MB|50099993|VODACOMTZ TESTLAB|Testing Tips</spi:narrative><spi:transactionType>0</spi:transactionType><spi:serviceChargeCode>0</spi:serviceChargeCode><spi:flgTips>0</spi:flgTips><spi:flgWallet>0</spi:flgWallet></spi:payUtilityBillByAccountTIPS></soapenv:Body></soapenv:Envelope>
+[2025-04-09 08:52:24,724]  INFO {TimeoutHandler} - This engine will expire all callbacks after GLOBAL_TIMEOUT: 120 seconds, irrespective of the timeout action, after the specified or optional timeout
+[2025-04-09 08:52:25,113]  INFO {LogMediator} - {api:FCRAPI} OUTSEQUENCE_LOG = Executing Out Sequence
+[2025-04-09 08:52:25,117] ERROR {RelayUtils} - Error while building Passthrough stream org.apache.axiom.om.OMException: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '"' (code 34) in DOCTYPE declaration; expected a space between public and system identifiers
+ at [row,col {unknown-source}]: [1,50]
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:296)
+	at org.apache.axiom.soap.impl.builder.StAXSOAPModelBuilder.getSOAPEnvelope(StAXSOAPModelBuilder.java:204)
+	at org.apache.axiom.soap.impl.builder.StAXSOAPModelBuilder.<init>(StAXSOAPModelBuilder.java:154)
+	at org.apache.axiom.om.impl.AbstractOMMetaFactory.createStAXSOAPModelBuilder(AbstractOMMetaFactory.java:73)
+	at org.apache.axiom.om.impl.AbstractOMMetaFactory.createSOAPModelBuilder(AbstractOMMetaFactory.java:79)
+	at org.apache.axiom.om.OMXMLBuilderFactory.createSOAPModelBuilder(OMXMLBuilderFactory.java:196)
+	at org.apache.axis2.builder.SOAPBuilder.processDocument(SOAPBuilder.java:65)
+	at org.apache.synapse.transport.passthru.util.DeferredMessageBuilder.getDocument(DeferredMessageBuilder.java:182)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:178)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:131)
+	at org.apache.synapse.transport.util.PassThroughMessageHandler.buildMessage(PassThroughMessageHandler.java:103)
+	at org.apache.synapse.mediators.AbstractListMediator.buildMessage(AbstractListMediator.java:179)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:104)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.api.Resource.process(Resource.java:355)
+	at org.apache.synapse.api.API.process(API.java:416)
+	at org.apache.synapse.api.AbstractApiHandler.apiProcess(AbstractApiHandler.java:91)
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:72)
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:90)
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:63)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:350)
+	at org.apache.synapse.core.axis2.SynapseCallbackReceiver.handleMessage(SynapseCallbackReceiver.java:642)
+	at org.apache.synapse.core.axis2.SynapseCallbackReceiver.receive(SynapseCallbackReceiver.java:212)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ClientWorker.run(ClientWorker.java:338)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '"' (code 34) in DOCTYPE declaration; expected a space between public and system identifiers
+ at [row,col {unknown-source}]: [1,50]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:639)
+	at com.ctc.wstx.sr.BasicStreamReader.startDTD(BasicStreamReader.java:2487)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromPrologBang(BasicStreamReader.java:2403)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2063)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1134)
+	at org.apache.axiom.util.stax.wrapper.XMLStreamReaderWrapper.next(XMLStreamReaderWrapper.java:225)
+	at org.apache.axiom.util.stax.dialect.DisallowDoctypeDeclStreamReaderWrapper.next(DisallowDoctypeDeclStreamReaderWrapper.java:34)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.parserNext(StAXOMBuilder.java:681)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:214)
+	... 30 more
+
+[2025-04-09 08:52:25,117] ERROR {SequenceMediator} - {api:FCRAPI} Error while building message. Error while building Passthrough stream org.apache.axis2.AxisFault: Error while building Passthrough stream
+	at org.apache.synapse.transport.passthru.util.RelayUtils.handleException(RelayUtils.java:462)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:225)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:131)
+	at org.apache.synapse.transport.util.PassThroughMessageHandler.buildMessage(PassThroughMessageHandler.java:103)
+	at org.apache.synapse.mediators.AbstractListMediator.buildMessage(AbstractListMediator.java:179)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:104)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.api.Resource.process(Resource.java:355)
+	at org.apache.synapse.api.API.process(API.java:416)
+	at org.apache.synapse.api.AbstractApiHandler.apiProcess(AbstractApiHandler.java:91)
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:72)
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:90)
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:63)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:350)
+	at org.apache.synapse.core.axis2.SynapseCallbackReceiver.handleMessage(SynapseCallbackReceiver.java:642)
+	at org.apache.synapse.core.axis2.SynapseCallbackReceiver.receive(SynapseCallbackReceiver.java:212)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ClientWorker.run(ClientWorker.java:338)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.axiom.om.OMException: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '"' (code 34) in DOCTYPE declaration; expected a space between public and system identifiers
+ at [row,col {unknown-source}]: [1,50]
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:296)
+	at org.apache.axiom.soap.impl.builder.StAXSOAPModelBuilder.getSOAPEnvelope(StAXSOAPModelBuilder.java:204)
+	at org.apache.axiom.soap.impl.builder.StAXSOAPModelBuilder.<init>(StAXSOAPModelBuilder.java:154)
+	at org.apache.axiom.om.impl.AbstractOMMetaFactory.createStAXSOAPModelBuilder(AbstractOMMetaFactory.java:73)
+	at org.apache.axiom.om.impl.AbstractOMMetaFactory.createSOAPModelBuilder(AbstractOMMetaFactory.java:79)
+	at org.apache.axiom.om.OMXMLBuilderFactory.createSOAPModelBuilder(OMXMLBuilderFactory.java:196)
+	at org.apache.axis2.builder.SOAPBuilder.processDocument(SOAPBuilder.java:65)
+	at org.apache.synapse.transport.passthru.util.DeferredMessageBuilder.getDocument(DeferredMessageBuilder.java:182)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:178)
+	... 22 more
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '"' (code 34) in DOCTYPE declaration; expected a space between public and system identifiers
+ at [row,col {unknown-source}]: [1,50]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:639)
+	at com.ctc.wstx.sr.BasicStreamReader.startDTD(BasicStreamReader.java:2487)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromPrologBang(BasicStreamReader.java:2403)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2063)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1134)
+	at org.apache.axiom.util.stax.wrapper.XMLStreamReaderWrapper.next(XMLStreamReaderWrapper.java:225)
+	at org.apache.axiom.util.stax.dialect.DisallowDoctypeDeclStreamReaderWrapper.next(DisallowDoctypeDeclStreamReaderWrapper.java:34)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.parserNext(StAXOMBuilder.java:681)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:214)
+	... 30 more
+
+[2025-04-09 08:52:25,208]  INFO {LogMediator} - {api:FCRAPI} FAULT_SEQUENCE_LOG = Executing Fault Sequence
+[2025-04-09 08:52:25,211]  INFO {LogMediator} - {api:FCRAPI} To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:f9888932-467e-4f4a-93d5-14c8988e5b31, correlation_id: 773524e1-2f36-4fdc-aefd-624b90fa3f4c, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body/></soapenv:Envelope>
+[2025-04-09 09:15:00,564]  INFO {LogMediator} - {api:FCRAPI} CONVERT_AMOUNT_WITH_FROM_TO_CURRENCY_START_LOG = Executing ConvertAmountWithFromToCurrencyInSequence
+[2025-04-09 09:15:00,564]  INFO {LogMediator} - {api:FCRAPI} To: /fcr/v1/convertAmountWithFromToCurrency, MessageID: urn:uuid:5eb8659a-b5d8-494c-9650-6d8440354aa8, correlation_id: 10536a75-ec68-4f74-9b87-594005335c93, Direction: request, Payload: {"Envelope":{"Header":"","Body":{"inquire":{"sessionContext":{"bankCode":"15","channel":"NHM","externalBatchNumber":"0","externalReferenceNo":"","externalSystemAuditTrailNumber":"0","localDateTimeText":"","originalReferenceNo":"","overridenWarnings":"","postingDateText":"","reason":{"comment":"","reasonCode":"0"},"serviceCode":"","sessionTicket":"","supervisorContext":{"primaryPassword":"","userId":""},"transactionBranch":"1","userId":"IFE","userReferenceNumber":"","valueDateText":""},"currencyShortName":"TZS"}}}}
+Warning: Nashorn engine is planned to be removed from a future JDK release
+[2025-04-09 09:15:00,710]  INFO {LogMediator} - {api:FCRAPI} To: /fcr/v1/convertAmountWithFromToCurrency, MessageID: urn:uuid:5eb8659a-b5d8-494c-9650-6d8440354aa8, correlation_id: 10536a75-ec68-4f74-9b87-594005335c93, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:spi="http://spi.currency.app.fcr.iflex.com"><soapenv:Body><spi:inquire><spi:sessionContext><con:bankCode>15</con:bankCode><con:channel>NHM</con:channel><con:externalBatchNumber>0</con:externalBatchNumber><con:externalReferenceNo/><con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber><con:localDateTimeText/><con:originalReferenceNo/><con:overridenWarnings/><con:postingDateText/><con:reason><con:comment/><con:reasonCode>0</con:reasonCode></con:reason><con:serviceCode/><con:sessionTicket/><con:supervisorContext><con:primaryPassword/><con:userId/></con:supervisorContext><con:transactionBranch>1</con:transactionBranch><con:userId>IFE</con:userId><con:userReferenceNumber/><con:valueDateText/></spi:sessionContext><spi:currencyShortName>TZS</spi:currencyShortName></spi:inquire></soapenv:Body></soapenv:Envelope>
+[2025-04-09 09:15:00,831]  INFO {LogMediator} - {api:FCRAPI} OUTSEQUENCE_LOG = Executing Out Sequence
+[2025-04-09 09:15:00,832] ERROR {RelayUtils} - Error while building Passthrough stream org.apache.axiom.om.OMException: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '"' (code 34) in DOCTYPE declaration; expected a space between public and system identifiers
+ at [row,col {unknown-source}]: [1,50]
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:296)
+	at org.apache.axiom.soap.impl.builder.StAXSOAPModelBuilder.getSOAPEnvelope(StAXSOAPModelBuilder.java:204)
+	at org.apache.axiom.soap.impl.builder.StAXSOAPModelBuilder.<init>(StAXSOAPModelBuilder.java:154)
+	at org.apache.axiom.om.impl.AbstractOMMetaFactory.createStAXSOAPModelBuilder(AbstractOMMetaFactory.java:73)
+	at org.apache.axiom.om.impl.AbstractOMMetaFactory.createSOAPModelBuilder(AbstractOMMetaFactory.java:79)
+	at org.apache.axiom.om.OMXMLBuilderFactory.createSOAPModelBuilder(OMXMLBuilderFactory.java:196)
+	at org.apache.axis2.builder.SOAPBuilder.processDocument(SOAPBuilder.java:65)
+	at org.apache.synapse.transport.passthru.util.DeferredMessageBuilder.getDocument(DeferredMessageBuilder.java:182)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:178)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:131)
+	at org.apache.synapse.transport.util.PassThroughMessageHandler.buildMessage(PassThroughMessageHandler.java:103)
+	at org.apache.synapse.mediators.AbstractListMediator.buildMessage(AbstractListMediator.java:179)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:104)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.api.Resource.process(Resource.java:355)
+	at org.apache.synapse.api.API.process(API.java:416)
+	at org.apache.synapse.api.AbstractApiHandler.apiProcess(AbstractApiHandler.java:91)
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:72)
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:90)
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:63)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:350)
+	at org.apache.synapse.core.axis2.SynapseCallbackReceiver.handleMessage(SynapseCallbackReceiver.java:642)
+	at org.apache.synapse.core.axis2.SynapseCallbackReceiver.receive(SynapseCallbackReceiver.java:212)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ClientWorker.run(ClientWorker.java:338)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '"' (code 34) in DOCTYPE declaration; expected a space between public and system identifiers
+ at [row,col {unknown-source}]: [1,50]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:639)
+	at com.ctc.wstx.sr.BasicStreamReader.startDTD(BasicStreamReader.java:2487)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromPrologBang(BasicStreamReader.java:2403)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2063)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1134)
+	at org.apache.axiom.util.stax.wrapper.XMLStreamReaderWrapper.next(XMLStreamReaderWrapper.java:225)
+	at org.apache.axiom.util.stax.dialect.DisallowDoctypeDeclStreamReaderWrapper.next(DisallowDoctypeDeclStreamReaderWrapper.java:34)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.parserNext(StAXOMBuilder.java:681)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:214)
+	... 30 more
+
+[2025-04-09 09:15:00,832] ERROR {SequenceMediator} - {api:FCRAPI} Error while building message. Error while building Passthrough stream org.apache.axis2.AxisFault: Error while building Passthrough stream
+	at org.apache.synapse.transport.passthru.util.RelayUtils.handleException(RelayUtils.java:462)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:225)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:131)
+	at org.apache.synapse.transport.util.PassThroughMessageHandler.buildMessage(PassThroughMessageHandler.java:103)
+	at org.apache.synapse.mediators.AbstractListMediator.buildMessage(AbstractListMediator.java:179)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:104)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:74)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158)
+	at org.apache.synapse.api.Resource.process(Resource.java:355)
+	at org.apache.synapse.api.API.process(API.java:416)
+	at org.apache.synapse.api.AbstractApiHandler.apiProcess(AbstractApiHandler.java:91)
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:72)
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:90)
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:63)
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:350)
+	at org.apache.synapse.core.axis2.SynapseCallbackReceiver.handleMessage(SynapseCallbackReceiver.java:642)
+	at org.apache.synapse.core.axis2.SynapseCallbackReceiver.receive(SynapseCallbackReceiver.java:212)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ClientWorker.run(ClientWorker.java:338)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.apache.axiom.om.OMException: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '"' (code 34) in DOCTYPE declaration; expected a space between public and system identifiers
+ at [row,col {unknown-source}]: [1,50]
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:296)
+	at org.apache.axiom.soap.impl.builder.StAXSOAPModelBuilder.getSOAPEnvelope(StAXSOAPModelBuilder.java:204)
+	at org.apache.axiom.soap.impl.builder.StAXSOAPModelBuilder.<init>(StAXSOAPModelBuilder.java:154)
+	at org.apache.axiom.om.impl.AbstractOMMetaFactory.createStAXSOAPModelBuilder(AbstractOMMetaFactory.java:73)
+	at org.apache.axiom.om.impl.AbstractOMMetaFactory.createSOAPModelBuilder(AbstractOMMetaFactory.java:79)
+	at org.apache.axiom.om.OMXMLBuilderFactory.createSOAPModelBuilder(OMXMLBuilderFactory.java:196)
+	at org.apache.axis2.builder.SOAPBuilder.processDocument(SOAPBuilder.java:65)
+	at org.apache.synapse.transport.passthru.util.DeferredMessageBuilder.getDocument(DeferredMessageBuilder.java:182)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:178)
+	... 22 more
+Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character '"' (code 34) in DOCTYPE declaration; expected a space between public and system identifiers
+ at [row,col {unknown-source}]: [1,50]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:639)
+	at com.ctc.wstx.sr.BasicStreamReader.startDTD(BasicStreamReader.java:2487)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromPrologBang(BasicStreamReader.java:2403)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2063)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1134)
+	at org.apache.axiom.util.stax.wrapper.XMLStreamReaderWrapper.next(XMLStreamReaderWrapper.java:225)
+	at org.apache.axiom.util.stax.dialect.DisallowDoctypeDeclStreamReaderWrapper.next(DisallowDoctypeDeclStreamReaderWrapper.java:34)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.parserNext(StAXOMBuilder.java:681)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:214)
+	... 30 more
+
+[2025-04-09 09:15:00,903]  INFO {LogMediator} - {api:FCRAPI} FAULT_SEQUENCE_LOG = Executing Fault Sequence
+[2025-04-09 09:15:00,904]  INFO {LogMediator} - {api:FCRAPI} To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:77453f29-f9fc-456b-bb4d-b3997df0ddfd, correlation_id: 10536a75-ec68-4f74-9b87-594005335c93, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body/></soapenv:Envelope>
