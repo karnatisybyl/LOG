@@ -1,0 +1,55 @@
+{
+    "inquireCustomerScoreCard": {
+        "sessionContext": {
+            "bankCode": 15,
+            "channel": "IFE",
+            "externalBatchNumber": 0,
+            "externalReferenceNo": "",
+            "externalSystemAuditTrailNumber": 0,
+            "localDateTimeText": "",
+            "originalReferenceNo": "",
+            "overridenWarnings": "87",
+            "postingDateText": 20210915,
+            "reason": {
+                "comment": "",
+                "reasonCode": 0
+            },
+            "serviceCode": "",
+            "sessionTicket": "",
+            "supervisorContext": {
+                "primaryPassword": "",
+                "userId": "IFE"
+            },
+            "transactionBranch": 1,
+            "userId": "IFE",
+            "userReferenceNumber": 125,
+            "valueDateText": 20210915
+        },
+        "customerId": 743446
+    }
+}
+
+
+
+#######################response
+{
+    "inquireCustomerScoreCardResponse": {
+        "inquireCustomerScoreCardReturn": {
+            "status": {
+                "errorCode": "0",
+                "externalReferenceNo": "99520102000101067478",
+                "inputOverridenWarnings": "87,",
+                "isOverriden": false,
+                "isServiceChargeApplied": false,
+                "replyCode": "0",
+                "replyText": "null",
+                "spReturnValue": "0",
+                "transactionDateTimeText": "20250411120047",
+                "userReferenceNumber": "125"
+            },
+            "borrowerType": "Regular Borrower With Delinquency Payments",
+            "customerId": "743446",
+            "rltnWithNBC": "Active Accounts >3 Years"
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "doChargeDeduction": {
+        "context": {
+            "bankCode": "15",
+            "channel": "LOS",
+            "externalBatchNumber": "0",
+            "externalReferenceNo": "",
+            "externalSystemAuditTrailNumber": "1",
+            "localDateTimeText": "",
+            "originalReferenceNo": "",
+            "overridenWarnings": "",
+            "postingDateText": "",
+            "reason": {
+                "comment": "",
+                "reasonCode": "0"
+            },
+            "serviceCode": "",
+            "sessionTicket": "",
+            "supervisorContext": {
+                "primaryPassword": "",
+                "userId": ""
+            },
+            "transactionBranch": "1",
+            "userId": "IFE",
+            "userReferenceNumber": "",
+            "valueDateText": ""
+        },
+        "deductionPlanDetailsDTO": [
+            {
+                "casaAccountNo": "011103033963",
+                "casaAmount": "1000",
+                "casaNarration": "Loan Charge Deduction Test",
+                "flgForceDebit": "Y",
+                "flgGlSplitRequired": "N",
+                "glDetails": {
+                    "item": {
+                        "glAccountNo": "290600700",
+                        "glAmount": "1000",
+                        "glBranchCode": "1",
+                        "glCurrency": "TZS",
+                        "glNarration": "Loan Deduction Test 011103033963"
+                    }
+                }
+            },
+            {
+                "casaAccountNo": "011103033963",
+                "casaAmount": "1000",
+                "casaNarration": "Loan Charge Deduction Test",
+                "flgForceDebit": "Y",
+                "flgGlSplitRequired": "N",
+                "glDetails": {
+                    "item": {
+                        "glAccountNo": "290600700",
+                        "glAmount": "1000",
+                        "glBranchCode": "1",
+                        "glCurrency": "TZS",
+                        "glNarration": "Loan Deduction Test 011103033963"
+                    }
+                }
+            }
+        ]
+    }
+}
+
+
+
+
+####################response
+{
+    "doChargeDeductionResponse": {
+        "doChargeDeductionReturn": {
+            "errorCode": "0",
+            "externalReferenceNo": "99520102000000000000",
+            "inputOverridenWarnings": "null",
+            "isOverriden": false,
+            "isServiceChargeApplied": false,
+            "replyCode": "0",
+            "replyText": "null",
+            "spReturnValue": "0",
+            "transactionDateTimeText": "20250411115702",
+            "userReferenceNumber": "null"
+        }
+    }
+}
