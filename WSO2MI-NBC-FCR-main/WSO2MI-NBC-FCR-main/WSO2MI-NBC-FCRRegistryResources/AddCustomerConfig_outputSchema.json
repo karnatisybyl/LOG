@@ -1,0 +1,565 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "soapenv:Envelope",
+  "type" : "object",
+  "properties" : {
+    "soapenv:Header" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Header",
+      "type" : "string"
+    },
+    "soapenv:Body" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Body",
+      "type" : "object",
+      "properties" : {
+        "spi:addCustomer" : {
+          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer",
+          "type" : "object",
+          "properties" : {
+            "spi:sessionContext" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext",
+              "type" : "object",
+              "properties" : {
+                "con:bankCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:bankCode",
+                  "type" : "string"
+                },
+                "con:channel" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:channel",
+                  "type" : "string"
+                },
+                "con:externalBatchNumber" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:externalBatchNumber",
+                  "type" : "string"
+                },
+                "con:externalReferenceNo" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:externalReferenceNo",
+                  "type" : "string"
+                },
+                "con:externalSystemAuditTrailNumber" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:externalSystemAuditTrailNumber",
+                  "type" : "string"
+                },
+                "con:localDateTimeText" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:localDateTimeText",
+                  "type" : "string"
+                },
+                "con:originalReferenceNo" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:originalReferenceNo",
+                  "type" : "string"
+                },
+                "con:overridenWarnings" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:overridenWarnings",
+                  "type" : "string"
+                },
+                "con:postingDateText" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:postingDateText",
+                  "type" : "string"
+                },
+                "con:reason" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:reason",
+                  "type" : "object",
+                  "properties" : {
+                    "con:comment" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:reason/con:comment",
+                      "type" : "string"
+                    },
+                    "con:reasonCode" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:reason/con:reasonCode",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "con:serviceCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:serviceCode",
+                  "type" : "string"
+                },
+                "con:sessionTicket" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:sessionTicket",
+                  "type" : "string"
+                },
+                "con:supervisorContext" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:supervisorContext",
+                  "type" : "object",
+                  "properties" : {
+                    "con:primaryPassword" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:supervisorContext/con:primaryPassword",
+                      "type" : "string"
+                    },
+                    "con:userId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:supervisorContext/con:userId",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "con:transactionBranch" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:transactionBranch",
+                  "type" : "string"
+                },
+                "con:userId" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:userId",
+                  "type" : "string"
+                },
+                "con:userReferenceNumber" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:userReferenceNumber",
+                  "type" : "string"
+                },
+                "con:valueDateText" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:sessionContext/con:valueDateText",
+                  "type" : "string"
+                }
+              }
+            },
+            "spi:customerDetailsDTO" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO",
+              "type" : "object",
+              "properties" : {
+                "dto:ageOfRetirement" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:ageOfRetirement",
+                  "type" : "string"
+                },
+                "dto:amlRiskRating" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:amlRiskRating",
+                  "type" : "string"
+                },
+                "dto:brnIssue" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:brnIssue",
+                  "type" : "string"
+                },
+                "dto:businessCodeCategory" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:businessCodeCategory",
+                  "type" : "string"
+                },
+                "dto:category" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:category",
+                  "type" : "string"
+                },
+                "dto:countryOfResidence" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:countryOfResidence",
+                  "type" : "string"
+                },
+                "dto:customerEducation" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:customerEducation",
+                  "type" : "string"
+                },
+                "dto:customerMobilePhone" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:customerMobilePhone",
+                  "type" : "string"
+                },
+                "dto:datCIV" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:datCIV",
+                  "type" : "string"
+                },
+                "dto:datIssueId" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:datIssueId",
+                  "type" : "string"
+                },
+                "dto:dateOfBirthOrRegistration" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:dateOfBirthOrRegistration",
+                  "type" : "string"
+                },
+                "dto:designation" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:designation",
+                  "type" : "string"
+                },
+                "dto:emailId" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:emailId",
+                  "type" : "string"
+                },
+                "dto:employeeId" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employeeId",
+                  "type" : "string"
+                },
+                "dto:employerAddress" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerAddress",
+                  "type" : "object",
+                  "properties" : {
+                    "dat:city" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerAddress/dat:city",
+                      "type" : "string"
+                    },
+                    "dat:country" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerAddress/dat:country",
+                      "type" : "string"
+                    },
+                    "dat:line1" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerAddress/dat:line1",
+                      "type" : "string"
+                    },
+                    "dat:line2" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerAddress/dat:line2",
+                      "type" : "string"
+                    },
+                    "dat:line3" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerAddress/dat:line3",
+                      "type" : "string"
+                    },
+                    "dat:state" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerAddress/dat:state",
+                      "type" : "string"
+                    },
+                    "dat:zip" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerAddress/dat:zip",
+                      "type" : "number"
+                    }
+                  }
+                },
+                "dto:employerEmailId" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerEmailId",
+                  "type" : "string"
+                },
+                "dto:employerFaxNo" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerFaxNo",
+                  "type" : "string"
+                },
+                "dto:employerMobileNo" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerMobileNo",
+                  "type" : "string"
+                },
+                "dto:employerName" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerName",
+                  "type" : "string"
+                },
+                "dto:employerPhoneNo" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerPhoneNo",
+                  "type" : "string"
+                },
+                "dto:employerTelex" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:employerTelex",
+                  "type" : "string"
+                },
+                "dto:fax" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:fax",
+                  "type" : "string"
+                },
+                "dto:flgInterTransaction" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:flgInterTransaction",
+                  "type" : "string"
+                },
+                "dto:flgPep" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:flgPep",
+                  "type" : "string"
+                },
+                "dto:homeBranchCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:homeBranchCode",
+                  "type" : "string"
+                },
+                "dto:icType" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:icType",
+                  "type" : "string"
+                },
+                "dto:incomeSlabCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:incomeSlabCode",
+                  "type" : "string"
+                },
+                "dto:incomeTaxNo" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:incomeTaxNo",
+                  "type" : "string"
+                },
+                "dto:isStaff" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:isStaff",
+                  "type" : "string"
+                },
+                "dto:issueAuthId" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:issueAuthId",
+                  "type" : "string"
+                },
+                "dto:language" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:language",
+                  "type" : "string"
+                },
+                "dto:mailingAddress" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:mailingAddress",
+                  "type" : "object",
+                  "properties" : {
+                    "dat:city" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:mailingAddress/dat:city",
+                      "type" : "string"
+                    },
+                    "dat:country" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:mailingAddress/dat:country",
+                      "type" : "string"
+                    },
+                    "dat:line1" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:mailingAddress/dat:line1",
+                      "type" : "string"
+                    },
+                    "dat:line2" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:mailingAddress/dat:line2",
+                      "type" : "string"
+                    },
+                    "dat:line3" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:mailingAddress/dat:line3",
+                      "type" : "string"
+                    },
+                    "dat:state" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:mailingAddress/dat:state",
+                      "type" : "string"
+                    },
+                    "dat:zip" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:mailingAddress/dat:zip",
+                      "type" : "number"
+                    }
+                  }
+                },
+                "dto:maritalStatus" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:maritalStatus",
+                  "type" : "string"
+                },
+                "dto:misDetails" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:misDetails",
+                  "type" : "array",
+                  "items" : [ {
+                    "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:misDetails/0",
+                    "type" : "object",
+                    "properties" : {
+                      "dto:item" : {
+                        "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:misDetails/0/dto:item",
+                        "type" : "array",
+                        "items" : [ {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:misDetails/0/dto:item/0",
+                          "type" : "object",
+                          "properties" : {
+                            "dto:code" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:misDetails/0/dto:item/0/dto:code",
+                              "type" : "string"
+                            },
+                            "dto:type" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:misDetails/0/dto:item/0/dto:type",
+                              "type" : "string"
+                            }
+                          }
+                        } ]
+                      }
+                    }
+                  } ]
+                },
+                "dto:name" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:name",
+                  "type" : "object",
+                  "properties" : {
+                    "dat:firstName" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:name/dat:firstName",
+                      "type" : "string"
+                    },
+                    "dat:formattedFullName" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:name/dat:formattedFullName",
+                      "type" : "string"
+                    },
+                    "dat:fullName" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:name/dat:fullName",
+                      "type" : "string"
+                    },
+                    "dat:lastName" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:name/dat:lastName",
+                      "type" : "string"
+                    },
+                    "dat:midName" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:name/dat:midName",
+                      "type" : "string"
+                    },
+                    "dat:prefix" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:name/dat:prefix",
+                      "type" : "string"
+                    },
+                    "dat:shortName" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:name/dat:shortName",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "dto:nationalIdentificationCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:nationalIdentificationCode",
+                  "type" : "string"
+                },
+                "dto:nationality" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:nationality",
+                  "type" : "string"
+                },
+                "dto:noOfYearsInJob" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:noOfYearsInJob",
+                  "type" : "string"
+                },
+                "dto:occupation" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:occupation",
+                  "type" : "string"
+                },
+                "dto:officePhoneNo" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:officePhoneNo",
+                  "type" : "string"
+                },
+                "dto:origin" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:origin",
+                  "type" : "string"
+                },
+                "dto:permanentAddress" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:permanentAddress",
+                  "type" : "object",
+                  "properties" : {
+                    "dat:city" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:permanentAddress/dat:city",
+                      "type" : "string"
+                    },
+                    "dat:country" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:permanentAddress/dat:country",
+                      "type" : "string"
+                    },
+                    "dat:line1" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:permanentAddress/dat:line1",
+                      "type" : "string"
+                    },
+                    "dat:line2" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:permanentAddress/dat:line2",
+                      "type" : "string"
+                    },
+                    "dat:line3" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:permanentAddress/dat:line3",
+                      "type" : "string"
+                    },
+                    "dat:state" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:permanentAddress/dat:state",
+                      "type" : "string"
+                    },
+                    "dat:zip" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:permanentAddress/dat:zip",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "dto:phone" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:phone",
+                  "type" : "number"
+                },
+                "dto:placeOfBirth" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:placeOfBirth",
+                  "type" : "string"
+                },
+                "dto:professionCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:professionCode",
+                  "type" : "string"
+                },
+                "dto:relation" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:relation",
+                  "type" : "string"
+                },
+                "dto:sex" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:sex",
+                  "type" : "string"
+                },
+                "dto:signatureType" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:signatureType",
+                  "type" : "string"
+                },
+                "dto:sourceOfFunds" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:sourceOfFunds",
+                  "type" : "string"
+                },
+                "dto:marketingOptOut" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:marketingOptOut",
+                  "type" : "string"
+                },
+                "dto:marketingOptOutEmail" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:marketingOptOutEmail",
+                  "type" : "string"
+                },
+                "dto:marketingOptOutMail" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:marketingOptOutMail",
+                  "type" : "string"
+                },
+                "dto:marketingOptOutPhone" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:marketingOptOutPhone",
+                  "type" : "string"
+                },
+                "dto:marketingOptOutSMS" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:marketingOptOutSMS",
+                  "type" : "string"
+                },
+                "dto:objectionToProcessing" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:objectionToProcessing",
+                  "type" : "string"
+                },
+                "dto:objectionToProfiling" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:objectionToProfiling",
+                  "type" : "string"
+                },
+                "dto:preferedContact" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:customerDetailsDTO/dto:preferedContact",
+                  "type" : "string"
+                }
+              }
+            },
+            "spi:kycDetails" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:kycDetails",
+              "type" : "object",
+              "properties" : {
+                "dto:currentRiskLevel" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:kycDetails/dto:currentRiskLevel",
+                  "type" : "string"
+                },
+                "dto:manualKYCCompliant" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:kycDetails/dto:manualKYCCompliant",
+                  "type" : "string"
+                },
+                "dto:numberOfAccounts" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:kycDetails/dto:numberOfAccounts",
+                  "type" : "object",
+                  "properties" : {
+                    "dto:noOfCurrentAccount" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:kycDetails/dto:numberOfAccounts/dto:noOfCurrentAccount",
+                      "type" : "string"
+                    },
+                    "dto:noOfInsuranceAccount" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:kycDetails/dto:numberOfAccounts/dto:noOfInsuranceAccount",
+                      "type" : "string"
+                    },
+                    "dto:noOfInvestmentAccount" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:kycDetails/dto:numberOfAccounts/dto:noOfInvestmentAccount",
+                      "type" : "string"
+                    },
+                    "dto:noOfNonSecureLoanAccount" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:kycDetails/dto:numberOfAccounts/dto:noOfNonSecureLoanAccount",
+                      "type" : "string"
+                    },
+                    "dto:noOfSavingsAccount" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:kycDetails/dto:numberOfAccounts/dto:noOfSavingsAccount",
+                      "type" : "string"
+                    },
+                    "dto:noOfSecureLoanAccount" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:kycDetails/dto:numberOfAccounts/dto:noOfSecureLoanAccount",
+                      "type" : "string"
+                    },
+                    "dto:noOfTermDepositAccount" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:kycDetails/dto:numberOfAccounts/dto:noOfTermDepositAccount",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "dto:sysKYCCompliant" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:addCustomer/spi:kycDetails/dto:sysKYCCompliant",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "soapenv",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  }, {
+    "prefix" : "spi",
+    "url" : "http://spi.customer.app.fcr.iflex.com"
+  }, {
+    "prefix" : "con",
+    "url" : "http://context.app.fcr.iflex.com"
+  }, {
+    "prefix" : "dto",
+    "url" : "http://dto.spi.customer.app.fcr.iflex.com"
+  }, {
+    "prefix" : "dat",
+    "url" : "http://datatype.fcr.iflex.com"
+  } ]
+}

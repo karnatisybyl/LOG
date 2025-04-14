@@ -1,0 +1,133 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Envelope" : {
+      "id" : "http://wso2jsonschema.org/Envelope",
+      "type" : "object",
+      "properties" : {
+        "Header" : {
+          "id" : "http://wso2jsonschema.org/Envelope/Header",
+          "type" : "string"
+        },
+        "Body" : {
+          "id" : "http://wso2jsonschema.org/Envelope/Body",
+          "type" : "object",
+          "properties" : {
+            "inquireAccountMasterForMaintenance" : {
+              "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance",
+              "type" : "object",
+              "properties" : {
+                "sessionContext" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext",
+                  "type" : "object",
+                  "properties" : {
+                    "bankCode" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/bankCode",
+                      "type" : "string"
+                    },
+                    "channel" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/channel",
+                      "type" : "string"
+                    },
+                    "externalBatchNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/externalBatchNumber",
+                      "type" : "string"
+                    },
+                    "externalReferenceNo" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/externalReferenceNo",
+                      "type" : "string"
+                    },
+                    "externalSystemAuditTrailNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/externalSystemAuditTrailNumber",
+                      "type" : "string"
+                    },
+                    "localDateTimeText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/localDateTimeText",
+                      "type" : "string"
+                    },
+                    "originalReferenceNo" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/originalReferenceNo",
+                      "type" : "string"
+                    },
+                    "overridenWarnings" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/overridenWarnings",
+                      "type" : "string"
+                    },
+                    "postingDateText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/postingDateText",
+                      "type" : "string"
+                    },
+                    "reason" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/reason",
+                      "type" : "object",
+                      "properties" : {
+                        "comment" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/reason/comment",
+                          "type" : "string"
+                        },
+                        "reasonCode" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/reason/reasonCode",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "serviceCode" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/serviceCode",
+                      "type" : "string"
+                    },
+                    "sessionTicket" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/sessionTicket",
+                      "type" : "string"
+                    },
+                    "supervisorContext" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/supervisorContext",
+                      "type" : "object",
+                      "properties" : {
+                        "primaryPassword" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/supervisorContext/primaryPassword",
+                          "type" : "string"
+                        },
+                        "userId" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/supervisorContext/userId",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "transactionBranch" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/transactionBranch",
+                      "type" : "string"
+                    },
+                    "userId" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/userId",
+                      "type" : "string"
+                    },
+                    "userReferenceNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/userReferenceNumber",
+                      "type" : "string"
+                    },
+                    "valueDateText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/sessionContext/valueDateText",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "accountId" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/accountId",
+                  "type" : "string"
+                },
+                "maintenanceType" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireAccountMasterForMaintenance/maintenanceType",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

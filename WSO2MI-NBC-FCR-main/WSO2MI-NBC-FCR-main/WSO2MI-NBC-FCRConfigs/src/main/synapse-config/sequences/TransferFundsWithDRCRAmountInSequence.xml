@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="TransferFundsWithDRCRAmountInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="TRANSFER_FUNDS_WITH_DRCR_AMOUNT_START_LOG" level="custom">
+        <property name="TRANSFER_FUNDS_WITH_DRCR_AMOUNT_START_LOG" value="Executing Transfer Funds with DRCR Amount In Sequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/TransferFundsWithDRCRAmountConfig.dmc" inputSchema="gov:datamapper/TransferFundsWithDRCRAmountConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/TransferFundsWithDRCRAmountConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/TransferFundsWithDRCRAmountConfig_xsltStyleSheet.xml"/>
+    <header name="soapAction" scope="transport" value=""/>
+    <log level="full"/>
+    <send>
+        <endpoint key="DemandDepositManagerSpiSoapEP"/>
+    </send>
+</sequence>

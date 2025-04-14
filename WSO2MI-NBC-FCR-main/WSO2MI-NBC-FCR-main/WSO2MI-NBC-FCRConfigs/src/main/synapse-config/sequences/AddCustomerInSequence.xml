@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="AddCustomerInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="ADD_CUSTOMER_START_LOG" level="custom">
+        <property name="ADD_CUSTOMER_START_LOG" value="Executing AddCustomerInSequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/AddCustomerConfig.dmc" description="ADD_CUSTOMER_PAYLOAD" inputSchema="gov:datamapper/AddCustomerConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/AddCustomerConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/AddCustomerConfig_xsltStyleSheet.xml"/>
+    <header name="soapAction" scope="transport" value=""/>
+    <log level="full"/>
+    <send>
+        <endpoint key="CustomerManagerSpiSoapEP"/>
+    </send>
+</sequence>

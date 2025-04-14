@@ -1,0 +1,121 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "activateDeactivateAccount" : {
+      "id" : "http://wso2jsonschema.org/activateDeactivateAccount",
+      "type" : "object",
+      "properties" : {
+        "sessionContext" : {
+          "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext",
+          "type" : "object",
+          "properties" : {
+            "bankCode" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/bankCode",
+              "type" : "string"
+            },
+            "channel" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/channel",
+              "type" : "string"
+            },
+            "externalBatchNumber" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/externalBatchNumber",
+              "type" : "string"
+            },
+            "externalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/externalReferenceNo",
+              "type" : "string"
+            },
+            "externalSystemAuditTrailNumber" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/externalSystemAuditTrailNumber",
+              "type" : "string"
+            },
+            "localDateTimeText" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/localDateTimeText",
+              "type" : "string"
+            },
+            "originalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/originalReferenceNo",
+              "type" : "string"
+            },
+            "overridenWarnings" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/overridenWarnings",
+              "type" : "string"
+            },
+            "postingDateText" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/postingDateText",
+              "type" : "string"
+            },
+            "reason" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/reason",
+              "type" : "object",
+              "properties" : {
+                "comment" : {
+                  "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/reason/comment",
+                  "type" : "string"
+                },
+                "reasonCode" : {
+                  "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/reason/reasonCode",
+                  "type" : "string"
+                }
+              }
+            },
+            "serviceCode" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/serviceCode",
+              "type" : "string"
+            },
+            "sessionTicket" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/sessionTicket",
+              "type" : "string"
+            },
+            "supervisorContext" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/supervisorContext",
+              "type" : "object",
+              "properties" : {
+                "primaryPassword" : {
+                  "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/supervisorContext/primaryPassword",
+                  "type" : "string"
+                },
+                "userId" : {
+                  "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/supervisorContext/userId",
+                  "type" : "string"
+                }
+              }
+            },
+            "transactionBranch" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/transactionBranch",
+              "type" : "string"
+            },
+            "userId" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/userId",
+              "type" : "string"
+            },
+            "userReferenceNumber" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/userReferenceNumber",
+              "type" : "string"
+            },
+            "valueDateText" : {
+              "id" : "http://wso2jsonschema.org/activateDeactivateAccount/sessionContext/valueDateText",
+              "type" : "string"
+            }
+          }
+        },
+        "accountId" : {
+          "id" : "http://wso2jsonschema.org/activateDeactivateAccount/accountId",
+          "type" : "string"
+        },
+        "isApplicationAccepted" : {
+          "id" : "http://wso2jsonschema.org/activateDeactivateAccount/isApplicationAccepted",
+          "type" : "string"
+        },
+        "verification" : {
+          "id" : "http://wso2jsonschema.org/activateDeactivateAccount/verification",
+          "type" : "string"
+        }
+      }
+    }
+  }
+}

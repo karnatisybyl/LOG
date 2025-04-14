@@ -1,0 +1,153 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Envelope" : {
+      "id" : "http://wso2jsonschema.org/Envelope",
+      "type" : "object",
+      "properties" : {
+        "Header" : {
+          "id" : "http://wso2jsonschema.org/Envelope/Header",
+          "type" : "string"
+        },
+        "Body" : {
+          "id" : "http://wso2jsonschema.org/Envelope/Body",
+          "type" : "object",
+          "properties" : {
+            "inquireBillWalletRtgsTxns" : {
+              "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns",
+              "type" : "object",
+              "properties" : {
+                "sessionContext" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext",
+                  "type" : "object",
+                  "properties" : {
+                    "bankCode" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/bankCode",
+                      "type" : "string"
+                    },
+                    "channel" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/channel",
+                      "type" : "string"
+                    },
+                    "externalBatchNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalBatchNumber",
+                      "type" : "string"
+                    },
+                    "externalReferenceNo" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalReferenceNo",
+                      "type" : "string"
+                    },
+                    "externalSystemAuditTrailNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalSystemAuditTrailNumber",
+                      "type" : "string"
+                    },
+                    "localDateTimeText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/localDateTimeText",
+                      "type" : "string"
+                    },
+                    "originalReferenceNo" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/originalReferenceNo",
+                      "type" : "string"
+                    },
+                    "overridenWarnings" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/overridenWarnings",
+                      "type" : "string"
+                    },
+                    "postingDateText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/postingDateText",
+                      "type" : "string"
+                    },
+                    "reason" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason",
+                      "type" : "object",
+                      "properties" : {
+                        "comment" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/comment",
+                          "type" : "string"
+                        },
+                        "reasonCode" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/reasonCode",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "serviceCode" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/serviceCode",
+                      "type" : "string"
+                    },
+                    "sessionTicket" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/sessionTicket",
+                      "type" : "string"
+                    },
+                    "supervisorContext" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext",
+                      "type" : "object",
+                      "properties" : {
+                        "primaryPassword" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/primaryPassword",
+                          "type" : "string"
+                        },
+                        "userId" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/userId",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "transactionBranch" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/transactionBranch",
+                      "type" : "string"
+                    },
+                    "userId" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/userId",
+                      "type" : "string"
+                    },
+                    "userReferenceNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/userReferenceNumber",
+                      "type" : "string"
+                    },
+                    "valueDateText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/valueDateText",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "accountNo" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/accountNo",
+                  "type" : "string"
+                },
+                "txnReferenceNo" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/txnReferenceNo",
+                  "type" : "string"
+                },
+                "billNo" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/billNo",
+                  "type" : "string"
+                },
+                "codUserId" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/codUserId",
+                  "type" : "string"
+                },
+                "orgBranchCode" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/orgBranchCode",
+                  "type" : "string"
+                },
+                "transactionDate" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/transactionDate",
+                  "type" : "string"
+                },
+                "source" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/source",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

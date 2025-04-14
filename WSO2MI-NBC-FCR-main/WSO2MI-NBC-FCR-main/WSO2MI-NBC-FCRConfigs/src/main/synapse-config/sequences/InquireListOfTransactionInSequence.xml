@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="InquireListOfTransactionInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="INQUIRE_LIST_OF_TRANSACTIONS_START_LOG" level="custom">
+        <property name="INQUIRE_LIST_OF_TRANSACTIONS_START_LOG" value="Executing InquireListOfTransactionInSequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/InquireListOfTransactionConfig.dmc" inputSchema="gov:datamapper/InquireListOfTransactionConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/InquireListOfTransactionConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/InquireListOfTransactionConfig_xsltStyleSheet.xml"/>
+    <header name="soapAction" scope="transport" value=""/>
+    <log level="full"/>
+    <send>
+        <endpoint key="DemandDepositStatementManagerSpiEP"/>
+    </send>
+</sequence>

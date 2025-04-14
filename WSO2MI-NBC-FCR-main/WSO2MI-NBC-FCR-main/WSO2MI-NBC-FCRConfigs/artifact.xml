@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="FCRAPI" groupId="tz.nbc.fccft.wso2mi.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/FCRAPI.xml</file>
+    </artifact>
+    <artifact name="FCRAPI_swagger" groupId="tz.nbc.fccft.wso2mi.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/FCRAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="FCRAPI_metadata" groupId="tz.nbc.fccft.wso2mi.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/FCRAPI_metadata.yaml</file>
+    </artifact>
+    <artifact name="TransferFundsWithDRCRAmountInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/TransferFundsWithDRCRAmountInSequence.xml</file>
+    </artifact>
+    <artifact name="MisCustDebitWithDRCRAmtDepDtlsInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/MisCustDebitWithDRCRAmtDepDtlsInSequence.xml</file>
+    </artifact>
+    <artifact name="ListCASAAccountDetailsInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ListCASAAccountDetailsInSequence.xml</file>
+    </artifact>
+    <artifact name="ActivateDeactivateAccountInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ActivateDeactivateAccountInSequence.xml</file>
+    </artifact>
+    <artifact name="UpdateAccountStatusForCASAInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/UpdateAccountStatusForCASAInSequence.xml</file>
+    </artifact>
+    <artifact name="AddStandingInstructionInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/AddStandingInstructionInSequence.xml</file>
+    </artifact>
+    <artifact name="AddCustomerInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/AddCustomerInSequence.xml</file>
+    </artifact>
+    <artifact name="CreateNewAccountInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/CreateNewAccountInSequence.xml</file>
+    </artifact>
+    <artifact name="DomesticTransferFundsWithDRCRAmountInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/DomesticTransferFundsWithDRCRAmountInSequence.xml</file>
+    </artifact>
+    <artifact name="InquireInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/InquireInSequence.xml</file>
+    </artifact>
+    <artifact name="InquireForMaintenanceInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/InquireForMaintenanceInSequence.xml</file>
+    </artifact>
+    <artifact name="ModifyStandingInstructionInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ModifyStandingInstructionInSequence.xml</file>
+    </artifact>
+    <artifact name="PayUtilityBillByAccountInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/PayUtilityBillByAccountInSequence.xml</file>
+    </artifact>
+    <artifact name="DemandDepositManagerSpiSoapEP" groupId="tz.nbc.fccft.wso2mi.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/DemandDepositManagerSpiSoapEP.xml</file>
+    </artifact>
+    <artifact name="DemandDepositInstructionManagerSpiSoapEP" groupId="tz.nbc.fccft.wso2mi.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/DemandDepositInstructionManagerSpiSoapEP.xml</file>
+    </artifact>
+    <artifact name="BillPaymentManagerSpiSoapEP" groupId="tz.nbc.fccft.wso2mi.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/BillPaymentManagerSpiSoapEP.xml</file>
+    </artifact>
+    <artifact name="CustomerManagerSpiSoapEP" groupId="tz.nbc.fccft.wso2mi.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/CustomerManagerSpiSoapEP.xml</file>
+    </artifact>
+    <artifact name="DemandDepositMaintenanceSpiEP" groupId="tz.nbc.fccft.wso2mi.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/DemandDepositMaintenanceSpiEP.xml</file>
+    </artifact>
+    <artifact name="InquireListOfTransactionInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/InquireListOfTransactionInSequence.xml</file>
+    </artifact>
+    <artifact name="DemandDepositStatementManagerSpiEP" groupId="tz.nbc.fccft.wso2mi.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/DemandDepositStatementManagerSpiEP.xml</file>
+    </artifact>
+    <artifact name="ConvertAmountWithFromToCurrencyInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ConvertAmountWithFromToCurrencyInSequence.xml</file>
+    </artifact>
+    <artifact name="CurrencyRateManagerSpiEP" groupId="tz.nbc.fccft.wso2mi.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/CurrencyRateManagerSpiEP.xml</file>
+    </artifact>
+    <artifact name="PayUtilityBillByAccountTIPSInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/PayUtilityBillByAccountTIPSInSequence.xml</file>
+    </artifact>
+    <artifact name="InquireBillWalletRtgsTxnsInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/InquireBillWalletRtgsTxnsInSequence.xml</file>
+    </artifact>
+    <artifact name="RequestChequeBookInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/RequestChequeBookInSequence.xml</file>
+    </artifact>
+    <artifact name="DeleteStandingInstructionInSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/DeleteStandingInstructionInSequence.xml</file>
+    </artifact>
+    <artifact name="WSO2MINBCFCRFaultSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/WSO2MINBCFCRFaultSequence.xml</file>
+    </artifact>
+    <artifact name="WSO2MINBCOutSequence" groupId="tz.nbc.fccft.wso2mi.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/WSO2MINBCOutSequence.xml</file>
+    </artifact>
+</artifacts>

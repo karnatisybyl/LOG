@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="ActivateDeactivateAccountInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="ACTIVATE_DEACTIVATE_ACCOUNT_START_LOG" level="custom">
+        <property name="ACTIVATE_DEACTIVATE_ACCOUNT_START_LOG" value="Executing Activate Deactivate Account In Sequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/ActivateDeactivateAccountConfig.dmc" description="ACTIVATE_DEACTIVATE_ACCOUNT_PAYLOAD" inputSchema="gov:datamapper/ActivateDeactivateAccountConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/ActivateDeactivateAccountConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/ActivateDeactivateAccountConfig_xsltStyleSheet.xml"/>
+    <log level="full"/>
+    <header name="soapAction" scope="transport" value=""/>
+    <send>
+        <endpoint key="DemandDepositManagerSpiSoapEP"/>
+    </send>
+</sequence>

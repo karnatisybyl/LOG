@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="modifyStandingInstruction" schemaDataType="OBJECT" level="2">
+        <node name="sessionContext" schemaDataType="OBJECT" level="3">
+          <node name="bankCode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/bankCode"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="channel" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/channel"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="externalBatchNumber" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/externalBatchNumber"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="externalReferenceNo" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/externalReferenceNo"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="externalSystemAuditTrailNumber" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/externalSystemAuditTrailNumber"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="localDateTimeText" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/localDateTimeText"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.5/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="originalReferenceNo" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/originalReferenceNo"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.6/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="overridenWarnings" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/overridenWarnings"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.7/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="postingDateText" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/postingDateText"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.8/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="reason" schemaDataType="OBJECT" level="4">
+            <node name="comment" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason/comment"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="reasonCode" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason/reasonCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="serviceCode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/serviceCode"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.10/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="sessionTicket" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/sessionTicket"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.11/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="supervisorContext" schemaDataType="OBJECT" level="4">
+            <node name="primaryPassword" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext/primaryPassword"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="userId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext/userId"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{comment={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason/reasonCode, type=string}}"/>
+            <properties key="properties_id" value="{primaryPassword={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext/userId, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="transactionBranch" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/transactionBranch"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.13/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="userId" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/userId"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.14/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="userReferenceNumber" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/userReferenceNumber"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.15/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="valueDateText" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/valueDateText"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.16/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/sessionContext"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="standingInstructionDTOreq" schemaDataType="OBJECT" level="3">
+          <node name="accountId" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/accountId"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="amount" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/amount"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.1/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="applySC" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/applySC"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.2/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="automaticallyIssued" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/automaticallyIssued"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.3/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="beneficiaryAccountId" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryAccountId"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.4/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="beneficiaryAccountType" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryAccountType"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.5/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="beneficiaryDetailsDTO" schemaDataType="OBJECT" level="4">
+            <node name="beneficiaryAccountTypes" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAccountTypes"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="beneficiaryAddress" schemaDataType="OBJECT" level="5">
+              <node name="city" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/city"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.1/@node.0/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="country" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/country"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.1/@node.1/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="line1" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line1"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.1/@node.2/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="line2" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line2"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.1/@node.3/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="line3" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line3"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.1/@node.4/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="state" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/state"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.1/@node.5/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="zip" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/zip"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.1/@node.6/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="beneficiaryId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryId"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.2/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="beneficiaryName" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryName"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.3/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="beneficiaryPhone" schemaDataType="OBJECT" level="5">
+              <node name="extension" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/extension"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.4/@node.0/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="isdCode" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/isdCode"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.4/@node.1/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="number" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/number"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.4/@node.2/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="stdCode" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/stdCode"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.6/@node.4/@node.3/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{city={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/city, type=string}, country={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/country, type=string}, line1={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line1, type=string}, line2={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line2, type=string}, line3={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line3, type=string}, state={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/state, type=string}, zip={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/zip, type=string}}"/>
+              <properties key="properties_id" value="{extension={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/extension, type=string}, isdCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/isdCode, type=string}, number={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/number, type=string}, stdCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/stdCode, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="branch" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/branch"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.7/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="calendarBased" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/calendarBased"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.8/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="endDate" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/endDate"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.9/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="failureReason" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/failureReason"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.10/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="financialInstitutionCode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/financialInstitutionCode"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.11/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="forceDebitAllowed" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/forceDebitAllowed"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.12/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="instructionCurrency" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/instructionCurrency"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.13/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="instructionNumber" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/instructionNumber"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.14/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="lastDate" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/lastDate"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.15/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="lastRetryDate" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/lastRetryDate"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.16/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="narrative" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/narrative"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.17/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="nextDate" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/nextDate"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.18/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="nonFCBranchCode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/nonFCBranchCode"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.19/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="paymentCode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentCode"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.20/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="paymentDescription" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentDescription"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.21/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="paymentMode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentMode"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.22/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="paymentType" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentType"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.23/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="priority" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/priority"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.24/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="product" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/product"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.25/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="receivingBankCode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/receivingBankCode"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.26/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="receivingBranchCode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/receivingBranchCode"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.27/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="retryCount" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/retryCount"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.28/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="routingNumber" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/routingNumber"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.29/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="standingInstructionFrequency" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/standingInstructionFrequency"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.30/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="standingInstructionType" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/standingInstructionType"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.31/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="startDate" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/startDate"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.32/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="termDepositDetails" schemaDataType="OBJECT" level="4">
+            <node name="accountVariance" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/accountVariance"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.33/@node.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="baseAmountForRate" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/baseAmountForRate"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.33/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="compoundingFrequency" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/compoundingFrequency"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.33/@node.2/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="isSweepInProvider" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/isSweepInProvider"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.33/@node.3/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="payoutFrequency" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/payoutFrequency"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.33/@node.4/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="productCode" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/productCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.33/@node.5/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="termDays" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/termDays"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.33/@node.6/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="termMonths" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/termMonths"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.33/@node.7/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{beneficiaryAccountTypes={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAccountTypes, type=string}, beneficiaryAddress={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress, type=object, properties={city={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/city, type=string}, country={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/country, type=string}, line1={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line1, type=string}, line2={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line2, type=string}, line3={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line3, type=string}, state={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/state, type=string}, zip={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/zip, type=string}}}, beneficiaryId={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryId, type=string}, beneficiaryName={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryName, type=string}, beneficiaryPhone={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone, type=object, properties={extension={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/extension, type=string}, isdCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/isdCode, type=string}, number={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/number, type=string}, stdCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/stdCode, type=string}}}}"/>
+            <properties key="properties_id" value="{accountVariance={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/accountVariance, type=string}, baseAmountForRate={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/baseAmountForRate, type=string}, compoundingFrequency={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/compoundingFrequency, type=string}, isSweepInProvider={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/isSweepInProvider, type=string}, payoutFrequency={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/payoutFrequency, type=string}, productCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/productCode, type=string}, termDays={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/termDays, type=string}, termMonths={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/termMonths, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{bankCode={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/valueDateText, type=string}}"/>
+          <properties key="properties_id" value="{accountId={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/accountId, type=string}, amount={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/amount, type=string}, applySC={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/applySC, type=string}, automaticallyIssued={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/automaticallyIssued, type=string}, beneficiaryAccountId={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryAccountId, type=string}, beneficiaryAccountType={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryAccountType, type=string}, beneficiaryDetailsDTO={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO, type=object, properties={beneficiaryAccountTypes={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAccountTypes, type=string}, beneficiaryAddress={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress, type=object, properties={city={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/city, type=string}, country={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/country, type=string}, line1={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line1, type=string}, line2={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line2, type=string}, line3={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line3, type=string}, state={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/state, type=string}, zip={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/zip, type=string}}}, beneficiaryId={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryId, type=string}, beneficiaryName={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryName, type=string}, beneficiaryPhone={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone, type=object, properties={extension={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/extension, type=string}, isdCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/isdCode, type=string}, number={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/number, type=string}, stdCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/stdCode, type=string}}}}}, branch={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/branch, type=string}, calendarBased={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/calendarBased, type=string}, endDate={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/endDate, type=string}, failureReason={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/failureReason, type=string}, financialInstitutionCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/financialInstitutionCode, type=string}, forceDebitAllowed={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/forceDebitAllowed, type=string}, instructionCurrency={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/instructionCurrency, type=string}, instructionNumber={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/instructionNumber, type=string}, lastDate={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/lastDate, type=string}, lastRetryDate={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/lastRetryDate, type=string}, narrative={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/narrative, type=string}, nextDate={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/nextDate, type=string}, nonFCBranchCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/nonFCBranchCode, type=string}, paymentCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentCode, type=string}, paymentDescription={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentDescription, type=string}, paymentMode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentMode, type=string}, paymentType={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentType, type=string}, priority={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/priority, type=string}, product={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/product, type=string}, receivingBankCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/receivingBankCode, type=string}, receivingBranchCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/receivingBranchCode, type=string}, retryCount={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/retryCount, type=string}, routingNumber={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/routingNumber, type=string}, standingInstructionFrequency={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/standingInstructionFrequency, type=string}, standingInstructionType={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/standingInstructionType, type=string}, startDate={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/startDate, type=string}, termDepositDetails={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails, type=object, properties={accountVariance={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/accountVariance, type=string}, baseAmountForRate={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/baseAmountForRate, type=string}, compoundingFrequency={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/compoundingFrequency, type=string}, isSweepInProvider={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/isSweepInProvider, type=string}, payoutFrequency={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/payoutFrequency, type=string}, productCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/productCode, type=string}, termDays={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/termDays, type=string}, termMonths={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/termMonths, type=string}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="maintenanceTicket" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction/maintenanceTicket"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.2/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/modifyStandingInstruction"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{sessionContext={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext, type=object, properties={bankCode={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/valueDateText, type=string}}}, standingInstructionDTOreq={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq, type=object, properties={accountId={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/accountId, type=string}, amount={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/amount, type=string}, applySC={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/applySC, type=string}, automaticallyIssued={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/automaticallyIssued, type=string}, beneficiaryAccountId={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryAccountId, type=string}, beneficiaryAccountType={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryAccountType, type=string}, beneficiaryDetailsDTO={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO, type=object, properties={beneficiaryAccountTypes={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAccountTypes, type=string}, beneficiaryAddress={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress, type=object, properties={city={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/city, type=string}, country={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/country, type=string}, line1={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line1, type=string}, line2={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line2, type=string}, line3={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line3, type=string}, state={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/state, type=string}, zip={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/zip, type=string}}}, beneficiaryId={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryId, type=string}, beneficiaryName={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryName, type=string}, beneficiaryPhone={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone, type=object, properties={extension={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/extension, type=string}, isdCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/isdCode, type=string}, number={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/number, type=string}, stdCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/stdCode, type=string}}}}}, branch={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/branch, type=string}, calendarBased={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/calendarBased, type=string}, endDate={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/endDate, type=string}, failureReason={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/failureReason, type=string}, financialInstitutionCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/financialInstitutionCode, type=string}, forceDebitAllowed={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/forceDebitAllowed, type=string}, instructionCurrency={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/instructionCurrency, type=string}, instructionNumber={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/instructionNumber, type=string}, lastDate={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/lastDate, type=string}, lastRetryDate={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/lastRetryDate, type=string}, narrative={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/narrative, type=string}, nextDate={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/nextDate, type=string}, nonFCBranchCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/nonFCBranchCode, type=string}, paymentCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentCode, type=string}, paymentDescription={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentDescription, type=string}, paymentMode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentMode, type=string}, paymentType={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentType, type=string}, priority={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/priority, type=string}, product={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/product, type=string}, receivingBankCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/receivingBankCode, type=string}, receivingBranchCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/receivingBranchCode, type=string}, retryCount={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/retryCount, type=string}, routingNumber={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/routingNumber, type=string}, standingInstructionFrequency={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/standingInstructionFrequency, type=string}, standingInstructionType={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/standingInstructionType, type=string}, startDate={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/startDate, type=string}, termDepositDetails={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails, type=object, properties={accountVariance={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/accountVariance, type=string}, baseAmountForRate={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/baseAmountForRate, type=string}, compoundingFrequency={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/compoundingFrequency, type=string}, isSweepInProvider={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/isSweepInProvider, type=string}, payoutFrequency={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/payoutFrequency, type=string}, productCode={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/productCode, type=string}, termDays={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/termDays, type=string}, termMonths={id=http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/termMonths, type=string}}}}}, maintenanceTicket={id=http://wso2jsonschema.org/modifyStandingInstruction/maintenanceTicket, type=string}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="soapenv:Envelope" schemaDataType="OBJECT" level="1">
+      <node name="soapenv:Header" schemaDataType="STRING" level="2">
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Header"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="soapenv:Body" schemaDataType="OBJECT" level="2">
+        <node name="spi:modifyStandingInstruction" schemaDataType="OBJECT" level="3">
+          <node name="spi:sessionContext" schemaDataType="OBJECT" level="4">
+            <node name="con:bankCode" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:bankCode"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:channel" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:channel"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalBatchNumber" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalBatchNumber"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalReferenceNo" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalReferenceNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalSystemAuditTrailNumber" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalSystemAuditTrailNumber"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:localDateTimeText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:localDateTimeText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:originalReferenceNo" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:originalReferenceNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:overridenWarnings" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:overridenWarnings"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:postingDateText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:postingDateText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:reason" schemaDataType="OBJECT" level="5">
+              <node name="con:comment" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason/con:comment"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.9/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="con:reasonCode" schemaDataType="NUMBER" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason/con:reasonCode"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.9/@node.1/@outNode/@outgoingLink.0"/>
+              </node>
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:serviceCode" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:serviceCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.10/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:sessionTicket" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:sessionTicket"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.11/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:supervisorContext" schemaDataType="OBJECT" level="5">
+              <node name="con:primaryPassword" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext/con:primaryPassword"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.12/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="con:userId" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext/con:userId"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.12/@node.1/@outNode/@outgoingLink.0"/>
+              </node>
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason/con:reasonCode, type=number}}"/>
+              <properties key="properties_id" value="{con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext/con:userId, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:transactionBranch" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:transactionBranch"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.13/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:userId" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:userId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.14/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:userReferenceNumber" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:userReferenceNumber"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.15/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:valueDateText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:valueDateText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.16/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:standingInstructionDTOreq" schemaDataType="OBJECT" level="4">
+            <node name="dto:accountId" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:accountId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:amount" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:amount"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:applySC" schemaDataType="BOOLEAN" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:applySC"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.2/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:automaticallyIssued" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:automaticallyIssued"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.3/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:beneficiaryAccountId" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryAccountId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.4/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:beneficiaryAccountType" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryAccountType"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.5/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:beneficiaryDetailsDTO" schemaDataType="OBJECT" level="5">
+              <node name="dto1:beneficiaryAccountTypes" schemaDataType="NUMBER" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="fieldNamespaces" value="{prefix=dto1, url=http://dto.deposit.app.fcr.iflex.com}"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAccountTypes"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="dto1:beneficiaryAddress" schemaDataType="OBJECT" level="6">
+                <node name="dat:city" schemaDataType="STRING" level="7">
+                  <properties key="namespaces" value="{prefix=dat, url=http://datatype.fcr.iflex.com}"/>
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:city"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.1/@node.0/@outNode/@outgoingLink.0"/>
+                </node>
+                <node name="dat:country" schemaDataType="STRING" level="7">
+                  <properties key="namespaces" value="{prefix=dat, url=http://datatype.fcr.iflex.com}"/>
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:country"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.1/@node.1/@outNode/@outgoingLink.0"/>
+                </node>
+                <node name="dat:line1" schemaDataType="STRING" level="7">
+                  <properties key="namespaces" value="{prefix=dat, url=http://datatype.fcr.iflex.com}"/>
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line1"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.1/@node.2/@outNode/@outgoingLink.0"/>
+                </node>
+                <node name="dat:line2" schemaDataType="STRING" level="7">
+                  <properties key="namespaces" value="{prefix=dat, url=http://datatype.fcr.iflex.com}"/>
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line2"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.1/@node.3/@outNode/@outgoingLink.0"/>
+                </node>
+                <node name="dat:line3" schemaDataType="STRING" level="7">
+                  <properties key="namespaces" value="{prefix=dat, url=http://datatype.fcr.iflex.com}"/>
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line3"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.1/@node.4/@outNode/@outgoingLink.0"/>
+                </node>
+                <node name="dat:state" schemaDataType="STRING" level="7">
+                  <properties key="namespaces" value="{prefix=dat, url=http://datatype.fcr.iflex.com}"/>
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:state"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.1/@node.5/@outNode/@outgoingLink.0"/>
+                </node>
+                <node name="dat:zip" schemaDataType="NUMBER" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="fieldNamespaces" value="{prefix=dat, url=http://datatype.fcr.iflex.com}"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:zip"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.1/@node.6/@outNode/@outgoingLink.0"/>
+                </node>
+                <properties key="namespaces" value="{prefix=dto1, url=http://dto.deposit.app.fcr.iflex.com}"/>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="dto1:beneficiaryId" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=dto1, url=http://dto.deposit.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryId"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.2/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="dto1:beneficiaryName" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=dto1, url=http://dto.deposit.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryName"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.3/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="dto1:beneficiaryPhone" schemaDataType="OBJECT" level="6">
+                <node name="dat:extension" schemaDataType="STRING" level="7">
+                  <properties key="namespaces" value="{prefix=dat, url=http://datatype.fcr.iflex.com}"/>
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:extension"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.4/@node.0/@outNode/@outgoingLink.0"/>
+                </node>
+                <node name="dat:isdCode" schemaDataType="NUMBER" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="fieldNamespaces" value="{prefix=dat, url=http://datatype.fcr.iflex.com}"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:isdCode"/>
+                  <properties key="type" value="string"/>
+                  <outNode/>
+                  <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.4/@node.1/@outNode/@outgoingLink.0"/>
+                </node>
+                <node name="dat:number" schemaDataType="STRING" level="7">
+                  <properties key="namespaces" value="{prefix=dat, url=http://datatype.fcr.iflex.com}"/>
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:number"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.4/@node.2/@outNode/@outgoingLink.0"/>
+                </node>
+                <node name="dat:stdCode" schemaDataType="STRING" level="7">
+                  <properties key="namespaces" value="{prefix=dat, url=http://datatype.fcr.iflex.com}"/>
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:stdCode"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.6/@node.4/@node.3/@outNode/@outgoingLink.0"/>
+                </node>
+                <properties key="namespaces" value="{prefix=dto1, url=http://dto.deposit.app.fcr.iflex.com}"/>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone"/>
+                <properties key="nullable" value="false"/>
+                <properties key="properties_id" value="{dat:city={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:city, type=string}, dat:country={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:country, type=string}, dat:line1={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line1, type=string}, dat:line2={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line2, type=string}, dat:line3={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line3, type=string}, dat:state={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:state, type=string}, dat:zip={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:zip, type=number}}"/>
+                <properties key="properties_id" value="{dat:extension={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:extension, type=string}, dat:isdCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:isdCode, type=number}, dat:number={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:number, type=string}, dat:stdCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:stdCode, type=string}}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="dto:branch" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:branch"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.7/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:calendarBased" schemaDataType="BOOLEAN" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:calendarBased"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.8/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:endDate" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:endDate"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.9/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:failureReason" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:failureReason"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.10/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:financialInstitutionCode" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:financialInstitutionCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.11/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:forceDebitAllowed" schemaDataType="BOOLEAN" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:forceDebitAllowed"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.12/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:instructionCurrency" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:instructionCurrency"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.13/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:instructionNumber" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:instructionNumber"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.14/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:lastDate" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:lastDate"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.15/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:lastRetryDate" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:lastRetryDate"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.16/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:narrative" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:narrative"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.17/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:nextDate" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:nextDate"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.18/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:nonFCBranchCode" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:nonFCBranchCode"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.19/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:paymentCode" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.20/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:paymentDescription" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentDescription"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.21/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:paymentMode" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentMode"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.22/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:paymentType" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentType"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.23/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:priority" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:priority"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.24/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:product" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:product"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.25/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:receivingBankCode" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:receivingBankCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.26/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:receivingBranchCode" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:receivingBranchCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.27/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:retryCount" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:retryCount"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.28/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:routingNumber" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:routingNumber"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.29/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:standingInstructionFrequency" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:standingInstructionFrequency"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.30/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:standingInstructionType" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:standingInstructionType"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.31/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:startDate" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:startDate"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.32/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:termDepositDetails" schemaDataType="OBJECT" level="5">
+              <node name="dto2:accountVariance" schemaDataType="NUMBER" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="fieldNamespaces" value="{prefix=dto2, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:accountVariance"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.33/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="dto2:baseAmountForRate" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=dto2, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:baseAmountForRate"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.33/@node.1/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="dto2:compoundingFrequency" schemaDataType="NUMBER" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="fieldNamespaces" value="{prefix=dto2, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:compoundingFrequency"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.33/@node.2/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="dto2:isSweepInProvider" schemaDataType="BOOLEAN" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="fieldNamespaces" value="{prefix=dto2, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:isSweepInProvider"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.33/@node.3/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="dto2:payoutFrequency" schemaDataType="NUMBER" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="fieldNamespaces" value="{prefix=dto2, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:payoutFrequency"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.33/@node.4/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="dto2:productCode" schemaDataType="NUMBER" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="fieldNamespaces" value="{prefix=dto2, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:productCode"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.33/@node.5/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="dto2:termDays" schemaDataType="NUMBER" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="fieldNamespaces" value="{prefix=dto2, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:termDays"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.33/@node.6/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="dto2:termMonths" schemaDataType="NUMBER" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="fieldNamespaces" value="{prefix=dto2, url=http://dto.savings.deposit.app.fcr.iflex.com}"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:termMonths"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.33/@node.7/@outNode/@outgoingLink.0"/>
+              </node>
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{dto1:beneficiaryAccountTypes={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAccountTypes, type=number}, dto1:beneficiaryAddress={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress, type=object, properties={dat:city={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:city, type=string}, dat:country={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:country, type=string}, dat:line1={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line1, type=string}, dat:line2={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line2, type=string}, dat:line3={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line3, type=string}, dat:state={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:state, type=string}, dat:zip={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:zip, type=number}}}, dto1:beneficiaryId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryId, type=string}, dto1:beneficiaryName={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryName, type=string}, dto1:beneficiaryPhone={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone, type=object, properties={dat:extension={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:extension, type=string}, dat:isdCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:isdCode, type=number}, dat:number={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:number, type=string}, dat:stdCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:stdCode, type=string}}}}"/>
+              <properties key="properties_id" value="{dto2:accountVariance={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:accountVariance, type=number}, dto2:baseAmountForRate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:baseAmountForRate, type=string}, dto2:compoundingFrequency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:compoundingFrequency, type=number}, dto2:isSweepInProvider={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:isSweepInProvider, type=boolean}, dto2:payoutFrequency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:payoutFrequency, type=number}, dto2:productCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:productCode, type=number}, dto2:termDays={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:termDays, type=number}, dto2:termMonths={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:termMonths, type=number}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:valueDateText, type=string}}"/>
+            <properties key="properties_id" value="{dto:accountId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:accountId, type=string}, dto:amount={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:amount, type=number}, dto:applySC={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:applySC, type=boolean}, dto:automaticallyIssued={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:automaticallyIssued, type=number}, dto:beneficiaryAccountId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryAccountId, type=string}, dto:beneficiaryAccountType={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryAccountType, type=number}, dto:beneficiaryDetailsDTO={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO, type=object, properties={dto1:beneficiaryAccountTypes={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAccountTypes, type=number}, dto1:beneficiaryAddress={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress, type=object, properties={dat:city={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:city, type=string}, dat:country={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:country, type=string}, dat:line1={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line1, type=string}, dat:line2={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line2, type=string}, dat:line3={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line3, type=string}, dat:state={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:state, type=string}, dat:zip={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:zip, type=number}}}, dto1:beneficiaryId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryId, type=string}, dto1:beneficiaryName={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryName, type=string}, dto1:beneficiaryPhone={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone, type=object, properties={dat:extension={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:extension, type=string}, dat:isdCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:isdCode, type=number}, dat:number={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:number, type=string}, dat:stdCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:stdCode, type=string}}}}}, dto:branch={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:branch, type=number}, dto:calendarBased={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:calendarBased, type=boolean}, dto:endDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:endDate, type=string}, dto:failureReason={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:failureReason, type=string}, dto:financialInstitutionCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:financialInstitutionCode, type=string}, dto:forceDebitAllowed={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:forceDebitAllowed, type=boolean}, dto:instructionCurrency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:instructionCurrency, type=string}, dto:instructionNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:instructionNumber, type=number}, dto:lastDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:lastDate, type=string}, dto:lastRetryDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:lastRetryDate, type=string}, dto:narrative={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:narrative, type=string}, dto:nextDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:nextDate, type=string}, dto:nonFCBranchCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:nonFCBranchCode, type=number}, dto:paymentCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentCode, type=string}, dto:paymentDescription={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentDescription, type=string}, dto:paymentMode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentMode, type=number}, dto:paymentType={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentType, type=string}, dto:priority={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:priority, type=number}, dto:product={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:product, type=number}, dto:receivingBankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:receivingBankCode, type=string}, dto:receivingBranchCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:receivingBranchCode, type=string}, dto:retryCount={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:retryCount, type=number}, dto:routingNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:routingNumber, type=number}, dto:standingInstructionFrequency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:standingInstructionFrequency, type=number}, dto:standingInstructionType={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:standingInstructionType, type=number}, dto:startDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:startDate, type=string}, dto:termDepositDetails={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails, type=object, properties={dto2:accountVariance={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:accountVariance, type=number}, dto2:baseAmountForRate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:baseAmountForRate, type=string}, dto2:compoundingFrequency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:compoundingFrequency, type=number}, dto2:isSweepInProvider={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:isSweepInProvider, type=boolean}, dto2:payoutFrequency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:payoutFrequency, type=number}, dto2:productCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:productCode, type=number}, dto2:termDays={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:termDays, type=number}, dto2:termMonths={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:termMonths, type=number}}}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:maintenanceTicket" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:maintenanceTicket"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+          </node>
+          <properties key="namespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{spi:sessionContext={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext, type=object, properties={con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:valueDateText, type=string}}}, spi:standingInstructionDTOreq={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq, type=object, properties={dto:accountId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:accountId, type=string}, dto:amount={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:amount, type=number}, dto:applySC={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:applySC, type=boolean}, dto:automaticallyIssued={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:automaticallyIssued, type=number}, dto:beneficiaryAccountId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryAccountId, type=string}, dto:beneficiaryAccountType={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryAccountType, type=number}, dto:beneficiaryDetailsDTO={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO, type=object, properties={dto1:beneficiaryAccountTypes={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAccountTypes, type=number}, dto1:beneficiaryAddress={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress, type=object, properties={dat:city={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:city, type=string}, dat:country={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:country, type=string}, dat:line1={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line1, type=string}, dat:line2={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line2, type=string}, dat:line3={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line3, type=string}, dat:state={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:state, type=string}, dat:zip={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:zip, type=number}}}, dto1:beneficiaryId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryId, type=string}, dto1:beneficiaryName={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryName, type=string}, dto1:beneficiaryPhone={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone, type=object, properties={dat:extension={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:extension, type=string}, dat:isdCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:isdCode, type=number}, dat:number={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:number, type=string}, dat:stdCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:stdCode, type=string}}}}}, dto:branch={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:branch, type=number}, dto:calendarBased={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:calendarBased, type=boolean}, dto:endDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:endDate, type=string}, dto:failureReason={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:failureReason, type=string}, dto:financialInstitutionCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:financialInstitutionCode, type=string}, dto:forceDebitAllowed={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:forceDebitAllowed, type=boolean}, dto:instructionCurrency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:instructionCurrency, type=string}, dto:instructionNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:instructionNumber, type=number}, dto:lastDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:lastDate, type=string}, dto:lastRetryDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:lastRetryDate, type=string}, dto:narrative={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:narrative, type=string}, dto:nextDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:nextDate, type=string}, dto:nonFCBranchCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:nonFCBranchCode, type=number}, dto:paymentCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentCode, type=string}, dto:paymentDescription={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentDescription, type=string}, dto:paymentMode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentMode, type=number}, dto:paymentType={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentType, type=string}, dto:priority={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:priority, type=number}, dto:product={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:product, type=number}, dto:receivingBankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:receivingBankCode, type=string}, dto:receivingBranchCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:receivingBranchCode, type=string}, dto:retryCount={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:retryCount, type=number}, dto:routingNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:routingNumber, type=number}, dto:standingInstructionFrequency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:standingInstructionFrequency, type=number}, dto:standingInstructionType={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:standingInstructionType, type=number}, dto:startDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:startDate, type=string}, dto:termDepositDetails={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails, type=object, properties={dto2:accountVariance={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:accountVariance, type=number}, dto2:baseAmountForRate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:baseAmountForRate, type=string}, dto2:compoundingFrequency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:compoundingFrequency, type=number}, dto2:isSweepInProvider={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:isSweepInProvider, type=boolean}, dto2:payoutFrequency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:payoutFrequency, type=number}, dto2:productCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:productCode, type=number}, dto2:termDays={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:termDays, type=number}, dto2:termMonths={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:termMonths, type=number}}}}}, spi:maintenanceTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:maintenanceTicket, type=number}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{spi:modifyStandingInstruction={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction, type=object, properties={spi:sessionContext={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext, type=object, properties={con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:valueDateText, type=string}}}, spi:standingInstructionDTOreq={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq, type=object, properties={dto:accountId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:accountId, type=string}, dto:amount={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:amount, type=number}, dto:applySC={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:applySC, type=boolean}, dto:automaticallyIssued={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:automaticallyIssued, type=number}, dto:beneficiaryAccountId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryAccountId, type=string}, dto:beneficiaryAccountType={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryAccountType, type=number}, dto:beneficiaryDetailsDTO={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO, type=object, properties={dto1:beneficiaryAccountTypes={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAccountTypes, type=number}, dto1:beneficiaryAddress={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress, type=object, properties={dat:city={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:city, type=string}, dat:country={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:country, type=string}, dat:line1={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line1, type=string}, dat:line2={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line2, type=string}, dat:line3={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line3, type=string}, dat:state={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:state, type=string}, dat:zip={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:zip, type=number}}}, dto1:beneficiaryId={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryId, type=string}, dto1:beneficiaryName={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryName, type=string}, dto1:beneficiaryPhone={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone, type=object, properties={dat:extension={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:extension, type=string}, dat:isdCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:isdCode, type=number}, dat:number={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:number, type=string}, dat:stdCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:stdCode, type=string}}}}}, dto:branch={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:branch, type=number}, dto:calendarBased={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:calendarBased, type=boolean}, dto:endDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:endDate, type=string}, dto:failureReason={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:failureReason, type=string}, dto:financialInstitutionCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:financialInstitutionCode, type=string}, dto:forceDebitAllowed={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:forceDebitAllowed, type=boolean}, dto:instructionCurrency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:instructionCurrency, type=string}, dto:instructionNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:instructionNumber, type=number}, dto:lastDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:lastDate, type=string}, dto:lastRetryDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:lastRetryDate, type=string}, dto:narrative={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:narrative, type=string}, dto:nextDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:nextDate, type=string}, dto:nonFCBranchCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:nonFCBranchCode, type=number}, dto:paymentCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentCode, type=string}, dto:paymentDescription={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentDescription, type=string}, dto:paymentMode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentMode, type=number}, dto:paymentType={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentType, type=string}, dto:priority={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:priority, type=number}, dto:product={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:product, type=number}, dto:receivingBankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:receivingBankCode, type=string}, dto:receivingBranchCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:receivingBranchCode, type=string}, dto:retryCount={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:retryCount, type=number}, dto:routingNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:routingNumber, type=number}, dto:standingInstructionFrequency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:standingInstructionFrequency, type=number}, dto:standingInstructionType={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:standingInstructionType, type=number}, dto:startDate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:startDate, type=string}, dto:termDepositDetails={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails, type=object, properties={dto2:accountVariance={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:accountVariance, type=number}, dto2:baseAmountForRate={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:baseAmountForRate, type=string}, dto2:compoundingFrequency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:compoundingFrequency, type=number}, dto2:isSweepInProvider={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:isSweepInProvider, type=boolean}, dto2:payoutFrequency={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:payoutFrequency, type=number}, dto2:productCode={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:productCode, type=number}, dto2:termDays={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:termDays, type=number}, dto2:termMonths={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:termMonths, type=number}}}}}, spi:maintenanceTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:maintenanceTicket, type=number}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/},{prefix=con, url=http://context.app.fcr.iflex.com},{prefix=dat, url=http://datatype.fcr.iflex.com},{prefix=dto2, url=http://dto.savings.deposit.app.fcr.iflex.com},{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com},{prefix=dto1, url=http://dto.deposit.app.fcr.iflex.com},{prefix=dto, url=http://dto.spi.savings.deposit.app.fcr.iflex.com}"/>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+</datamapper:DataMapperRoot>

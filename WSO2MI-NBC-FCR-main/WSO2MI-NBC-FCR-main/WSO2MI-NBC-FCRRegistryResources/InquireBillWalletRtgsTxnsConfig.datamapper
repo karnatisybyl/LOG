@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="Envelope" schemaDataType="OBJECT" level="2">
+        <node name="Header" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/Envelope/Header"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.0/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="Body" schemaDataType="OBJECT" level="3">
+          <node name="inquireBillWalletRtgsTxns" schemaDataType="OBJECT" level="4">
+            <node name="sessionContext" schemaDataType="OBJECT" level="5">
+              <node name="bankCode" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/bankCode"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="channel" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/channel"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="externalBatchNumber" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalBatchNumber"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="externalReferenceNo" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalReferenceNo"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="externalSystemAuditTrailNumber" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalSystemAuditTrailNumber"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="localDateTimeText" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/localDateTimeText"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.5/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="originalReferenceNo" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/originalReferenceNo"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.6/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="overridenWarnings" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/overridenWarnings"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.7/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="postingDateText" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/postingDateText"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.8/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="reason" schemaDataType="OBJECT" level="6">
+                <node name="comment" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/comment"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.0/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <node name="reasonCode" schemaDataType="NUMBER" level="7">
+                  <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/reasonCode"/>
+                  <properties key="type" value="string"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.1/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="serviceCode" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/serviceCode"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.10/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="sessionTicket" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/sessionTicket"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.11/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="supervisorContext" schemaDataType="OBJECT" level="6">
+                <node name="primaryPassword" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/primaryPassword"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.0/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <node name="userId" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/userId"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.1/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext"/>
+                <properties key="nullable" value="false"/>
+                <properties key="properties_id" value="{comment={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/reasonCode, type=number}}"/>
+                <properties key="properties_id" value="{primaryPassword={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/userId, type=string}}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="transactionBranch" schemaDataType="NUMBER" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/transactionBranch"/>
+                <properties key="type" value="string"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.13/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="userId" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/userId"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.14/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="userReferenceNumber" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/userReferenceNumber"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.15/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="valueDateText" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/valueDateText"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.16/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{bankCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/reasonCode, type=number}}}, serviceCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/transactionBranch, type=number}, userId={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/valueDateText, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="accountNo" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/accountNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="txnReferenceNo" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/txnReferenceNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.2/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="billNo" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/billNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.3/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="codUserId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/codUserId"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.4/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="orgBranchCode" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/orgBranchCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.5/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="transactionDate" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/transactionDate"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.6/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="source" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/source"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.7/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{sessionContext={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext, type=object, properties={bankCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/reasonCode, type=number}}}, serviceCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/transactionBranch, type=number}, userId={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/valueDateText, type=string}}}, accountNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/accountNo, type=string}, txnReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/txnReferenceNo, type=string}, billNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/billNo, type=string}, codUserId={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/codUserId, type=string}, orgBranchCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/orgBranchCode, type=string}, transactionDate={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/transactionDate, type=string}, source={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/source, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/Envelope/Body"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{inquireBillWalletRtgsTxns={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns, type=object, properties={sessionContext={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext, type=object, properties={bankCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/reasonCode, type=number}}}, serviceCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/transactionBranch, type=number}, userId={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/valueDateText, type=string}}}, accountNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/accountNo, type=string}, txnReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/txnReferenceNo, type=string}, billNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/billNo, type=string}, codUserId={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/codUserId, type=string}, orgBranchCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/orgBranchCode, type=string}, transactionDate={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/transactionDate, type=string}, source={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/source, type=string}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/Envelope"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{Header={id=http://wso2jsonschema.org/Envelope/Header, type=string}, Body={id=http://wso2jsonschema.org/Envelope/Body, type=object, properties={inquireBillWalletRtgsTxns={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns, type=object, properties={sessionContext={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext, type=object, properties={bankCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/reason/reasonCode, type=number}}}, serviceCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/transactionBranch, type=number}, userId={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/sessionContext/valueDateText, type=string}}}, accountNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/accountNo, type=string}, txnReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/txnReferenceNo, type=string}, billNo={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/billNo, type=string}, codUserId={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/codUserId, type=string}, orgBranchCode={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/orgBranchCode, type=string}, transactionDate={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/transactionDate, type=string}, source={id=http://wso2jsonschema.org/Envelope/Body/inquireBillWalletRtgsTxns/source, type=string}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="soapenv:Envelope" schemaDataType="OBJECT" level="1">
+      <node name="soapenv:Header" schemaDataType="STRING" level="2">
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Header"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="soapenv:Body" schemaDataType="OBJECT" level="2">
+        <node name="spi:inquireBillWalletRtgsTxns" schemaDataType="OBJECT" level="3">
+          <node name="spi:sessionContext" schemaDataType="OBJECT" level="4">
+            <node name="con:bankCode" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:bankCode"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:channel" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:channel"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalBatchNumber" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:externalBatchNumber"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalReferenceNo" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:externalReferenceNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalSystemAuditTrailNumber" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:externalSystemAuditTrailNumber"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:localDateTimeText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:localDateTimeText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:originalReferenceNo" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:originalReferenceNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:overridenWarnings" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:overridenWarnings"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:postingDateText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:postingDateText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:reason" schemaDataType="OBJECT" level="5">
+              <node name="con:comment" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason/con:comment"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="con:reasonCode" schemaDataType="NUMBER" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason/con:reasonCode"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.1/@outNode/@outgoingLink.0"/>
+              </node>
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:serviceCode" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:serviceCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.10/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:sessionTicket" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:sessionTicket"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.11/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:supervisorContext" schemaDataType="OBJECT" level="5">
+              <node name="con:primaryPassword" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext/con:primaryPassword"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="con:userId" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext/con:userId"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.1/@outNode/@outgoingLink.0"/>
+              </node>
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason/con:reasonCode, type=number}}"/>
+              <properties key="properties_id" value="{con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext/con:userId, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:transactionBranch" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:transactionBranch"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.13/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:userId" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:userId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.14/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:userReferenceNumber" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:userReferenceNumber"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.15/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:valueDateText" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:valueDateText"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.16/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:valueDateText, type=number}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:accountNo" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:accountNo"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:txnReferenceNo" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:txnReferenceNo"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:billNo" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:billNo"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:codUserId" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:codUserId"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:orgBranchCode" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:orgBranchCode"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:transactionDate" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:transactionDate"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:source" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:source"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+          </node>
+          <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{spi:sessionContext={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext, type=object, properties={con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:valueDateText, type=number}}}, spi:accountNo={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:accountNo, type=string}, spi:txnReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:txnReferenceNo, type=string}, spi:billNo={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:billNo, type=string}, spi:codUserId={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:codUserId, type=string}, spi:orgBranchCode={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:orgBranchCode, type=string}, spi:transactionDate={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:transactionDate, type=number}, spi:source={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:source, type=string}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{spi:inquireBillWalletRtgsTxns={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns, type=object, properties={spi:sessionContext={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext, type=object, properties={con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:sessionContext/con:valueDateText, type=number}}}, spi:accountNo={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:accountNo, type=string}, spi:txnReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:txnReferenceNo, type=string}, spi:billNo={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:billNo, type=string}, spi:codUserId={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:codUserId, type=string}, spi:orgBranchCode={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:orgBranchCode, type=string}, spi:transactionDate={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:transactionDate, type=number}, spi:source={id=http://wso2jsonschema.org/soapenv:Body/spi:inquireBillWalletRtgsTxns/spi:source, type=string}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/},{prefix=con, url=http://context.app.fcr.iflex.com},{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+</datamapper:DataMapperRoot>

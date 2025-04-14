@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/fcr/v1" name="FCRAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="TransferFundsWithDRCRAmountInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/transferFundsWithDRCRAmount"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="MisCustDebitWithDRCRAmtDepDtlsInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/misCustDebitWithDRCRAmtDepDtls"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="ListCASAAccountDetailsInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/listCASAAccountDetails"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="ActivateDeactivateAccountInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/activateDeactivateAccount"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="UpdateAccountStatusForCASAInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/updateAccountStatusForCASA"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="AddStandingInstructionInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/addStandingInstruction"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="AddCustomerInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/addCustomer"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="CreateNewAccountInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/createNewAccount"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="DomesticTransferFundsWithDRCRAmountInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/domesticTransferFundsWithDRCRAmount"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="InquireInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/inquire"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="InquireForMaintenanceInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/inquireForMaintenance"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="ModifyStandingInstructionInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/modifyStandingInstruction"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="PayUtilityBillByAccountInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/payUtilityBillByAccount"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="InquireListOfTransactionInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/inquireListOfTransaction"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="ConvertAmountWithFromToCurrencyInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/convertAmountWithFromToCurrency"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="PayUtilityBillByAccountTIPSInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/payUtilityBillByAccountTIPS"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="InquireBillWalletRtgsTxnsInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/inquireBillWalletRtgsTxns"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="DeleteStandingInstructionInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/deleteStandingInstruction"/>
+    <resource faultSequence="WSO2MINBCFCRFaultSequence" inSequence="RequestChequeBookInSequence" methods="POST" outSequence="WSO2MINBCOutSequence" url-mapping="/requestChequeBook"/>
+</api>

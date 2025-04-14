@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="createNewAccount" schemaDataType="OBJECT" level="2">
+        <node name="sessionContext" schemaDataType="OBJECT" level="3">
+          <node name="bankCode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/bankCode"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="channel" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/channel"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="externalBatchNumber" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/externalBatchNumber"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="externalReferenceNo" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/externalReferenceNo"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="externalSystemAuditTrailNumber" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/externalSystemAuditTrailNumber"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="localDateTimeText" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/localDateTimeText"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.5/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="originalReferenceNo" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/originalReferenceNo"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.6/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="overridenWarnings" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/overridenWarnings"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.7/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="postingDateText" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/postingDateText"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.8/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="reason" schemaDataType="OBJECT" level="4">
+            <node name="comment" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/reason/comment"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="reasonCode" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/reason/reasonCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/reason"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="serviceCode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/serviceCode"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.10/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="sessionTicket" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/sessionTicket"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.11/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="supervisorContext" schemaDataType="OBJECT" level="4">
+            <node name="primaryPassword" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext/primaryPassword"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="userId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext/userId"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{comment={id=http://wso2jsonschema.org/createNewAccount/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/createNewAccount/sessionContext/reason/reasonCode, type=string}}"/>
+            <properties key="properties_id" value="{primaryPassword={id=http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext/userId, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="transactionBranch" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/transactionBranch"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.13/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="userId" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/userId"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.14/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="userReferenceNumber" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/userReferenceNumber"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.15/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="valueDateText" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext/valueDateText"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.16/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/createNewAccount/sessionContext"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="accountId" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/createNewAccount/accountId"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="customerAndRelation" schemaDataType="OBJECT" level="3">
+          <node name="customerId" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/customerAndRelation/customerId"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.2/@node.0/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="customerName" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/customerAndRelation/customerName"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.2/@node.1/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="relation" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/createNewAccount/customerAndRelation/relation"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.2/@node.2/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/createNewAccount/customerAndRelation"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{bankCode={id=http://wso2jsonschema.org/createNewAccount/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/createNewAccount/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/createNewAccount/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/createNewAccount/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/createNewAccount/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/createNewAccount/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/createNewAccount/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/createNewAccount/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/createNewAccount/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/createNewAccount/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/createNewAccount/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/createNewAccount/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/createNewAccount/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/createNewAccount/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/createNewAccount/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/createNewAccount/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/createNewAccount/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/createNewAccount/sessionContext/valueDateText, type=string}}"/>
+          <properties key="properties_id" value="{customerId={id=http://wso2jsonschema.org/createNewAccount/customerAndRelation/customerId, type=string}, customerName={id=http://wso2jsonschema.org/createNewAccount/customerAndRelation/customerName, type=string}, relation={id=http://wso2jsonschema.org/createNewAccount/customerAndRelation/relation, type=string}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="accountBranchCode" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/createNewAccount/accountBranchCode"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.3/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="productCode" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/createNewAccount/productCode"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.4/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="title" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/createNewAccount/title"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.5/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="isInterestWaived" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/createNewAccount/isInterestWaived"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.6/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="isRestricted" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/createNewAccount/isRestricted"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.7/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="isServiceChargeWaived" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/createNewAccount/isServiceChargeWaived"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.8/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="minorAccountStatus" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/createNewAccount/minorAccountStatus"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.9/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="strOperatingInstruction" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/createNewAccount/strOperatingInstruction"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.10/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/createNewAccount"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{sessionContext={id=http://wso2jsonschema.org/createNewAccount/sessionContext, type=object, properties={bankCode={id=http://wso2jsonschema.org/createNewAccount/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/createNewAccount/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/createNewAccount/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/createNewAccount/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/createNewAccount/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/createNewAccount/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/createNewAccount/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/createNewAccount/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/createNewAccount/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/createNewAccount/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/createNewAccount/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/createNewAccount/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/createNewAccount/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/createNewAccount/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/createNewAccount/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/createNewAccount/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/createNewAccount/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/createNewAccount/sessionContext/valueDateText, type=string}}}, accountId={id=http://wso2jsonschema.org/createNewAccount/accountId, type=string}, customerAndRelation={id=http://wso2jsonschema.org/createNewAccount/customerAndRelation, type=object, properties={customerId={id=http://wso2jsonschema.org/createNewAccount/customerAndRelation/customerId, type=string}, customerName={id=http://wso2jsonschema.org/createNewAccount/customerAndRelation/customerName, type=string}, relation={id=http://wso2jsonschema.org/createNewAccount/customerAndRelation/relation, type=string}}}, accountBranchCode={id=http://wso2jsonschema.org/createNewAccount/accountBranchCode, type=string}, productCode={id=http://wso2jsonschema.org/createNewAccount/productCode, type=string}, title={id=http://wso2jsonschema.org/createNewAccount/title, type=string}, isInterestWaived={id=http://wso2jsonschema.org/createNewAccount/isInterestWaived, type=string}, isRestricted={id=http://wso2jsonschema.org/createNewAccount/isRestricted, type=string}, isServiceChargeWaived={id=http://wso2jsonschema.org/createNewAccount/isServiceChargeWaived, type=string}, minorAccountStatus={id=http://wso2jsonschema.org/createNewAccount/minorAccountStatus, type=string}, strOperatingInstruction={id=http://wso2jsonschema.org/createNewAccount/strOperatingInstruction, type=string}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="soapenv:Envelope" schemaDataType="OBJECT" level="1">
+      <node name="soapenv:Header" schemaDataType="STRING" level="2">
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Header"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="soapenv:Body" schemaDataType="OBJECT" level="2">
+        <node name="spi:createNewAccount" schemaDataType="OBJECT" level="3">
+          <node name="spi:sessionContext" schemaDataType="OBJECT" level="4">
+            <node name="con:bankCode" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:bankCode"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:channel" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:channel"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalBatchNumber" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:externalBatchNumber"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalReferenceNo" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:externalReferenceNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalSystemAuditTrailNumber" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:externalSystemAuditTrailNumber"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:localDateTimeText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:localDateTimeText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:originalReferenceNo" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:originalReferenceNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:overridenWarnings" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:overridenWarnings"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:postingDateText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:postingDateText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:reason" schemaDataType="OBJECT" level="5">
+              <node name="con:comment" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason/con:comment"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.9/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="con:reasonCode" schemaDataType="NUMBER" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason/con:reasonCode"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.9/@node.1/@outNode/@outgoingLink.0"/>
+              </node>
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:serviceCode" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:serviceCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.10/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:sessionTicket" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:sessionTicket"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.11/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:supervisorContext" schemaDataType="OBJECT" level="5">
+              <node name="con:primaryPassword" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext/con:primaryPassword"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.12/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="con:userId" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext/con:userId"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.12/@node.1/@outNode/@outgoingLink.0"/>
+              </node>
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason/con:reasonCode, type=number}}"/>
+              <properties key="properties_id" value="{con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext/con:userId, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:transactionBranch" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:transactionBranch"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.13/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:userId" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:userId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.14/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:userReferenceNumber" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:userReferenceNumber"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.15/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:valueDateText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:valueDateText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.16/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:accountId" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:accountId"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:customerAndRelation" schemaDataType="OBJECT" level="4">
+            <node name="dto:customerId" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.global.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation/dto:customerId"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.2/@node.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:customerName" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.global.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation/dto:customerName"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.2/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:relation" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.global.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation/dto:relation"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.2/@node.2/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:valueDateText, type=string}}"/>
+            <properties key="properties_id" value="{dto:customerId={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation/dto:customerId, type=number}, dto:customerName={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation/dto:customerName, type=string}, dto:relation={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation/dto:relation, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:accountBranchCode" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:accountBranchCode"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:productCode" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:productCode"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:title" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:title"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:isInterestWaived" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:isInterestWaived"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:isRestricted" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:isRestricted"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:isServiceChargeWaived" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:isServiceChargeWaived"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:minorAccountStatus" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:minorAccountStatus"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.9/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:strOperatingInstruction" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:strOperatingInstruction"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.10/@outNode/@outgoingLink.0"/>
+          </node>
+          <properties key="namespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{spi:sessionContext={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext, type=object, properties={con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:valueDateText, type=string}}}, spi:accountId={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:accountId, type=number}, spi:customerAndRelation={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation, type=object, properties={dto:customerId={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation/dto:customerId, type=number}, dto:customerName={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation/dto:customerName, type=string}, dto:relation={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation/dto:relation, type=string}}}, spi:accountBranchCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:accountBranchCode, type=number}, spi:productCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:productCode, type=number}, spi:title={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:title, type=string}, spi:isInterestWaived={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:isInterestWaived, type=number}, spi:isRestricted={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:isRestricted, type=number}, spi:isServiceChargeWaived={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:isServiceChargeWaived, type=number}, spi:minorAccountStatus={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:minorAccountStatus, type=number}, spi:strOperatingInstruction={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:strOperatingInstruction, type=string}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{spi:createNewAccount={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount, type=object, properties={spi:sessionContext={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext, type=object, properties={con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:sessionContext/con:valueDateText, type=string}}}, spi:accountId={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:accountId, type=number}, spi:customerAndRelation={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation, type=object, properties={dto:customerId={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation/dto:customerId, type=number}, dto:customerName={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation/dto:customerName, type=string}, dto:relation={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:customerAndRelation/dto:relation, type=string}}}, spi:accountBranchCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:accountBranchCode, type=number}, spi:productCode={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:productCode, type=number}, spi:title={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:title, type=string}, spi:isInterestWaived={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:isInterestWaived, type=number}, spi:isRestricted={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:isRestricted, type=number}, spi:isServiceChargeWaived={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:isServiceChargeWaived, type=number}, spi:minorAccountStatus={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:minorAccountStatus, type=number}, spi:strOperatingInstruction={id=http://wso2jsonschema.org/soapenv:Body/spi:createNewAccount/spi:strOperatingInstruction, type=string}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/},{prefix=con, url=http://context.app.fcr.iflex.com},{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com},{prefix=dto, url=http://dto.global.app.fcr.iflex.com}"/>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+</datamapper:DataMapperRoot>

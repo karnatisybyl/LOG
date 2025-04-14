@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="InquireInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="INQUIRE_START_LOG" level="custom">
+        <property name="INQUIRE_START_LOG" value="Executing InquireInSequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/InquireConfig.dmc" description="INQUIRE_PAYLOAD" inputSchema="gov:datamapper/InquireConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/InquireConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/InquireConfig_xsltStyleSheet.xml"/>
+    <header name="soapAction" scope="transport" value=""/>
+    <log level="full"/>
+    <send>
+        <endpoint key="CustomerManagerSpiSoapEP"/>
+    </send>
+</sequence>

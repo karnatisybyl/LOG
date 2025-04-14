@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="ConvertAmountWithFromToCurrencyInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="CONVERT_AMOUNT_WITH_FROM_TO_CURRENCY_START_LOG" level="custom">
+        <property name="CONVERT_AMOUNT_WITH_FROM_TO_CURRENCY_START_LOG" value="Executing ConvertAmountWithFromToCurrencyInSequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/ConvertAmountWithFromToCurrencyConfig.dmc" inputSchema="gov:datamapper/ConvertAmountWithFromToCurrencyConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/ConvertAmountWithFromToCurrencyConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/ConvertAmountWithFromToCurrencyConfig_xsltStyleSheet.xml"/>
+    <log level="full"/>
+    <header name="soapAction" scope="transport" value=""/>
+    <send>
+        <endpoint key="CurrencyRateManagerSpiEP"/>
+    </send>
+</sequence>

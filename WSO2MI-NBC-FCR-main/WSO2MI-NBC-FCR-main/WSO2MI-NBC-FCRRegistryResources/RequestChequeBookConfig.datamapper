@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="Envelope" schemaDataType="OBJECT" level="2">
+        <node name="Header" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/Envelope/Header"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.0/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="Body" schemaDataType="OBJECT" level="3">
+          <node name="requestChequeBook" schemaDataType="OBJECT" level="4">
+            <node name="sessionContext" schemaDataType="OBJECT" level="5">
+              <node name="bankCode" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/bankCode"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="channel" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/channel"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="externalBatchNumber" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalBatchNumber"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="externalReferenceNo" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalReferenceNo"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="externalSystemAuditTrailNumber" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalSystemAuditTrailNumber"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="localDateTimeText" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/localDateTimeText"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.5/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="originalReferenceNo" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/originalReferenceNo"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.6/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="overridenWarnings" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/overridenWarnings"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.7/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="postingDateText" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/postingDateText"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.8/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="reason" schemaDataType="OBJECT" level="6">
+                <node name="comment" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason/comment"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.0/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <node name="reasonCode" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason/reasonCode"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.1/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="serviceCode" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/serviceCode"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.10/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="sessionTicket" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/sessionTicket"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.11/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="supervisorContext" schemaDataType="OBJECT" level="6">
+                <node name="primaryPassword" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext/primaryPassword"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.0/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <node name="userId" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext/userId"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.1/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext"/>
+                <properties key="nullable" value="false"/>
+                <properties key="properties_id" value="{comment={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason/reasonCode, type=string}}"/>
+                <properties key="properties_id" value="{primaryPassword={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext/userId, type=string}}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="transactionBranch" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/transactionBranch"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.13/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="userId" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/userId"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.14/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="userReferenceNumber" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/userReferenceNumber"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.15/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="valueDateText" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/valueDateText"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.16/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{bankCode={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/valueDateText, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="accountId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/accountId"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="noOfLeaves" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/noOfLeaves"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.2/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="transactionType" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook/transactionType"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.3/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/Envelope/Body/requestChequeBook"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{sessionContext={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext, type=object, properties={bankCode={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/valueDateText, type=string}}}, accountId={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/accountId, type=string}, noOfLeaves={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/noOfLeaves, type=string}, transactionType={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/transactionType, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/Envelope/Body"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{requestChequeBook={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook, type=object, properties={sessionContext={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext, type=object, properties={bankCode={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/valueDateText, type=string}}}, accountId={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/accountId, type=string}, noOfLeaves={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/noOfLeaves, type=string}, transactionType={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/transactionType, type=string}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/Envelope"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{Header={id=http://wso2jsonschema.org/Envelope/Header, type=string}, Body={id=http://wso2jsonschema.org/Envelope/Body, type=object, properties={requestChequeBook={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook, type=object, properties={sessionContext={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext, type=object, properties={bankCode={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/sessionContext/valueDateText, type=string}}}, accountId={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/accountId, type=string}, noOfLeaves={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/noOfLeaves, type=string}, transactionType={id=http://wso2jsonschema.org/Envelope/Body/requestChequeBook/transactionType, type=string}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="soapenv:Envelope" schemaDataType="OBJECT" level="1">
+      <node name="soapenv:Header" schemaDataType="STRING" level="2">
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Header"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+      </node>
+      <node name="soapenv:Body" schemaDataType="OBJECT" level="2">
+        <node name="spi:requestChequeBook" schemaDataType="OBJECT" level="3">
+          <node name="spi:sessionContext" schemaDataType="OBJECT" level="4">
+            <node name="con:bankCode" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:bankCode"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:channel" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:channel"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalBatchNumber" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:externalBatchNumber"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalReferenceNo" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:externalReferenceNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalSystemAuditTrailNumber" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:externalSystemAuditTrailNumber"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:localDateTimeText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:localDateTimeText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:originalReferenceNo" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:originalReferenceNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:overridenWarnings" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:overridenWarnings"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:postingDateText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:postingDateText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:reason" schemaDataType="OBJECT" level="5">
+              <node name="con:comment" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason/con:comment"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="con:reasonCode" schemaDataType="NUMBER" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason/con:reasonCode"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.1/@outNode/@outgoingLink.0"/>
+              </node>
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:serviceCode" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:serviceCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.10/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:sessionTicket" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:sessionTicket"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.11/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:supervisorContext" schemaDataType="OBJECT" level="5">
+              <node name="con:primaryPassword" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext/con:primaryPassword"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="con:userId" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext/con:userId"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.1/@outNode/@outgoingLink.0"/>
+              </node>
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason/con:reasonCode, type=number}}"/>
+              <properties key="properties_id" value="{con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext/con:userId, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:transactionBranch" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:transactionBranch"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.13/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:userId" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:userId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.14/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:userReferenceNumber" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:userReferenceNumber"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.15/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:valueDateText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:valueDateText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.16/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:valueDateText, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:accountId" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:accountId"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:noOfLeaves" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:noOfLeaves"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:transactionType" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:transactionType"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+          </node>
+          <properties key="namespaces" value="{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{spi:sessionContext={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext, type=object, properties={con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:valueDateText, type=string}}}, spi:accountId={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:accountId, type=string}, spi:noOfLeaves={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:noOfLeaves, type=number}, spi:transactionType={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:transactionType, type=number}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{spi:requestChequeBook={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook, type=object, properties={spi:sessionContext={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext, type=object, properties={con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:sessionContext/con:valueDateText, type=string}}}, spi:accountId={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:accountId, type=string}, spi:noOfLeaves={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:noOfLeaves, type=number}, spi:transactionType={id=http://wso2jsonschema.org/soapenv:Body/spi:requestChequeBook/spi:transactionType, type=number}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/},{prefix=con, url=http://context.app.fcr.iflex.com},{prefix=spi, url=http://spi.savings.deposit.app.fcr.iflex.com}"/>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+</datamapper:DataMapperRoot>

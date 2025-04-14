@@ -1,0 +1,274 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+var count_i_misDetails_fcb67361_7a26_4dbc_b4a2_15b93f403075 = 0;
+var count_i_item_205208aa_b057_4029_9165_f5f27c1165e5_i_misDetails_fcb67361_7a26_4dbc_b4a2_15b93f403075 = 0;
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_bankCode = inputroot.addCustomer.sessionContext.bankCode;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_channel = inputroot.addCustomer.sessionContext.channel;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_externalBatchNumber = inputroot.addCustomer.sessionContext.externalBatchNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_externalReferenceNo = inputroot.addCustomer.sessionContext.externalReferenceNo;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_externalSystemAuditTrailNumber = inputroot.addCustomer.sessionContext.externalSystemAuditTrailNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_localDateTimeText = inputroot.addCustomer.sessionContext.localDateTimeText;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_originalReferenceNo = inputroot.addCustomer.sessionContext.originalReferenceNo;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_overridenWarnings = inputroot.addCustomer.sessionContext.overridenWarnings;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_postingDateText = inputroot.addCustomer.sessionContext.postingDateText;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_reason =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_reason.con_comment = inputroot.addCustomer.sessionContext.reason.comment;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_reason.con_reasonCode = inputroot.addCustomer.sessionContext.reason.reasonCode;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_serviceCode = inputroot.addCustomer.sessionContext.serviceCode;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_sessionTicket = inputroot.addCustomer.sessionContext.sessionTicket;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_supervisorContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_supervisorContext.con_primaryPassword = inputroot.addCustomer.sessionContext.supervisorContext.primaryPassword;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_supervisorContext.con_userId = inputroot.addCustomer.sessionContext.supervisorContext.userId;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_transactionBranch = inputroot.addCustomer.sessionContext.transactionBranch;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_userId = inputroot.addCustomer.sessionContext.userId;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_userReferenceNumber = inputroot.addCustomer.sessionContext.userReferenceNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_sessionContext.con_valueDateText = inputroot.addCustomer.sessionContext.valueDateText;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_ageOfRetirement = inputroot.addCustomer.customerDetailsDTO.ageOfRetirement;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_amlRiskRating = inputroot.addCustomer.customerDetailsDTO.amlRiskRating;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_brnIssue = inputroot.addCustomer.customerDetailsDTO.brnIssue;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_businessCodeCategory = inputroot.addCustomer.customerDetailsDTO.businessCodeCategory;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_category = inputroot.addCustomer.customerDetailsDTO.category;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_countryOfResidence = inputroot.addCustomer.customerDetailsDTO.countryOfResidence;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_customerEducation = inputroot.addCustomer.customerDetailsDTO.customerEducation;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_customerMobilePhone = inputroot.addCustomer.customerDetailsDTO.customerMobilePhone;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_datCIV = inputroot.addCustomer.customerDetailsDTO.datCIV;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_datIssueId = inputroot.addCustomer.customerDetailsDTO.datIssueId;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_dateOfBirthOrRegistration = inputroot.addCustomer.customerDetailsDTO.dateOfBirthOrRegistration;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_designation = inputroot.addCustomer.customerDetailsDTO.designation;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_emailId = inputroot.addCustomer.customerDetailsDTO.emailId;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employeeId = inputroot.addCustomer.customerDetailsDTO.employeeId;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerAddress =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerAddress.dat_city = inputroot.addCustomer.customerDetailsDTO.employerAddress.city;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerAddress.dat_country = inputroot.addCustomer.customerDetailsDTO.employerAddress.country;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerAddress.dat_line1 = inputroot.addCustomer.customerDetailsDTO.employerAddress.line1;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerAddress.dat_line2 = inputroot.addCustomer.customerDetailsDTO.employerAddress.line2;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerAddress.dat_line3 = inputroot.addCustomer.customerDetailsDTO.employerAddress.line3;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerAddress.dat_state = inputroot.addCustomer.customerDetailsDTO.employerAddress.state;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerAddress.dat_zip = Number(inputroot.addCustomer.customerDetailsDTO.employerAddress.zip);
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerEmailId = inputroot.addCustomer.customerDetailsDTO.employerEmailId;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerFaxNo = inputroot.addCustomer.customerDetailsDTO.employerFaxNo;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerMobileNo = inputroot.addCustomer.customerDetailsDTO.employerMobileNo;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerName = inputroot.addCustomer.customerDetailsDTO.employerName;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerPhoneNo = inputroot.addCustomer.customerDetailsDTO.employerPhoneNo;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_employerTelex = inputroot.addCustomer.customerDetailsDTO.employerTelex;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_fax = inputroot.addCustomer.customerDetailsDTO.fax;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_flgInterTransaction = inputroot.addCustomer.customerDetailsDTO.flgInterTransaction;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_flgPep = inputroot.addCustomer.customerDetailsDTO.flgPep;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_homeBranchCode = inputroot.addCustomer.customerDetailsDTO.homeBranchCode;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_icType = inputroot.addCustomer.customerDetailsDTO.icType;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_incomeSlabCode = inputroot.addCustomer.customerDetailsDTO.incomeSlabCode;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_incomeTaxNo = inputroot.addCustomer.customerDetailsDTO.incomeTaxNo;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_isStaff = inputroot.addCustomer.customerDetailsDTO.isStaff;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_issueAuthId = inputroot.addCustomer.customerDetailsDTO.issueAuthId;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_language = inputroot.addCustomer.customerDetailsDTO.language;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_mailingAddress =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_mailingAddress.dat_city = inputroot.addCustomer.customerDetailsDTO.mailingAddress.city;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_mailingAddress.dat_country = inputroot.addCustomer.customerDetailsDTO.mailingAddress.country;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_mailingAddress.dat_line1 = inputroot.addCustomer.customerDetailsDTO.mailingAddress.line1;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_mailingAddress.dat_line2 = inputroot.addCustomer.customerDetailsDTO.mailingAddress.line2;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_mailingAddress.dat_line3 = inputroot.addCustomer.customerDetailsDTO.mailingAddress.line3;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_mailingAddress.dat_state = inputroot.addCustomer.customerDetailsDTO.mailingAddress.state;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_mailingAddress.dat_zip = Number(inputroot.addCustomer.customerDetailsDTO.mailingAddress.zip);
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_maritalStatus = inputroot.addCustomer.customerDetailsDTO.maritalStatus;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_misDetails =  [];
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_name =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_name.dat_firstName = inputroot.addCustomer.customerDetailsDTO.name.firstName;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_name.dat_formattedFullName = inputroot.addCustomer.customerDetailsDTO.name.formattedFullName;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_name.dat_fullName = inputroot.addCustomer.customerDetailsDTO.name.fullName;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_name.dat_lastName = inputroot.addCustomer.customerDetailsDTO.name.lastName;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_name.dat_midName = inputroot.addCustomer.customerDetailsDTO.name.midName;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_name.dat_prefix = inputroot.addCustomer.customerDetailsDTO.name.prefix;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_name.dat_shortName = inputroot.addCustomer.customerDetailsDTO.name.shortName;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_nationalIdentificationCode = inputroot.addCustomer.customerDetailsDTO.nationalIdentificationCode;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_nationality = inputroot.addCustomer.customerDetailsDTO.nationality;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_noOfYearsInJob = inputroot.addCustomer.customerDetailsDTO.noOfYearsInJob;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_occupation = inputroot.addCustomer.customerDetailsDTO.occupation;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_officePhoneNo = inputroot.addCustomer.customerDetailsDTO.officePhoneNo;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_origin = inputroot.addCustomer.customerDetailsDTO.origin;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_permanentAddress =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_permanentAddress.dat_city = inputroot.addCustomer.customerDetailsDTO.permanentAddress.city;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_permanentAddress.dat_country = inputroot.addCustomer.customerDetailsDTO.permanentAddress.country;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_permanentAddress.dat_line1 = inputroot.addCustomer.customerDetailsDTO.permanentAddress.line1;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_permanentAddress.dat_line2 = inputroot.addCustomer.customerDetailsDTO.permanentAddress.line2;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_permanentAddress.dat_line3 = inputroot.addCustomer.customerDetailsDTO.permanentAddress.line3;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_permanentAddress.dat_state = inputroot.addCustomer.customerDetailsDTO.permanentAddress.state;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_permanentAddress.dat_zip = inputroot.addCustomer.customerDetailsDTO.permanentAddress.zip;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_phone = Number(inputroot.addCustomer.customerDetailsDTO.phone);
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_placeOfBirth = inputroot.addCustomer.customerDetailsDTO.placeOfBirth;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_professionCode = inputroot.addCustomer.customerDetailsDTO.professionCode;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_relation = inputroot.addCustomer.customerDetailsDTO.relation;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_sex = inputroot.addCustomer.customerDetailsDTO.sex;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_signatureType = inputroot.addCustomer.customerDetailsDTO.signatureType;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_sourceOfFunds = inputroot.addCustomer.customerDetailsDTO.sourceOfFunds;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_marketingOptOut = inputroot.addCustomer.customerDetailsDTO.marketingOptOut;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_marketingOptOutEmail = inputroot.addCustomer.customerDetailsDTO.marketingOptOutEmail;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_marketingOptOutMail = inputroot.addCustomer.customerDetailsDTO.marketingOptOutMail;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_marketingOptOutPhone = inputroot.addCustomer.customerDetailsDTO.marketingOptOutPhone;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_marketingOptOutSMS = inputroot.addCustomer.customerDetailsDTO.marketingOptOutSMS;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_objectionToProcessing = inputroot.addCustomer.customerDetailsDTO.objectionToProcessing;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_objectionToProfiling = inputroot.addCustomer.customerDetailsDTO.objectionToProfiling;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_preferedContact = inputroot.addCustomer.customerDetailsDTO.preferedContact;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_kycDetails =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_kycDetails.dto_currentRiskLevel = inputroot.addCustomer.kycDetails.currentRiskLevel;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_kycDetails.dto_manualKYCCompliant = inputroot.addCustomer.kycDetails.manualKYCCompliant;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_kycDetails.dto_numberOfAccounts =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_kycDetails.dto_numberOfAccounts.dto_noOfCurrentAccount = inputroot.addCustomer.kycDetails.numberOfAccounts.noOfCurrentAccount;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_kycDetails.dto_numberOfAccounts.dto_noOfInsuranceAccount = inputroot.addCustomer.kycDetails.numberOfAccounts.noOfInsuranceAccount;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_kycDetails.dto_numberOfAccounts.dto_noOfInvestmentAccount = inputroot.addCustomer.kycDetails.numberOfAccounts.noOfInvestmentAccount;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_kycDetails.dto_numberOfAccounts.dto_noOfNonSecureLoanAccount = inputroot.addCustomer.kycDetails.numberOfAccounts.noOfNonSecureLoanAccount;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_kycDetails.dto_numberOfAccounts.dto_noOfSavingsAccount = inputroot.addCustomer.kycDetails.numberOfAccounts.noOfSavingsAccount;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_kycDetails.dto_numberOfAccounts.dto_noOfSecureLoanAccount = inputroot.addCustomer.kycDetails.numberOfAccounts.noOfSecureLoanAccount;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_kycDetails.dto_numberOfAccounts.dto_noOfTermDepositAccount = inputroot.addCustomer.kycDetails.numberOfAccounts.noOfTermDepositAccount;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_kycDetails.dto_sysKYCCompliant = inputroot.addCustomer.kycDetails.sysKYCCompliant;
+
+for(i_misDetails_fcb67361_7a26_4dbc_b4a2_15b93f403075 in inputroot.addCustomer.customerDetailsDTO.misDetails){
+var count_i_item_205208aa_b057_4029_9165_f5f27c1165e5 = 0;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_misDetails[count_i_misDetails_fcb67361_7a26_4dbc_b4a2_15b93f403075] =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_misDetails[count_i_misDetails_fcb67361_7a26_4dbc_b4a2_15b93f403075].dto_item =  [];
+
+for(i_item_205208aa_b057_4029_9165_f5f27c1165e5 in inputroot.addCustomer.customerDetailsDTO.misDetails[i_misDetails_fcb67361_7a26_4dbc_b4a2_15b93f403075].item){
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_misDetails[count_i_misDetails_fcb67361_7a26_4dbc_b4a2_15b93f403075].dto_item[count_i_item_205208aa_b057_4029_9165_f5f27c1165e5] =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_misDetails[count_i_misDetails_fcb67361_7a26_4dbc_b4a2_15b93f403075].dto_item[count_i_item_205208aa_b057_4029_9165_f5f27c1165e5].dto_code = inputroot.addCustomer.customerDetailsDTO.misDetails[i_misDetails_fcb67361_7a26_4dbc_b4a2_15b93f403075].item[i_item_205208aa_b057_4029_9165_f5f27c1165e5].code;
+outputsoapenv_Envelope.soapenv_Body.spi_addCustomer.spi_customerDetailsDTO.dto_misDetails[count_i_misDetails_fcb67361_7a26_4dbc_b4a2_15b93f403075].dto_item[count_i_item_205208aa_b057_4029_9165_f5f27c1165e5].dto_type = inputroot.addCustomer.customerDetailsDTO.misDetails[i_misDetails_fcb67361_7a26_4dbc_b4a2_15b93f403075].item[i_item_205208aa_b057_4029_9165_f5f27c1165e5].type;
+
+count_i_item_205208aa_b057_4029_9165_f5f27c1165e5++;
+count_i_item_205208aa_b057_4029_9165_f5f27c1165e5_i_misDetails_fcb67361_7a26_4dbc_b4a2_15b93f403075++;
+}
+
+count_i_misDetails_fcb67361_7a26_4dbc_b4a2_15b93f403075++;
+}
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

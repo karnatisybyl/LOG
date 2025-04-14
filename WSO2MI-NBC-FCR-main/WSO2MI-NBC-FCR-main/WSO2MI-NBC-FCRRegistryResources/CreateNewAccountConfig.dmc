@@ -1,0 +1,80 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_bankCode = inputroot.createNewAccount.sessionContext.bankCode;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_channel = inputroot.createNewAccount.sessionContext.channel;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_externalBatchNumber = inputroot.createNewAccount.sessionContext.externalBatchNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_externalReferenceNo = inputroot.createNewAccount.sessionContext.externalReferenceNo;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_externalSystemAuditTrailNumber = inputroot.createNewAccount.sessionContext.externalSystemAuditTrailNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_localDateTimeText = inputroot.createNewAccount.sessionContext.localDateTimeText;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_originalReferenceNo = inputroot.createNewAccount.sessionContext.originalReferenceNo;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_overridenWarnings = inputroot.createNewAccount.sessionContext.overridenWarnings;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_postingDateText = inputroot.createNewAccount.sessionContext.postingDateText;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_reason =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_reason.con_comment = inputroot.createNewAccount.sessionContext.reason.comment;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_reason.con_reasonCode = inputroot.createNewAccount.sessionContext.reason.reasonCode;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_serviceCode = inputroot.createNewAccount.sessionContext.serviceCode;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_sessionTicket = inputroot.createNewAccount.sessionContext.sessionTicket;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_supervisorContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_supervisorContext.con_primaryPassword = inputroot.createNewAccount.sessionContext.supervisorContext.primaryPassword;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_supervisorContext.con_userId = inputroot.createNewAccount.sessionContext.supervisorContext.userId;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_transactionBranch = inputroot.createNewAccount.sessionContext.transactionBranch;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_userId = inputroot.createNewAccount.sessionContext.userId;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_userReferenceNumber = inputroot.createNewAccount.sessionContext.userReferenceNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_sessionContext.con_valueDateText = inputroot.createNewAccount.sessionContext.valueDateText;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_accountId = inputroot.createNewAccount.accountId;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_customerAndRelation =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_customerAndRelation.dto_customerId = inputroot.createNewAccount.customerAndRelation.customerId;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_customerAndRelation.dto_customerName = inputroot.createNewAccount.customerAndRelation.customerName;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_customerAndRelation.dto_relation = inputroot.createNewAccount.customerAndRelation.relation;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_accountBranchCode = inputroot.createNewAccount.accountBranchCode;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_productCode = inputroot.createNewAccount.productCode;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_title = inputroot.createNewAccount.title;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_isInterestWaived = inputroot.createNewAccount.isInterestWaived;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_isRestricted = inputroot.createNewAccount.isRestricted;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_isServiceChargeWaived = inputroot.createNewAccount.isServiceChargeWaived;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_minorAccountStatus = inputroot.createNewAccount.minorAccountStatus;
+outputsoapenv_Envelope.soapenv_Body.spi_createNewAccount.spi_strOperatingInstruction = inputroot.createNewAccount.strOperatingInstruction;
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

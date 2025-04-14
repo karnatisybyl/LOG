@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="DeleteStandingInstructionInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="DELETE_STANDING_INSTRUCTION_START_LOG" level="custom">
+        <property name="DELETE_STANDING_INSTRUCTION_START_LOG" value="Executing DeleteStandingInstructionInSequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/DeleteStandingInstructionConfig.dmc" inputSchema="gov:datamapper/DeleteStandingInstructionConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/DeleteStandingInstructionConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/DeleteStandingInstructionConfig_xsltStyleSheet.xml"/>
+    <log level="full"/>
+    <send>
+        <endpoint key="DemandDepositInstructionManagerSpiSoapEP"/>
+    </send>
+</sequence>

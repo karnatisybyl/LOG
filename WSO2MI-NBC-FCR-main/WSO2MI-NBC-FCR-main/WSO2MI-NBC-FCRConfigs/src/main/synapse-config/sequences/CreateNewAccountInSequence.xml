@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="CreateNewAccountInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="CREATE_NEW_ACCOUNT_START_LOG" level="custom">
+        <property name="CREATE_NEW_ACCOUNT_START_LOG" value="Executing CreateNewAccountInSequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/CreateNewAccountConfig.dmc" description="CREATE_NEW_ACCOUNT_PAYLOAD" inputSchema="gov:datamapper/CreateNewAccountConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/CreateNewAccountConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/CreateNewAccountConfig_xsltStyleSheet.xml"/>
+    <log level="full"/>
+    <header name="soapAction" scope="transport" value=""/>
+    <send>
+        <endpoint key="DemandDepositManagerSpiSoapEP"/>
+    </send>
+</sequence>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="PayUtilityBillByAccountInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="PAY_UTILITY_BILL_ACCOUNT_START_LOG" level="custom">
+        <property name="PAY_UTILITY_BILL_ACCOUNT_START_LOG" value="Executing PayUtilityBillByAccountInSequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/PayUtilityBillByAccountConfig.dmc" description="PAY_UTILITY_BILL_PAYLOAD" inputSchema="gov:datamapper/PayUtilityBillByAccountConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/PayUtilityBillByAccountConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/PayUtilityBillByAccountConfig_xsltStyleSheet.xml"/>
+    <header name="soapAction" scope="transport" value=""/>
+    <log level="full"/>
+    <send>
+        <endpoint key="BillPaymentManagerSpiSoapEP"/>
+    </send>
+</sequence>

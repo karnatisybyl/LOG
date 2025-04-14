@@ -1,191 +1,58 @@
-[2025-03-07 09:49:55,970]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, MessageID: urn:uuid:607399f1-fc92-4a06-b47a-5df2ef734ee2, correlation_id: 607399f1-fc92-4a06-b47a-5df2ef734ee2, Direction: request, BOOLEAN######### = true, Payload: {
-    "doDisbursementProcessingForIBOC": {
-        "sessionContext": {
-            "bankCode": 15,
-            "channel": "LOS",
-            "externalBatchNumber": 0,
-            "externalReferenceNo": "",
-            "externalSystemAuditTrailNumber": 0,
-            "localDateTimeText": "",
-            "originalReferenceNo": "",
-            "overridenWarnings": "",
-            "postingDateText": "",
-            "reason": {
-                "comment": "",
-                "reasonCode": 0
-            },
-            "serviceCode": "",
-            "sessionTicket": "",
-            "supervisorContext": {
-                "primaryPassword": "",
-                "userId": ""
-            },
-            "transactionBranch": 1,
-            "userId": "RLOS",
-            "userReferenceNumber": "",
-            "valueDateText": ""
-        },
-        "loanAccountNo": "020450000549",
-        "flgScenario": 2,
-        "flgSchemeLn": "N",
-        "iBOCdeductionDetailsDTO": [
-            {
-                "ctrSrlDednNo": 2,
-                "deductionAmountInAccountCurrency": 1000,
-                "deductionCode": 568,
-                "isWaived": "Y"
-            },
-            {
-                "ctrSrlDednNo": 3,
-                "deductionAmountInAccountCurrency": 1468,
-                "deductionCode": 568,
-                "isWaived": "Y"
-            },
-            {
-                "ctrSrlDednNo": 1,
-                "deductionAmountInAccountCurrency": 1468,
-                "deductionCode": 568,
-                "isWaived": "Y"
-            },
-            {
-                "ctrSrlDednNo": 5,
-                "deductionAmountInAccountCurrency": 1468,
-                "deductionCode": 568,
-                "isWaived": "Y"
-            },
-            {
-                "ctrSrlDednNo": 4,
-                "deductionAmountInAccountCurrency": 1468,
-                "deductionCode": 568,
-                "isWaived": "Y"
+curl --location 'https://internal-gateway-dev.apps.ocp4-kawe.tz.af.absa.local/fcr/v1/payUtilityBillByAccountTIPS' \
+--header 'accept: */*' \
+--data '{
+    "Envelope": {
+        "Header": "",
+        "Body": {
+            "payUtilityBillByAccountTIPS": {
+                "sessionContext": {
+                    "bankCode": "015",
+                    "channel": "NMM",
+                    "externalBatchNumber": "0",
+                    "externalReferenceNo": "",
+                    "externalSystemAuditTrailNumber": "0",
+                    "localDateTimeText": "",
+                    "originalReferenceNo": "",
+                    "overridenWarnings": "",
+                    "postingDateText": "",
+                    "reason": {
+                        "comment": "",
+                        "reasonCode": "0"
+                    },
+                    "serviceCode": "",
+                    "sessionTicket": "",
+                    "supervisorContext": {
+                        "primaryPassword": "",
+                        "userId": ""
+                    },
+                    "transactionBranch": "1",
+                    "userId": "IFE",
+                    "userReferenceNumber": "DT25040910009356",
+                    "valueDateText": ""
+                },
+                "utilityCompanyId": "176",
+                "billNo": "DT25040910009356",
+                "accountId": "018101002797",
+                "consumerNo": "DT25040910009356",
+                "paymentDueDate": "20250409",
+                "billAmount": {
+                    "currencyCode": "TZS",
+                    "currencyRate": "1",
+                    "monetaryValue": "531000"
+                },
+                "accountCurrencyRate": "1",
+                "primaryReferenceNo": "DT25040910009356",
+                "secondaryReferenceNo": "LOOKUPREF1744177941",
+                "userReferenceNo": "778717154DC2024072513174X",
+                "chargeRequest": {
+                    "isServiceChargeApplicable": null
+                },
+                "narrative": "DT25040910009356|QRO|503|MB|50099993|VODACOMTZ TESTLAB|Testing Tips",
+                "transactionType": "0",
+                "serviceChargeCode": "0",
+                "flgTips": "0",
+                "flgWallet": "0"
             }
-        ],
-        "acctType": "CH",
-        "disbAmount": 50000000,
-        "codAcctNoDisb": "021201050015",
-        "ledgerCcyShrtName": "",
-        "ledgerBranchCode": "",
-        "ioiTerm": 0,
-        "firstRepayDate": "",
-        "iBOCPayoutDetailsDTO": {
-            "amtInWords": "",
-            "amtPayoutTcy": "",
-            "bankName": "",
-            "benefbankCustAcct": "",
-            "benefbankGlAcct": "",
-            "chequeCollectionBranch": "",
-            "codAcctBenef": "001400000043",
-            "codPayoutTcy": 0,
-            "codRepayMode": "E",
-            "ctrSrlNo": 1,
-            "flgResidual": "N",
-            "issuer": "",
-            "ledgerPayoutBranch": "",
-            "namBenef": "",
-            "narrative": "",
-            "transferType": "",
-            "txtBenefAddr1": "",
-            "txtBenefAddr2": "",
-            "txtBenefAddr3": "",
-            "bankCode": ""
         }
     }
-}
-[2025-03-07 09:49:55,971]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, MessageID: urn:uuid:607399f1-fc92-4a06-b47a-5df2ef734ee2, correlation_id: 607399f1-fc92-4a06-b47a-5df2ef734ee2, Direction: request, message = iBOCPayoutDetailsDTO exists. Proceeding to if block., Payload: {
-    "doDisbursementProcessingForIBOC": {
-        "sessionContext": {
-            "bankCode": 15,
-            "channel": "LOS",
-            "externalBatchNumber": 0,
-            "externalReferenceNo": "",
-            "externalSystemAuditTrailNumber": 0,
-            "localDateTimeText": "",
-            "originalReferenceNo": "",
-            "overridenWarnings": "",
-            "postingDateText": "",
-            "reason": {
-                "comment": "",
-                "reasonCode": 0
-            },
-            "serviceCode": "",
-            "sessionTicket": "",
-            "supervisorContext": {
-                "primaryPassword": "",
-                "userId": ""
-            },
-            "transactionBranch": 1,
-            "userId": "RLOS",
-            "userReferenceNumber": "",
-            "valueDateText": ""
-        },
-        "loanAccountNo": "020450000549",
-        "flgScenario": 2,
-        "flgSchemeLn": "N",
-        "iBOCdeductionDetailsDTO": [
-            {
-                "ctrSrlDednNo": 2,
-                "deductionAmountInAccountCurrency": 1000,
-                "deductionCode": 568,
-                "isWaived": "Y"
-            },
-            {
-                "ctrSrlDednNo": 3,
-                "deductionAmountInAccountCurrency": 1468,
-                "deductionCode": 568,
-                "isWaived": "Y"
-            },
-            {
-                "ctrSrlDednNo": 1,
-                "deductionAmountInAccountCurrency": 1468,
-                "deductionCode": 568,
-                "isWaived": "Y"
-            },
-            {
-                "ctrSrlDednNo": 5,
-                "deductionAmountInAccountCurrency": 1468,
-                "deductionCode": 568,
-                "isWaived": "Y"
-            },
-            {
-                "ctrSrlDednNo": 4,
-                "deductionAmountInAccountCurrency": 1468,
-                "deductionCode": 568,
-                "isWaived": "Y"
-            }
-        ],
-        "acctType": "CH",
-        "disbAmount": 50000000,
-        "codAcctNoDisb": "021201050015",
-        "ledgerCcyShrtName": "",
-        "ledgerBranchCode": "",
-        "ioiTerm": 0,
-        "firstRepayDate": "",
-        "iBOCPayoutDetailsDTO": {
-            "amtInWords": "",
-            "amtPayoutTcy": "",
-            "bankName": "",
-            "benefbankCustAcct": "",
-            "benefbankGlAcct": "",
-            "chequeCollectionBranch": "",
-            "codAcctBenef": "001400000043",
-            "codPayoutTcy": 0,
-            "codRepayMode": "E",
-            "ctrSrlNo": 1,
-            "flgResidual": "N",
-            "issuer": "",
-            "ledgerPayoutBranch": "",
-            "namBenef": "",
-            "narrative": "",
-            "transferType": "",
-            "txtBenefAddr1": "",
-            "txtBenefAddr2": "",
-            "txtBenefAddr3": "",
-            "bankCode": ""
-        }
-    }
-}
-[2025-03-07 09:49:55,991]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} To: /loanspayment/doDisbursementProcessingForIBOC, MessageID: urn:uuid:607399f1-fc92-4a06-b47a-5df2ef734ee2, correlation_id: 607399f1-fc92-4a06-b47a-5df2ef734ee2, Direction: request, beforeEP = beforeEP, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://context.app.fcr.iflex.com" xmlns:spi="http://spi.loans.app.fcr.iflex.com" xmlns:dto="http://dto.loans.app.fcr.iflex.com"><soapenv:Body><spi:doDisbursementProcessingForIBOC><spi:sessionContext><con:bankCode>15</con:bankCode><con:channel>LOS</con:channel><con:externalBatchNumber>0</con:externalBatchNumber><con:externalReferenceNo/><con:externalSystemAuditTrailNumber>0</con:externalSystemAuditTrailNumber><con:localDateTimeText/><con:originalReferenceNo/><con:overridenWarnings/><con:postingDateText/><con:reason><con:comment/><con:reasonCode>0</con:reasonCode></con:reason><con:serviceCode/><con:sessionTicket/><con:supervisorContext><con:primaryPassword/><con:userId/></con:supervisorContext><con:transactionBranch>1</con:transactionBranch><con:userId>RLOS</con:userId><con:userReferenceNumber/><con:valueDateText/></spi:sessionContext><spi:loanAccountNo>020450000549</spi:loanAccountNo><spi:flgScenario>2</spi:flgScenario><spi:flgSchemeLn>N</spi:flgSchemeLn><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>2</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1000</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>3</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1468</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>1</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1468</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>5</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1468</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:iBOCdeductionDetailsDTO><dto:ctrSrlDednNo>4</dto:ctrSrlDednNo><dto:deductionAmountInAccountCurrency>1468</dto:deductionAmountInAccountCurrency><dto:deductionCode>568</dto:deductionCode><dto:isWaived>Y</dto:isWaived></spi:iBOCdeductionDetailsDTO><spi:acctType>CH</spi:acctType><spi:disbAmount>50000000</spi:disbAmount><spi:codAcctNoDisb>021201050015</spi:codAcctNoDisb><spi:ledgerCcyShrtName/><spi:ledgerBranchCode/><spi:ioiTerm>0</spi:ioiTerm><spi:firstRepayDate/><spi:iBOCPayoutDetailsDTO><dto:amtInWords/><dto:amtPayoutTcy/><dto:bankName/><dto:benefbankCustAcct/><dto:benefbankGlAcct/><dto:chequeCollectionBranch/><dto:codAcctBenef>001400000043</dto:codAcctBenef><dto:codPayoutTcy>0</dto:codPayoutTcy><dto:codRepayMode>E</dto:codRepayMode><dto:ctrSrlNo>1</dto:ctrSrlNo><dto:flgResidual>N</dto:flgResidual><dto:issuer/><dto:ledgerPayoutBranch/><dto:namBenef/><dto:narrative/><dto:transferType/><dto:txtBenefAddr1/><dto:txtBenefAddr2/><dto:txtBenefAddr3/><dto:bankCode/></spi:iBOCPayoutDetailsDTO></spi:doDisbursementProcessingForIBOC></soapenv:Body></soapenv:Envelope>
-[2025-03-07 09:49:58,270]  WARN {ConnectCallback} - Connection refused or failed for : tz-uat-app-fcr1.tz.af.absa.local/22.32.245.138:9080
-[2025-03-07 09:49:58,272]  WARN {EndpointContext} - Endpoint : LoansPaymentManagerEndpoint with address http://tz-uat-app-fcr1.tz.af.absa.local:9080/services/services/LoansPaymentManagerSpi will be marked SUSPENDED as it failed
-[2025-03-07 09:49:58,272]  WARN {EndpointContext} - Suspending endpoint : LoansPaymentManagerEndpoint with address http://tz-uat-app-fcr1.tz.af.absa.local:9080/services/services/LoansPaymentManagerSpi - last suspend duration was : 30000ms and current suspend duration is : 30000ms - Next retry after : Fri Mar 07 09:50:28 EAT 2025
-[2025-03-07 09:49:58,273]  INFO {LogMediator} - {api:LoansPaymentManagerAPI} FAULT_SEQUENCE_LOG = Executing Fault Sequence
+}'

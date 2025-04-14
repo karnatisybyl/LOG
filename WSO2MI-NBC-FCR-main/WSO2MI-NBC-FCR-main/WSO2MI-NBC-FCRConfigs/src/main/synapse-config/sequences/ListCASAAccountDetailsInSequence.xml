@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="ListCASAAccountDetailsInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="LIST_CASA_ACCOUNT_START_LOG" level="custom">
+        <property name="LIST_CASA_ACCOUNT_START_LOG" value="Executing ListCASAAccountDetailsInSequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/ListCASAAccountDetailsConfig.dmc" inputSchema="gov:datamapper/ListCASAAccountDetailsConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/ListCASAAccountDetailsConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/ListCASAAccountDetailsConfig_xsltStyleSheet.xml"/>
+    <header name="soapAction" scope="transport" value=""/>
+    <log level="full"/>
+    <send>
+        <endpoint key="DemandDepositManagerSpiSoapEP"/>
+    </send>
+</sequence>

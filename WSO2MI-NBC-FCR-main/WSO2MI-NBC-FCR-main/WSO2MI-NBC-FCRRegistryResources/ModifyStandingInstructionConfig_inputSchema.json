@@ -1,0 +1,359 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "modifyStandingInstruction" : {
+      "id" : "http://wso2jsonschema.org/modifyStandingInstruction",
+      "type" : "object",
+      "properties" : {
+        "sessionContext" : {
+          "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext",
+          "type" : "object",
+          "properties" : {
+            "bankCode" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/bankCode",
+              "type" : "string"
+            },
+            "channel" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/channel",
+              "type" : "string"
+            },
+            "externalBatchNumber" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/externalBatchNumber",
+              "type" : "string"
+            },
+            "externalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/externalReferenceNo",
+              "type" : "string"
+            },
+            "externalSystemAuditTrailNumber" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/externalSystemAuditTrailNumber",
+              "type" : "string"
+            },
+            "localDateTimeText" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/localDateTimeText",
+              "type" : "string"
+            },
+            "originalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/originalReferenceNo",
+              "type" : "string"
+            },
+            "overridenWarnings" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/overridenWarnings",
+              "type" : "string"
+            },
+            "postingDateText" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/postingDateText",
+              "type" : "string"
+            },
+            "reason" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason",
+              "type" : "object",
+              "properties" : {
+                "comment" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason/comment",
+                  "type" : "string"
+                },
+                "reasonCode" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/reason/reasonCode",
+                  "type" : "string"
+                }
+              }
+            },
+            "serviceCode" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/serviceCode",
+              "type" : "string"
+            },
+            "sessionTicket" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/sessionTicket",
+              "type" : "string"
+            },
+            "supervisorContext" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext",
+              "type" : "object",
+              "properties" : {
+                "primaryPassword" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext/primaryPassword",
+                  "type" : "string"
+                },
+                "userId" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/supervisorContext/userId",
+                  "type" : "string"
+                }
+              }
+            },
+            "transactionBranch" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/transactionBranch",
+              "type" : "string"
+            },
+            "userId" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/userId",
+              "type" : "string"
+            },
+            "userReferenceNumber" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/userReferenceNumber",
+              "type" : "string"
+            },
+            "valueDateText" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/sessionContext/valueDateText",
+              "type" : "string"
+            }
+          }
+        },
+        "standingInstructionDTOreq" : {
+          "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq",
+          "type" : "object",
+          "properties" : {
+            "accountId" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/accountId",
+              "type" : "string"
+            },
+            "amount" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/amount",
+              "type" : "string"
+            },
+            "applySC" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/applySC",
+              "type" : "string"
+            },
+            "automaticallyIssued" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/automaticallyIssued",
+              "type" : "string"
+            },
+            "beneficiaryAccountId" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryAccountId",
+              "type" : "string"
+            },
+            "beneficiaryAccountType" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryAccountType",
+              "type" : "string"
+            },
+            "beneficiaryDetailsDTO" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO",
+              "type" : "object",
+              "properties" : {
+                "beneficiaryAccountTypes" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAccountTypes",
+                  "type" : "string"
+                },
+                "beneficiaryAddress" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress",
+                  "type" : "object",
+                  "properties" : {
+                    "city" : {
+                      "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/city",
+                      "type" : "string"
+                    },
+                    "country" : {
+                      "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/country",
+                      "type" : "string"
+                    },
+                    "line1" : {
+                      "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line1",
+                      "type" : "string"
+                    },
+                    "line2" : {
+                      "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line2",
+                      "type" : "string"
+                    },
+                    "line3" : {
+                      "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/line3",
+                      "type" : "string"
+                    },
+                    "state" : {
+                      "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/state",
+                      "type" : "string"
+                    },
+                    "zip" : {
+                      "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryAddress/zip",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "beneficiaryId" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryId",
+                  "type" : "string"
+                },
+                "beneficiaryName" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryName",
+                  "type" : "string"
+                },
+                "beneficiaryPhone" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone",
+                  "type" : "object",
+                  "properties" : {
+                    "extension" : {
+                      "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/extension",
+                      "type" : "string"
+                    },
+                    "isdCode" : {
+                      "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/isdCode",
+                      "type" : "string"
+                    },
+                    "number" : {
+                      "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/number",
+                      "type" : "string"
+                    },
+                    "stdCode" : {
+                      "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/beneficiaryDetailsDTO/beneficiaryPhone/stdCode",
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            },
+            "branch" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/branch",
+              "type" : "string"
+            },
+            "calendarBased" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/calendarBased",
+              "type" : "string"
+            },
+            "endDate" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/endDate",
+              "type" : "string"
+            },
+            "failureReason" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/failureReason",
+              "type" : "string"
+            },
+            "financialInstitutionCode" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/financialInstitutionCode",
+              "type" : "string"
+            },
+            "forceDebitAllowed" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/forceDebitAllowed",
+              "type" : "string"
+            },
+            "instructionCurrency" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/instructionCurrency",
+              "type" : "string"
+            },
+            "instructionNumber" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/instructionNumber",
+              "type" : "string"
+            },
+            "lastDate" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/lastDate",
+              "type" : "string"
+            },
+            "lastRetryDate" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/lastRetryDate",
+              "type" : "string"
+            },
+            "narrative" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/narrative",
+              "type" : "string"
+            },
+            "nextDate" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/nextDate",
+              "type" : "string"
+            },
+            "nonFCBranchCode" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/nonFCBranchCode",
+              "type" : "string"
+            },
+            "paymentCode" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentCode",
+              "type" : "string"
+            },
+            "paymentDescription" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentDescription",
+              "type" : "string"
+            },
+            "paymentMode" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentMode",
+              "type" : "string"
+            },
+            "paymentType" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/paymentType",
+              "type" : "string"
+            },
+            "priority" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/priority",
+              "type" : "string"
+            },
+            "product" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/product",
+              "type" : "string"
+            },
+            "receivingBankCode" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/receivingBankCode",
+              "type" : "string"
+            },
+            "receivingBranchCode" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/receivingBranchCode",
+              "type" : "string"
+            },
+            "retryCount" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/retryCount",
+              "type" : "string"
+            },
+            "routingNumber" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/routingNumber",
+              "type" : "string"
+            },
+            "standingInstructionFrequency" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/standingInstructionFrequency",
+              "type" : "string"
+            },
+            "standingInstructionType" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/standingInstructionType",
+              "type" : "string"
+            },
+            "startDate" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/startDate",
+              "type" : "string"
+            },
+            "termDepositDetails" : {
+              "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails",
+              "type" : "object",
+              "properties" : {
+                "accountVariance" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/accountVariance",
+                  "type" : "string"
+                },
+                "baseAmountForRate" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/baseAmountForRate",
+                  "type" : "string"
+                },
+                "compoundingFrequency" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/compoundingFrequency",
+                  "type" : "string"
+                },
+                "isSweepInProvider" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/isSweepInProvider",
+                  "type" : "string"
+                },
+                "payoutFrequency" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/payoutFrequency",
+                  "type" : "string"
+                },
+                "productCode" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/productCode",
+                  "type" : "string"
+                },
+                "termDays" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/termDays",
+                  "type" : "string"
+                },
+                "termMonths" : {
+                  "id" : "http://wso2jsonschema.org/modifyStandingInstruction/standingInstructionDTOreq/termDepositDetails/termMonths",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        },
+        "maintenanceTicket" : {
+          "id" : "http://wso2jsonschema.org/modifyStandingInstruction/maintenanceTicket",
+          "type" : "string"
+        }
+      }
+    }
+  }
+}

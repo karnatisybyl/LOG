@@ -1,0 +1,167 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Envelope" : {
+      "id" : "http://wso2jsonschema.org/Envelope",
+      "type" : "object",
+      "properties" : {
+        "Header" : {
+          "id" : "http://wso2jsonschema.org/Envelope/Header",
+          "type" : "string"
+        },
+        "Body" : {
+          "id" : "http://wso2jsonschema.org/Envelope/Body",
+          "type" : "object",
+          "properties" : {
+            "inquireListOfTransaction" : {
+              "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction",
+              "type" : "object",
+              "properties" : {
+                "sessionContext" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext",
+                  "type" : "object",
+                  "properties" : {
+                    "bankCode" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/bankCode",
+                      "type" : "string"
+                    },
+                    "channel" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/channel",
+                      "type" : "string"
+                    },
+                    "externalBatchNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/externalBatchNumber",
+                      "type" : "string"
+                    },
+                    "externalReferenceNo" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/externalReferenceNo",
+                      "type" : "string"
+                    },
+                    "externalSystemAuditTrailNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/externalSystemAuditTrailNumber",
+                      "type" : "string"
+                    },
+                    "localDateTimeText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/localDateTimeText",
+                      "type" : "string"
+                    },
+                    "originalReferenceNo" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/originalReferenceNo",
+                      "type" : "string"
+                    },
+                    "overridenWarnings" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/overridenWarnings",
+                      "type" : "string"
+                    },
+                    "postingDateText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/postingDateText",
+                      "type" : "string"
+                    },
+                    "reason" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/reason",
+                      "type" : "object",
+                      "properties" : {
+                        "comment" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/reason/comment",
+                          "type" : "string"
+                        },
+                        "reasonCode" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/reason/reasonCode",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "serviceCode" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/serviceCode",
+                      "type" : "string"
+                    },
+                    "sessionTicket" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/sessionTicket",
+                      "type" : "string"
+                    },
+                    "supervisorContext" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/supervisorContext",
+                      "type" : "object",
+                      "properties" : {
+                        "primaryPassword" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/supervisorContext/primaryPassword",
+                          "type" : "string"
+                        },
+                        "userId" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/supervisorContext/userId",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "transactionBranch" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/transactionBranch",
+                      "type" : "string"
+                    },
+                    "userId" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/userId",
+                      "type" : "string"
+                    },
+                    "userReferenceNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/userReferenceNumber",
+                      "type" : "string"
+                    },
+                    "valueDateText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/sessionContext/valueDateText",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "accountId" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/accountId",
+                  "type" : "string"
+                },
+                "periodType" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/periodType",
+                  "type" : "string"
+                },
+                "startDateStr" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/startDateStr",
+                  "type" : "string"
+                },
+                "endDateStr" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/endDateStr",
+                  "type" : "string"
+                },
+                "entryType" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/entryType",
+                  "type" : "string"
+                },
+                "fromAmount" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/fromAmount",
+                  "type" : "string"
+                },
+                "toAmount" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/toAmount",
+                  "type" : "string"
+                },
+                "pageInformation" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/pageInformation",
+                  "type" : "object",
+                  "properties" : {
+                    "pageNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/pageInformation/pageNumber",
+                      "type" : "string"
+                    },
+                    "pageSize" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquireListOfTransaction/pageInformation/pageSize",
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

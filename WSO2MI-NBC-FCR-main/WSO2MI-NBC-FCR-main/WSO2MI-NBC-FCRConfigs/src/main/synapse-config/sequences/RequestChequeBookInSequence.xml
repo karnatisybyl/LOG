@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="RequestChequeBookInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="REQUEST_CHEQUE_BOOK_START_LOG" level="custom">
+        <property name="REQUEST_CHEQUE_BOOK_START_LOG" value="Executing RequestChequeBookInSequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/RequestChequeBookConfig.dmc" inputSchema="gov:datamapper/RequestChequeBookConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/RequestChequeBookConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/RequestChequeBookConfig_xsltStyleSheet.xml"/>
+    <log level="full"/>
+    <send>
+        <endpoint key="DemandDepositManagerSpiSoapEP"/>
+    </send>
+</sequence>

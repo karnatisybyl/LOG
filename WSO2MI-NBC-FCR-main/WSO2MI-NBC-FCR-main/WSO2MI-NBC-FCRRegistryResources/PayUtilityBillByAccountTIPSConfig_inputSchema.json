@@ -1,0 +1,209 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Envelope" : {
+      "id" : "http://wso2jsonschema.org/Envelope",
+      "type" : "object",
+      "properties" : {
+        "Header" : {
+          "id" : "http://wso2jsonschema.org/Envelope/Header",
+          "type" : "string"
+        },
+        "Body" : {
+          "id" : "http://wso2jsonschema.org/Envelope/Body",
+          "type" : "object",
+          "properties" : {
+            "payUtilityBillByAccountTIPS" : {
+              "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS",
+              "type" : "object",
+              "properties" : {
+                "sessionContext" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext",
+                  "type" : "object",
+                  "properties" : {
+                    "bankCode" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/bankCode",
+                      "type" : "string"
+                    },
+                    "channel" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/channel",
+                      "type" : "string"
+                    },
+                    "externalBatchNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/externalBatchNumber",
+                      "type" : "string"
+                    },
+                    "externalReferenceNo" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/externalReferenceNo",
+                      "type" : "string"
+                    },
+                    "externalSystemAuditTrailNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/externalSystemAuditTrailNumber",
+                      "type" : "string"
+                    },
+                    "localDateTimeText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/localDateTimeText",
+                      "type" : "string"
+                    },
+                    "originalReferenceNo" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/originalReferenceNo",
+                      "type" : "string"
+                    },
+                    "overridenWarnings" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/overridenWarnings",
+                      "type" : "string"
+                    },
+                    "postingDateText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/postingDateText",
+                      "type" : "string"
+                    },
+                    "reason" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/reason",
+                      "type" : "object",
+                      "properties" : {
+                        "comment" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/reason/comment",
+                          "type" : "string"
+                        },
+                        "reasonCode" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/reason/reasonCode",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "serviceCode" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/serviceCode",
+                      "type" : "string"
+                    },
+                    "sessionTicket" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/sessionTicket",
+                      "type" : "string"
+                    },
+                    "supervisorContext" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/supervisorContext",
+                      "type" : "object",
+                      "properties" : {
+                        "primaryPassword" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/supervisorContext/primaryPassword",
+                          "type" : "string"
+                        },
+                        "userId" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/supervisorContext/userId",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "transactionBranch" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/transactionBranch",
+                      "type" : "string"
+                    },
+                    "userId" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/userId",
+                      "type" : "string"
+                    },
+                    "userReferenceNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/userReferenceNumber",
+                      "type" : "string"
+                    },
+                    "valueDateText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/sessionContext/valueDateText",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "utilityCompanyId" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/utilityCompanyId",
+                  "type" : "string"
+                },
+                "billNo" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/billNo",
+                  "type" : "string"
+                },
+                "accountId" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/accountId",
+                  "type" : "string"
+                },
+                "consumerNo" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/consumerNo",
+                  "type" : "string"
+                },
+                "paymentDueDate" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/paymentDueDate",
+                  "type" : "string"
+                },
+                "billAmount" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/billAmount",
+                  "type" : "object",
+                  "properties" : {
+                    "currencyCode" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/billAmount/currencyCode",
+                      "type" : "string"
+                    },
+                    "currencyRate" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/billAmount/currencyRate",
+                      "type" : "string"
+                    },
+                    "monetaryValue" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/billAmount/monetaryValue",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "accountCurrencyRate" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/accountCurrencyRate",
+                  "type" : "string"
+                },
+                "primaryReferenceNo" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/primaryReferenceNo",
+                  "type" : "string"
+                },
+                "secondaryReferenceNo" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/secondaryReferenceNo",
+                  "type" : "string"
+                },
+                "userReferenceNo" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/userReferenceNo",
+                  "type" : "string"
+                },
+                "chargeRequest" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/chargeRequest",
+                  "type" : "object",
+                  "properties" : {
+                    "isServiceChargeApplicable" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/chargeRequest/isServiceChargeApplicable",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "narrative" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/narrative",
+                  "type" : "string"
+                },
+                "transactionType" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/transactionType",
+                  "type" : "string"
+                },
+                "serviceChargeCode" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/serviceChargeCode",
+                  "type" : "string"
+                },
+                "flgTips" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/flgTips",
+                  "type" : "string"
+                },
+                "flgWallet" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/payUtilityBillByAccountTIPS/flgWallet",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

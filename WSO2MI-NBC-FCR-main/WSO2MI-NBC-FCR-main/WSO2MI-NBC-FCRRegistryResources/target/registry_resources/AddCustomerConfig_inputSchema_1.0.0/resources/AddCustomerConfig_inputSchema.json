@@ -1,0 +1,539 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "addCustomer" : {
+      "id" : "http://wso2jsonschema.org/addCustomer",
+      "type" : "object",
+      "properties" : {
+        "sessionContext" : {
+          "id" : "http://wso2jsonschema.org/addCustomer/sessionContext",
+          "type" : "object",
+          "properties" : {
+            "bankCode" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/bankCode",
+              "type" : "string"
+            },
+            "channel" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/channel",
+              "type" : "string"
+            },
+            "externalBatchNumber" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/externalBatchNumber",
+              "type" : "string"
+            },
+            "externalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/externalReferenceNo",
+              "type" : "string"
+            },
+            "externalSystemAuditTrailNumber" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/externalSystemAuditTrailNumber",
+              "type" : "string"
+            },
+            "localDateTimeText" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/localDateTimeText",
+              "type" : "string"
+            },
+            "originalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/originalReferenceNo",
+              "type" : "string"
+            },
+            "overridenWarnings" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/overridenWarnings",
+              "type" : "string"
+            },
+            "postingDateText" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/postingDateText",
+              "type" : "string"
+            },
+            "reason" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/reason",
+              "type" : "object",
+              "properties" : {
+                "comment" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/reason/comment",
+                  "type" : "string"
+                },
+                "reasonCode" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/reason/reasonCode",
+                  "type" : "string"
+                }
+              }
+            },
+            "serviceCode" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/serviceCode",
+              "type" : "string"
+            },
+            "sessionTicket" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/sessionTicket",
+              "type" : "string"
+            },
+            "supervisorContext" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/supervisorContext",
+              "type" : "object",
+              "properties" : {
+                "primaryPassword" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/supervisorContext/primaryPassword",
+                  "type" : "string"
+                },
+                "userId" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/supervisorContext/userId",
+                  "type" : "string"
+                }
+              }
+            },
+            "transactionBranch" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/transactionBranch",
+              "type" : "string"
+            },
+            "userId" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/userId",
+              "type" : "string"
+            },
+            "userReferenceNumber" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/userReferenceNumber",
+              "type" : "string"
+            },
+            "valueDateText" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/sessionContext/valueDateText",
+              "type" : "string"
+            }
+          }
+        },
+        "customerDetailsDTO" : {
+          "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO",
+          "type" : "object",
+          "properties" : {
+            "ageOfRetirement" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/ageOfRetirement",
+              "type" : "string"
+            },
+            "amlRiskRating" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/amlRiskRating",
+              "type" : "string"
+            },
+            "brnIssue" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/brnIssue",
+              "type" : "string"
+            },
+            "businessCodeCategory" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/businessCodeCategory",
+              "type" : "string"
+            },
+            "category" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/category",
+              "type" : "string"
+            },
+            "countryOfResidence" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/countryOfResidence",
+              "type" : "string"
+            },
+            "customerEducation" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/customerEducation",
+              "type" : "string"
+            },
+            "customerMobilePhone" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/customerMobilePhone",
+              "type" : "string"
+            },
+            "datCIV" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/datCIV",
+              "type" : "string"
+            },
+            "datIssueId" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/datIssueId",
+              "type" : "string"
+            },
+            "dateOfBirthOrRegistration" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/dateOfBirthOrRegistration",
+              "type" : "string"
+            },
+            "designation" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/designation",
+              "type" : "string"
+            },
+            "emailId" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/emailId",
+              "type" : "string"
+            },
+            "employeeId" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employeeId",
+              "type" : "string"
+            },
+            "employerAddress" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerAddress",
+              "type" : "object",
+              "properties" : {
+                "city" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerAddress/city",
+                  "type" : "string"
+                },
+                "country" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerAddress/country",
+                  "type" : "string"
+                },
+                "line1" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerAddress/line1",
+                  "type" : "string"
+                },
+                "line2" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerAddress/line2",
+                  "type" : "string"
+                },
+                "line3" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerAddress/line3",
+                  "type" : "string"
+                },
+                "state" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerAddress/state",
+                  "type" : "string"
+                },
+                "zip" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerAddress/zip",
+                  "type" : "string"
+                }
+              }
+            },
+            "employerEmailId" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerEmailId",
+              "type" : "string"
+            },
+            "employerFaxNo" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerFaxNo",
+              "type" : "string"
+            },
+            "employerMobileNo" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerMobileNo",
+              "type" : "string"
+            },
+            "employerName" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerName",
+              "type" : "string"
+            },
+            "employerPhoneNo" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerPhoneNo",
+              "type" : "string"
+            },
+            "employerTelex" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/employerTelex",
+              "type" : "string"
+            },
+            "fax" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/fax",
+              "type" : "string"
+            },
+            "flgInterTransaction" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/flgInterTransaction",
+              "type" : "string"
+            },
+            "flgPep" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/flgPep",
+              "type" : "string"
+            },
+            "homeBranchCode" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/homeBranchCode",
+              "type" : "string"
+            },
+            "icType" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/icType",
+              "type" : "string"
+            },
+            "incomeSlabCode" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/incomeSlabCode",
+              "type" : "string"
+            },
+            "incomeTaxNo" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/incomeTaxNo",
+              "type" : "string"
+            },
+            "isStaff" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/isStaff",
+              "type" : "string"
+            },
+            "issueAuthId" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/issueAuthId",
+              "type" : "string"
+            },
+            "language" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/language",
+              "type" : "string"
+            },
+            "mailingAddress" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/mailingAddress",
+              "type" : "object",
+              "properties" : {
+                "city" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/mailingAddress/city",
+                  "type" : "string"
+                },
+                "country" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/mailingAddress/country",
+                  "type" : "string"
+                },
+                "line1" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/mailingAddress/line1",
+                  "type" : "string"
+                },
+                "line2" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/mailingAddress/line2",
+                  "type" : "string"
+                },
+                "line3" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/mailingAddress/line3",
+                  "type" : "string"
+                },
+                "state" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/mailingAddress/state",
+                  "type" : "string"
+                },
+                "zip" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/mailingAddress/zip",
+                  "type" : "string"
+                }
+              }
+            },
+            "maritalStatus" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/maritalStatus",
+              "type" : "string"
+            },
+            "misDetails" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/misDetails",
+              "type" : "array",
+              "items" : [ {
+                "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/misDetails/0",
+                "type" : "object",
+                "properties" : {
+                  "item" : {
+                    "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/misDetails/0/item",
+                    "type" : "array",
+                    "items" : [ {
+                      "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/misDetails/0/item/0",
+                      "type" : "object",
+                      "properties" : {
+                        "code" : {
+                          "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/misDetails/0/item/0/code",
+                          "type" : "string"
+                        },
+                        "type" : {
+                          "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/misDetails/0/item/0/type",
+                          "type" : "string"
+                        }
+                      }
+                    } ]
+                  }
+                }
+              } ]
+            },
+            "name" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/name",
+              "type" : "object",
+              "properties" : {
+                "firstName" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/name/firstName",
+                  "type" : "string"
+                },
+                "formattedFullName" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/name/formattedFullName",
+                  "type" : "string"
+                },
+                "fullName" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/name/fullName",
+                  "type" : "string"
+                },
+                "lastName" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/name/lastName",
+                  "type" : "string"
+                },
+                "midName" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/name/midName",
+                  "type" : "string"
+                },
+                "prefix" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/name/prefix",
+                  "type" : "string"
+                },
+                "shortName" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/name/shortName",
+                  "type" : "string"
+                }
+              }
+            },
+            "nationalIdentificationCode" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/nationalIdentificationCode",
+              "type" : "string"
+            },
+            "nationality" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/nationality",
+              "type" : "string"
+            },
+            "noOfYearsInJob" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/noOfYearsInJob",
+              "type" : "string"
+            },
+            "occupation" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/occupation",
+              "type" : "string"
+            },
+            "officePhoneNo" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/officePhoneNo",
+              "type" : "string"
+            },
+            "origin" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/origin",
+              "type" : "string"
+            },
+            "permanentAddress" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/permanentAddress",
+              "type" : "object",
+              "properties" : {
+                "city" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/permanentAddress/city",
+                  "type" : "string"
+                },
+                "country" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/permanentAddress/country",
+                  "type" : "string"
+                },
+                "line1" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/permanentAddress/line1",
+                  "type" : "string"
+                },
+                "line2" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/permanentAddress/line2",
+                  "type" : "string"
+                },
+                "line3" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/permanentAddress/line3",
+                  "type" : "string"
+                },
+                "state" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/permanentAddress/state",
+                  "type" : "string"
+                },
+                "zip" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/permanentAddress/zip",
+                  "type" : "string"
+                }
+              }
+            },
+            "phone" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/phone",
+              "type" : "string"
+            },
+            "placeOfBirth" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/placeOfBirth",
+              "type" : "string"
+            },
+            "professionCode" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/professionCode",
+              "type" : "string"
+            },
+            "relation" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/relation",
+              "type" : "string"
+            },
+            "sex" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/sex",
+              "type" : "string"
+            },
+            "signatureType" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/signatureType",
+              "type" : "string"
+            },
+            "sourceOfFunds" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/sourceOfFunds",
+              "type" : "string"
+            },
+            "marketingOptOut" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/marketingOptOut",
+              "type" : "string"
+            },
+            "marketingOptOutEmail" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/marketingOptOutEmail",
+              "type" : "string"
+            },
+            "marketingOptOutMail" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/marketingOptOutMail",
+              "type" : "string"
+            },
+            "marketingOptOutPhone" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/marketingOptOutPhone",
+              "type" : "string"
+            },
+            "marketingOptOutSMS" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/marketingOptOutSMS",
+              "type" : "string"
+            },
+            "objectionToProcessing" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/objectionToProcessing",
+              "type" : "string"
+            },
+            "objectionToProfiling" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/objectionToProfiling",
+              "type" : "string"
+            },
+            "preferedContact" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/customerDetailsDTO/preferedContact",
+              "type" : "string"
+            }
+          }
+        },
+        "kycDetails" : {
+          "id" : "http://wso2jsonschema.org/addCustomer/kycDetails",
+          "type" : "object",
+          "properties" : {
+            "currentRiskLevel" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/kycDetails/currentRiskLevel",
+              "type" : "string"
+            },
+            "manualKYCCompliant" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/kycDetails/manualKYCCompliant",
+              "type" : "string"
+            },
+            "numberOfAccounts" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/kycDetails/numberOfAccounts",
+              "type" : "object",
+              "properties" : {
+                "noOfCurrentAccount" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/kycDetails/numberOfAccounts/noOfCurrentAccount",
+                  "type" : "string"
+                },
+                "noOfInsuranceAccount" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/kycDetails/numberOfAccounts/noOfInsuranceAccount",
+                  "type" : "string"
+                },
+                "noOfInvestmentAccount" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/kycDetails/numberOfAccounts/noOfInvestmentAccount",
+                  "type" : "string"
+                },
+                "noOfNonSecureLoanAccount" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/kycDetails/numberOfAccounts/noOfNonSecureLoanAccount",
+                  "type" : "string"
+                },
+                "noOfSavingsAccount" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/kycDetails/numberOfAccounts/noOfSavingsAccount",
+                  "type" : "string"
+                },
+                "noOfSecureLoanAccount" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/kycDetails/numberOfAccounts/noOfSecureLoanAccount",
+                  "type" : "string"
+                },
+                "noOfTermDepositAccount" : {
+                  "id" : "http://wso2jsonschema.org/addCustomer/kycDetails/numberOfAccounts/noOfTermDepositAccount",
+                  "type" : "string"
+                }
+              }
+            },
+            "sysKYCCompliant" : {
+              "id" : "http://wso2jsonschema.org/addCustomer/kycDetails/sysKYCCompliant",
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

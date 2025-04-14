@@ -1,0 +1,135 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "listCASAAccountDetails" : {
+      "id" : "http://wso2jsonschema.org/listCASAAccountDetails",
+      "type" : "object",
+      "properties" : {
+        "sessionContext" : {
+          "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext",
+          "type" : "object",
+          "properties" : {
+            "bankCode" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/bankCode",
+              "type" : "string"
+            },
+            "channel" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/channel",
+              "type" : "string"
+            },
+            "externalBatchNumber" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/externalBatchNumber",
+              "type" : "string"
+            },
+            "externalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/externalReferenceNo",
+              "type" : "string"
+            },
+            "externalSystemAuditTrailNumber" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/externalSystemAuditTrailNumber",
+              "type" : "string"
+            },
+            "localDateTimeText" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/localDateTimeText",
+              "type" : "string"
+            },
+            "originalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/originalReferenceNo",
+              "type" : "string"
+            },
+            "overridenWarnings" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/overridenWarnings",
+              "type" : "string"
+            },
+            "postingDateText" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/postingDateText",
+              "type" : "string"
+            },
+            "reason" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/reason",
+              "type" : "object",
+              "properties" : {
+                "comment" : {
+                  "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/reason/comment",
+                  "type" : "string"
+                },
+                "reasonCode" : {
+                  "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/reason/reasonCode",
+                  "type" : "string"
+                }
+              }
+            },
+            "serviceCode" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/serviceCode",
+              "type" : "string"
+            },
+            "sessionTicket" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/sessionTicket",
+              "type" : "string"
+            },
+            "supervisorContext" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/supervisorContext",
+              "type" : "object",
+              "properties" : {
+                "primaryPassword" : {
+                  "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/supervisorContext/primaryPassword",
+                  "type" : "string"
+                },
+                "userId" : {
+                  "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/supervisorContext/userId",
+                  "type" : "string"
+                }
+              }
+            },
+            "transactionBranch" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/transactionBranch",
+              "type" : "string"
+            },
+            "userId" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/userId",
+              "type" : "string"
+            },
+            "userReferenceNumber" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/userReferenceNumber",
+              "type" : "string"
+            },
+            "valueDateText" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/sessionContext/valueDateText",
+              "type" : "string"
+            }
+          }
+        },
+        "casaAccountDetailsRequest" : {
+          "id" : "http://wso2jsonschema.org/listCASAAccountDetails/casaAccountDetailsRequest",
+          "type" : "object",
+          "properties" : {
+            "accountID" : {
+              "id" : "http://wso2jsonschema.org/listCASAAccountDetails/casaAccountDetailsRequest/accountID",
+              "type" : "object",
+              "properties" : {
+                "item" : {
+                  "id" : "http://wso2jsonschema.org/listCASAAccountDetails/casaAccountDetailsRequest/accountID/item",
+                  "type" : "array",
+                  "items" : [ {
+                    "id" : "http://wso2jsonschema.org/listCASAAccountDetails/casaAccountDetailsRequest/accountID/item/0",
+                    "type" : "string",
+                    "properties" : {
+                      "__" : {
+                        "id" : "http://wso2jsonschema.org/listCASAAccountDetails/casaAccountDetailsRequest/accountID/item/0",
+                        "type" : "string"
+                      }
+                    }
+                  } ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

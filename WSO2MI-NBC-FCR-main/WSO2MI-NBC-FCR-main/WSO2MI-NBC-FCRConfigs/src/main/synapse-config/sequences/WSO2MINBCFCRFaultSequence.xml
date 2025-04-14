@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="WSO2MINBCFCRFaultSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="FAULT_SEQUENCE_LOG" level="custom">
+        <property name="FAULT_SEQUENCE_LOG" value="Executing Fault Sequence"/>
+    </log>
+    <log level="full"/>
+    <payloadFactory description="FAULY_PAYLOAD" media-type="json">
+        <format>{&#xd;
+"errorCode": "$1",&#xd;
+"errorMessage":"$2"&#xd;
+}</format>
+        <args>
+            <arg evaluator="xml" expression="get-property('ERROR_CODE')"/>
+            <arg evaluator="xml" expression="get-property('ERROR_MESSAGE')"/>
+        </args>
+    </payloadFactory>
+    <property description="HTTP_SC" name="HTTP_SC" scope="axis2" type="STRING" value="500"/>
+    <send/>
+</sequence>

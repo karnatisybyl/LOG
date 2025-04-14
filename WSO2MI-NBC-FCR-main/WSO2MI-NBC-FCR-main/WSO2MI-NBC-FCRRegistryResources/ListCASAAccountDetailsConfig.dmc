@@ -1,0 +1,68 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+var count_i_item_683add26_21c5_4d8a_890d_d8fe7a595c90 = 0;
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_bankCode = inputroot.listCASAAccountDetails.sessionContext.bankCode;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_channel = inputroot.listCASAAccountDetails.sessionContext.channel;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_externalBatchNumber = inputroot.listCASAAccountDetails.sessionContext.externalBatchNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_externalReferenceNo = inputroot.listCASAAccountDetails.sessionContext.externalReferenceNo;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_externalSystemAuditTrailNumber = inputroot.listCASAAccountDetails.sessionContext.externalSystemAuditTrailNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_localDateTimeText = inputroot.listCASAAccountDetails.sessionContext.localDateTimeText;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_originalReferenceNo = inputroot.listCASAAccountDetails.sessionContext.originalReferenceNo;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_overridenWarnings = inputroot.listCASAAccountDetails.sessionContext.overridenWarnings;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_postingDateText = inputroot.listCASAAccountDetails.sessionContext.postingDateText;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_reason =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_reason.con_comment = inputroot.listCASAAccountDetails.sessionContext.reason.comment;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_reason.con_reasonCode = inputroot.listCASAAccountDetails.sessionContext.reason.reasonCode;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_serviceCode = inputroot.listCASAAccountDetails.sessionContext.serviceCode;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_sessionTicket = inputroot.listCASAAccountDetails.sessionContext.sessionTicket;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_supervisorContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_supervisorContext.con_primaryPassword = inputroot.listCASAAccountDetails.sessionContext.supervisorContext.primaryPassword;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_supervisorContext.con_userId = inputroot.listCASAAccountDetails.sessionContext.supervisorContext.userId;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_transactionBranch = inputroot.listCASAAccountDetails.sessionContext.transactionBranch;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_userId = inputroot.listCASAAccountDetails.sessionContext.userId;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_userReferenceNumber = inputroot.listCASAAccountDetails.sessionContext.userReferenceNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_sessionContext.con_valueDateText = inputroot.listCASAAccountDetails.sessionContext.valueDateText;
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_casaAccountDetailsRequest =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_casaAccountDetailsRequest.dto_accountID =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_casaAccountDetailsRequest.dto_accountID.spi_item =  [];
+
+for(i_item_683add26_21c5_4d8a_890d_d8fe7a595c90 in inputroot.listCASAAccountDetails.casaAccountDetailsRequest.accountID.item){
+outputsoapenv_Envelope.soapenv_Body.spi_listCASAAccountDetails.spi_casaAccountDetailsRequest.dto_accountID.spi_item[count_i_item_683add26_21c5_4d8a_890d_d8fe7a595c90] = inputroot.listCASAAccountDetails.casaAccountDetailsRequest.accountID.item[i_item_683add26_21c5_4d8a_890d_d8fe7a595c90];
+
+count_i_item_683add26_21c5_4d8a_890d_d8fe7a595c90++;
+}
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="WSO2MINBCOutSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="OUTSEQUENCE_LOG" level="custom">
+        <property name="OUTSEQUENCE_LOG" value="Executing Out Sequence"/>
+    </log>
+    <log level="full"/>
+    <property description="MESSAGE_TYPE" name="messageType" scope="axis2" type="STRING" value="application/json"/>
+    <log level="full"/>
+    <respond/>
+</sequence>

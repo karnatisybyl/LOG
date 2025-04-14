@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="DomesticTransferFundsWithDRCRAmountInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="DOMESTIC_TRANSFER_FUNDS_START_LOG" level="custom">
+        <property name="DOMESTIC_TRANSFER_FUNDS_START_LOG" value="Executing DomesticTransferFundsWithDRCRAmountInSequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/DomesticTransferFundsWithDRCRAmountConfig.dmc" description="DOMESTIC_TRANSFER_PAYLOAD" inputSchema="gov:datamapper/DomesticTransferFundsWithDRCRAmountConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/DomesticTransferFundsWithDRCRAmountConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/DomesticTransferFundsWithDRCRAmountConfig_xsltStyleSheet.xml"/>
+    <log level="full"/>
+    <header name="soapAction" scope="transport" value=""/>
+    <send>
+        <endpoint key="DemandDepositManagerSpiSoapEP"/>
+    </send>
+</sequence>

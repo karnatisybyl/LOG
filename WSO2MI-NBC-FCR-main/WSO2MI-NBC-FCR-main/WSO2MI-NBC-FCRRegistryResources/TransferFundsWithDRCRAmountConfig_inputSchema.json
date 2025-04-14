@@ -1,0 +1,171 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "transferFundsWithDRCRAmount" : {
+      "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount",
+      "type" : "object",
+      "properties" : {
+        "sessionContext" : {
+          "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext",
+          "type" : "object",
+          "properties" : {
+            "bankCode" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/bankCode",
+              "type" : "string"
+            },
+            "channel" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/channel",
+              "type" : "string"
+            },
+            "externalBatchNumber" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/externalBatchNumber",
+              "type" : "string"
+            },
+            "externalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/externalReferenceNo",
+              "type" : "string"
+            },
+            "externalSystemAuditTrailNumber" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/externalSystemAuditTrailNumber",
+              "type" : "string"
+            },
+            "localDateTimeText" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/localDateTimeText",
+              "type" : "string"
+            },
+            "originalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/originalReferenceNo",
+              "type" : "string"
+            },
+            "overridenWarnings" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/overridenWarnings",
+              "type" : "string"
+            },
+            "postingDateText" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/postingDateText",
+              "type" : "string"
+            },
+            "reason" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/reason",
+              "type" : "object",
+              "properties" : {
+                "comment" : {
+                  "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/reason/comment",
+                  "type" : "string"
+                },
+                "reasonCode" : {
+                  "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/reason/reasonCode",
+                  "type" : "string"
+                }
+              }
+            },
+            "serviceCode" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/serviceCode",
+              "type" : "string"
+            },
+            "sessionTicket" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/sessionTicket",
+              "type" : "string"
+            },
+            "supervisorContext" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/supervisorContext",
+              "type" : "object",
+              "properties" : {
+                "primaryPassword" : {
+                  "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/supervisorContext/primaryPassword",
+                  "type" : "string"
+                },
+                "userId" : {
+                  "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/supervisorContext/userId",
+                  "type" : "string"
+                }
+              }
+            },
+            "transactionBranch" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/transactionBranch",
+              "type" : "string"
+            },
+            "userId" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/userId",
+              "type" : "string"
+            },
+            "userReferenceNumber" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/userReferenceNumber",
+              "type" : "string"
+            },
+            "valueDateText" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/sessionContext/valueDateText",
+              "type" : "string"
+            }
+          }
+        },
+        "fromAccountId" : {
+          "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/fromAccountId",
+          "type" : "string"
+        },
+        "amountInFromAccountCurrency" : {
+          "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/amountInFromAccountCurrency",
+          "type" : "string"
+        },
+        "toAccountId" : {
+          "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/toAccountId",
+          "type" : "string"
+        },
+        "amountInToAccountCurrency" : {
+          "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/amountInToAccountCurrency",
+          "type" : "string"
+        },
+        "narrative" : {
+          "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/narrative",
+          "type" : "string"
+        },
+        "dealNumber" : {
+          "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/dealNumber",
+          "type" : "string"
+        },
+        "isServiceChargeApplicable" : {
+          "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/isServiceChargeApplicable",
+          "type" : "string"
+        },
+        "txnMessageType" : {
+          "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/txnMessageType",
+          "type" : "string"
+        },
+        "flgTransactionAuthorised" : {
+          "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/flgTransactionAuthorised",
+          "type" : "string"
+        },
+        "extendedReferenceNo" : {
+          "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/extendedReferenceNo",
+          "type" : "object",
+          "properties" : {
+            "extRefNo1" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/extendedReferenceNo/extRefNo1",
+              "type" : "string"
+            },
+            "extRefNo2" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/extendedReferenceNo/extRefNo2",
+              "type" : "string"
+            },
+            "extRefNo3" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/extendedReferenceNo/extRefNo3",
+              "type" : "string"
+            },
+            "extRefNo4" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/extendedReferenceNo/extRefNo4",
+              "type" : "string"
+            },
+            "refCustomerNo" : {
+              "id" : "http://wso2jsonschema.org/transferFundsWithDRCRAmount/extendedReferenceNo/refCustomerNo",
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Envelope" : {
+      "id" : "http://wso2jsonschema.org/Envelope",
+      "type" : "object",
+      "properties" : {
+        "Header" : {
+          "id" : "http://wso2jsonschema.org/Envelope/Header",
+          "type" : "string"
+        },
+        "Body" : {
+          "id" : "http://wso2jsonschema.org/Envelope/Body",
+          "type" : "object",
+          "properties" : {
+            "inquire" : {
+              "id" : "http://wso2jsonschema.org/Envelope/Body/inquire",
+              "type" : "object",
+              "properties" : {
+                "sessionContext" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext",
+                  "type" : "object",
+                  "properties" : {
+                    "bankCode" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/bankCode",
+                      "type" : "string"
+                    },
+                    "channel" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/channel",
+                      "type" : "string"
+                    },
+                    "externalBatchNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/externalBatchNumber",
+                      "type" : "string"
+                    },
+                    "externalReferenceNo" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/externalReferenceNo",
+                      "type" : "string"
+                    },
+                    "externalSystemAuditTrailNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/externalSystemAuditTrailNumber",
+                      "type" : "string"
+                    },
+                    "localDateTimeText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/localDateTimeText",
+                      "type" : "string"
+                    },
+                    "originalReferenceNo" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/originalReferenceNo",
+                      "type" : "string"
+                    },
+                    "overridenWarnings" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/overridenWarnings",
+                      "type" : "string"
+                    },
+                    "postingDateText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/postingDateText",
+                      "type" : "string"
+                    },
+                    "reason" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/reason",
+                      "type" : "object",
+                      "properties" : {
+                        "comment" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/reason/comment",
+                          "type" : "string"
+                        },
+                        "reasonCode" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/reason/reasonCode",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "serviceCode" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/serviceCode",
+                      "type" : "string"
+                    },
+                    "sessionTicket" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/sessionTicket",
+                      "type" : "string"
+                    },
+                    "supervisorContext" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/supervisorContext",
+                      "type" : "object",
+                      "properties" : {
+                        "primaryPassword" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/supervisorContext/primaryPassword",
+                          "type" : "string"
+                        },
+                        "userId" : {
+                          "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/supervisorContext/userId",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "transactionBranch" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/transactionBranch",
+                      "type" : "string"
+                    },
+                    "userId" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/userId",
+                      "type" : "string"
+                    },
+                    "userReferenceNumber" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/userReferenceNumber",
+                      "type" : "string"
+                    },
+                    "valueDateText" : {
+                      "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/sessionContext/valueDateText",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "currencyShortName" : {
+                  "id" : "http://wso2jsonschema.org/Envelope/Body/inquire/currencyShortName",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

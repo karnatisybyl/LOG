@@ -1,0 +1,171 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "misCustDebitWithDRCRAmtDepDtls" : {
+      "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls",
+      "type" : "object",
+      "properties" : {
+        "sessionContext" : {
+          "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext",
+          "type" : "object",
+          "properties" : {
+            "bankCode" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/bankCode",
+              "type" : "string"
+            },
+            "channel" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/channel",
+              "type" : "string"
+            },
+            "externalBatchNumber" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/externalBatchNumber",
+              "type" : "string"
+            },
+            "externalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/externalReferenceNo",
+              "type" : "string"
+            },
+            "externalSystemAuditTrailNumber" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/externalSystemAuditTrailNumber",
+              "type" : "string"
+            },
+            "localDateTimeText" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/localDateTimeText",
+              "type" : "string"
+            },
+            "originalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/originalReferenceNo",
+              "type" : "string"
+            },
+            "overridenWarnings" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/overridenWarnings",
+              "type" : "string"
+            },
+            "postingDateText" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/postingDateText",
+              "type" : "string"
+            },
+            "reason" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/reason",
+              "type" : "object",
+              "properties" : {
+                "comment" : {
+                  "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/reason/comment",
+                  "type" : "string"
+                },
+                "reasonCode" : {
+                  "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/reason/reasonCode",
+                  "type" : "string"
+                }
+              }
+            },
+            "serviceCode" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/serviceCode",
+              "type" : "string"
+            },
+            "sessionTicket" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/sessionTicket",
+              "type" : "string"
+            },
+            "supervisorContext" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/supervisorContext",
+              "type" : "object",
+              "properties" : {
+                "primaryPassword" : {
+                  "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/supervisorContext/primaryPassword",
+                  "type" : "string"
+                },
+                "userId" : {
+                  "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/supervisorContext/userId",
+                  "type" : "string"
+                }
+              }
+            },
+            "transactionBranch" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/transactionBranch",
+              "type" : "string"
+            },
+            "userId" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/userId",
+              "type" : "string"
+            },
+            "userReferenceNumber" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/userReferenceNumber",
+              "type" : "string"
+            },
+            "valueDateText" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/sessionContext/valueDateText",
+              "type" : "string"
+            }
+          }
+        },
+        "fromAccountId" : {
+          "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/fromAccountId",
+          "type" : "string"
+        },
+        "toGLAccountNo" : {
+          "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/toGLAccountNo",
+          "type" : "string"
+        },
+        "GLCurrencyCode" : {
+          "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/GLCurrencyCode",
+          "type" : "string"
+        },
+        "GLBranchCode" : {
+          "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/GLBranchCode",
+          "type" : "string"
+        },
+        "amountInFromAccountCurrency" : {
+          "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/amountInFromAccountCurrency",
+          "type" : "string"
+        },
+        "amountInToAccountCurrency" : {
+          "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/amountInToAccountCurrency",
+          "type" : "string"
+        },
+        "narrative" : {
+          "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/narrative",
+          "type" : "string"
+        },
+        "transactionType" : {
+          "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/transactionType",
+          "type" : "string"
+        },
+        "userReferenceNo" : {
+          "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/userReferenceNo",
+          "type" : "string"
+        },
+        "extendedReferenceNo" : {
+          "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/extendedReferenceNo",
+          "type" : "object",
+          "properties" : {
+            "extRefNo1" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/extendedReferenceNo/extRefNo1",
+              "type" : "string"
+            },
+            "extRefNo2" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/extendedReferenceNo/extRefNo2",
+              "type" : "string"
+            },
+            "extRefNo3" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/extendedReferenceNo/extRefNo3",
+              "type" : "string"
+            },
+            "extRefNo4" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/extendedReferenceNo/extRefNo4",
+              "type" : "string"
+            },
+            "refCustomerNo" : {
+              "id" : "http://wso2jsonschema.org/misCustDebitWithDRCRAmtDepDtls/extendedReferenceNo/refCustomerNo",
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

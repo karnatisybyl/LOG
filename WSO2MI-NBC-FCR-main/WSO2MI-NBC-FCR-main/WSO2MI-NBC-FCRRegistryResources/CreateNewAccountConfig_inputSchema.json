@@ -1,0 +1,163 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "createNewAccount" : {
+      "id" : "http://wso2jsonschema.org/createNewAccount",
+      "type" : "object",
+      "properties" : {
+        "sessionContext" : {
+          "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext",
+          "type" : "object",
+          "properties" : {
+            "bankCode" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/bankCode",
+              "type" : "string"
+            },
+            "channel" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/channel",
+              "type" : "string"
+            },
+            "externalBatchNumber" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/externalBatchNumber",
+              "type" : "string"
+            },
+            "externalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/externalReferenceNo",
+              "type" : "string"
+            },
+            "externalSystemAuditTrailNumber" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/externalSystemAuditTrailNumber",
+              "type" : "string"
+            },
+            "localDateTimeText" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/localDateTimeText",
+              "type" : "string"
+            },
+            "originalReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/originalReferenceNo",
+              "type" : "string"
+            },
+            "overridenWarnings" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/overridenWarnings",
+              "type" : "string"
+            },
+            "postingDateText" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/postingDateText",
+              "type" : "string"
+            },
+            "reason" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/reason",
+              "type" : "object",
+              "properties" : {
+                "comment" : {
+                  "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/reason/comment",
+                  "type" : "string"
+                },
+                "reasonCode" : {
+                  "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/reason/reasonCode",
+                  "type" : "string"
+                }
+              }
+            },
+            "serviceCode" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/serviceCode",
+              "type" : "string"
+            },
+            "sessionTicket" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/sessionTicket",
+              "type" : "string"
+            },
+            "supervisorContext" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext",
+              "type" : "object",
+              "properties" : {
+                "primaryPassword" : {
+                  "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext/primaryPassword",
+                  "type" : "string"
+                },
+                "userId" : {
+                  "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/supervisorContext/userId",
+                  "type" : "string"
+                }
+              }
+            },
+            "transactionBranch" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/transactionBranch",
+              "type" : "string"
+            },
+            "userId" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/userId",
+              "type" : "string"
+            },
+            "userReferenceNumber" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/userReferenceNumber",
+              "type" : "string"
+            },
+            "valueDateText" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/sessionContext/valueDateText",
+              "type" : "string"
+            }
+          }
+        },
+        "accountId" : {
+          "id" : "http://wso2jsonschema.org/createNewAccount/accountId",
+          "type" : "string"
+        },
+        "customerAndRelation" : {
+          "id" : "http://wso2jsonschema.org/createNewAccount/customerAndRelation",
+          "type" : "object",
+          "properties" : {
+            "customerId" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/customerAndRelation/customerId",
+              "type" : "string"
+            },
+            "customerName" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/customerAndRelation/customerName",
+              "type" : "string"
+            },
+            "relation" : {
+              "id" : "http://wso2jsonschema.org/createNewAccount/customerAndRelation/relation",
+              "type" : "string"
+            }
+          }
+        },
+        "accountBranchCode" : {
+          "id" : "http://wso2jsonschema.org/createNewAccount/accountBranchCode",
+          "type" : "string"
+        },
+        "productCode" : {
+          "id" : "http://wso2jsonschema.org/createNewAccount/productCode",
+          "type" : "string"
+        },
+        "title" : {
+          "id" : "http://wso2jsonschema.org/createNewAccount/title",
+          "type" : "string"
+        },
+        "isInterestWaived" : {
+          "id" : "http://wso2jsonschema.org/createNewAccount/isInterestWaived",
+          "type" : "string"
+        },
+        "isRestricted" : {
+          "id" : "http://wso2jsonschema.org/createNewAccount/isRestricted",
+          "type" : "string"
+        },
+        "isServiceChargeWaived" : {
+          "id" : "http://wso2jsonschema.org/createNewAccount/isServiceChargeWaived",
+          "type" : "string"
+        },
+        "minorAccountStatus" : {
+          "id" : "http://wso2jsonschema.org/createNewAccount/minorAccountStatus",
+          "type" : "string"
+        },
+        "strOperatingInstruction" : {
+          "id" : "http://wso2jsonschema.org/createNewAccount/strOperatingInstruction",
+          "type" : "string"
+        }
+      }
+    }
+  }
+}

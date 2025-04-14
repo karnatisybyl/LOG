@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="ModifyStandingInstructionInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="MODIFY_STANDING_INSTRUCTION_START_LOG" level="custom">
+        <property name="MODIFY_STANDING_INSTRUCTION_START_LOG" value="Executing ModifyStandingInstructionInSequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/ModifyStandingInstructionConfig.dmc" description="MODIFY_STANDING_ORDER_PAYLOAD" inputSchema="gov:datamapper/ModifyStandingInstructionConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/ModifyStandingInstructionConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/ModifyStandingInstructionConfig_xsltStyleSheet.xml"/>
+    <header name="soapAction" scope="transport" value=""/>
+    <log level="full"/>
+    <send>
+        <endpoint key="DemandDepositInstructionManagerSpiSoapEP"/>
+    </send>
+</sequence>

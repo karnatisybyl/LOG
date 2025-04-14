@@ -1,0 +1,225 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "soapenv:Envelope",
+  "type" : "object",
+  "properties" : {
+    "soapenv:Header" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Header",
+      "type" : "string"
+    },
+    "soapenv:Body" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Body",
+      "type" : "object",
+      "properties" : {
+        "spi:payUtilityBillByAccountTIPS" : {
+          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS",
+          "type" : "object",
+          "properties" : {
+            "spi:sessionContext" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext",
+              "type" : "object",
+              "properties" : {
+                "con:bankCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:bankCode",
+                  "type" : "string"
+                },
+                "con:channel" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:channel",
+                  "type" : "string"
+                },
+                "con:externalBatchNumber" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:externalBatchNumber",
+                  "type" : "string"
+                },
+                "con:externalReferenceNo" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:externalReferenceNo",
+                  "type" : "string"
+                },
+                "con:externalSystemAuditTrailNumber" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:externalSystemAuditTrailNumber",
+                  "type" : "string"
+                },
+                "con:localDateTimeText" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:localDateTimeText",
+                  "type" : "string"
+                },
+                "con:originalReferenceNo" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:originalReferenceNo",
+                  "type" : "string"
+                },
+                "con:overridenWarnings" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:overridenWarnings",
+                  "type" : "string"
+                },
+                "con:postingDateText" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:postingDateText",
+                  "type" : "string"
+                },
+                "con:reason" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:reason",
+                  "type" : "object",
+                  "properties" : {
+                    "con:comment" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:reason/con:comment",
+                      "type" : "string"
+                    },
+                    "con:reasonCode" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:reason/con:reasonCode",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "con:serviceCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:serviceCode",
+                  "type" : "string"
+                },
+                "con:sessionTicket" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:sessionTicket",
+                  "type" : "string"
+                },
+                "con:supervisorContext" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:supervisorContext",
+                  "type" : "object",
+                  "properties" : {
+                    "con:primaryPassword" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:supervisorContext/con:primaryPassword",
+                      "type" : "string"
+                    },
+                    "con:userId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:supervisorContext/con:userId",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "con:transactionBranch" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:transactionBranch",
+                  "type" : "string"
+                },
+                "con:userId" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:userId",
+                  "type" : "string"
+                },
+                "con:userReferenceNumber" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:userReferenceNumber",
+                  "type" : "string"
+                },
+                "con:valueDateText" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:sessionContext/con:valueDateText",
+                  "type" : "string"
+                }
+              }
+            },
+            "spi:utilityCompanyId" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:utilityCompanyId",
+              "type" : "string"
+            },
+            "spi:billNo" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:billNo",
+              "type" : "string"
+            },
+            "spi:accountId" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:accountId",
+              "type" : "string"
+            },
+            "spi:consumerNo" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:consumerNo",
+              "type" : "string"
+            },
+            "spi:paymentDueDate" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:paymentDueDate",
+              "type" : "string"
+            },
+            "spi:billAmount" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:billAmount",
+              "type" : "object",
+              "properties" : {
+                "dto:currencyCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:billAmount/dto:currencyCode",
+                  "type" : "string"
+                },
+                "dto:currencyRate" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:billAmount/dto:currencyRate",
+                  "type" : "string"
+                },
+                "dto:monetaryValue" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:billAmount/dto:monetaryValue",
+                  "type" : "string"
+                }
+              }
+            },
+            "spi:accountCurrencyRate" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:accountCurrencyRate",
+              "type" : "string"
+            },
+            "spi:primaryReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:primaryReferenceNo",
+              "type" : "string"
+            },
+            "spi:secondaryReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:secondaryReferenceNo",
+              "type" : "string"
+            },
+            "spi:userReferenceNo" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:userReferenceNo",
+              "type" : "string"
+            },
+            "spi:chargeRequest" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:chargeRequest",
+              "type" : "object",
+              "properties" : {
+                "char:isServiceChargeApplicable" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:chargeRequest/char:isServiceChargeApplicable",
+                  "type" : "string"
+                }
+              }
+            },
+            "spi:narrative" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:narrative",
+              "type" : "string"
+            },
+            "spi:transactionType" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:transactionType",
+              "type" : "string"
+            },
+            "spi:serviceChargeCode" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:serviceChargeCode",
+              "type" : "string"
+            },
+            "spi:flgTips" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:flgTips",
+              "type" : "string"
+            },
+            "spi:flgWallet" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccountTIPS/spi:flgWallet",
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "soapenv",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  }, {
+    "prefix" : "spi",
+    "url" : "http://spi.bill.app.fcr.iflex.com"
+  }, {
+    "prefix" : "con",
+    "url" : "http://context.app.fcr.iflex.com"
+  }, {
+    "prefix" : "dto",
+    "url" : "http://dto.global.entity.fcr.iflex.com"
+  }, {
+    "prefix" : "char",
+    "url" : "http://charge.app.fcr.iflex.com"
+  }, {
+    "prefix" : "rule",
+    "url" : "http://rule.entity.fcr.iflex.com"
+  }, {
+    "prefix" : "dto1",
+    "url" : "http://dto.charge.entity.fcr.iflex.com"
+  } ]
+}

@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="payUtilityBillByAccount" schemaDataType="OBJECT" level="2">
+        <node name="sessionContext" schemaDataType="OBJECT" level="3">
+          <node name="bankCode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/bankCode"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="channel" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/channel"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="externalBatchNumber" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/externalBatchNumber"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="externalReferenceNo" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/externalReferenceNo"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="externalSystemAuditTrailNumber" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/externalSystemAuditTrailNumber"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="localDateTimeText" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/localDateTimeText"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.5/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="originalReferenceNo" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/originalReferenceNo"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.6/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="overridenWarnings" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/overridenWarnings"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.7/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="postingDateText" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/postingDateText"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.8/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="reason" schemaDataType="OBJECT" level="4">
+            <node name="comment" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/reason/comment"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="reasonCode" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/reason/reasonCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/reason"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="serviceCode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/serviceCode"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.10/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="sessionTicket" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/sessionTicket"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.11/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="supervisorContext" schemaDataType="OBJECT" level="4">
+            <node name="primaryPassword" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/supervisorContext/primaryPassword"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.0/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <node name="userId" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/supervisorContext/userId"/>
+              <properties key="nullable" value="false"/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.1/@inNode"/>
+              </outNode>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/supervisorContext"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{comment={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/reason/reasonCode, type=string}}"/>
+            <properties key="properties_id" value="{primaryPassword={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/supervisorContext/userId, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="transactionBranch" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/transactionBranch"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.13/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="userId" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/userId"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.14/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="userReferenceNumber" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/userReferenceNumber"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.15/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="valueDateText" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/valueDateText"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.16/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="utilityCompanyId" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/utilityCompanyId"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="billNo" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/billNo"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.2/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="accountId" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/accountId"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.3/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="consumerNo" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/consumerNo"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.4/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="paymentDueDate" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/paymentDueDate"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.5/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="billAmount" schemaDataType="OBJECT" level="3">
+          <node name="currencyCode" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/billAmount/currencyCode"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.6/@node.0/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="currencyRate" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/billAmount/currencyRate"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.6/@node.1/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="monetaryValue" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/billAmount/monetaryValue"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.6/@node.2/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/billAmount"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="accountCurrencyRate" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/accountCurrencyRate"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.7/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="primaryReferenceNo" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/primaryReferenceNo"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.8/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="secondaryReferenceNo" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/secondaryReferenceNo"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.9/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="userReferenceNo" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/userReferenceNo"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.10/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="chargeRequest" schemaDataType="OBJECT" level="3">
+          <node name="isServiceChargeApplicable" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/chargeRequest/isServiceChargeApplicable"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.11/@node.0/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="serviceChargeDetails" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/chargeRequest/serviceChargeDetails"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.11/@node.1/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/chargeRequest"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{bankCode={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/valueDateText, type=string}}"/>
+          <properties key="properties_id" value="{currencyCode={id=http://wso2jsonschema.org/payUtilityBillByAccount/billAmount/currencyCode, type=string}, currencyRate={id=http://wso2jsonschema.org/payUtilityBillByAccount/billAmount/currencyRate, type=string}, monetaryValue={id=http://wso2jsonschema.org/payUtilityBillByAccount/billAmount/monetaryValue, type=string}}"/>
+          <properties key="properties_id" value="{isServiceChargeApplicable={id=http://wso2jsonschema.org/payUtilityBillByAccount/chargeRequest/isServiceChargeApplicable, type=string}, serviceChargeDetails={id=http://wso2jsonschema.org/payUtilityBillByAccount/chargeRequest/serviceChargeDetails, type=string}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <node name="narrative" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/narrative"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.12/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <node name="transactionType" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount/transactionType"/>
+          <properties key="nullable" value="false"/>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.13/@inNode"/>
+          </outNode>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/payUtilityBillByAccount"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{sessionContext={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext, type=object, properties={bankCode={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/bankCode, type=string}, channel={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/channel, type=string}, externalBatchNumber={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/externalBatchNumber, type=string}, externalReferenceNo={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/externalReferenceNo, type=string}, externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/externalSystemAuditTrailNumber, type=string}, localDateTimeText={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/localDateTimeText, type=string}, originalReferenceNo={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/originalReferenceNo, type=string}, overridenWarnings={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/overridenWarnings, type=string}, postingDateText={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/postingDateText, type=string}, reason={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/reason, type=object, properties={comment={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/reason/comment, type=string}, reasonCode={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/reason/reasonCode, type=string}}}, serviceCode={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/serviceCode, type=string}, sessionTicket={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/sessionTicket, type=string}, supervisorContext={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/supervisorContext, type=object, properties={primaryPassword={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/supervisorContext/primaryPassword, type=string}, userId={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/supervisorContext/userId, type=string}}}, transactionBranch={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/transactionBranch, type=string}, userId={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/userId, type=string}, userReferenceNumber={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/userReferenceNumber, type=string}, valueDateText={id=http://wso2jsonschema.org/payUtilityBillByAccount/sessionContext/valueDateText, type=string}}}, utilityCompanyId={id=http://wso2jsonschema.org/payUtilityBillByAccount/utilityCompanyId, type=string}, billNo={id=http://wso2jsonschema.org/payUtilityBillByAccount/billNo, type=string}, accountId={id=http://wso2jsonschema.org/payUtilityBillByAccount/accountId, type=string}, consumerNo={id=http://wso2jsonschema.org/payUtilityBillByAccount/consumerNo, type=string}, paymentDueDate={id=http://wso2jsonschema.org/payUtilityBillByAccount/paymentDueDate, type=string}, billAmount={id=http://wso2jsonschema.org/payUtilityBillByAccount/billAmount, type=object, properties={currencyCode={id=http://wso2jsonschema.org/payUtilityBillByAccount/billAmount/currencyCode, type=string}, currencyRate={id=http://wso2jsonschema.org/payUtilityBillByAccount/billAmount/currencyRate, type=string}, monetaryValue={id=http://wso2jsonschema.org/payUtilityBillByAccount/billAmount/monetaryValue, type=string}}}, accountCurrencyRate={id=http://wso2jsonschema.org/payUtilityBillByAccount/accountCurrencyRate, type=string}, primaryReferenceNo={id=http://wso2jsonschema.org/payUtilityBillByAccount/primaryReferenceNo, type=string}, secondaryReferenceNo={id=http://wso2jsonschema.org/payUtilityBillByAccount/secondaryReferenceNo, type=string}, userReferenceNo={id=http://wso2jsonschema.org/payUtilityBillByAccount/userReferenceNo, type=string}, chargeRequest={id=http://wso2jsonschema.org/payUtilityBillByAccount/chargeRequest, type=object, properties={isServiceChargeApplicable={id=http://wso2jsonschema.org/payUtilityBillByAccount/chargeRequest/isServiceChargeApplicable, type=string}, serviceChargeDetails={id=http://wso2jsonschema.org/payUtilityBillByAccount/chargeRequest/serviceChargeDetails, type=string}}}, narrative={id=http://wso2jsonschema.org/payUtilityBillByAccount/narrative, type=string}, transactionType={id=http://wso2jsonschema.org/payUtilityBillByAccount/transactionType, type=string}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="soapenv:Envelope" schemaDataType="OBJECT" level="1">
+      <node name="soapenv:Header" schemaDataType="STRING" level="2">
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Header"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="soapenv:Body" schemaDataType="OBJECT" level="2">
+        <node name="spi:payUtilityBillByAccount" schemaDataType="OBJECT" level="3">
+          <node name="spi:sessionContext" schemaDataType="OBJECT" level="4">
+            <node name="con:bankCode" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:bankCode"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:channel" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:channel"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalBatchNumber" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:externalBatchNumber"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalReferenceNo" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:externalReferenceNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:externalSystemAuditTrailNumber" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:externalSystemAuditTrailNumber"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:localDateTimeText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:localDateTimeText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:originalReferenceNo" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:originalReferenceNo"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:overridenWarnings" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:overridenWarnings"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:postingDateText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:postingDateText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:reason" schemaDataType="OBJECT" level="5">
+              <node name="con:comment" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason/con:comment"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.9/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="con:reasonCode" schemaDataType="NUMBER" level="6">
+                <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+                <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="nullable" value="false"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason/con:reasonCode"/>
+                <properties key="type" value="string"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.9/@node.1/@outNode/@outgoingLink.0"/>
+              </node>
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:serviceCode" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:serviceCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.10/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:sessionTicket" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:sessionTicket"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.11/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:supervisorContext" schemaDataType="OBJECT" level="5">
+              <node name="con:primaryPassword" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext/con:primaryPassword"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.12/@node.0/@outNode/@outgoingLink.0"/>
+              </node>
+              <node name="con:userId" schemaDataType="STRING" level="6">
+                <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext/con:userId"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.12/@node.1/@outNode/@outgoingLink.0"/>
+              </node>
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason/con:reasonCode, type=number}}"/>
+              <properties key="properties_id" value="{con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext/con:userId, type=string}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="con:transactionBranch" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:transactionBranch"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.13/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:userId" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:userId"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.14/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:userReferenceNumber" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:userReferenceNumber"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.15/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="con:valueDateText" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=con, url=http://context.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:valueDateText"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.16/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:utilityCompanyId" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:utilityCompanyId"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:billNo" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billNo"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:accountId" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:accountId"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:consumerNo" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:consumerNo"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:paymentDueDate" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:paymentDueDate"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:billAmount" schemaDataType="OBJECT" level="4">
+            <node name="dto:currencyCode" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=dto, url=http://dto.global.entity.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount/dto:currencyCode"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.6/@node.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:currencyRate" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.global.entity.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount/dto:currencyRate"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.6/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="dto:monetaryValue" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=dto, url=http://dto.global.entity.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount/dto:monetaryValue"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.6/@node.2/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:accountCurrencyRate" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:accountCurrencyRate"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:primaryReferenceNo" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:primaryReferenceNo"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:secondaryReferenceNo" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:secondaryReferenceNo"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.9/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:userReferenceNo" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:userReferenceNo"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.10/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:chargeRequest" schemaDataType="OBJECT" level="4">
+            <node name="char:isServiceChargeApplicable" schemaDataType="NUMBER" level="5">
+              <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+              <properties key="fieldNamespaces" value="{prefix=char, url=http://charge.app.fcr.iflex.com}"/>
+              <properties key="nullable" value="false"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:chargeRequest/char:isServiceChargeApplicable"/>
+              <properties key="type" value="string"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.11/@node.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="char:serviceChargeDetails" schemaDataType="STRING" level="5">
+              <properties key="namespaces" value="{prefix=char, url=http://charge.app.fcr.iflex.com}"/>
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:chargeRequest/char:serviceChargeDetails"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.11/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:chargeRequest"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:valueDateText, type=string}}"/>
+            <properties key="properties_id" value="{dto:currencyCode={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount/dto:currencyCode, type=string}, dto:currencyRate={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount/dto:currencyRate, type=number}, dto:monetaryValue={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount/dto:monetaryValue, type=number}}"/>
+            <properties key="properties_id" value="{char:isServiceChargeApplicable={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:chargeRequest/char:isServiceChargeApplicable, type=number}, char:serviceChargeDetails={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:chargeRequest/char:serviceChargeDetails, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="spi:narrative" schemaDataType="STRING" level="4">
+            <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:narrative"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.12/@outNode/@outgoingLink.0"/>
+          </node>
+          <node name="spi:transactionType" schemaDataType="NUMBER" level="4">
+            <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+            <properties key="fieldNamespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+            <properties key="nullable" value="false"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:transactionType"/>
+            <properties key="type" value="string"/>
+            <outNode/>
+            <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.13/@outNode/@outgoingLink.0"/>
+          </node>
+          <properties key="namespaces" value="{prefix=spi, url=http://spi.bill.app.fcr.iflex.com}"/>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{spi:sessionContext={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext, type=object, properties={con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:valueDateText, type=string}}}, spi:utilityCompanyId={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:utilityCompanyId, type=number}, spi:billNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billNo, type=number}, spi:accountId={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:accountId, type=string}, spi:consumerNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:consumerNo, type=number}, spi:paymentDueDate={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:paymentDueDate, type=number}, spi:billAmount={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount, type=object, properties={dto:currencyCode={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount/dto:currencyCode, type=string}, dto:currencyRate={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount/dto:currencyRate, type=number}, dto:monetaryValue={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount/dto:monetaryValue, type=number}}}, spi:accountCurrencyRate={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:accountCurrencyRate, type=number}, spi:primaryReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:primaryReferenceNo, type=number}, spi:secondaryReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:secondaryReferenceNo, type=number}, spi:userReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:userReferenceNo, type=number}, spi:chargeRequest={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:chargeRequest, type=object, properties={char:isServiceChargeApplicable={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:chargeRequest/char:isServiceChargeApplicable, type=number}, char:serviceChargeDetails={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:chargeRequest/char:serviceChargeDetails, type=string}}}, spi:narrative={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:narrative, type=string}, spi:transactionType={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:transactionType, type=number}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{spi:payUtilityBillByAccount={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount, type=object, properties={spi:sessionContext={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext, type=object, properties={con:bankCode={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:bankCode, type=number}, con:channel={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:channel, type=string}, con:externalBatchNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:externalBatchNumber, type=number}, con:externalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:externalReferenceNo, type=string}, con:externalSystemAuditTrailNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:externalSystemAuditTrailNumber, type=number}, con:localDateTimeText={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:localDateTimeText, type=string}, con:originalReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:originalReferenceNo, type=string}, con:overridenWarnings={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:overridenWarnings, type=string}, con:postingDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:postingDateText, type=string}, con:reason={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason, type=object, properties={con:comment={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason/con:comment, type=string}, con:reasonCode={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:reason/con:reasonCode, type=number}}}, con:serviceCode={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:serviceCode, type=string}, con:sessionTicket={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:sessionTicket, type=string}, con:supervisorContext={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext, type=object, properties={con:primaryPassword={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext/con:primaryPassword, type=string}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:supervisorContext/con:userId, type=string}}}, con:transactionBranch={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:transactionBranch, type=number}, con:userId={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:userId, type=string}, con:userReferenceNumber={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:userReferenceNumber, type=string}, con:valueDateText={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:sessionContext/con:valueDateText, type=string}}}, spi:utilityCompanyId={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:utilityCompanyId, type=number}, spi:billNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billNo, type=number}, spi:accountId={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:accountId, type=string}, spi:consumerNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:consumerNo, type=number}, spi:paymentDueDate={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:paymentDueDate, type=number}, spi:billAmount={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount, type=object, properties={dto:currencyCode={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount/dto:currencyCode, type=string}, dto:currencyRate={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount/dto:currencyRate, type=number}, dto:monetaryValue={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:billAmount/dto:monetaryValue, type=number}}}, spi:accountCurrencyRate={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:accountCurrencyRate, type=number}, spi:primaryReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:primaryReferenceNo, type=number}, spi:secondaryReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:secondaryReferenceNo, type=number}, spi:userReferenceNo={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:userReferenceNo, type=number}, spi:chargeRequest={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:chargeRequest, type=object, properties={char:isServiceChargeApplicable={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:chargeRequest/char:isServiceChargeApplicable, type=number}, char:serviceChargeDetails={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:chargeRequest/char:serviceChargeDetails, type=string}}}, spi:narrative={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:narrative, type=string}, spi:transactionType={id=http://wso2jsonschema.org/soapenv:Body/spi:payUtilityBillByAccount/spi:transactionType, type=number}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/},{prefix=con, url=http://context.app.fcr.iflex.com},{prefix=char, url=http://charge.app.fcr.iflex.com},{prefix=rule, url=http://rule.entity.fcr.iflex.com},{prefix=spi, url=http://spi.bill.app.fcr.iflex.com},{prefix=dto1, url=http://dto.charge.entity.fcr.iflex.com},{prefix=dto, url=http://dto.global.entity.fcr.iflex.com}"/>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+</datamapper:DataMapperRoot>

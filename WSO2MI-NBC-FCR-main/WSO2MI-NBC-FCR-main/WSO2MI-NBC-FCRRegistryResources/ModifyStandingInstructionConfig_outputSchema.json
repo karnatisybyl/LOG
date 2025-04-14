@@ -1,0 +1,391 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "soapenv:Envelope",
+  "type" : "object",
+  "properties" : {
+    "soapenv:Header" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Header",
+      "type" : "string"
+    },
+    "soapenv:Body" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Body",
+      "type" : "object",
+      "properties" : {
+        "spi:modifyStandingInstruction" : {
+          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction",
+          "type" : "object",
+          "properties" : {
+            "spi:sessionContext" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext",
+              "type" : "object",
+              "properties" : {
+                "con:bankCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:bankCode",
+                  "type" : "string"
+                },
+                "con:channel" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:channel",
+                  "type" : "string"
+                },
+                "con:externalBatchNumber" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalBatchNumber",
+                  "type" : "string"
+                },
+                "con:externalReferenceNo" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalReferenceNo",
+                  "type" : "string"
+                },
+                "con:externalSystemAuditTrailNumber" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:externalSystemAuditTrailNumber",
+                  "type" : "string"
+                },
+                "con:localDateTimeText" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:localDateTimeText",
+                  "type" : "string"
+                },
+                "con:originalReferenceNo" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:originalReferenceNo",
+                  "type" : "string"
+                },
+                "con:overridenWarnings" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:overridenWarnings",
+                  "type" : "string"
+                },
+                "con:postingDateText" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:postingDateText",
+                  "type" : "string"
+                },
+                "con:reason" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason",
+                  "type" : "object",
+                  "properties" : {
+                    "con:comment" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason/con:comment",
+                      "type" : "string"
+                    },
+                    "con:reasonCode" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:reason/con:reasonCode",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "con:serviceCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:serviceCode",
+                  "type" : "string"
+                },
+                "con:sessionTicket" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:sessionTicket",
+                  "type" : "string"
+                },
+                "con:supervisorContext" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext",
+                  "type" : "object",
+                  "properties" : {
+                    "con:primaryPassword" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext/con:primaryPassword",
+                      "type" : "string"
+                    },
+                    "con:userId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:supervisorContext/con:userId",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "con:transactionBranch" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:transactionBranch",
+                  "type" : "string"
+                },
+                "con:userId" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:userId",
+                  "type" : "string"
+                },
+                "con:userReferenceNumber" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:userReferenceNumber",
+                  "type" : "string"
+                },
+                "con:valueDateText" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:sessionContext/con:valueDateText",
+                  "type" : "string"
+                }
+              }
+            },
+            "spi:standingInstructionDTOreq" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq",
+              "type" : "object",
+              "properties" : {
+                "dto:accountId" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:accountId",
+                  "type" : "string"
+                },
+                "dto:amount" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:amount",
+                  "type" : "string"
+                },
+                "dto:applySC" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:applySC",
+                  "type" : "string"
+                },
+                "dto:automaticallyIssued" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:automaticallyIssued",
+                  "type" : "string"
+                },
+                "dto:beneficiaryAccountId" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryAccountId",
+                  "type" : "string"
+                },
+                "dto:beneficiaryAccountType" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryAccountType",
+                  "type" : "string"
+                },
+                "dto:beneficiaryDetailsDTO" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO",
+                  "type" : "object",
+                  "properties" : {
+                    "dto1:beneficiaryAccountTypes" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAccountTypes",
+                      "type" : "string"
+                    },
+                    "dto1:beneficiaryAddress" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress",
+                      "type" : "object",
+                      "properties" : {
+                        "dat:city" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:city",
+                          "type" : "string"
+                        },
+                        "dat:country" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:country",
+                          "type" : "string"
+                        },
+                        "dat:line1" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line1",
+                          "type" : "string"
+                        },
+                        "dat:line2" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line2",
+                          "type" : "string"
+                        },
+                        "dat:line3" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:line3",
+                          "type" : "string"
+                        },
+                        "dat:state" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:state",
+                          "type" : "string"
+                        },
+                        "dat:zip" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryAddress/dat:zip",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "dto1:beneficiaryId" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryId",
+                      "type" : "string"
+                    },
+                    "dto1:beneficiaryName" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryName",
+                      "type" : "string"
+                    },
+                    "dto1:beneficiaryPhone" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone",
+                      "type" : "object",
+                      "properties" : {
+                        "dat:extension" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:extension",
+                          "type" : "string"
+                        },
+                        "dat:isdCode" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:isdCode",
+                          "type" : "string"
+                        },
+                        "dat:number" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:number",
+                          "type" : "string"
+                        },
+                        "dat:stdCode" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:beneficiaryDetailsDTO/dto1:beneficiaryPhone/dat:stdCode",
+                          "type" : "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "dto:branch" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:branch",
+                  "type" : "string"
+                },
+                "dto:calendarBased" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:calendarBased",
+                  "type" : "string"
+                },
+                "dto:endDate" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:endDate",
+                  "type" : "string"
+                },
+                "dto:failureReason" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:failureReason",
+                  "type" : "string"
+                },
+                "dto:financialInstitutionCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:financialInstitutionCode",
+                  "type" : "string"
+                },
+                "dto:forceDebitAllowed" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:forceDebitAllowed",
+                  "type" : "string"
+                },
+                "dto:instructionCurrency" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:instructionCurrency",
+                  "type" : "string"
+                },
+                "dto:instructionNumber" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:instructionNumber",
+                  "type" : "string"
+                },
+                "dto:lastDate" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:lastDate",
+                  "type" : "string"
+                },
+                "dto:lastRetryDate" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:lastRetryDate",
+                  "type" : "string"
+                },
+                "dto:narrative" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:narrative",
+                  "type" : "string"
+                },
+                "dto:nextDate" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:nextDate",
+                  "type" : "string"
+                },
+                "dto:nonFCBranchCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:nonFCBranchCode",
+                  "type" : "string"
+                },
+                "dto:paymentCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentCode",
+                  "type" : "string"
+                },
+                "dto:paymentDescription" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentDescription",
+                  "type" : "string"
+                },
+                "dto:paymentMode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentMode",
+                  "type" : "string"
+                },
+                "dto:paymentType" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:paymentType",
+                  "type" : "string"
+                },
+                "dto:priority" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:priority",
+                  "type" : "string"
+                },
+                "dto:product" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:product",
+                  "type" : "string"
+                },
+                "dto:receivingBankCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:receivingBankCode",
+                  "type" : "string"
+                },
+                "dto:receivingBranchCode" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:receivingBranchCode",
+                  "type" : "string"
+                },
+                "dto:retryCount" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:retryCount",
+                  "type" : "string"
+                },
+                "dto:routingNumber" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:routingNumber",
+                  "type" : "string"
+                },
+                "dto:standingInstructionFrequency" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:standingInstructionFrequency",
+                  "type" : "string"
+                },
+                "dto:standingInstructionType" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:standingInstructionType",
+                  "type" : "string"
+                },
+                "dto:startDate" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:startDate",
+                  "type" : "string"
+                },
+                "dto:termDepositDetails" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails",
+                  "type" : "object",
+                  "properties" : {
+                    "dto2:accountVariance" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:accountVariance",
+                      "type" : "string"
+                    },
+                    "dto2:baseAmountForRate" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:baseAmountForRate",
+                      "type" : "string"
+                    },
+                    "dto2:compoundingFrequency" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:compoundingFrequency",
+                      "type" : "string"
+                    },
+                    "dto2:isSweepInProvider" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:isSweepInProvider",
+                      "type" : "string"
+                    },
+                    "dto2:payoutFrequency" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:payoutFrequency",
+                      "type" : "string"
+                    },
+                    "dto2:productCode" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:productCode",
+                      "type" : "string"
+                    },
+                    "dto2:termDays" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:termDays",
+                      "type" : "string"
+                    },
+                    "dto2:termMonths" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:standingInstructionDTOreq/dto:termDepositDetails/dto2:termMonths",
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            },
+            "spi:maintenanceTicket" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/spi:modifyStandingInstruction/spi:maintenanceTicket",
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "soapenv",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  }, {
+    "prefix" : "spi",
+    "url" : "http://spi.savings.deposit.app.fcr.iflex.com"
+  }, {
+    "prefix" : "con",
+    "url" : "http://context.app.fcr.iflex.com"
+  }, {
+    "prefix" : "dto",
+    "url" : "http://dto.spi.savings.deposit.app.fcr.iflex.com"
+  }, {
+    "prefix" : "dto1",
+    "url" : "http://dto.deposit.app.fcr.iflex.com"
+  }, {
+    "prefix" : "dat",
+    "url" : "http://datatype.fcr.iflex.com"
+  }, {
+    "prefix" : "dto2",
+    "url" : "http://dto.savings.deposit.app.fcr.iflex.com"
+  } ]
+}

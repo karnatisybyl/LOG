@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_bdBjYDtQEe6wuNT3MEyPdA" type="DataMapper" name="InquireBillWalletRtgsTxnsConfig.datamapper_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_bx0HoDtQEe6wuNT3MEyPdA" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_BK9S4DtSEe6wuNT3MEyPdA" type="3002" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_BK958DtSEe6wuNT3MEyPdA" type="5002"/>
+      <children xmi:type="notation:Shape" xmi:id="_BLEAkDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_BLEAkjtSEe6wuNT3MEyPdA" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_BNH2EDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_BNH2EjtSEe6wuNT3MEyPdA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_BN-KoDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BN-KoTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_BN-xsDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BN-xsTtSEe6wuNT3MEyPdA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BNH2ETtSEe6wuNT3MEyPdA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_BNH2EztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_BNH2FTtSEe6wuNT3MEyPdA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_BOM0IDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_BONbMDtSEe6wuNT3MEyPdA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_BOUI4DtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_BOUI4jtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_BOZocDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOZocjtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BOg9MDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOg9MTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BOhkQDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.0/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOhkQTtSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOZocTtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOZocztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOZodTtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BPZuADtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BPZuATtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BPZuAjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.1/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BPZuAztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.1"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOZodDtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOZodjtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOZoeDtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BPi38DtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BPi38TtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BPi38jtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BPi38ztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOZodztSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOZoeTtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOZoeztSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BP2Z8DtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BP2Z8TtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BP2Z8jtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BP2Z8ztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOZoejtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOZofDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOZofjtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BQBZEDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BQBZETtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BQBZEjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BQBZEztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOZofTtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOZofztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOZogTtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BRFJADtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.5/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRFJATtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BRFJAjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.5/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRFJAztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.5"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOZogDtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOZogjtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOaPgDtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BRLPoDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.6/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRLPoTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BRLPojtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.6/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRLPoztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.6"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOZogztSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOaPgTtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOaPgztSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BRUZkDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.7/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRUZkTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BRVAoDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.7/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRVAoTtSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.7"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOaPgjtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOaPhDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOaPhjtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BRdjgDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.8/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRdjgTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BRdjgjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.8/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRdjgztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOaPhTtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOaPhztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOaPiTtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BRn7kDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_BRn7kjtSEe6wuNT3MEyPdA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_BRv3YDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.0/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRv3YTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_BRwecDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.0/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRwecTtSEe6wuNT3MEyPdA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.0"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRn7kTtSEe6wuNT3MEyPdA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BRn7kztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_BRn7lTtSEe6wuNT3MEyPdA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_BR8EoDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.1/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BR8EoTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_BR8EojtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.1/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BR8EoztSEe6wuNT3MEyPdA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.1"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRn7lDtSEe6wuNT3MEyPdA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BRn7ljtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRn7lztSEe6wuNT3MEyPdA" x="-1" y="-11"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BRn7mDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BRn7mTtSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOaPiDtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOaPijtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOaPjDtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BSDZYDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.10/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSDZYTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BSDZYjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.10/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSDZYztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOaPiztSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOaPjTtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOaPjztSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BSYwkDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.11/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSYwkTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BSYwkjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.11/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSYwkztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.11"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOaPjjtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOaPkDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOaPkjtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BSgsYDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_BSgsYjtSEe6wuNT3MEyPdA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_BSmL8DtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.0/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSmL8TtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_BSmL8jtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.0/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSmL8ztSEe6wuNT3MEyPdA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.0"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSgsYTtSEe6wuNT3MEyPdA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BSgsYztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_BSgsZTtSEe6wuNT3MEyPdA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_BStgsDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.1/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BStgsTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_BSuHwDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.1/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSuHwTtSEe6wuNT3MEyPdA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.1"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSgsZDtSEe6wuNT3MEyPdA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BSgsZjtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSgsZztSEe6wuNT3MEyPdA" x="-1" y="-11"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BSgsaDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BSgsaTtSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOaPkTtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOaPkztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOaPlTtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BS01cDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.13/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BS01cTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BS01cjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.13/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BS01cztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.13"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOaPlDtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOa2kDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOa2kjtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BS8xQDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.14/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BS8xQTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BS8xQjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.14/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BS8xQztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.14"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOa2kTtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOa2kztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOa2lTtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BTIXcDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.15/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTIXcTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BTI-gDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.15/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTI-gTtSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.15"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOa2lDtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOa2ljtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_BOa2mDtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_BTOeEDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.16/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTOeETtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_BTOeEjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.16/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTOeEztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.16"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOa2lztSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOa2mTtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOa2mjtSEe6wuNT3MEyPdA" x="-1" y="-11"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BOa2mztSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOa2nDtSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOUI4TtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_BOUI4ztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_BOUI5TtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_BTj1QDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.1/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTj1QTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BTj1QjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.1/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTj1QztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.1"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOUI5DtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_BOUI5jtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_BOUI6DtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_BTp74DtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.2/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTp74TtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BTp74jtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.2/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTp74ztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.2"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOUI5ztSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_BOUI6TtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_BOUI6ztSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_BTx3sDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.3/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTx3sTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BTyewDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.3/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BTyewTtSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.3"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOUI6jtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_BOUI7DtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_BOUI7jtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_BT8PwDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.4/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BT8PwTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BT8PwjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.4/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BT8PwztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.4"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOUI7TtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_BOUI7ztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_BOUv8DtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_BUGAwDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.5/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUGAwTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BUGAwjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.5/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUGAwztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.5"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOUI8DtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_BOUv8TtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_BOUv8ztSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_BUSOADtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.6/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUSOATtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BUSOAjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.6/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUSOAztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.6"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOUv8jtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_BOUv9DtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_BOUv9jtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_BUYUoDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.7/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUYUoTtSEe6wuNT3MEyPdA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_BUYUojtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.7/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BUYUoztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.7"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOUv9TtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_BOUv9ztSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOUv-DtSEe6wuNT3MEyPdA" x="-1" y="-11"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_BOUv-TtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOUv-jtSEe6wuNT3MEyPdA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BOM0ITtSEe6wuNT3MEyPdA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_BONbMTtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BONbMjtSEe6wuNT3MEyPdA" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_BONbMztSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BONbNDtSEe6wuNT3MEyPdA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BNH2FDtSEe6wuNT3MEyPdA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_BNH2FjtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BNH2FztSEe6wuNT3MEyPdA" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_BNH2GDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BNH2GTtSEe6wuNT3MEyPdA"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BLEAkTtSEe6wuNT3MEyPdA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_BLEAkztSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BLEAlDtSEe6wuNT3MEyPdA" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_BLEAlTtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BLEAljtSEe6wuNT3MEyPdA"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BK9S4TtSEe6wuNT3MEyPdA"/>
+    </children>
+    <element xmi:type="datamapper:Input" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bx0HoTtQEe6wuNT3MEyPdA" width="250" height="160"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_bx0HojtQEe6wuNT3MEyPdA" type="2003" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_DMXJ8DtSEe6wuNT3MEyPdA" type="3011" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_DMXJ8jtSEe6wuNT3MEyPdA" type="5003"/>
+      <children xmi:type="notation:Shape" xmi:id="_DMcCcDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_DMcCcjtSEe6wuNT3MEyPdA" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_DMtIMDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DMtIMTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_DMtIMjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DMtIMztSEe6wuNT3MEyPdA"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DMcCcTtSEe6wuNT3MEyPdA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DMcCcztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_DMcpgDtSEe6wuNT3MEyPdA" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_DM2SIDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_DM2SIjtSEe6wuNT3MEyPdA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_DM6jkDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_DM6jkjtSEe6wuNT3MEyPdA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_DM_cEDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DM_cEjtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DNGw0DtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNGw0TtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DNGw0jtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNGw0ztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM_cETtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DM_cEztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DM_cFTtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DNM3cDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNM3cTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DNNegDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNNegTtSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM_cFDtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DM_cFjtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DM_cGDtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DNUzQDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNUzQTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DNUzQjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNUzQztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM_cFztSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DM_cGTtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DM_cGztSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DNcvEDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNcvETtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DNdWIDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNdWITtSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM_cGjtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DM_cHDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DM_cHjtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DNl5ADtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNl5ATtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DNl5AjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNl5AztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM_cHTtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DM_cHztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DM_cITtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DOCk8DtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.5/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOCk8TtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DOCk8jtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.5/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOCk8ztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.5"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM_cIDtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DNADIDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DNADIjtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DOIEgDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.6/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOIEgTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DOIEgjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.6/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOIEgztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.6"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNADITtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DNADIztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DNADJTtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DOTDoDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.7/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOTDoTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DOTqsDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.7/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOTqsTtSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.7"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNADJDtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DNADJjtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DNADKDtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DOep0DtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.8/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOep0TtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DOep0jtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.8/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOep0ztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNADJztSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DNADKTtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DNADKztSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DOkwcDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_DOkwcjtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_DOpB4DtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.0/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOpB4TtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_DOpB4jtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.0/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOpB4ztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOkwcTtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DOkwcztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_DOkwdTtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_DOt6YDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.1/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOt6YTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_DOuhcDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.1/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOuhcTtSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.1"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOkwdDtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DOkwdjtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOkwdztSEe6wuNT3MEyPdA" x="-1" y="-11"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DOkweDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOkweTtSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNADKjtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DNADLDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DNADLjtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DPHjADtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.10/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPHjATtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DPHjAjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.10/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPHjAztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.10"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNADLTtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DNADLztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DNADMTtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DPNpoDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.11/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPNpoTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DPNpojtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.11/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPNpoztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.11"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNADMDtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DNADMjtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DNADNDtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DPTwQDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_DPUXUDtSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_DPYowDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.0/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPYowTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_DPYowjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.0/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPYowztSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPTwQTtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DPUXUTtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_DPUXUztSEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_DPhysDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.1/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPhysTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_DPiZwDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.1/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPiZwTtSEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.1"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPUXUjtSEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DPUXVDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPUXVTtSEe6wuNT3MEyPdA" x="-1" y="-11"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DPUXVjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPUXVztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNADMztSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DNADNTtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DNADNztSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DPq8oDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.13/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPq8oTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DPrjsDtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.13/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPrjsTtSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.13"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNADNjtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DNADODtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DNADOjtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DPxDQDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.14/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPxDQTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DPxDQjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.14/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPxDQztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.14"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNADOTtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DNAqMDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DNAqMjtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DP17wDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.15/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DP17wTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DP17wjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.15/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DP17wztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.15"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNAqMTtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DNAqMztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_DNAqNTtSEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_DP60QDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.16/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DP60QTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_DP60QjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.16/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DP60QztSEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.16"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNAqNDtSEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DNAqNjtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNAqNztSEe6wuNT3MEyPdA" x="-1" y="-11"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DNAqODtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DNAqOTtSEe6wuNT3MEyPdA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM6jkTtSEe6wuNT3MEyPdA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_DM6jkztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_DM6jlTtSEe6wuNT3MEyPdA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_DQbxoDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DQbxoTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DQbxojtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DQbxoztSEe6wuNT3MEyPdA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM6jlDtSEe6wuNT3MEyPdA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_DM6jljtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_DM6jmDtSEe6wuNT3MEyPdA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_DQkUgDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.2/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DQkUgTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DQkUgjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.2/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DQkUgztSEe6wuNT3MEyPdA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM6jlztSEe6wuNT3MEyPdA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_DM6jmTtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_DM6jmztSEe6wuNT3MEyPdA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_DQrCMDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.3/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DQrCMTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DQrCMjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.3/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DQrCMztSEe6wuNT3MEyPdA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.3"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM6jmjtSEe6wuNT3MEyPdA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_DM6jnDtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_DM6jnjtSEe6wuNT3MEyPdA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_DQ2BUDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.4/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DQ2BUTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DQ2BUjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.4/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DQ2BUztSEe6wuNT3MEyPdA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.4"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM6jnTtSEe6wuNT3MEyPdA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_DM6jnztSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_DM6joTtSEe6wuNT3MEyPdA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_DQ99IDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.5/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DQ99ITtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DQ99IjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.5/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DQ99IztSEe6wuNT3MEyPdA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.5"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM6joDtSEe6wuNT3MEyPdA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_DM6jojtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_DM6jpDtSEe6wuNT3MEyPdA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_DRNNsDtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.6/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DRNNsTtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DRNNsjtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.6/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DRNNsztSEe6wuNT3MEyPdA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.6"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM6joztSEe6wuNT3MEyPdA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_DM6jpTtSEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_DM7KoDtSEe6wuNT3MEyPdA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_DRjL8DtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.7/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DRjL8TtSEe6wuNT3MEyPdA" x="-10" y="4"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_DRjL8jtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.7/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DRjL8ztSEe6wuNT3MEyPdA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM6jpjtSEe6wuNT3MEyPdA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_DM7KoTtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM7KojtSEe6wuNT3MEyPdA" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_DM7KoztSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM7KpDtSEe6wuNT3MEyPdA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM2SITtSEe6wuNT3MEyPdA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_DM2SIztSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM2SJDtSEe6wuNT3MEyPdA" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_DM2SJTtSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DM2SJjtSEe6wuNT3MEyPdA"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DMcCdDtSEe6wuNT3MEyPdA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DMcpgTtSEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DMcpgjtSEe6wuNT3MEyPdA" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DMcpgztSEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DMcphDtSEe6wuNT3MEyPdA"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DMXJ8TtSEe6wuNT3MEyPdA"/>
+    </children>
+    <element xmi:type="datamapper:Output" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@output"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bx0HoztQEe6wuNT3MEyPdA" x="310" width="250" height="160"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_bdBjYTtQEe6wuNT3MEyPdA"/>
+  <element xmi:type="datamapper:DataMapperRoot" href="InquireBillWalletRtgsTxnsConfig.datamapper#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_EzjKMDtSEe6wuNT3MEyPdA" type="4001" source="_BN-xsDtSEe6wuNT3MEyPdA" target="_DMtIMDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_EzjKMTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EzjKMjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EzopwDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EzopwTtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_FO3NMDtSEe6wuNT3MEyPdA" type="4001" source="_BOhkQDtSEe6wuNT3MEyPdA" target="_DNGw0DtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_FO3NMTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FO3NMjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FO9T0DtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FO9T0TtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_F04rYDtSEe6wuNT3MEyPdA" type="4001" source="_BPZuAjtSEe6wuNT3MEyPdA" target="_DNM3cDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_F04rYTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_F04rYjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_F055gDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_F055gTtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_GMfTEDtSEe6wuNT3MEyPdA" type="4001" source="_BPi38jtSEe6wuNT3MEyPdA" target="_DNUzQDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_GMfTETtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GMfTEjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GMf6IDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GMf6ITtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_GjZ-QDtSEe6wuNT3MEyPdA" type="4001" source="_BP2Z8jtSEe6wuNT3MEyPdA" target="_DNcvEDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_GjZ-QTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GjZ-QjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GjbMYDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GjbMYTtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_G8P8EDtSEe6wuNT3MEyPdA" type="4001" source="_BQBZEjtSEe6wuNT3MEyPdA" target="_DNl5ADtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_G8P8ETtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G8P8EjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G8RKMDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G8RKMTtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_HSQBQDtSEe6wuNT3MEyPdA" type="4001" source="_BRFJAjtSEe6wuNT3MEyPdA" target="_DOCk8DtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_HSQBQTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HSQBQjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HSQoUDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HSQoUTtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Hq6_8DtSEe6wuNT3MEyPdA" type="4001" source="_BRLPojtSEe6wuNT3MEyPdA" target="_DOIEgDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Hq6_8TtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Hq6_8jtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hq8OEDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hq8OETtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IGDcwDtSEe6wuNT3MEyPdA" type="4001" source="_BRVAoDtSEe6wuNT3MEyPdA" target="_DOTDoDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IGDcwTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IGDcwjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IGED0DtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IGED0TtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IeM3ADtSEe6wuNT3MEyPdA" type="4001" source="_BRdjgjtSEe6wuNT3MEyPdA" target="_DOep0DtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IeM3ATtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IeM3AjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IeNeEDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IeNeETtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_JIejEDtSEe6wuNT3MEyPdA" type="4001" source="_BRwecDtSEe6wuNT3MEyPdA" target="_DOpB4DtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_JIejETtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JIejEjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JIfxMDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JIfxMTtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_JiXpwDtSEe6wuNT3MEyPdA" type="4001" source="_BR8EojtSEe6wuNT3MEyPdA" target="_DOt6YDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_JiXpwTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JiXpwjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JiY34DtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JiY34TtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_J3zHMDtSEe6wuNT3MEyPdA" type="4001" source="_BSDZYjtSEe6wuNT3MEyPdA" target="_DPHjADtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_J3zHMTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.10/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_J3zHMjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J30VUDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J30VUTtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_KT2xEDtSEe6wuNT3MEyPdA" type="4001" source="_BSYwkjtSEe6wuNT3MEyPdA" target="_DPNpoDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_KT2xETtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.11/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KT2xEjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KT3YIDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KT3YITtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Ko-FcDtSEe6wuNT3MEyPdA" type="4001" source="_BSmL8jtSEe6wuNT3MEyPdA" target="_DPYowDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ko-FcTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ko-FcjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ko-sgDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ko-sgTtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_K-qooDtSEe6wuNT3MEyPdA" type="4001" source="_BSuHwDtSEe6wuNT3MEyPdA" target="_DPhysDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_K-qooTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K-qoojtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K-r2wDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K-r2wTtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_LTUqADtSEe6wuNT3MEyPdA" type="4001" source="_BS01cjtSEe6wuNT3MEyPdA" target="_DPq8oDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_LTUqATtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.13/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LTUqAjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LTVREDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LTVRETtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_LpS6ADtSEe6wuNT3MEyPdA" type="4001" source="_BS8xQjtSEe6wuNT3MEyPdA" target="_DPxDQDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_LpS6ATtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.14/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LpS6AjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LpUIIDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LpUIITtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_L-o34DtSEe6wuNT3MEyPdA" type="4001" source="_BTI-gDtSEe6wuNT3MEyPdA" target="_DP17wDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_L-o34TtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.15/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_L-o34jtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_L-qGADtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_L-qGATtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_MWmr8DtSEe6wuNT3MEyPdA" type="4001" source="_BTOeEjtSEe6wuNT3MEyPdA" target="_DP60QDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_MWmr8TtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.16/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MWmr8jtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MWnTADtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MWnTATtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_MuyicDtSEe6wuNT3MEyPdA" type="4001" source="_BTj1QjtSEe6wuNT3MEyPdA" target="_DQbxoDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_MuyicTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MuyicjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MuzwkDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MuzwkTtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_NHFGoDtSEe6wuNT3MEyPdA" type="4001" source="_BTp74jtSEe6wuNT3MEyPdA" target="_DQkUgDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_NHFGoTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NHFGojtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NHG70DtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NHG70TtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_N04n0DtSEe6wuNT3MEyPdA" type="4001" source="_BTyewDtSEe6wuNT3MEyPdA" target="_DQrCMDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_N04n0TtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_N04n0jtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N05O4DtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N05O4TtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ORcoADtSEe6wuNT3MEyPdA" type="4001" source="_BT8PwjtSEe6wuNT3MEyPdA" target="_DQ2BUDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ORcoATtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ORcoAjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ORdPEDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ORdPETtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_OoHbkDtSEe6wuNT3MEyPdA" type="4001" source="_BUGAwjtSEe6wuNT3MEyPdA" target="_DQ99IDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_OoHbkTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OoHbkjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OoICoDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OoICoTtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_PISwcDtSEe6wuNT3MEyPdA" type="4001" source="_BUSOAjtSEe6wuNT3MEyPdA" target="_DRNNsDtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_PISwcTtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PISwcjtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PITXgDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PITXgTtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Pmu_8DtSEe6wuNT3MEyPdA" type="4001" source="_BUYUojtSEe6wuNT3MEyPdA" target="_DRjL8DtSEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Pmu_8TtSEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="InquireBillWalletRtgsTxnsConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Pmu_8jtSEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PmwOEDtSEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PmwOETtSEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+</notation:Diagram>

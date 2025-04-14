@@ -1,0 +1,70 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Header = inputroot.Envelope.Header;
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_bankCode = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.bankCode;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_channel = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.channel;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_externalBatchNumber = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.externalBatchNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_externalReferenceNo = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.externalReferenceNo;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_externalSystemAuditTrailNumber = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.externalSystemAuditTrailNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_localDateTimeText = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.localDateTimeText;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_originalReferenceNo = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.originalReferenceNo;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_overridenWarnings = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.overridenWarnings;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_postingDateText = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.postingDateText;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_reason =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_reason.con_comment = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.reason.comment;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_reason.con_reasonCode = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.reason.reasonCode;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_serviceCode = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.serviceCode;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_sessionTicket = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.sessionTicket;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_supervisorContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_supervisorContext.con_primaryPassword = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.supervisorContext.primaryPassword;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_supervisorContext.con_userId = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.supervisorContext.userId;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_transactionBranch = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.transactionBranch;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_userId = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.userId;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_userReferenceNumber = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.userReferenceNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_sessionContext.con_valueDateText = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.sessionContext.valueDateText;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_accountNo = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.accountNo;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_txnReferenceNo = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.txnReferenceNo;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_billNo = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.billNo;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_codUserId = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.codUserId;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_orgBranchCode = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.orgBranchCode;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_transactionDate = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.transactionDate;
+outputsoapenv_Envelope.soapenv_Body.spi_inquireBillWalletRtgsTxns.spi_source = inputroot.Envelope.Body.inquireBillWalletRtgsTxns.source;
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

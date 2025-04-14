@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="UpdateAccountStatusForCASAInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="UPDATE_ACCOUNT_STATUS_CASA_ACCOUNT_START_LOG" level="custom">
+        <property name="UPDATE_ACCOUNT_STATUS_CASA_ACCOUNT_START_LOG" value="Executing UpdateAccountStatusForCASAInSequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/UpdateAccountStatusForCASAConfig.dmc" inputSchema="gov:datamapper/UpdateAccountStatusForCASAConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/UpdateAccountStatusForCASAConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/UpdateAccountStatusForCASAConfig_xsltStyleSheet.xml"/>
+    <header name="soapAction" scope="transport" value=""/>
+    <log level="full"/>
+    <send>
+        <endpoint key="DemandDepositManagerSpiSoapEP"/>
+    </send>
+</sequence>

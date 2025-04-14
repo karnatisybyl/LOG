@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="InquireBillWalletRtgsTxnsInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="INQUIRE_BILL_WALLET_RTGS_TXNS_START_LOG" level="custom">
+        <property name="INQUIRE_BILL_WALLET_RTGS_TXNS_START_LOG" value="Executing InquireBillWalletRtgsTxnsInSequence"/>
+    </log>
+    <log level="full"/>
+    <datamapper config="gov:datamapper/InquireBillWalletRtgsTxnsConfig.dmc" inputSchema="gov:datamapper/InquireBillWalletRtgsTxnsConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/InquireBillWalletRtgsTxnsConfig_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/InquireBillWalletRtgsTxnsConfig_xsltStyleSheet.xml"/>
+    <log level="full"/>
+    <send>
+        <endpoint key="BillPaymentManagerSpiSoapEP"/>
+    </send>
+</sequence>

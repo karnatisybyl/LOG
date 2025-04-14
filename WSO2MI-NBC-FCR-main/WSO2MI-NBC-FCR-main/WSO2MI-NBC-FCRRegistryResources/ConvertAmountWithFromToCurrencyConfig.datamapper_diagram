@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_oiz8oDtKEe6wuNT3MEyPdA" type="DataMapper" name="ConvertAmountWithFromToCurrencyConfig.datamapper_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_ou534DtKEe6wuNT3MEyPdA" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_ruCtEDtLEe6wuNT3MEyPdA" type="3002" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ruDUIDtLEe6wuNT3MEyPdA" type="5002"/>
+      <children xmi:type="notation:Shape" xmi:id="_ruLP8DtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ruLP8jtLEe6wuNT3MEyPdA" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_rukRgDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_rukRgjtLEe6wuNT3MEyPdA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_rvCLkDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvCLkTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_rvCLkjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvCLkztLEe6wuNT3MEyPdA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rukRgTtLEe6wuNT3MEyPdA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_rukRgztLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ruk4kDtLEe6wuNT3MEyPdA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_rvLVgDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_rvLVgjtLEe6wuNT3MEyPdA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_rvUfcDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_rvVGgDtLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_rveQcDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rve3gDtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_rvpPkDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvpPkTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rvpPkjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.0/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvpPkztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rveQcTtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rve3gTtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rve3gztLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_rvzAkDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvzAkTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rvzAkjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.1/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvzAkztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.1"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rve3gjtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rve3hDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rve3hjtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_rv7jcDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rv7jcTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rv8KgDtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rv8KgTtLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rve3hTtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rve3hztLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rve3iTtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_rwJl4DtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwJl4TtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rwJl4jtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwJl4ztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rve3iDtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rve3ijtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rve3jDtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_rwQTkDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwQTkTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rwQTkjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwQTkztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rve3iztLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rve3jTtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rve3jztLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_rwY2cDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.5/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwY2cTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rwY2cjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.5/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwY2cztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.5"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rve3jjtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rve3kDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rve3kjtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_rwhZUDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.6/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwhZUTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rwhZUjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.6/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwhZUztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.6"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rve3kTtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rvfekDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rvfekjtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_rwrKUDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.7/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwrKUTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rwrKUjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.7/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwrKUztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.7"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvfekTtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rvfekztLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rvfelTtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_rwztMDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.8/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwztMTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rw0UQDtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.8/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rw0UQTtLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvfelDtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rvfeljtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rvfemDtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_rw-sUDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_rw-sUjtLEe6wuNT3MEyPdA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_rxIdUDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.0/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxIdUTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_rxIdUjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.0/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxIdUztLEe6wuNT3MEyPdA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.0"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rw-sUTtLEe6wuNT3MEyPdA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rw-sUztLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_rw-sVTtLEe6wuNT3MEyPdA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_rxSOUDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.1/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxSOUTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_rxSOUjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.1/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxSOUztLEe6wuNT3MEyPdA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.1"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rw-sVDtLEe6wuNT3MEyPdA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rw_TYDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rw_TYTtLEe6wuNT3MEyPdA" x="-1" y="-11"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rw_TYjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rw_TYztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvfelztLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rvfemTtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rvfemztLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_rxbYQDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.10/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxbYQTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rxbYQjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.10/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxbYQztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvfemjtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rvfenDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rvfenjtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_rxj7IDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.11/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxj7ITtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rxkiMDtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.11/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxkiMTtLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.11"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvfenTtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rvfenztLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rvfeoTtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_rxuTMDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_rxu6QDtLEe6wuNT3MEyPdA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_rxykoDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.0/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxykoTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_rxzLsDtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.0/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxzLsTtLEe6wuNT3MEyPdA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.0"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxuTMTtLEe6wuNT3MEyPdA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rxu6QTtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_rxu6QztLEe6wuNT3MEyPdA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_rx7ukDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.1/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rx7ukTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_rx7ukjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.1/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rx7ukztLEe6wuNT3MEyPdA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.1"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxu6QjtLEe6wuNT3MEyPdA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rxu6RDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxu6RTtLEe6wuNT3MEyPdA" x="-1" y="-11"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_rxu6RjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rxu6RztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvfeoDtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rvfeojtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rvfepDtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_ryE4gDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.13/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ryE4gTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_ryE4gjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.13/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ryE4gztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.13"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvfeoztLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rvfepTtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rvgFoDtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_ryM0UDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.14/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ryM0UTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_ryM0UjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.14/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ryM0UztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.14"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvfepjtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rvgFoTtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rvgFoztLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_ryUwIDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.15/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ryUwITtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_ryUwIjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.15/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ryUwIztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.15"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvgFojtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rvgFpDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_rvgFpjtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_ryfvQDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.16/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ryfvQTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_ryfvQjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.16/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ryfvQztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.16"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvgFpTtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rvgFpztLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvgFqDtLEe6wuNT3MEyPdA" x="-1" y="-11"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_rvgFqTtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvgFqjtLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvUfcTtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_rvVGgTtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_rvVGgztLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_ryqHUDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.1/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ryqHUTtLEe6wuNT3MEyPdA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_ryqHUjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.1/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ryqHUztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.1"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvVGgjtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_rvVGhDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvVGhTtLEe6wuNT3MEyPdA" x="-1" y="-11"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_rvVGhjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvVGhztLEe6wuNT3MEyPdA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvLVgTtLEe6wuNT3MEyPdA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_rvLVgztLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvLVhDtLEe6wuNT3MEyPdA" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_rvL8kDtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvL8kTtLEe6wuNT3MEyPdA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rukRhDtLEe6wuNT3MEyPdA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ruk4kTtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ruk4kjtLEe6wuNT3MEyPdA" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ruk4kztLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ruk4lDtLEe6wuNT3MEyPdA"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ruLP8TtLEe6wuNT3MEyPdA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ruLP8ztLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ruLP9DtLEe6wuNT3MEyPdA" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ruLP9TtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ruLP9jtLEe6wuNT3MEyPdA"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ruCtETtLEe6wuNT3MEyPdA"/>
+    </children>
+    <element xmi:type="datamapper:Input" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ou534TtKEe6wuNT3MEyPdA" width="250" height="160"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ou534jtKEe6wuNT3MEyPdA" type="2003" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_uJLSwDtLEe6wuNT3MEyPdA" type="3011" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_uJL50DtLEe6wuNT3MEyPdA" type="5003"/>
+      <children xmi:type="notation:Shape" xmi:id="_uJT1oDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_uJT1ojtLEe6wuNT3MEyPdA" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_uJeNsDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJeNsTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_uJeNsjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJeNsztLEe6wuNT3MEyPdA"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJT1oTtLEe6wuNT3MEyPdA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uJT1oztLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_uJT1pTtLEe6wuNT3MEyPdA" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_uJn-sDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_uJn-sjtLEe6wuNT3MEyPdA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_uJwhkDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_uJxIoTtLEe6wuNT3MEyPdA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_uJ2BIDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ2BIjtLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uJ7gsDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ7gsTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uJ7gsjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ7gsztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ2BITtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ2BIztLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ2BJTtLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uKCOYDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKCOYTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uKCOYjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKCOYztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ2BJDtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ2BJjtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ2BKDtLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uKKKMDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKKKMTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uKKKMjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKKKMztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ2BJztLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ2BKTtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ2BKztLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uKPCsDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKPCsTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uKPCsjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKPCsztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ2BKjtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ2BLDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ2oMDtLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uKVwYDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKVwYTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uKVwYjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKVwYztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ2BLTtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ2oMTtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ2oMztLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uKdsMDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.5/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKdsMTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uKeTQDtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.5/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKeTQTtLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.5"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ2oMjtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ2oNDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ2oNjtLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uKoEQDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.6/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKoEQTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uKoEQjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.6/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKoEQztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.6"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ2oNTtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ2oNztLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ2oOTtLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uK-pkDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.7/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uK-pkTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uK-pkjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.7/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uK-pkztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.7"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ2oODtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ2oOjtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ2oPDtLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uLFXQDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.8/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLFXQTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uLFXQjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.8/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLFXQztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ2oOztLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ2oPTtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ2oPztLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uLN6IDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_uLN6IjtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_uLTZsDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.0/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLTZsTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_uLTZsjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.0/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLTZsztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLN6ITtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uLOhMDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_uLOhMjtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_uLcjoDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.1/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLcjoTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_uLcjojtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.1/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLcjoztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@node.1"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLOhMTtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uLOhMztLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLOhNDtLEe6wuNT3MEyPdA" x="-1" y="-11"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uLOhNTtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLOhNjtLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.9"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ2oPjtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ3PQDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ3PQjtLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uLiqQDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.10/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLiqQTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uLiqQjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.10/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLiqQztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.10"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ3PQTtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ3PQztLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ3PRTtLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uLp_ADtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.11/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLp_ATtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uLqmEDtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.11/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLqmETtLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.11"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ3PRDtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ3PRjtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ3PSDtLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uLwssDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_uLwssjtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_uL0XEDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.0/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uL0XETtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_uL0XEjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.0/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uL0XEztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLwssTtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uLwssztLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_uLwstTtLEe6wuNT3MEyPdA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_uL6dsDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.1/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uL6dsTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_uL6dsjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.1/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uL6dsztLEe6wuNT3MEyPdA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@node.1"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLwstDtLEe6wuNT3MEyPdA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uLwstjtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLwstztLEe6wuNT3MEyPdA" x="-1" y="-11"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uLwsuDtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLwsuTtLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ3PRztLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ3PSTtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ3PSztLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uMH5EDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.13/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uMH5ETtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uMH5EjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.13/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uMH5EztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.13"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ3PSjtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ3PTDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ32UDtLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uMN_sDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.14/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uMN_sTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uMN_sjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.14/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uMN_sztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.14"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ3PTTtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ32UTtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ32UztLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uMTfQDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.15/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uMTfQTtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uMTfQjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.15/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uMTfQztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.15"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ32UjtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ32VDtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uJ32VjtLEe6wuNT3MEyPdA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uMa0ADtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.16/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uMa0ATtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uMa0AjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.16/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uMa0AztLEe6wuNT3MEyPdA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.16"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ32VTtLEe6wuNT3MEyPdA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ32VztLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ32WDtLEe6wuNT3MEyPdA" x="-1" y="-11"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uJ32WTtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJ32WjtLEe6wuNT3MEyPdA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJxIoDtLEe6wuNT3MEyPdA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_uJxIojtLEe6wuNT3MEyPdA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_uJxIpDtLEe6wuNT3MEyPdA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_uMlMEDtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uMlMETtLEe6wuNT3MEyPdA" x="-10" y="4"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uMlMEjtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uMlMEztLEe6wuNT3MEyPdA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJxIoztLEe6wuNT3MEyPdA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_uJxIpTtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJxIpjtLEe6wuNT3MEyPdA" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_uJxIpztLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJxIqDtLEe6wuNT3MEyPdA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJn-sTtLEe6wuNT3MEyPdA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_uJn-sztLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJn-tDtLEe6wuNT3MEyPdA" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_uJn-tTtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJn-tjtLEe6wuNT3MEyPdA"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJT1pDtLEe6wuNT3MEyPdA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uJT1pjtLEe6wuNT3MEyPdA" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJT1pztLEe6wuNT3MEyPdA" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uJT1qDtLEe6wuNT3MEyPdA" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJT1qTtLEe6wuNT3MEyPdA"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJLSwTtLEe6wuNT3MEyPdA"/>
+    </children>
+    <element xmi:type="datamapper:Output" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@output"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ou534ztKEe6wuNT3MEyPdA" x="310" width="250" height="160"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_oiz8oTtKEe6wuNT3MEyPdA"/>
+  <element xmi:type="datamapper:DataMapperRoot" href="ConvertAmountWithFromToCurrencyConfig.datamapper#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_vaJLYDtLEe6wuNT3MEyPdA" type="4001" source="_rvCLkjtLEe6wuNT3MEyPdA" target="_uJeNsDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_vaJLYTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vaJLYjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vaOq8DtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vaPSADtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_v7j2YDtLEe6wuNT3MEyPdA" type="4001" source="_rvpPkjtLEe6wuNT3MEyPdA" target="_uJ7gsDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_v7j2YTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v7j2YjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v7ngwDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v7ngwTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wTCiQDtLEe6wuNT3MEyPdA" type="4001" source="_rvzAkjtLEe6wuNT3MEyPdA" target="_uKCOYDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_wTCiQTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wTCiQjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wTDwYDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wTDwYTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wrjv8DtLEe6wuNT3MEyPdA" type="4001" source="_rv8KgDtLEe6wuNT3MEyPdA" target="_uKKKMDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_wrjv8TtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wrjv8jtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wrk-EDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wrk-ETtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xAZ-kDtLEe6wuNT3MEyPdA" type="4001" source="_rwJl4jtLEe6wuNT3MEyPdA" target="_uKPCsDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_xAZ-kTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xAZ-kjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xAbMsDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xAbMsTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xconkDtLEe6wuNT3MEyPdA" type="4001" source="_rwQTkjtLEe6wuNT3MEyPdA" target="_uKVwYDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_xconkTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xconkjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xcqcwDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xcqcwTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xx2poDtLEe6wuNT3MEyPdA" type="4001" source="_rwY2cjtLEe6wuNT3MEyPdA" target="_uKdsMDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_xx2poTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xx2pojtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xx33wDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xx33wTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_yMiagDtLEe6wuNT3MEyPdA" type="4001" source="_rwhZUjtLEe6wuNT3MEyPdA" target="_uKoEQDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_yMiagTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.6/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yMiagjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yMjooDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yMjooTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ygsFkDtLEe6wuNT3MEyPdA" type="4001" source="_rwrKUjtLEe6wuNT3MEyPdA" target="_uK-pkDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ygssoDtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.7/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ygssoTtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 19]$[84, -19, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yguh0DtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yguh0TtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_y-IPgDtLEe6wuNT3MEyPdA" type="4001" source="_rw0UQDtLEe6wuNT3MEyPdA" target="_uLFXQDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_y-IPgTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_y-IPgjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y-I2kDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y-I2kTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zdnA0DtLEe6wuNT3MEyPdA" type="4001" source="_rxIdUjtLEe6wuNT3MEyPdA" target="_uLTZsDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zdnA0TtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zdnA0jtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zdsgYDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zdsgYTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zyY-ADtLEe6wuNT3MEyPdA" type="4001" source="_rxSOUjtLEe6wuNT3MEyPdA" target="_uLcjoDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_zyY-ATtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.9/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zyY-AjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zyaMIDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zyaMITtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0JE_sDtLEe6wuNT3MEyPdA" type="4001" source="_rxbYQjtLEe6wuNT3MEyPdA" target="_uLiqQDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0JE_sTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.10/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0JE_sjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0JFmwDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0JFmwTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0yMOIDtLEe6wuNT3MEyPdA" type="4001" source="_rxkiMDtLEe6wuNT3MEyPdA" target="_uLp_ADtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0yMOITtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.11/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0yMOIjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0yM1MDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0yM1MTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1Q6KcDtLEe6wuNT3MEyPdA" type="4001" source="_rxzLsDtLEe6wuNT3MEyPdA" target="_uL0XEDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_1Q6KcTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1Q6KcjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1Q7_oDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1Q7_oTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1oGicDtLEe6wuNT3MEyPdA" type="4001" source="_rx7ukjtLEe6wuNT3MEyPdA" target="_uL6dsDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_1oGicTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.12/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1oGicjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1oPFUDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1oPFUTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_2P9MoDtLEe6wuNT3MEyPdA" type="4001" source="_ryE4gjtLEe6wuNT3MEyPdA" target="_uMH5EDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_2P9MoTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.13/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2P9MojtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2P-awDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2P-awTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_2iRrsDtLEe6wuNT3MEyPdA" type="4001" source="_ryM0UjtLEe6wuNT3MEyPdA" target="_uMN_sDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_2iRrsTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.14/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2iRrsjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2iS50DtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2iS50TtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_22foMDtLEe6wuNT3MEyPdA" type="4001" source="_ryUwIjtLEe6wuNT3MEyPdA" target="_uMTfQDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_22foMTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.15/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_22foMjtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_22gPQDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_22gPQTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_3Ma04DtLEe6wuNT3MEyPdA" type="4001" source="_ryfvQjtLEe6wuNT3MEyPdA" target="_uMa0ADtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_3Ma04TtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.0/@node.16/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3Ma04jtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3Mbb8DtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3Mbb8TtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_3lQLoDtLEe6wuNT3MEyPdA" type="4001" source="_ryqHUjtLEe6wuNT3MEyPdA" target="_uMlMEDtLEe6wuNT3MEyPdA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_3lQLoTtLEe6wuNT3MEyPdA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="ConvertAmountWithFromToCurrencyConfig.datamapper#//@input/@treeNode.0/@node.0/@node.1/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3lQLojtLEe6wuNT3MEyPdA" points="[-2, 0, -88, 20]$[84, -20, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3lRZwDtLEe6wuNT3MEyPdA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3lRZwTtLEe6wuNT3MEyPdA" id="CENTER"/>
+  </edges>
+</notation:Diagram>

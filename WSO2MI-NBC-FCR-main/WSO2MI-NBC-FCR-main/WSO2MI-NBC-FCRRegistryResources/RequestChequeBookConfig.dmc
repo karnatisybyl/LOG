@@ -1,0 +1,62 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Header = inputroot.Envelope.Header;
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_bankCode = inputroot.Envelope.Body.requestChequeBook.sessionContext.bankCode;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_channel = inputroot.Envelope.Body.requestChequeBook.sessionContext.channel;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_externalBatchNumber = inputroot.Envelope.Body.requestChequeBook.sessionContext.externalBatchNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_externalReferenceNo = inputroot.Envelope.Body.requestChequeBook.sessionContext.externalReferenceNo;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_externalSystemAuditTrailNumber = inputroot.Envelope.Body.requestChequeBook.sessionContext.externalSystemAuditTrailNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_localDateTimeText = inputroot.Envelope.Body.requestChequeBook.sessionContext.localDateTimeText;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_originalReferenceNo = inputroot.Envelope.Body.requestChequeBook.sessionContext.originalReferenceNo;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_overridenWarnings = inputroot.Envelope.Body.requestChequeBook.sessionContext.overridenWarnings;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_postingDateText = inputroot.Envelope.Body.requestChequeBook.sessionContext.postingDateText;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_reason =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_reason.con_comment = inputroot.Envelope.Body.requestChequeBook.sessionContext.reason.comment;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_reason.con_reasonCode = inputroot.Envelope.Body.requestChequeBook.sessionContext.reason.reasonCode;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_serviceCode = inputroot.Envelope.Body.requestChequeBook.sessionContext.serviceCode;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_sessionTicket = inputroot.Envelope.Body.requestChequeBook.sessionContext.sessionTicket;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_supervisorContext =  {};
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_supervisorContext.con_primaryPassword = inputroot.Envelope.Body.requestChequeBook.sessionContext.supervisorContext.primaryPassword;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_supervisorContext.con_userId = inputroot.Envelope.Body.requestChequeBook.sessionContext.supervisorContext.userId;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_transactionBranch = inputroot.Envelope.Body.requestChequeBook.sessionContext.transactionBranch;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_userId = inputroot.Envelope.Body.requestChequeBook.sessionContext.userId;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_userReferenceNumber = inputroot.Envelope.Body.requestChequeBook.sessionContext.userReferenceNumber;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_sessionContext.con_valueDateText = inputroot.Envelope.Body.requestChequeBook.sessionContext.valueDateText;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_accountId = inputroot.Envelope.Body.requestChequeBook.accountId;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_noOfLeaves = inputroot.Envelope.Body.requestChequeBook.noOfLeaves;
+outputsoapenv_Envelope.soapenv_Body.spi_requestChequeBook.spi_transactionType = inputroot.Envelope.Body.requestChequeBook.transactionType;
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
