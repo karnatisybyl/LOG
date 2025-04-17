@@ -26,7 +26,7 @@
             "valueDateText": ""
         },
         "loanAccountNo": "001450003267",
-        "flgScenario": 2,
+        "flgScenario": 2, // 1 for normal disbursement, 2 for top-up
         "flgSchemeLn": "N",
         "iBOCdeductionDetailsDTO": [
             {
